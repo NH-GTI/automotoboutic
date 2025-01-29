@@ -124,6 +124,7 @@ export const useCarMatStore = defineStore("car", {
         availableConfigurations: [],
         availableColors: [],
         productToAdd: [],
+        cartSummaryVisible: true,
     }),
     actions: {
         resetSelections() {
@@ -304,8 +305,7 @@ export const useCarMatStore = defineStore("car", {
                 console.log("Product result:", result);
 
                 if (result.success && result) {
-                    this.productToAdd["id"] =
-                        result?.product[0]?.id_product;
+                    this.productToAdd["id"] = result?.product[0]?.id_product;
                     this.productToAdd["name"] = result?.product[0]?.name;
                     return result;
                 } else {
