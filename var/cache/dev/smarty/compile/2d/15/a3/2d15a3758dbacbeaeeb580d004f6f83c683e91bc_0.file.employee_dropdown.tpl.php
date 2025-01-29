@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:51:49
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:40
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/components/layout/employee_dropdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a08451b2f38_13188638',
+  'unifunc' => 'content_679a3014f34cc4_65259404',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2d15a3758dbacbeaeeb580d004f6f83c683e91bc' => 
     array (
       0 => '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/components/layout/employee_dropdown.tpl',
-      1 => 1718360660,
+      1 => 1738157873,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a08451b2f38_13188638 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3014f34cc4_65259404 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['employee']->value))) {?>
 <div class="dropdown employee-dropdown">
   <div class="rounded-circle person" data-toggle="dropdown">

@@ -1,42 +1,42 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:57:49
+/* Smarty version 4.3.4, created on 2025-01-29 14:44:24
   from 'module:ps_bestsellersviewstemplateshookps_bestsellers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a09ad36c453_66147546',
+  'unifunc' => 'content_679a30b82cea59_94899157',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3681aa30d1f85f48e2cf4794b77200e697f706a9' => 
     array (
       0 => 'module:ps_bestsellersviewstemplateshookps_bestsellers.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'module',
     ),
     '4ad82d2a90256dbb7e79b1bca26f905ba3cd9852' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/productlist.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
     'd38304c4461928a311d790eccf50195e34c85d12' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/miniatures/product.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
     '13b288c25dbc1999c70730166b3d7c45eaadd16c' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/product-flags.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_679a09ad36c453_66147546 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a30b82cea59_94899157 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_bestsellers/views/templates/hook/ps_bestsellers.tpl --><section class="featured-products clearfix mt-3">
   <h2 class="h2 products-section-title text-uppercase">
     Meilleures Ventes

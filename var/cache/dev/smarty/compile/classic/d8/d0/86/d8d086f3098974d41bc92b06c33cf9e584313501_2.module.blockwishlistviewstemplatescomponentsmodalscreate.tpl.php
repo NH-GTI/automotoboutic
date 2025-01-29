@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:51:54
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:47
   from 'module:blockwishlistviewstemplatescomponentsmodalscreate.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a084ab72cb9_36153442',
+  'unifunc' => 'content_679a301b9d4ef7_28286022',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd8d086f3098974d41bc92b06c33cf9e584313501' => 
     array (
       0 => 'module:blockwishlistviewstemplatescomponentsmodalscreate.tpl',
-      1 => 1691748513,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a084ab72cb9_36153442 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a301b9d4ef7_28286022 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/blockwishlist/views/templates/components/modals/create.tpl -->
 <div
   class="wishlist-create"

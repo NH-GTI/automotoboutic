@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:54:04
+/* Smarty version 4.3.4, created on 2025-01-29 14:44:58
   from '/var/www/html/automotoboutic/themes/classic/templates/_partials/form-errors.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a08ccb62e56_41838424',
+  'unifunc' => 'content_679a30dac89528_22010993',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cbcddf0714b1900177a9cbdc9dca94e709845e1c' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/_partials/form-errors.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
   ),
@@ -20,26 +20,26 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a08ccb62e56_41838424 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a30dac89528_22010993 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if (smarty_modifier_count($_smarty_tpl->tpl_vars['errors']->value)) {?>
   <div class="help-block">
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1081047792679a08ccb60ea0_72799786', 'form_errors');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1512063956679a30dac875c8_43249348', 'form_errors');
 ?>
 
   </div>
 <?php }
 }
 /* {block 'form_errors'} */
-class Block_1081047792679a08ccb60ea0_72799786 extends Smarty_Internal_Block
+class Block_1512063956679a30dac875c8_43249348 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'form_errors' => 
   array (
-    0 => 'Block_1081047792679a08ccb60ea0_72799786',
+    0 => 'Block_1512063956679a30dac875c8_43249348',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

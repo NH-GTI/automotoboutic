@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 12:07:00
+/* Smarty version 4.3.4, created on 2025-01-29 14:48:28
   from '/var/www/html/automotoboutic/themes/classic/templates/checkout/_partials/cart-summary-products.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a0bd4967232_14819642',
+  'unifunc' => 'content_679a31ac64a8d7_87080480',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5626308d7e0a81c74fd288fafe040f815825e0ed' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/checkout/_partials/cart-summary-products.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/cart-summary-product-line.tpl' => 1,
   ),
 ),false)) {
-function content_679a0bd4967232_14819642 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a31ac64a8d7_87080480 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -39,18 +39,18 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
   </p>
 
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1255728417679a0bd4964c18_27886212', 'cart_summary_product_list');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_809326712679a31ac648ca0_94191952', 'cart_summary_product_list');
 ?>
 
 </div>
 <?php }
 /* {block 'cart_summary_product_list'} */
-class Block_1255728417679a0bd4964c18_27886212 extends Smarty_Internal_Block
+class Block_809326712679a31ac648ca0_94191952 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'cart_summary_product_list' => 
   array (
-    0 => 'Block_1255728417679a0bd4964c18_27886212',
+    0 => 'Block_809326712679a31ac648ca0_94191952',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

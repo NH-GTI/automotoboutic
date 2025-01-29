@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 12:07:00
+/* Smarty version 4.3.4, created on 2025-01-29 14:48:28
   from '/var/www/html/automotoboutic/modules/dpdfrance/views/templates/front/aftercarrier.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a0bd4898934_93246615',
+  'unifunc' => 'content_679a31ac5f1ac6_97092977',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '55894532f1509274f071e429b90d5452fdb66157' => 
     array (
       0 => '/var/www/html/automotoboutic/modules/dpdfrance/views/templates/front/aftercarrier.tpl',
-      1 => 1730819392,
+      1 => 1738157877,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a0bd4898934_93246615 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a31ac5f1ac6_97092977 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <noscript>
     <tr>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:51:54
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:49
   from '/var/www/html/automotoboutic/themes/classic/templates/_partials/breadcrumb.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a084aa55791_82456255',
+  'unifunc' => 'content_679a301d556014_47452497',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b792a1adcd80b2dc354af386080376efa9d8b723' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/_partials/breadcrumb.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a084aa55791_82456255 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a301d556014_47452497 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -28,14 +28,14 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 " class="breadcrumb">
   <ol>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_665271797679a084aa4f854_43218418', 'breadcrumb');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_874369575679a301d54dc58_60515573', 'breadcrumb');
 ?>
 
   </ol>
 </nav>
 <?php }
 /* {block 'breadcrumb_item'} */
-class Block_1261339050679a084aa512a5_05260891 extends Smarty_Internal_Block
+class Block_242615968679a301d550c41_68657212 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -55,16 +55,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'breadcrumb_item'} */
 /* {block 'breadcrumb'} */
-class Block_665271797679a084aa4f854_43218418 extends Smarty_Internal_Block
+class Block_874369575679a301d54dc58_60515573 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'breadcrumb' => 
   array (
-    0 => 'Block_665271797679a084aa4f854_43218418',
+    0 => 'Block_874369575679a301d54dc58_60515573',
   ),
   'breadcrumb_item' => 
   array (
-    0 => 'Block_1261339050679a084aa512a5_05260891',
+    0 => 'Block_242615968679a301d550c41_68657212',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -83,7 +83,7 @@ $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['iteration']++;
 $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['last'] = $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['iteration'] === $_smarty_tpl->tpl_vars['__smarty_foreach_breadcrumb']->value['total'];
 ?>
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1261339050679a084aa512a5_05260891', 'breadcrumb_item', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_242615968679a301d550c41_68657212', 'breadcrumb_item', $this->tplIndex);
 ?>
 
       <?php

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:57:49
+/* Smarty version 4.3.4, created on 2025-01-29 14:44:24
   from 'module:ps_bestsellersviewstemplateshookps_bestsellers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a09ad1da9b3_01568102',
+  'unifunc' => 'content_679a30b8129880_47042670',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3681aa30d1f85f48e2cf4794b77200e697f706a9' => 
     array (
       0 => 'module:ps_bestsellersviewstemplateshookps_bestsellers.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'module',
     ),
   ),
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_679a09ad1da9b3_01568102 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '701684869679a09ad1d5f68_26782538';
+function content_679a30b8129880_47042670 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '971955451679a30b8124e78_95647855';
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_bestsellers/views/templates/hook/ps_bestsellers.tpl --><section class="featured-products clearfix mt-3">
   <h2 class="h2 products-section-title text-uppercase">

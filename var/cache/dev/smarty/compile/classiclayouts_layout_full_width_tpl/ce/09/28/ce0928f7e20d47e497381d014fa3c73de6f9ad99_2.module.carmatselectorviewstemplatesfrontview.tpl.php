@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:51:54
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:49
   from 'module:carmatselectorviewstemplatesfrontview.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a084a737e13_06362226',
+  'unifunc' => 'content_679a301d31ee84_41322802',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ce0928f7e20d47e497381d014fa3c73de6f9ad99' => 
     array (
       0 => 'module:carmatselectorviewstemplatesfrontview.tpl',
-      1 => 1737649602,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,24 +20,24 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a084a737e13_06362226 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a301d31ee84_41322802 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 <!-- begin /var/www/html/automotoboutic/modules/carmatselector/views/templates/front/view.tpl -->
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_313660797679a084a730ea6_16990157', 'page_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_787772848679a301d31ac51_69009234', 'page_content');
 ?>
 <!-- end /var/www/html/automotoboutic/modules/carmatselector/views/templates/front/view.tpl --><?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'page.tpl');
 }
 /* {block 'page_content'} */
-class Block_313660797679a084a730ea6_16990157 extends Smarty_Internal_Block
+class Block_787772848679a301d31ac51_69009234 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_content' => 
   array (
-    0 => 'Block_313660797679a084a730ea6_16990157',
+    0 => 'Block_787772848679a301d31ac51_69009234',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

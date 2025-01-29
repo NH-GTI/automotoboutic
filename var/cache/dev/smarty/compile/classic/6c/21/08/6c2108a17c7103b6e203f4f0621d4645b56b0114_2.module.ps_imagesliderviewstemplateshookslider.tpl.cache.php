@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:57:48
+/* Smarty version 4.3.4, created on 2025-01-29 14:44:23
   from 'module:ps_imagesliderviewstemplateshookslider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a09aca43ec9_92732585',
+  'unifunc' => 'content_679a30b7a43412_02693991',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6c2108a17c7103b6e203f4f0621d4645b56b0114' => 
     array (
       0 => 'module:ps_imagesliderviewstemplateshookslider.tpl',
-      1 => 1736237617,
+      1 => 1738157878,
       2 => 'module',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a09aca43ec9_92732585 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '286143384679a09aca2d680_64685944';
+function content_679a30b7a43412_02693991 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '88028575679a30b7a2cc16_11621336';
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_imageslider/views/templates/hook/slider.tpl --><div style="background-color: #FFFFFF;margin: 1.3em 0;">     <p style="color: #D62C2C;text-align: center;font-size:1.2em;font-weight:700;"></p></div>
 		<?php if ($_smarty_tpl->tpl_vars['homeslider']->value['slides']) {?>
