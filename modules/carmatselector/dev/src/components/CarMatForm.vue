@@ -219,15 +219,18 @@
                             Rechercher les tapis disponibles
                         </button>
                     </div>
-                    <!-- v-if="store.productToAdd['id']" -->
-                    <div class="pt-4 flex flex-col justify-center">
+                    <!--  -->
+                    <div
+                        v-if="store.productToAdd['id']"
+                        class="pt-4 flex flex-col justify-center"
+                    >
                         <p class="mb-4 text-neutral-950 text-center">
                             Nous avons trouvé pour vous les tapis qui
                             correspondent parfaitement à votre véhicule ! <br />
                             En cliquant sur le bouton ci-dessous, le produit
                             suivant sera ajouté à votre panier : <br />
                             <span class="font-bold text-lg">{{
-                                store.productToAdd.name || "Nom du produit"
+                                store.productToAdd.name
                             }}</span>
                         </p>
                         <div class="flex justify-center">
