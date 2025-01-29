@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 18:09:54
+/* Smarty version 4.3.4, created on 2025-01-29 13:30:16
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797bde2a933c4_66590967',
+  'unifunc' => 'content_679a1f584b1b18_44888839',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797bde2a933c4_66590967 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1f584b1b18_44888839 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>

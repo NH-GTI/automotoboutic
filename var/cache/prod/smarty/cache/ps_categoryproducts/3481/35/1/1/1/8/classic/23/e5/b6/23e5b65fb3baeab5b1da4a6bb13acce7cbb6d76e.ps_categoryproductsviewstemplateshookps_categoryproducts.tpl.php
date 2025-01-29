@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 21:00:19
+/* Smarty version 4.3.4, created on 2025-01-29 14:13:48
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797e5d31d6760_50938320',
+  'unifunc' => 'content_679a298c94b5f4_21598989',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797e5d31d6760_50938320 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a298c94b5f4_21598989 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?><section class="featured-products clearfix mt-3">
@@ -124,6 +124,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3491" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12261-home_default/coussin-voyage-voiture.jpg"
+                  alt="Coussin de voyage mémoire de forme"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12261-large_default/coussin-voyage-voiture.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" content="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html">Coussin de voyage - Grand...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  20,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3491" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="5889" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -177,6 +247,288 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="5889" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="6431" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/20999-home_default/cale-nuque-lines-bleu.jpg"
+                  alt="Cale nuque Mousse à Mémoire de Forme Lines - Bleu| Automotoboutic"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/20999-large_default/cale-nuque-lines-bleu.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html">Cale nuque Lines - Bleu</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  20,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="6431" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+                    <li class="product-flag out_of_stock">Rupture de stock</li>
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="5639" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/5639-cale-nuque-grand-confort-noir-3281690199626.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/15723-home_default/cale-nuque-grand-confort-noir.jpg"
+                  alt="Cale nuque Grand Confort Noir"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/15723-large_default/cale-nuque-grand-confort-noir.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/5639-cale-nuque-grand-confort-noir-3281690199626.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/5639-cale-nuque-grand-confort-noir-3281690199626.html">Cale nuque Grand Confort Noir</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  24,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="5639" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="6435" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6435-cale-nuque-lines-gris-3281690233375.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/20986-home_default/cale-nuque-lines-gris.jpg"
+                  alt="Cale nuque gris"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/20986-large_default/cale-nuque-lines-gris.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6435-cale-nuque-lines-gris-3281690233375.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6435-cale-nuque-lines-gris-3281690233375.html">Cale nuque Lines - Gris</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  20,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="6435" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+                    <li class="product-flag out_of_stock">Rupture de stock</li>
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="6437" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6437-cale-nuque-gel-rafraichissant--3281690234341.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/20979-home_default/cale-nuque-gel-rafraichissant-.jpg"
+                  alt="Cale Nuque Gel Rafraîchissant - automotoboutic.com"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/20979-large_default/cale-nuque-gel-rafraichissant-.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6437-cale-nuque-gel-rafraichissant--3281690234341.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6437-cale-nuque-gel-rafraichissant--3281690234341.html">Cale Nuque Gel Rafraîchissant</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="6437" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -388,358 +740,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="6441" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6437" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6437-cale-nuque-gel-rafraichissant--3281690234341.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/20979-home_default/cale-nuque-gel-rafraichissant-.jpg"
-                  alt="Cale Nuque Gel Rafraîchissant - automotoboutic.com"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20979-large_default/cale-nuque-gel-rafraichissant-.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6437-cale-nuque-gel-rafraichissant--3281690234341.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6437-cale-nuque-gel-rafraichissant--3281690234341.html">Cale Nuque Gel Rafraîchissant</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  27,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="6437" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5639" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/5639-cale-nuque-grand-confort-noir-3281690199626.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/15723-home_default/cale-nuque-grand-confort-noir.jpg"
-                  alt="Cale nuque Grand Confort Noir"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/15723-large_default/cale-nuque-grand-confort-noir.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/5639-cale-nuque-grand-confort-noir-3281690199626.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/5639-cale-nuque-grand-confort-noir-3281690199626.html">Cale nuque Grand Confort Noir</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  24,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="5639" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6435" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6435-cale-nuque-lines-gris-3281690233375.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/20986-home_default/cale-nuque-lines-gris.jpg"
-                  alt="Cale nuque gris"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20986-large_default/cale-nuque-lines-gris.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6435-cale-nuque-lines-gris-3281690233375.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6435-cale-nuque-lines-gris-3281690233375.html">Cale nuque Lines - Gris</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="6435" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6431" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/20999-home_default/cale-nuque-lines-bleu.jpg"
-                  alt="Cale nuque Mousse à Mémoire de Forme Lines - Bleu| Automotoboutic"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20999-large_default/cale-nuque-lines-bleu.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html">Cale nuque Lines - Bleu</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="6431" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="3491" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/12261-home_default/coussin-voyage-voiture.jpg"
-                  alt="Coussin de voyage mémoire de forme"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/12261-large_default/coussin-voyage-voiture.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" content="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html">Coussin de voyage - Grand...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="3491" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

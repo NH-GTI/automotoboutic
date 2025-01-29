@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:07:11
+/* Smarty version 4.3.4, created on 2025-01-29 11:51:54
   from 'module:ps_searchbarps_searchbar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679784ff63d3d3_96680876',
+  'unifunc' => 'content_679a084aa2fcc6_55508752',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679784ff63d3d3_96680876 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a084aa2fcc6_55508752 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/ps_searchbar/ps_searchbar.tpl -->
 <div id="search_widget" class="search-widgets" data-search-controller-url="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['search_controller_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">

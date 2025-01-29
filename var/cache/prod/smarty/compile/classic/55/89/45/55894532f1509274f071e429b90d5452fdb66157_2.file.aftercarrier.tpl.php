@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:47:06
+/* Smarty version 4.3.4, created on 2025-01-29 13:25:05
   from '/var/www/html/automotoboutic/modules/dpdfrance/views/templates/front/aftercarrier.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978e5a6b48f5_92377645',
+  'unifunc' => 'content_679a1e2106e731_85422752',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67978e5a6b48f5_92377645 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1e2106e731_85422752 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <noscript>
     <tr>

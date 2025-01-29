@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:19:37
+/* Smarty version 4.3.4, created on 2025-01-29 10:38:04
   from 'module:productcommentsviewstemplateshookproductlistreviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679787e91d4901_49952104',
+  'unifunc' => 'content_6799f6fc7cca26_87356502',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679787e91d4901_49952104 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f6fc7cca26_87356502 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="product-list-reviews" data-id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product']->value['id'], ENT_QUOTES, 'UTF-8');?>

@@ -305,7 +305,7 @@ export const useCarMatStore = defineStore("car", {
 
                 if (result.success && result) {
                     this.productToAdd["id"] =
-                        result?.product[0]?.id_product_to_add;
+                        result?.product[0]?.id_product;
                     this.productToAdd["name"] = result?.product[0]?.name;
                     return result;
                 } else {

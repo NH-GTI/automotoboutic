@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 17:42:53
+/* Smarty version 4.3.4, created on 2025-01-29 13:28:27
   from '/var/www/html/automotoboutic/pdf/invoice.payment-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797b78dc03801_14577399',
+  'unifunc' => 'content_679a1eebd85036_51810515',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6797b78dc03801_14577399 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1eebd85036_51810515 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table id="payment-tab" width="100%">
 	<tr>
 		<td class="payment center small grey bold" width="44%"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Payment Method','d'=>'Shop.Pdf','pdf'=>'true'),$_smarty_tpl ) );?>

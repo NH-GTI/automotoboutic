@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:49:27
+/* Smarty version 4.3.4, created on 2025-01-29 10:35:21
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/components/layout/warning_messages.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979cf7e32c89_13253229',
+  'unifunc' => 'content_6799f65958eaf5_53991757',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67979cf7e32c89_13253229 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f65958eaf5_53991757 (Smarty_Internal_Template $_smarty_tpl) {
 if (count($_smarty_tpl->tpl_vars['warnings']->value)) {?>
   <div class="bootstrap">
     <div class="alert alert-warning">

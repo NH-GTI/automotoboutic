@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-28 10:38:35
+/* Smarty version 4.3.4, created on 2025-01-29 12:30:57
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/default/template/helpers/options/options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6798a59b78e4d4_11709933',
+  'unifunc' => 'content_679a1171b81854_58626222',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6798a59b78e4d4_11709933 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1171b81854_58626222 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <div class="leadin"><?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11968759186798a59b720ea2_66353027', "leadin");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_299822783679a1171b24456_92748798', "leadin");
 ?>
 </div>
 
@@ -44,11 +44,11 @@ _';
 echo '</script'; ?>
 >
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14557924326798a59b723790_37940854', "defaultOptions");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1463268632679a1171b25931_23399540', "defaultOptions");
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8464898936798a59b78c079_57121393', "after");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1675832004679a1171b7f714_66694511', "after");
 ?>
 
 <?php if ($_smarty_tpl->tpl_vars['has_color_field']->value) {
@@ -60,12 +60,12 @@ echo '<script'; ?>
 <?php }
 }
 /* {block "leadin"} */
-class Block_11968759186798a59b720ea2_66353027 extends Smarty_Internal_Block
+class Block_299822783679a1171b24456_92748798 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'leadin' => 
   array (
-    0 => 'Block_11968759186798a59b720ea2_66353027',
+    0 => 'Block_299822783679a1171b24456_92748798',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -73,7 +73,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "leadin"} */
 /* {block "label"} */
-class Block_16358857716798a59b735a59_91867738 extends Smarty_Internal_Block
+class Block_1371758295679a1171b32f58_02217589 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -128,7 +128,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block "label"} */
 /* {block "input"} */
-class Block_19246170986798a59b73e6f7_17465331 extends Smarty_Internal_Block
+class Block_1879612999679a1171b39fb7_64890647 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),1=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
@@ -523,14 +523,14 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block "input"} */
 /* {block "field"} */
-class Block_2519432666798a59b73e244_46729630 extends Smarty_Internal_Block
+class Block_1383363859679a1171b39c01_18457057 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
 								<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_19246170986798a59b73e6f7_17465331', "input", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1879612999679a1171b39fb7_64890647', "input", $this->tplIndex);
 ?>
 								<?php if ($_smarty_tpl->tpl_vars['field']->value['is_invisible']) {?>
 								<div class="col-lg-9 col-lg-offset-3">
@@ -545,7 +545,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_19246170986798a59b
 }
 /* {/block "field"} */
 /* {block "footer"} */
-class Block_12318348636798a59b77b135_52959824 extends Smarty_Internal_Block
+class Block_361429091679a1171b6ff50_41121073 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -606,28 +606,28 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }
 /* {/block "footer"} */
 /* {block "defaultOptions"} */
-class Block_14557924326798a59b723790_37940854 extends Smarty_Internal_Block
+class Block_1463268632679a1171b25931_23399540 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'defaultOptions' => 
   array (
-    0 => 'Block_14557924326798a59b723790_37940854',
+    0 => 'Block_1463268632679a1171b25931_23399540',
   ),
   'label' => 
   array (
-    0 => 'Block_16358857716798a59b735a59_91867738',
+    0 => 'Block_1371758295679a1171b32f58_02217589',
   ),
   'field' => 
   array (
-    0 => 'Block_2519432666798a59b73e244_46729630',
+    0 => 'Block_1383363859679a1171b39c01_18457057',
   ),
   'input' => 
   array (
-    0 => 'Block_19246170986798a59b73e6f7_17465331',
+    0 => 'Block_1879612999679a1171b39fb7_64890647',
   ),
   'footer' => 
   array (
-    0 => 'Block_12318348636798a59b77b135_52959824',
+    0 => 'Block_361429091679a1171b6ff50_41121073',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -718,11 +718,11 @@ _off"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[
 </strong><br />
 								<?php ob_start();
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Yes','d'=>'Admin.Global'),$_smarty_tpl ) );
-$_prefixVariable1 = ob_get_clean();
+$_prefixVariable5 = ob_get_clean();
 ob_start();
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'No','d'=>'Admin.Global'),$_smarty_tpl ) );
-$_prefixVariable2 = ob_get_clean();
-echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'You are editing this page for a specific shop or group. Click "%yes_label%" to check all fields, "%no_label%" to uncheck all.','d'=>'Admin.Design.Help','sprintf'=>array('%yes_label%'=>$_prefixVariable1,'%no_label%'=>$_prefixVariable2)),$_smarty_tpl ) );?>
+$_prefixVariable6 = ob_get_clean();
+echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'You are editing this page for a specific shop or group. Click "%yes_label%" to check all fields, "%no_label%" to uncheck all.','d'=>'Admin.Design.Help','sprintf'=>array('%yes_label%'=>$_prefixVariable5,'%no_label%'=>$_prefixVariable6)),$_smarty_tpl ) );?>
 <br />
  								<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'If you check a field, change its value, and save, the multistore behavior will not apply to this shop (or group), for this particular parameter.'),$_smarty_tpl ) );?>
 
@@ -751,11 +751,11 @@ $_smarty_tpl->tpl_vars['field']->do_else = false;
 							<div id="conf_id_<?php echo $_smarty_tpl->tpl_vars['key']->value;?>
 "<?php if ($_smarty_tpl->tpl_vars['field']->value['is_invisible']) {?> class="isInvisible"<?php }?>>
 								<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16358857716798a59b735a59_91867738', "label", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1371758295679a1171b32f58_02217589', "label", $this->tplIndex);
 ?>
 
 								<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2519432666798a59b73e244_46729630', "field", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1383363859679a1171b39c01_18457057', "field", $this->tplIndex);
 ?>
 							</div>
 						</div>
@@ -769,7 +769,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 echo $_smarty_tpl->tpl_vars['categoryData']->value['bottom'];
 }?>
 			<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_12318348636798a59b77b135_52959824', "footer", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_361429091679a1171b6ff50_41121073', "footer", $this->tplIndex);
 ?>
 
 		</div>
@@ -795,7 +795,7 @@ Options<?php $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);?>
 }
 /* {/block "defaultOptions"} */
 /* {block "autoload_tinyMCE"} */
-class Block_5773008266798a59b78d791_73047222 extends Smarty_Internal_Block
+class Block_2108748622679a1171b80c24_16856835 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -808,16 +808,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "autoload_tinyMCE"} */
 /* {block "after"} */
-class Block_8464898936798a59b78c079_57121393 extends Smarty_Internal_Block
+class Block_1675832004679a1171b7f714_66694511 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'after' => 
   array (
-    0 => 'Block_8464898936798a59b78c079_57121393',
+    0 => 'Block_1675832004679a1171b7f714_66694511',
   ),
   'autoload_tinyMCE' => 
   array (
-    0 => 'Block_5773008266798a59b78d791_73047222',
+    0 => 'Block_2108748622679a1171b80c24_16856835',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -835,7 +835,7 @@ echo '<script'; ?>
 
 	$(document).ready(function(){
 		<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_5773008266798a59b78d791_73047222', "autoload_tinyMCE", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2108748622679a1171b80c24_16856835', "autoload_tinyMCE", $this->tplIndex);
 ?>
 
 	});

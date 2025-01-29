@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 18:26:47
+/* Smarty version 4.3.4, created on 2025-01-29 13:13:27
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797c1d7da0397_19384202',
+  'unifunc' => 'content_679a1b677f9e38_62374713',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797c1d7da0397_19384202 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1b677f9e38_62374713 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?><section class="featured-products clearfix mt-3">
@@ -107,637 +107,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="7803" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8043" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/securite-et-signalisation/8043-couvre-siege-auto-luis-3281690238202.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21340-home_default/couvre-siege-auto-luis.jpg"
-                  alt="Couvre siège auto Luis"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21340-large_default/couvre-siege-auto-luis.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/8043-couvre-siege-auto-luis-3281690238202.html" content="https://www.automotoboutic.com/securite-et-signalisation/8043-couvre-siege-auto-luis-3281690238202.html">Couvre siège Luis -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  44,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8043" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7059" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7059-product-3284090512019.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18021-home_default/product.jpg"
-                  alt="Jeu de 2 sifflets ultra sons anti-gibier"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18021-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7059-product-3284090512019.html" content="https://www.automotoboutic.com/nouveautes/7059-product-3284090512019.html">Jeu de 2 sifflets ultra...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  15,72 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7059" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7197" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7197-product-3284090006808.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18275-home_default/product.jpg"
-                  alt="Prise remorque mâle 7 plots phares et signalétique pas cher"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18275-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7197-product-3284090006808.html" content="https://www.automotoboutic.com/nouveautes/7197-product-3284090006808.html">Prise remorque mâle 7 plots</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  16,20 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7197" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7355" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7355-product-3284090009434.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18015-home_default/product.jpg"
-                  alt="Triangle de présignalisation homologué"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18015-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7355-product-3284090009434.html" content="https://www.automotoboutic.com/nouveautes/7355-product-3284090009434.html">Triangle de...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  19,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7355" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7225" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7225-product-8005874000202.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/17697-home_default/product.jpg"
-                  alt="Avertisseur électrique modèle belle époque 12 v"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/17697-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7225-product-8005874000202.html" content="https://www.automotoboutic.com/securite-et-signalisation/7225-product-8005874000202.html">Avertisseur électrique...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  52,20 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7225" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7485" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7485-product-630932151039.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21008-home_default/product.jpg"
-                  alt="Porte clés Resqme rose fonction brise vitre et coupe ceinture"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21008-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7485-product-630932151039.html" content="https://www.automotoboutic.com/nouveautes/7485-product-630932151039.html">Porte Clés 2 en 1 Resqme -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  16,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7485" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7233" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7233-product-8005874000141.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18367-home_default/product.jpg"
-                  alt="Avertisseur à air comprimé 5 trompes 12v Cucaracha"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18367-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7233-product-8005874000141.html" content="https://www.automotoboutic.com/securite-et-signalisation/7233-product-8005874000141.html">Avertisseur à air comprimé...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  82,80 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7233" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7201" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7201-product-3284090006839.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18283-home_default/product.jpg"
-                  alt="Adaptateur monobloc 7/13 plots pour feux arrière remorque"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18283-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7201-product-3284090006839.html" content="https://www.automotoboutic.com/securite-et-signalisation/7201-product-3284090006839.html">Adaptateur monobloc super...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  15,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7201" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7373" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7373-product-3284090009571.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18151-home_default/product.jpg"
-                  alt="Marteau brise vitres voiture et coupe ceinture sécurité"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18151-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7373-product-3284090009571.html" content="https://www.automotoboutic.com/nouveautes/7373-product-3284090009571.html">Marteau brise vitres voiture</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  18,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7373" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -826,17 +195,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7195" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7225" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/7195-product-3284090006792.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7225-product-8005874000202.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18271-home_default/product.jpg"
-                  alt="Socle remorque femelle 7 plots"
+                  src="https://www.automotoboutic.com/17697-home_default/product.jpg"
+                  alt="Avertisseur électrique modèle belle époque 12 v"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18271-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/17697-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -858,7 +227,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7195-product-3284090006792.html" content="https://www.automotoboutic.com/nouveautes/7195-product-3284090006792.html">Socle remorque femelle 7 plots</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7225-product-8005874000202.html" content="https://www.automotoboutic.com/securite-et-signalisation/7225-product-8005874000202.html">Avertisseur électrique...</a></h2>
                   
 
         
@@ -867,7 +236,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  17,40 €
+                                                  52,20 €
                               </span>
 
               
@@ -878,7 +247,78 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7195" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7225" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+                    <li class="product-flag out_of_stock">Rupture de stock</li>
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7373" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7373-product-3284090009571.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18151-home_default/product.jpg"
+                  alt="Marteau brise vitres voiture et coupe ceinture sécurité"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18151-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7373-product-3284090009571.html" content="https://www.automotoboutic.com/nouveautes/7373-product-3284090009571.html">Marteau brise vitres voiture</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  18,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7373" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -896,17 +336,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7235" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7361" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7235-product-8005874000165.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7361-product-3284090009465.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18369-home_default/product.jpg"
-                  alt="Avertisseur à air comprimé 5 trompes 12v Rivière Kwai"
+                  src="https://www.automotoboutic.com/18041-home_default/product.jpg"
+                  alt="Lampe de sécurité et de travail LED avec aimants et crochets"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18369-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18041-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -928,7 +368,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7235-product-8005874000165.html" content="https://www.automotoboutic.com/securite-et-signalisation/7235-product-8005874000165.html">Avertisseur à air comprimé...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7361-product-3284090009465.html" content="https://www.automotoboutic.com/nouveautes/7361-product-3284090009465.html">Lampe de sécurité et de...</a></h2>
                   
 
         
@@ -937,7 +377,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  82,80 €
+                                                  19,20 €
                               </span>
 
               
@@ -948,7 +388,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7235" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7361" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -966,17 +406,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7061" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7199" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/7061-product-3284090005160.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7199-product-3284090006815.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18025-home_default/product.jpg"
-                  alt="Canne antivol volant pédale avec clé, pas cher"
+                  src="https://www.automotoboutic.com/18279-home_default/product.jpg"
+                  alt="Feu remorque voiture 4 fonctions clignotant et stop pas cher"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18025-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18279-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -998,7 +438,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7061-product-3284090005160.html" content="https://www.automotoboutic.com/nouveautes/7061-product-3284090005160.html">Canne antivol à clé volant...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7199-product-3284090006815.html" content="https://www.automotoboutic.com/nouveautes/7199-product-3284090006815.html">Feu remorque 4 fonctions</a></h2>
                   
 
         
@@ -1007,7 +447,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  22,71 €
+                                                  17,52 €
                               </span>
 
               
@@ -1018,7 +458,219 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7061" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7199" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7351" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7351-product-3284090009342.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18007-home_default/product.jpg"
+                  alt="2 Triangles remorque homologués"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18007-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7351-product-3284090009342.html" content="https://www.automotoboutic.com/securite-et-signalisation/7351-product-3284090009342.html">2 Triangles remorque...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  18,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7351" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+                    <li class="product-flag out_of_stock">Rupture de stock</li>
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7473" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7473-product-3284090987114.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18329-home_default/product.jpg"
+                  alt="Trousse de premiers secours grand modèle"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18329-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7473-product-3284090987114.html" content="https://www.automotoboutic.com/nouveautes/7473-product-3284090987114.html">Trousse de premiers secours...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7473" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+                    <li class="product-flag out_of_stock">Rupture de stock</li>
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7485" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7485-product-630932151039.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21008-home_default/product.jpg"
+                  alt="Porte clés Resqme rose fonction brise vitre et coupe ceinture"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21008-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7485-product-630932151039.html" content="https://www.automotoboutic.com/nouveautes/7485-product-630932151039.html">Porte Clés 2 en 1 Resqme -...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  16,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7485" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -1106,6 +758,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7353" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7353-product-3284090009366.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/20575-home_default/product.jpg"
+                  alt="Support de plaque d&#039;immatriculation pour remorque avec feux"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/20575-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7353-product-3284090009366.html" content="https://www.automotoboutic.com/securite-et-signalisation/7353-product-3284090009366.html">Support de plaque...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  33,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7353" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="7229" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -1159,6 +881,286 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="7229" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7113" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7113-product-3284090005658.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18163-home_default/product.jpg"
+                  alt="Sangle à cliquet 5 mètres et sangle fixation voiture pas cher"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18163-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7113-product-3284090005658.html" content="https://www.automotoboutic.com/nouveautes/7113-product-3284090005658.html">Sangle à cliquet 5 m</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  17,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7113" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7261" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7261-product-3284090007898.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21636-home_default/product.jpg"
+                  alt="Antivol super luxe volant pedale"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21636-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7261-product-3284090007898.html" content="https://www.automotoboutic.com/securite-et-signalisation/7261-product-3284090007898.html">Canne antivol - Volant Pedale</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  23,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7261" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7205" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7205-product-3284090006884.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18297-home_default/product.jpg"
+                  alt="Feux Arrière Remorque Magnétique avec Câble"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18297-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7205-product-3284090006884.html" content="https://www.automotoboutic.com/nouveautes/7205-product-3284090006884.html">Kit Feux Arrière Magnétique...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  39,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7205" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7235" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7235-product-8005874000165.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18369-home_default/product.jpg"
+                  alt="Avertisseur à air comprimé 5 trompes 12v Rivière Kwai"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18369-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7235-product-8005874000165.html" content="https://www.automotoboutic.com/securite-et-signalisation/7235-product-8005874000165.html">Avertisseur à air comprimé...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  82,80 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7235" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

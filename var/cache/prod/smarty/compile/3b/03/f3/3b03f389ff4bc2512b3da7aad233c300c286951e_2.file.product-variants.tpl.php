@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 23:12:04
+/* Smarty version 4.3.4, created on 2025-01-29 14:17:52
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/product-variants.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679804b49cbed3_69367100',
+  'unifunc' => 'content_679a2a800fc071_53950518',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679804b49cbed3_69367100 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2a800fc071_53950518 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="product-variants js-product-variants">
   <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['groups']->value, 'group', false, 'id_attribute_group');

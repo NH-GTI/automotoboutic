@@ -129,15 +129,14 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
 
         if (!$productArray) return [];
 
-        $explodeProduct = explode(',', $productArray);
-
-        return Db::getInstance()->executeS('
-            SELECT cp.id_product_to_add, pl.name FROM prestadev.ps_carmatselector_product AS cp
-            LEFT JOIN prestadev.ps_product_lang AS pl ON pl.id_product = cp.id_product_to_add
-            WHERE cp.id_carmatselector_brand = ' . (int)$explodeProduct[0] . '
-            AND cp.id_carmatselector_model = ' . (int)$explodeProduct[1] . '
-            AND cp.id_carmatselector_version = ' . (int)$explodeProduct[2] . '
-            AND cp.id_carmatselector_gamme = ' . (int)$explodeProduct[3] . '
+	$explodeProduct = explode(',', $productArray);
+	
+	return Db::getInstance()->executeS('
+	    SELECT p.id_product, cp.id_product_to_add, pl.name 
+	    FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
+	    LEFT JOIN `'. _DB_PREFIX_ . 'product` AS p ON p.reference = cp.id_product_to_add
+	    LEFT JOIN `'. _DB_PREFIX_ . 'product_lang` AS pl ON pl.id_product = p.id_product
+            WHERE cp.id_carmatselector_gamme = ' . (int)$explodeProduct[3] . '
             AND cp.id_carmatselector_carbody = ' . (int)$explodeProduct[4] . '
             AND cp.id_carmatselector_configuration = ' . (int)$explodeProduct[5] . '
             AND cp.id_carmatselector_color = ' . (int)$explodeProduct[6]);

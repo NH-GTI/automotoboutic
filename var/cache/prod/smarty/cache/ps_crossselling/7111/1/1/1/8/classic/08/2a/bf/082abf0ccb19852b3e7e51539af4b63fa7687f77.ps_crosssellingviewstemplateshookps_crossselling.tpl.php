@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 18:26:47
+/* Smarty version 4.3.4, created on 2025-01-29 13:13:27
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797c1d79808e9_99276501',
+  'unifunc' => 'content_679a1b67433776_91872621',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797c1d79808e9_99276501 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1b67433776_91872621 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -123,17 +123,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="176" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7075" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/176-tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants-3281690188422.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7075-product-3284090005399.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/198-home_default/tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Grand Tourisme PUtilitaire 2 avants"
+                  src="https://www.automotoboutic.com/18045-home_default/product.jpg"
+                  alt="Sangles d&#039;arrimage - 2 x 2.50 m - Orange"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/198-large_default/tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18045-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -155,7 +155,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/176-tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants-3281690188422.html" content="https://www.automotoboutic.com/tapis-sur-mesure/176-tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants-3281690188422.html">Tapis Auto Sur Mesure Grand...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7075-product-3284090005399.html" content="https://www.automotoboutic.com/nouveautes/7075-product-3284090005399.html">Sangles d&#039;arrimage - 2 x...</a></h2>
                   
 
         
@@ -164,7 +164,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  32,90 €
+                                                  17,00 €
                               </span>
 
               
@@ -175,147 +175,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="176" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="192" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/214-home_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
-                  alt="Tapis Auto Sur Mesure Premium Véhicule5p 2 avants + 2 arrières"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/214-large_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" content="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html">Tapis Auto Sur Mesure...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  48,91 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="192" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7265" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18233-home_default/product.jpg"
-                  alt="Support smartphone voiture en PVC, anti-dérapant"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18233-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html" content="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html">Support smartphone...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  14,40 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7265" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7075" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -403,77 +263,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6713" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/6713-cables-de-demarrage-16-mm-3284090006235.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21642-home_default/cables-de-demarrage-16-mm.jpg"
-                  alt="Câbles de démarrage 25 mm² - 350 Ampères"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21642-large_default/cables-de-demarrage-16-mm.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6713-cables-de-demarrage-16-mm-3284090006235.html" content="https://www.automotoboutic.com/nouveautes/6713-cables-de-demarrage-16-mm-3284090006235.html">Câbles de démarrage 25 mm²...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  30,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="6713" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="7355" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -544,17 +333,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7075" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="2222" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/7075-product-3284090005399.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/2222-protection-de-coffre-t3-3519910034120.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18045-home_default/product.jpg"
-                  alt="Sangles d&#039;arrimage - 2 x 2.50 m - Orange"
+                  src="https://www.automotoboutic.com/8722-home_default/protection-de-coffre-t3.jpg"
+                  alt="PROTECTION DE COFFRE T3"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18045-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/8722-large_default/protection-de-coffre-t3.jpg"
                   width="263"
                   height="292"
                 />
@@ -576,7 +365,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7075-product-3284090005399.html" content="https://www.automotoboutic.com/nouveautes/7075-product-3284090005399.html">Sangles d&#039;arrimage - 2 x...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/2222-protection-de-coffre-t3-3519910034120.html" content="https://www.automotoboutic.com/nouveautes/2222-protection-de-coffre-t3-3519910034120.html">Protection de coffre - 100...</a></h2>
                   
 
         
@@ -585,7 +374,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  17,00 €
+                                                  40,00 €
                               </span>
 
               
@@ -596,7 +385,217 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7075" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="2222" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="192" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/214-home_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
+                  alt="Tapis Auto Sur Mesure Premium Véhicule5p 2 avants + 2 arrières"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/214-large_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" content="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html">Tapis Auto Sur Mesure...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  48,91 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="192" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="176" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/176-tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants-3281690188422.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/198-home_default/tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants.jpg"
+                  alt="Tapis Auto Sur Mesure Grand Tourisme PUtilitaire 2 avants"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/198-large_default/tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/176-tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants-3281690188422.html" content="https://www.automotoboutic.com/tapis-sur-mesure/176-tapis-auto-sur-mesure-grand-tourisme-putilitaire-2-avants-3281690188422.html">Tapis Auto Sur Mesure Grand...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  32,90 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="176" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="1432" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/1432-bache-voiture-standard-taille-xl-3281690173053.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/5522-home_default/bache-voiture-standard-taille-xl.jpg"
+                  alt="Bache de voiture standard - Taille XL"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/5522-large_default/bache-voiture-standard-taille-xl.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/1432-bache-voiture-standard-taille-xl-3281690173053.html" content="https://www.automotoboutic.com/nouveautes/1432-bache-voiture-standard-taille-xl-3281690173053.html">Bache de voiture standard -...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  36,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="1432" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

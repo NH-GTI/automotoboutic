@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 23:12:04
+/* Smarty version 4.3.4, created on 2025-01-29 14:17:52
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/product-discounts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679804b49d5740_42209914',
+  'unifunc' => 'content_679a2a80105ab9_13269038',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679804b49d5740_42209914 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2a80105ab9_13269038 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -29,19 +29,19 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <p class="h6 product-discounts-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Volume discounts','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
 </p>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1259105425679804b49d0aa8_05643528', 'product_discount_table');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_299425123679a2a80100aa4_90861953', 'product_discount_table');
 ?>
 
   <?php }?>
 </section>
 <?php }
 /* {block 'product_discount_table'} */
-class Block_1259105425679804b49d0aa8_05643528 extends Smarty_Internal_Block
+class Block_299425123679a2a80100aa4_90861953 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_discount_table' => 
   array (
-    0 => 'Block_1259105425679804b49d0aa8_05643528',
+    0 => 'Block_299425123679a2a80100aa4_90861953',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

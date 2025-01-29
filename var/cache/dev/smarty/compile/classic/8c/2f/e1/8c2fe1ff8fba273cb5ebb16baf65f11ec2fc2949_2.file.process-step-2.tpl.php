@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 09:29:33
+/* Smarty version 4.3.4, created on 2025-01-29 11:54:58
   from '/var/www/html/automotoboutic/modules/lm_surmesure/views/templates/widget/process-step-2.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6799e6ed35adb6_01446536',
+  'unifunc' => 'content_679a090232a7e8_55071712',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,23 +20,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6799e6ed35adb6_01446536 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a090232a7e8_55071712 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_12582471496799e6ed34c682_09933535', 'process_step_2_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1919286842679a090231a7d4_86937807', 'process_step_2_content');
 ?>
 
 <?php }
 /* {block 'process_step_2_content'} */
-class Block_12582471496799e6ed34c682_09933535 extends Smarty_Internal_Block
+class Block_1919286842679a090231a7d4_86937807 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'process_step_2_content' => 
   array (
-    0 => 'Block_12582471496799e6ed34c682_09933535',
+    0 => 'Block_1919286842679a090231a7d4_86937807',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

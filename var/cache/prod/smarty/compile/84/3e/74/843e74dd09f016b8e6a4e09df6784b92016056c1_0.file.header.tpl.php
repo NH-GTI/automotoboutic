@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:41:40
+/* Smarty version 4.3.4, created on 2025-01-29 12:30:57
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/default/template/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979b248eccc4_28325406',
+  'unifunc' => 'content_679a1171bd9e43_93352065',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:nav.tpl' => 1,
   ),
 ),false)) {
-function content_67979b248eccc4_28325406 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1171bd9e43_93352065 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <!--[if lt IE 7]> <html lang="<?php echo $_smarty_tpl->tpl_vars['iso']->value;?>
 " class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6"> <![endif]-->
@@ -135,11 +135,11 @@ echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'addsl
 <?php }
 ob_start();
 echo __PS_BASE_URI__;
-$_prefixVariable1=ob_get_clean();
+$_prefixVariable7=ob_get_clean();
 ob_start();
 echo basename(_PS_ADMIN_DIR_);
-$_prefixVariable2=ob_get_clean();
-$_smarty_tpl->_assignInScope('admin_path', $_prefixVariable1.$_prefixVariable2."/themes/default/public/");?>
+$_prefixVariable8=ob_get_clean();
+$_smarty_tpl->_assignInScope('admin_path', $_prefixVariable7.$_prefixVariable8."/themes/default/public/");?>
 
 <?php $_smarty_tpl->_assignInScope('preloadFilePath', "../public/preload.tpl");?>
 
@@ -215,8 +215,8 @@ $_smarty_tpl->tpl_vars['quick']->do_else = false;
 ?>
                 <li class="quick-row-link<?php ob_start();
 echo $_smarty_tpl->tpl_vars['quick']->value['link'];
-$_prefixVariable3 = ob_get_clean();
-if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable3)) {
+$_prefixVariable9 = ob_get_clean();
+if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable9)) {
 $_smarty_tpl->_assignInScope('matchQuickLink', $_smarty_tpl->tpl_vars['quick']->value['id_quick_access']);?> active<?php }?>">
                   <a <?php if ((isset($_smarty_tpl->tpl_vars['quick']->value['class']))) {?>class="<?php echo $_smarty_tpl->tpl_vars['quick']->value['class'];?>
 "<?php }?> href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['quick']->value['link'],'html','UTF-8' ));?>
@@ -382,8 +382,8 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
             <?php ob_start();
 echo $_smarty_tpl->tpl_vars['base_url']->value;
-$_prefixVariable4 = ob_get_clean();
-if ($_prefixVariable4) {?>
+$_prefixVariable10 = ob_get_clean();
+if ($_prefixVariable10) {?>
         <ul id="header-list" class="header-list">
           <li class="shopname" data-mobile="true" data-from="header-list" data-target="menu">
             <?php if ((isset($_smarty_tpl->tpl_vars['is_multishop']->value)) && $_smarty_tpl->tpl_vars['is_multishop']->value && $_smarty_tpl->tpl_vars['shop_list']->value && ((isset($_smarty_tpl->tpl_vars['multishop_context']->value)) && $_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_GROUP || $_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_SHOP || $_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_ALL)) {?>
@@ -525,7 +525,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['menuItem']->valu
 $_smarty_tpl->tpl_vars['menuItem']->do_else = false;
 $_smarty_tpl->tpl_vars['menuItem']->iteration++;
 $_smarty_tpl->tpl_vars['menuItem']->last = $_smarty_tpl->tpl_vars['menuItem']->iteration === $_smarty_tpl->tpl_vars['menuItem']->total;
-$__foreach_menuItem_7_saved = $_smarty_tpl->tpl_vars['menuItem'];
+$__foreach_menuItem_40_saved = $_smarty_tpl->tpl_vars['menuItem'];
 ?>
               <?php $_smarty_tpl->_assignInScope('menuItemProperties', $_smarty_tpl->tpl_vars['menuItem']->value->getProperties());?>
               <li class="<?php echo $_smarty_tpl->tpl_vars['menuItem']->value->getClass();?>
@@ -542,7 +542,7 @@ echo $_smarty_tpl->tpl_vars['menuItem']->value->getContent();?>
                 <p class="divider"></p>
               <?php }?>
             <?php
-$_smarty_tpl->tpl_vars['menuItem'] = $__foreach_menuItem_7_saved;
+$_smarty_tpl->tpl_vars['menuItem'] = $__foreach_menuItem_40_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 

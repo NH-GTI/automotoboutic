@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:47:06
+/* Smarty version 4.3.4, created on 2025-01-29 14:30:27
   from 'module:ps_wirepaymentviewstemplateshook_partialspayment_infos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978e5a711bb8_23527797',
+  'unifunc' => 'content_679a2d73bf64e1_96453145',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67978e5a711bb8_23527797 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2d73bf64e1_96453145 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <dl>

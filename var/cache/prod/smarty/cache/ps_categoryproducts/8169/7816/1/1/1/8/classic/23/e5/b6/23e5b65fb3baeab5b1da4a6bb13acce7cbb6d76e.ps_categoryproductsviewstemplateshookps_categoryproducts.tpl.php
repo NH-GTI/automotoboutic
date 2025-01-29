@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-28 16:11:16
+/* Smarty version 4.3.4, created on 2025-01-29 13:31:56
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6798f3944bebd9_60752400',
+  'unifunc' => 'content_679a1fbc7cb262_81341368',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6798f3944bebd9_60752400 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1fbc7cb262_81341368 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?><section class="featured-products clearfix mt-3">
@@ -52,496 +52,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
   
 
 <div class="products">
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8173" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8173-purflux-filtre-a-huile-l418y-n-43-3286065024183.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21541-home_default/purflux-filtre-a-huile-l418y-n-43.jpg"
-                  alt="Filtre à huile"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21541-large_default/purflux-filtre-a-huile-l418y-n-43.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8173-purflux-filtre-a-huile-l418y-n-43-3286065024183.html" content="https://www.automotoboutic.com/filtrations/8173-purflux-filtre-a-huile-l418y-n-43-3286065024183.html">PURFLUX FILTRE A HUILE...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,40 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8173" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8209" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8209-purflux-filtre-d-habitacle-ah245-2y-n245-3286066502451.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/22116-home_default/purflux-filtre-d-habitacle-ah245-2y-n245.jpg"
-                  alt="Filtre d&#039;habitacle"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/22116-large_default/purflux-filtre-d-habitacle-ah245-2y-n245.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8209-purflux-filtre-d-habitacle-ah245-2y-n245-3286066502451.html" content="https://www.automotoboutic.com/filtrations/8209-purflux-filtre-d-habitacle-ah245-2y-n245-3286066502451.html">PURFLUX FILTRE D&#039;HABITACLE...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  24,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8209" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8203" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8203-purflux-filtre-a-air-a1314y-n-106-3286064325175.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21611-home_default/purflux-filtre-a-air-a1314y-n-106.jpg"
-                  alt="Filtre à Air"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21611-large_default/purflux-filtre-a-air-a1314y-n-106.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8203-purflux-filtre-a-air-a1314y-n-106-3286064325175.html" content="https://www.automotoboutic.com/filtrations/8203-purflux-filtre-a-air-a1314y-n-106-3286064325175.html">PURFLUX FILTRE A AIR A1314Y...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  25,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8203" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8191" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8191-purflux-filtre-a-air-a379y-n-74-3286064071232.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21586-home_default/purflux-filtre-a-air-a379y-n-74.jpg"
-                  alt="Filtre à Air"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21586-large_default/purflux-filtre-a-air-a379y-n-74.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8191-purflux-filtre-a-air-a379y-n-74-3286064071232.html" content="https://www.automotoboutic.com/filtrations/8191-purflux-filtre-a-air-a379y-n-74-3286064071232.html">PURFLUX FILTRE A AIR A379Y...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  28,80 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8191" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8213" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8213-purflux-filtre-d-habitacle-ah405y-n405-3286066204058.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21623-home_default/purflux-filtre-d-habitacle-ah405y-n405.jpg"
-                  alt="Filtre d&#039;habitacle"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21623-large_default/purflux-filtre-d-habitacle-ah405y-n405.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8213-purflux-filtre-d-habitacle-ah405y-n405-3286066204058.html" content="https://www.automotoboutic.com/filtrations/8213-purflux-filtre-d-habitacle-ah405y-n405-3286066204058.html">PURFLUX FILTRE D&#039;HABITACLE...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  23,40 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8213" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8201" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8201-purflux-filtre-a-air-a1196y-n-101-3286064235146.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21607-home_default/purflux-filtre-a-air-a1196y-n-101.jpg"
-                  alt="Filtre à Air"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21607-large_default/purflux-filtre-a-air-a1196y-n-101.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8201-purflux-filtre-a-air-a1196y-n-101-3286064235146.html" content="https://www.automotoboutic.com/filtrations/8201-purflux-filtre-a-air-a1196y-n-101-3286064235146.html">PURFLUX FILTRE A AIR A1196Y...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  21,96 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8201" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8163" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8163-purflux-filtre-a-huile-l310ay-n-8-3286064000164.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21512-home_default/purflux-filtre-a-huile-l310ay-n-8.jpg"
-                  alt="Filtre à huile"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21512-large_default/purflux-filtre-a-huile-l310ay-n-8.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8163-purflux-filtre-a-huile-l310ay-n-8-3286064000164.html" content="https://www.automotoboutic.com/filtrations/8163-purflux-filtre-a-huile-l310ay-n-8-3286064000164.html">PURFLUX FILTRE A HUILE...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  19,40 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8163" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="8198" data-id-product-attribute="0">
@@ -597,6 +107,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="8198" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8178" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8178-purflux-filtre-a-gazole-c493ey-n-57-3286064234958.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21551-home_default/purflux-filtre-a-gazole-c493ey-n-57.jpg"
+                  alt="Filtre à gazole"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21551-large_default/purflux-filtre-a-gazole-c493ey-n-57.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8178-purflux-filtre-a-gazole-c493ey-n-57-3286064234958.html" content="https://www.automotoboutic.com/filtrations/8178-purflux-filtre-a-gazole-c493ey-n-57-3286064234958.html">PURFLUX FILTRE A GAZOLE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  26,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8178" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -684,17 +264,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8215" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="8209" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/filtrations/8215-purflux-filtre-d-habitacle-ahc482y-n482c-3286066704824.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/filtrations/8209-purflux-filtre-d-habitacle-ah245-2y-n245-3286066502451.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21626-home_default/purflux-filtre-d-habitacle-ahc482y-n482c.jpg"
+                  src="https://www.automotoboutic.com/22116-home_default/purflux-filtre-d-habitacle-ah245-2y-n245.jpg"
                   alt="Filtre d&#039;habitacle"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21626-large_default/purflux-filtre-d-habitacle-ahc482y-n482c.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/22116-large_default/purflux-filtre-d-habitacle-ah245-2y-n245.jpg"
                   width="263"
                   height="292"
                 />
@@ -716,7 +296,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8215-purflux-filtre-d-habitacle-ahc482y-n482c-3286066704824.html" content="https://www.automotoboutic.com/filtrations/8215-purflux-filtre-d-habitacle-ahc482y-n482c-3286066704824.html">PURFLUX FILTRE D&#039;HABITACLE...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8209-purflux-filtre-d-habitacle-ah245-2y-n245-3286066502451.html" content="https://www.automotoboutic.com/filtrations/8209-purflux-filtre-d-habitacle-ah245-2y-n245-3286066502451.html">PURFLUX FILTRE D&#039;HABITACLE...</a></h2>
                   
 
         
@@ -725,7 +305,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  25,80 €
+                                                  24,00 €
                               </span>
 
               
@@ -736,7 +316,427 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8215" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="8209" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8205" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8205-purflux-filtre-a-air-a1406y-n-115-3286062214068.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21613-home_default/purflux-filtre-a-air-a1406y-n-115.jpg"
+                  alt="Filtre à Air"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21613-large_default/purflux-filtre-a-air-a1406y-n-115.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8205-purflux-filtre-a-air-a1406y-n-115-3286062214068.html" content="https://www.automotoboutic.com/filtrations/8205-purflux-filtre-a-air-a1406y-n-115-3286062214068.html">PURFLUX FILTRE A AIR A1406Y...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8205" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8192" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8192-purflux-filtre-a-air-a1231y-n-75-3286064071034.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21588-home_default/purflux-filtre-a-air-a1231y-n-75.jpg"
+                  alt="Filtre à Air"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21588-large_default/purflux-filtre-a-air-a1231y-n-75.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8192-purflux-filtre-a-air-a1231y-n-75-3286064071034.html" content="https://www.automotoboutic.com/filtrations/8192-purflux-filtre-a-air-a1231y-n-75-3286064071034.html">PURFLUX FILTRE A AIR A1231Y...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  25,20 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8192" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8163" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8163-purflux-filtre-a-huile-l310ay-n-8-3286064000164.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21512-home_default/purflux-filtre-a-huile-l310ay-n-8.jpg"
+                  alt="Filtre à huile"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21512-large_default/purflux-filtre-a-huile-l310ay-n-8.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8163-purflux-filtre-a-huile-l310ay-n-8-3286064000164.html" content="https://www.automotoboutic.com/filtrations/8163-purflux-filtre-a-huile-l310ay-n-8-3286064000164.html">PURFLUX FILTRE A HUILE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  19,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8163" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8177" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8177-purflux-filtre-a-gazole-cs701y-n-56-3286061772446.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21549-home_default/purflux-filtre-a-gazole-cs701y-n-56.jpg"
+                  alt="Filtre à gazole"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21549-large_default/purflux-filtre-a-gazole-cs701y-n-56.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8177-purflux-filtre-a-gazole-cs701y-n-56-3286061772446.html" content="https://www.automotoboutic.com/filtrations/8177-purflux-filtre-a-gazole-cs701y-n-56-3286061772446.html">PURFLUX FILTRE A GAZOLE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,60 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8177" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8207" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8207-purflux-filtre-d-habitacle-ah191y-n191-3286066501911.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21615-home_default/purflux-filtre-d-habitacle-ah191y-n191.jpg"
+                  alt="Filtre d&#039;habitacle"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21615-large_default/purflux-filtre-d-habitacle-ah191y-n191.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8207-purflux-filtre-d-habitacle-ah191y-n191-3286066501911.html" content="https://www.automotoboutic.com/filtrations/8207-purflux-filtre-d-habitacle-ah191y-n191-3286066501911.html">PURFLUX FILTRE D&#039;HABITACLE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8207" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8212" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8212-purflux-filtre-d-habitacle-ahc378y-n378c-3286061856450.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21622-home_default/purflux-filtre-d-habitacle-ahc378y-n378c.jpg"
+                  alt="Filtre d&#039;habitacle"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21622-large_default/purflux-filtre-d-habitacle-ahc378y-n378c.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8212-purflux-filtre-d-habitacle-ahc378y-n378c-3286061856450.html" content="https://www.automotoboutic.com/filtrations/8212-purflux-filtre-d-habitacle-ahc378y-n378c-3286061856450.html">PURFLUX FILTRE D&#039;HABITACLE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  24,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8212" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -824,17 +824,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8187" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="8210" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/filtrations/8187-purflux-filtre-a-air-a1222y-n-52-3286062112227.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/filtrations/8210-purflux-filtre-d-habitacle-ahc261-2y-n261c-3286061856467.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21575-home_default/purflux-filtre-a-air-a1222y-n-52.jpg"
-                  alt="Filtre à Air"
+                  src="https://www.automotoboutic.com/21620-home_default/purflux-filtre-d-habitacle-ahc261-2y-n261c.jpg"
+                  alt="Filtre d&#039;habitacle"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21575-large_default/purflux-filtre-a-air-a1222y-n-52.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21620-large_default/purflux-filtre-d-habitacle-ahc261-2y-n261c.jpg"
                   width="263"
                   height="292"
                 />
@@ -856,7 +856,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8187-purflux-filtre-a-air-a1222y-n-52-3286062112227.html" content="https://www.automotoboutic.com/filtrations/8187-purflux-filtre-a-air-a1222y-n-52-3286062112227.html">PURFLUX FILTRE A AIR A1222Y...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8210-purflux-filtre-d-habitacle-ahc261-2y-n261c-3286061856467.html" content="https://www.automotoboutic.com/filtrations/8210-purflux-filtre-d-habitacle-ahc261-2y-n261c-3286061856467.html">PURFLUX FILTRE D&#039;HABITACLE...</a></h2>
                   
 
         
@@ -865,7 +865,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  21,60 €
+                                                  30,00 €
                               </span>
 
               
@@ -876,7 +876,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8187" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="8210" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -894,87 +894,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8202" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="8181" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/filtrations/8202-purflux-filtre-a-air-a1265y-n-102-3286064235160.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/filtrations/8181-purflux-filtre-a-gazole-c482y-n-66-3286064049149.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21609-home_default/purflux-filtre-a-air-a1265y-n-102.jpg"
-                  alt="Filtre à Air"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21609-large_default/purflux-filtre-a-air-a1265y-n-102.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8202-purflux-filtre-a-air-a1265y-n-102-3286064235160.html" content="https://www.automotoboutic.com/filtrations/8202-purflux-filtre-a-air-a1265y-n-102-3286064235160.html">PURFLUX FILTRE A AIR A1265Y...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  25,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8202" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8180" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8180-purflux-filtre-a-gazole-c446y-n-64-3286061834588.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21556-home_default/purflux-filtre-a-gazole-c446y-n-64.jpg"
+                  src="https://www.automotoboutic.com/21559-home_default/purflux-filtre-a-gazole-c482y-n-66.jpg"
                   alt="Filtre à gazole"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21556-large_default/purflux-filtre-a-gazole-c446y-n-64.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21559-large_default/purflux-filtre-a-gazole-c482y-n-66.jpg"
                   width="263"
                   height="292"
                 />
@@ -996,7 +926,217 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8180-purflux-filtre-a-gazole-c446y-n-64-3286061834588.html" content="https://www.automotoboutic.com/filtrations/8180-purflux-filtre-a-gazole-c446y-n-64-3286061834588.html">PURFLUX FILTRE A GAZOLE...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8181-purflux-filtre-a-gazole-c482y-n-66-3286064049149.html" content="https://www.automotoboutic.com/filtrations/8181-purflux-filtre-a-gazole-c482y-n-66-3286064049149.html">PURFLUX FILTRE A GAZOLE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  31,20 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8181" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8166" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8166-purflux-filtre-a-huile-ls743y-n-28-3286064234811.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21522-home_default/purflux-filtre-a-huile-ls743y-n-28.jpg"
+                  alt="Filtre à huile"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21522-large_default/purflux-filtre-a-huile-ls743y-n-28.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8166-purflux-filtre-a-huile-ls743y-n-28-3286064234811.html" content="https://www.automotoboutic.com/filtrations/8166-purflux-filtre-a-huile-ls743y-n-28-3286064234811.html">PURFLUX FILTRE A HUILE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  17,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8166" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8171" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8171-purflux-filtre-a-huile-l331y-n-38-3286064325670.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21536-home_default/purflux-filtre-a-huile-l331y-n-38.jpg"
+                  alt="Filtre à huile"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21536-large_default/purflux-filtre-a-huile-l331y-n-38.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8171-purflux-filtre-a-huile-l331y-n-38-3286064325670.html" content="https://www.automotoboutic.com/filtrations/8171-purflux-filtre-a-huile-l331y-n-38-3286064325670.html">PURFLUX FILTRE A HUILE...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  19,20 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8171" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8196" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/filtrations/8196-purflux-filtre-a-air-a1140y-n-95-3286064210860.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21597-home_default/purflux-filtre-a-air-a1140y-n-95.jpg"
+                  alt="Filtre à Air"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21597-large_default/purflux-filtre-a-air-a1140y-n-95.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8196-purflux-filtre-a-air-a1140y-n-95-3286064210860.html" content="https://www.automotoboutic.com/filtrations/8196-purflux-filtre-a-air-a1140y-n-95-3286064210860.html">PURFLUX FILTRE A AIR A1140Y...</a></h2>
                   
 
         
@@ -1016,147 +1156,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8180" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8189" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8189-purflux-filtre-a-air-a1036y-n-72-3286061834595.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21579-home_default/purflux-filtre-a-air-a1036y-n-72.jpg"
-                  alt="Filtre à Air"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21579-large_default/purflux-filtre-a-air-a1036y-n-72.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8189-purflux-filtre-a-air-a1036y-n-72-3286061834595.html" content="https://www.automotoboutic.com/filtrations/8189-purflux-filtre-a-air-a1036y-n-72-3286061834595.html">PURFLUX FILTRE A AIR A1036Y...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  21,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8189" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8193" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/filtrations/8193-purflux-filtre-a-air-a1232y-n-80-3286064071133.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21590-home_default/purflux-filtre-a-air-a1232y-n-80.jpg"
-                  alt="Filtre à Air"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21590-large_default/purflux-filtre-a-air-a1232y-n-80.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/filtrations/8193-purflux-filtre-a-air-a1232y-n-80-3286064071133.html" content="https://www.automotoboutic.com/filtrations/8193-purflux-filtre-a-air-a1232y-n-80-3286064071133.html">PURFLUX FILTRE A AIR A1232Y...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  19,80 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8193" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="8196" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:49:27
+/* Smarty version 4.3.4, created on 2025-01-29 10:35:21
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/components/layout/mobile_quickaccess.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979cf7df19e0_18013787',
+  'unifunc' => 'content_6799f659558d87_01220562',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67979cf7df19e0_18013787 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f659558d87_01220562 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="component-search-quickaccess d-none">
   <p class="component-search-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Quick Access','d'=>'Admin.Navigation.Header'),$_smarty_tpl ) );?>
 </p>
@@ -32,8 +32,8 @@ $_smarty_tpl->tpl_vars['quick']->do_else = false;
 ?>
     <a class="dropdown-item quick-row-link<?php ob_start();
 echo $_smarty_tpl->tpl_vars['quick']->value['link'];
-$_prefixVariable4 = ob_get_clean();
-if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable4)) {
+$_prefixVariable5 = ob_get_clean();
+if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable5)) {
 $_smarty_tpl->_assignInScope('matchQuickLink', $_smarty_tpl->tpl_vars['quick']->value['id_quick_access']);?> active<?php }?>"
        href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['quick']->value['link'],'html','UTF-8' ));?>
 "

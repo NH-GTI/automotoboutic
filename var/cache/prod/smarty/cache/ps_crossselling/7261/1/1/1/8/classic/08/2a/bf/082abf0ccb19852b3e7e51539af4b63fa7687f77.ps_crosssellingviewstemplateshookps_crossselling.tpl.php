@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:58:48
+/* Smarty version 4.3.4, created on 2025-01-29 14:16:25
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797911873ee96_85544443',
+  'unifunc' => 'content_679a2a294af964_62821394',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797911873ee96_85544443 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2a294af964_62821394 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -194,6 +194,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="1312" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/5032-home_default/bache-voiture-de-protection-ext-taille-l.jpg"
+                  alt="Bache de voiture extérieur  - Taille L"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/5032-large_default/bache-voiture-de-protection-ext-taille-l.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" content="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html">Bache de voiture extérieur...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  60,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="1312" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="2442" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -265,17 +335,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="1312" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7367" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7367-product-3285160097047.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/5032-home_default/bache-voiture-de-protection-ext-taille-l.jpg"
-                  alt="Bache de voiture extérieur  - Taille L"
+                  src="https://www.automotoboutic.com/18061-home_default/product.jpg"
+                  alt="Cache boule de remorque antivol ABS d.0,50"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/5032-large_default/bache-voiture-de-protection-ext-taille-l.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18061-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -297,7 +367,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" content="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html">Bache de voiture extérieur...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7367-product-3285160097047.html" content="https://www.automotoboutic.com/securite-et-signalisation/7367-product-3285160097047.html">Cache boule de remorque...</a></h2>
                   
 
         
@@ -306,7 +376,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  60,00 €
+                                                  16,20 €
                               </span>
 
               
@@ -317,77 +387,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="1312" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="173" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/195-home_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Grand Tourisme Véhicule5p 2 avants"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/195-large_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html" content="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html">Tapis Auto Sur Mesure Grand...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  28,91 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="173" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7367" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -458,76 +458,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="177" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7367" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/securite-et-signalisation/7367-product-3285160097047.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18061-home_default/product.jpg"
-                  alt="Cache boule de remorque antivol ABS d.0,50"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18061-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/securite-et-signalisation/7367-product-3285160097047.html" content="https://www.automotoboutic.com/securite-et-signalisation/7367-product-3285160097047.html">Cache boule de remorque...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  16,20 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7367" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

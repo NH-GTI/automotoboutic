@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:21:27
+/* Smarty version 4.3.4, created on 2025-01-29 10:38:28
   from 'module:blockwishlistviewstemplateshookproductaddbutton.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978857c7e1a4_27675810',
+  'unifunc' => 'content_6799f7141f6472_78954189',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67978857c7e1a4_27675810 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f7141f6472_78954189 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div
   class="wishlist-button"
   data-url="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['url']->value, ENT_QUOTES, 'UTF-8');?>

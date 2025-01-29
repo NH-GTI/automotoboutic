@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:21:27
+/* Smarty version 4.3.4, created on 2025-01-29 10:38:28
   from 'module:productcommentsviewstemplateshookproductcommentitemprototype.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978857cdaf88_49515902',
+  'unifunc' => 'content_6799f714243f93_52536021',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67978857cdaf88_49515902 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f714243f93_52536021 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="product-comment-list-item row" data-product-comment-id="@COMMENT_ID@" data-product-id="@PRODUCT_ID@">
   <div class="col-sm-3 comment-infos">

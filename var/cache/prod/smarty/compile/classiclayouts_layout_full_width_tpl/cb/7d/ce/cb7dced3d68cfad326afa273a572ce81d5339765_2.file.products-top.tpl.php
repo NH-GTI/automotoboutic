@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:34:22
+/* Smarty version 4.3.4, created on 2025-01-29 13:05:45
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/products-top.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797996e741b67_00670821',
+  'unifunc' => 'content_679a1999b3ea11_55631771',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/sort-orders.tpl' => 1,
   ),
 ),false)) {
-function content_6797996e741b67_00670821 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1999b3ea11_55631771 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -38,7 +38,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
   <div class="col-lg-7">
     <div class="row sort-by-row">
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16389743136797996e739f91_08415053', 'sort_by');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1625305206679a1999b3a105_25033386', 'sort_by');
 ?>
 
       <?php if (!empty($_smarty_tpl->tpl_vars['listing']->value['rendered_facets'])) {?>
@@ -58,12 +58,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16389743136797996e
 </div>
 <?php }
 /* {block 'sort_by'} */
-class Block_16389743136797996e739f91_08415053 extends Smarty_Internal_Block
+class Block_1625305206679a1999b3a105_25033386 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'sort_by' => 
   array (
-    0 => 'Block_16389743136797996e739f91_08415053',
+    0 => 'Block_1625305206679a1999b3a105_25033386',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

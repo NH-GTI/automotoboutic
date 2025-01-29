@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:38:52
+/* Smarty version 4.3.4, created on 2025-01-29 13:47:42
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978c6c64ad02_20862996',
+  'unifunc' => 'content_679a236e33e0d3_93057504',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_67978c6c64ad02_20862996 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a236e33e0d3_93057504 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?><section class="featured-products clearfix mt-3">
@@ -54,17 +54,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7391" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7381" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/jerricans/7391-product-3284090972011.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/jerricans/7381-product-3284090009717.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18269-home_default/product.jpg"
-                  alt="Bidon Essence Vintage 20 L en Métal - Transport de carburant"
+                  src="https://www.automotoboutic.com/18259-home_default/product.jpg"
+                  alt="Jerrican plastique 10 litres avec bec verseur voiture et auto"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18269-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18259-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -86,7 +86,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/jerricans/7391-product-3284090972011.html" content="https://www.automotoboutic.com/jerricans/7391-product-3284090972011.html">Jerrican Vintage Métal 20...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/jerricans/7381-product-3284090009717.html" content="https://www.automotoboutic.com/jerricans/7381-product-3284090009717.html">Jerrican plastique 10 litres</a></h2>
                   
 
         
@@ -95,7 +95,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  48,00 €
+                                                  20,00 €
                               </span>
 
               
@@ -106,7 +106,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7391" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7381" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -194,17 +194,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7381" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7391" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/jerricans/7381-product-3284090009717.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/jerricans/7391-product-3284090972011.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18259-home_default/product.jpg"
-                  alt="Jerrican plastique 10 litres avec bec verseur voiture et auto"
+                  src="https://www.automotoboutic.com/18269-home_default/product.jpg"
+                  alt="Bidon Essence Vintage 20 L en Métal - Transport de carburant"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18259-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18269-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -226,7 +226,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/jerricans/7381-product-3284090009717.html" content="https://www.automotoboutic.com/jerricans/7381-product-3284090009717.html">Jerrican plastique 10 litres</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/jerricans/7391-product-3284090972011.html" content="https://www.automotoboutic.com/jerricans/7391-product-3284090972011.html">Jerrican Vintage Métal 20...</a></h2>
                   
 
         
@@ -235,7 +235,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  20,00 €
+                                                  48,00 €
                               </span>
 
               
@@ -246,7 +246,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7381" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7391" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -334,17 +334,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7379" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7383" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/7379-product-3284090970017.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7383-product-3284090971014.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18263-home_default/product.jpg"
-                  alt="Jerrican essence et carburant métal 5 litres vintage auto"
+                  src="https://www.automotoboutic.com/18265-home_default/product.jpg"
+                  alt="Jerrican Vintage 10L en Métal - Transport de carburant"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18263-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18265-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -366,7 +366,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7379-product-3284090970017.html" content="https://www.automotoboutic.com/nouveautes/7379-product-3284090970017.html">Jerrican Vintage Métal 5...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7383-product-3284090971014.html" content="https://www.automotoboutic.com/nouveautes/7383-product-3284090971014.html">Jerrican Vintage Métal 10...</a></h2>
                   
 
         
@@ -375,7 +375,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  40,00 €
+                                                  45,00 €
                               </span>
 
               
@@ -386,7 +386,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7379" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7383" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -474,17 +474,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7383" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7379" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/7383-product-3284090971014.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7379-product-3284090970017.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18265-home_default/product.jpg"
-                  alt="Jerrican Vintage 10L en Métal - Transport de carburant"
+                  src="https://www.automotoboutic.com/18263-home_default/product.jpg"
+                  alt="Jerrican essence et carburant métal 5 litres vintage auto"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18265-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18263-large_default/product.jpg"
                   width="263"
                   height="292"
                 />
@@ -506,7 +506,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7383-product-3284090971014.html" content="https://www.automotoboutic.com/nouveautes/7383-product-3284090971014.html">Jerrican Vintage Métal 10...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7379-product-3284090970017.html" content="https://www.automotoboutic.com/nouveautes/7379-product-3284090970017.html">Jerrican Vintage Métal 5...</a></h2>
                   
 
         
@@ -515,7 +515,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  45,00 €
+                                                  40,00 €
                               </span>
 
               
@@ -526,7 +526,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7383" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7379" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

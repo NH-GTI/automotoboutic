@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:20:10
+/* Smarty version 4.3.4, created on 2025-01-29 10:38:04
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/productlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797880abb5f07_39089384',
+  'unifunc' => 'content_6799f6fc7512c6_70706957',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_6797880abb5f07_39089384 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '2970333346797880abaecb0_71180010';
+function content_6799f6fc7512c6_70706957 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '4043329356799f6fc749698_95773764';
 ?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "productClasses", null);

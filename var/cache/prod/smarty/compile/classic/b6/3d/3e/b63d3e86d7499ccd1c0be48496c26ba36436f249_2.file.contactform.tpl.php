@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:41:46
+/* Smarty version 4.3.4, created on 2025-01-29 12:56:29
   from '/var/www/html/automotoboutic/themes/classic/modules/contactform/views/templates/widget/contactform.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979b2af23b49_87918280',
+  'unifunc' => 'content_679a176d4780c5_79979338',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67979b2af23b49_87918280 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a176d4780c5_79979338 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="contact-form">
   <form action="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['urls']->value['pages']['contact'], ENT_QUOTES, 'UTF-8');?>
 " method="post" <?php if ($_smarty_tpl->tpl_vars['contact']->value['allow_file_upload']) {?>enctype="multipart/form-data"<?php }?>>

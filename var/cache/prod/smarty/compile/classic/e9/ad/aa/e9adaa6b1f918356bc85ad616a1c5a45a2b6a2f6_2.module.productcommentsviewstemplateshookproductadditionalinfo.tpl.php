@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:21:27
+/* Smarty version 4.3.4, created on 2025-01-29 10:38:28
   from 'module:productcommentsviewstemplateshookproductadditionalinfo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978857c9c468_96744571',
+  'unifunc' => 'content_6799f71420f8d5_02862854',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:productcomments/views/templates/hook/average-grade-stars.tpl' => 1,
   ),
 ),false)) {
-function content_67978857c9c468_96744571 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f71420f8d5_02862854 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['nb_comments']->value != 0 || $_smarty_tpl->tpl_vars['post_allowed']->value) {?>
 <div class="product-comments-additional-info">
   <?php if ($_smarty_tpl->tpl_vars['nb_comments']->value == 0) {?>

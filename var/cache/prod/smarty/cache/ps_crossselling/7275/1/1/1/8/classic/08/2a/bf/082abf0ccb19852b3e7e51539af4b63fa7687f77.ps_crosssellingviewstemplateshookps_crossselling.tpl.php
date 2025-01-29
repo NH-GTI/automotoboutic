@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 05:12:20
+/* Smarty version 4.3.4, created on 2025-01-29 14:06:25
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6799aaa41fe227_13427380',
+  'unifunc' => 'content_679a27d18985a3_15664085',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6799aaa41fe227_13427380 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a27d18985a3_15664085 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -51,6 +51,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
   
 
 <div class="products">
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7265" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18233-home_default/product.jpg"
+                  alt="Support smartphone voiture en PVC, anti-dérapant"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18233-large_default/product.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html" content="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html">Support smartphone...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  14,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7265" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="6457" data-id-product-attribute="0">
@@ -106,146 +176,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="6457" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="188" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/188-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-3281690188453.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/210-home_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Premium Véhicule5p 2 avants"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/210-large_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/188-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-3281690188453.html" content="https://www.automotoboutic.com/tapis-sur-mesure/188-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-3281690188453.html">Tapis Auto Sur Mesure...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  38,92 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="188" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="328" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/couvre-volant/328-couvre-volant-noir-a-strass-3281690174883.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/20939-home_default/couvre-volant-noir-a-strass.jpg"
-                  alt="Couvre volant voiture noir à strass - Taille Universelle"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20939-large_default/couvre-volant-noir-a-strass.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-volant/328-couvre-volant-noir-a-strass-3281690174883.html" content="https://www.automotoboutic.com/couvre-volant/328-couvre-volant-noir-a-strass-3281690174883.html">Couvre volant Noir à Strass...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="328" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -333,17 +263,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7265" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="5265" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/5265-couvre-volant-elegance-blanc-3281690190081.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18233-home_default/product.jpg"
-                  alt="Support smartphone voiture en PVC, anti-dérapant"
+                  src="https://www.automotoboutic.com/20950-home_default/couvre-volant-elegance-blanc.jpg"
+                  alt="Couvre volant Noir - Insert Blanc cassé - Taille universelle"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18233-large_default/product.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/20950-large_default/couvre-volant-elegance-blanc.jpg"
                   width="263"
                   height="292"
                 />
@@ -365,7 +295,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html" content="https://www.automotoboutic.com/accessoires-smartphone/7265-product-3284090007942.html">Support smartphone...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5265-couvre-volant-elegance-blanc-3281690190081.html" content="https://www.automotoboutic.com/nouveautes/5265-couvre-volant-elegance-blanc-3281690190081.html">Couvre volant Noir - Insert...</a></h2>
                   
 
         
@@ -374,7 +304,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  14,40 €
+                                                  20,00 €
                               </span>
 
               
@@ -385,7 +315,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="7265" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="5265" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -473,6 +403,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="5731" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5731-tapis-auto-metalic-bleu-carbone-3281690200483.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/16287-home_default/tapis-auto-metalic-bleu-carbone.jpg"
+                  alt="tapis auto metallic bleu carbon"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/16287-large_default/tapis-auto-metalic-bleu-carbone.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5731-tapis-auto-metalic-bleu-carbone-3281690200483.html" content="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5731-tapis-auto-metalic-bleu-carbone-3281690200483.html">Tapis auto PVC effet...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="5731" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="192" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -543,17 +543,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6597" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="328" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/6597-tapis-hibiscus-moquette-brode-rose-3284090004040.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/couvre-volant/328-couvre-volant-noir-a-strass-3281690174883.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/17047-home_default/tapis-hibiscus-moquette-brode-rose.jpg"
-                  alt="Tapis auto voiture fille Hibiscus Moquette brodé Rose"
+                  src="https://www.automotoboutic.com/20939-home_default/couvre-volant-noir-a-strass.jpg"
+                  alt="Couvre volant voiture noir à strass - Taille Universelle"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/17047-large_default/tapis-hibiscus-moquette-brode-rose.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/20939-large_default/couvre-volant-noir-a-strass.jpg"
                   width="263"
                   height="292"
                 />
@@ -575,7 +575,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6597-tapis-hibiscus-moquette-brode-rose-3284090004040.html" content="https://www.automotoboutic.com/nouveautes/6597-tapis-hibiscus-moquette-brode-rose-3284090004040.html">Tapis Hibiscus Moquette...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-volant/328-couvre-volant-noir-a-strass-3281690174883.html" content="https://www.automotoboutic.com/couvre-volant/328-couvre-volant-noir-a-strass-3281690174883.html">Couvre volant Noir à Strass...</a></h2>
                   
 
         
@@ -584,7 +584,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  24,00 €
+                                                  20,00 €
                               </span>
 
               
@@ -595,7 +595,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="6597" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="328" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:07:11
+/* Smarty version 4.3.4, created on 2025-01-29 11:51:54
   from 'module:ps_socialfollowps_socialfollow.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679784ff704a61_39837159',
+  'unifunc' => 'content_679a084aa89762_88205575',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,24 +20,24 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679784ff704a61_39837159 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a084aa89762_88205575 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->compiled->nocache_hash = '824312807679784ff702c81_89251892';
+$_smarty_tpl->compiled->nocache_hash = '1996513222679a084aa84e37_88179956';
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_socialfollow/ps_socialfollow.tpl -->
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_736526538679784ff703260_53840271', 'block_social');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1187732726679a084aa85d06_67538933', 'block_social');
 ?>
 
 <!-- end /var/www/html/automotoboutic/themes/classic/modules/ps_socialfollow/ps_socialfollow.tpl --><?php }
 /* {block 'block_social'} */
-class Block_736526538679784ff703260_53840271 extends Smarty_Internal_Block
+class Block_1187732726679a084aa85d06_67538933 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'block_social' => 
   array (
-    0 => 'Block_736526538679784ff703260_53840271',
+    0 => 'Block_1187732726679a084aa85d06_67538933',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 16:34:29
+/* Smarty version 4.3.4, created on 2025-01-29 12:54:50
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797a785c81434_68448099',
+  'unifunc' => 'content_679a170a0776a6_45880477',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797a785c81434_68448099 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a170a0776a6_45880477 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -123,17 +123,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="244" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="6747" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/244-tapis-auto-caoutchouc-racer-3281690179819.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/6747-tapis-auto-caoutchouc-soshi-3281690192313.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/16297-home_default/tapis-auto-caoutchouc-racer.jpg"
-                  alt="tapis auto racer pvc"
+                  src="https://www.automotoboutic.com/21880-home_default/tapis-auto-caoutchouc-soshi.jpg"
+                  alt="Tapis auto en PVC Decoupable SOSHI | Automotoboutic"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/16297-large_default/tapis-auto-caoutchouc-racer.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21880-large_default/tapis-auto-caoutchouc-soshi.jpg"
                   width="263"
                   height="292"
                 />
@@ -155,7 +155,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/244-tapis-auto-caoutchouc-racer-3281690179819.html" content="https://www.automotoboutic.com/tapis-caoutchouc-pvc/244-tapis-auto-caoutchouc-racer-3281690179819.html">Tapis auto en PVC universel...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6747-tapis-auto-caoutchouc-soshi-3281690192313.html" content="https://www.automotoboutic.com/nouveautes/6747-tapis-auto-caoutchouc-soshi-3281690192313.html">Tapis Auto Universel - PVC...</a></h2>
                   
 
         
@@ -175,147 +175,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="244" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="3531" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/12413-home_default/coussin-rehausseur-voiture.jpg"
-                  alt="Coussin REHAUSSEUR voiture"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/12413-large_default/coussin-rehausseur-voiture.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" content="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html">Coussin Rehausseur 6 cm -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  21,60 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="3531" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="1312" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/5032-home_default/bache-voiture-de-protection-ext-taille-l.jpg"
-                  alt="Bache de voiture extérieur  - Taille L"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/5032-large_default/bache-voiture-de-protection-ext-taille-l.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" content="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html">Bache de voiture extérieur...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  60,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="1312" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="6747" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -403,17 +263,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5839" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="242" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure-pvc/5839-tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014-3281690201664.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/242-tapis-auto-pvc-metallic-noir-3281690170960.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/15671-home_default/tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014.jpg"
-                  alt="Tapis sur mesure PVC pour Renault Twingo 2 de 2007 à 2014"
+                  src="https://www.automotoboutic.com/16295-home_default/tapis-auto-pvc-metallic-noir.jpg"
+                  alt="tapis auto metallic noir"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/15671-large_default/tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/16295-large_default/tapis-auto-pvc-metallic-noir.jpg"
                   width="263"
                   height="292"
                 />
@@ -435,7 +295,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure-pvc/5839-tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014-3281690201664.html" content="https://www.automotoboutic.com/tapis-sur-mesure-pvc/5839-tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014-3281690201664.html">Tapis sur mesure PVC pour...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/242-tapis-auto-pvc-metallic-noir-3281690170960.html" content="https://www.automotoboutic.com/nouveautes/242-tapis-auto-pvc-metallic-noir-3281690170960.html">Tapis auto tuning  PVC...</a></h2>
                   
 
         
@@ -444,7 +304,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  34,17 €
+                                                  27,00 €
                               </span>
 
               
@@ -455,7 +315,77 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="5839" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="242" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3531" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12413-home_default/coussin-rehausseur-voiture.jpg"
+                  alt="Coussin REHAUSSEUR voiture"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12413-large_default/coussin-rehausseur-voiture.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" content="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html">Coussin Rehausseur 6 cm -...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  21,60 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3531" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -543,17 +473,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6747" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="5839" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/6747-tapis-auto-caoutchouc-soshi-3281690192313.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure-pvc/5839-tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014-3281690201664.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21880-home_default/tapis-auto-caoutchouc-soshi.jpg"
-                  alt="Tapis auto en PVC Decoupable SOSHI | Automotoboutic"
+                  src="https://www.automotoboutic.com/15671-home_default/tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014.jpg"
+                  alt="Tapis sur mesure PVC pour Renault Twingo 2 de 2007 à 2014"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21880-large_default/tapis-auto-caoutchouc-soshi.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/15671-large_default/tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014.jpg"
                   width="263"
                   height="292"
                 />
@@ -575,7 +505,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6747-tapis-auto-caoutchouc-soshi-3281690192313.html" content="https://www.automotoboutic.com/nouveautes/6747-tapis-auto-caoutchouc-soshi-3281690192313.html">Tapis Auto Universel - PVC...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure-pvc/5839-tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014-3281690201664.html" content="https://www.automotoboutic.com/tapis-sur-mesure-pvc/5839-tapis-sur-mesure-pvc-pour-renault-twingo-2-de-2007-a-2014-3281690201664.html">Tapis sur mesure PVC pour...</a></h2>
                   
 
         
@@ -584,7 +514,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  26,40 €
+                                                  34,17 €
                               </span>
 
               
@@ -595,7 +525,77 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="6747" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="5839" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3527" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12401-home_default/coussin-lombaire-voiture.jpg"
+                  alt="Coussin LOMBAIRE voiture"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12401-large_default/coussin-lombaire-voiture.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html" content="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html">Coussin Lombaire</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  21,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3527" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

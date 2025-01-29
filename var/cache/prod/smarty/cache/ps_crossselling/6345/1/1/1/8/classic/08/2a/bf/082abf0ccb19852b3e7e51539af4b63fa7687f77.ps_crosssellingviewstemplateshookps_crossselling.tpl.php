@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 16:00:55
+/* Smarty version 4.3.4, created on 2025-01-29 13:03:18
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979fa740d997_12543421',
+  'unifunc' => 'content_679a190609e8b4_29562993',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_67979fa740d997_12543421 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a190609e8b4_29562993 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -53,17 +53,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="2732" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="3527" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-de-coffre/2732-tapis-de-coffre-ceylan-gris-3281690123447.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/11851-home_default/tapis-de-coffre-ceylan-gris.jpg"
-                  alt="Tapis de coffre Ceylan Gris"
+                  src="https://www.automotoboutic.com/12401-home_default/coussin-lombaire-voiture.jpg"
+                  alt="Coussin LOMBAIRE voiture"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/11851-large_default/tapis-de-coffre-ceylan-gris.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/12401-large_default/coussin-lombaire-voiture.jpg"
                   width="263"
                   height="292"
                 />
@@ -85,7 +85,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-de-coffre/2732-tapis-de-coffre-ceylan-gris-3281690123447.html" content="https://www.automotoboutic.com/tapis-de-coffre/2732-tapis-de-coffre-ceylan-gris-3281690123447.html">Tapis de coffre ceylan...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html" content="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html">Coussin Lombaire</a></h2>
                   
 
         
@@ -94,7 +94,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  18,00 €
+                                                  21,00 €
                               </span>
 
               
@@ -105,78 +105,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="2732" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="3531" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/12413-home_default/coussin-rehausseur-voiture.jpg"
-                  alt="Coussin REHAUSSEUR voiture"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/12413-large_default/coussin-rehausseur-voiture.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" content="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html">Coussin Rehausseur 6 cm -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  21,60 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="3531" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="3527" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -194,17 +123,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6789" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="6193" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/housses-de-siege/6789-housses-de-sieges-auto-florencia-noir-3281690231401.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/coussins-siege-auto-voyage/6193-assise-super-confort-3281690222188.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/17511-home_default/housses-de-sieges-auto-florencia-noir.jpg"
-                  alt="Housses de sièges auto Florencia - Noir"
+                  src="https://www.automotoboutic.com/21002-home_default/assise-super-confort.jpg"
+                  alt="Assise Super Confort pour Voiture à mémoire de forme | Automotoboutic"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/17511-large_default/housses-de-sieges-auto-florencia-noir.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21002-large_default/assise-super-confort.jpg"
                   width="263"
                   height="292"
                 />
@@ -226,7 +155,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housses-de-siege/6789-housses-de-sieges-auto-florencia-noir-3281690231401.html" content="https://www.automotoboutic.com/housses-de-siege/6789-housses-de-sieges-auto-florencia-noir-3281690231401.html">Housses de siege auto...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-siege-auto-voyage/6193-assise-super-confort-3281690222188.html" content="https://www.automotoboutic.com/coussins-siege-auto-voyage/6193-assise-super-confort-3281690222188.html">Assise super confort</a></h2>
                   
 
         
@@ -235,7 +164,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  40,00 €
+                                                  24,00 €
                               </span>
 
               
@@ -246,148 +175,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="6789" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6985" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/produits-de-nettoyage/6985-product-3284090003661.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21445-home_default/product.jpg"
-                  alt="Efface rayures carrosserie voiture"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21445-large_default/product.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/produits-de-nettoyage/6985-product-3284090003661.html" content="https://www.automotoboutic.com/produits-de-nettoyage/6985-product-3284090003661.html">Imdicar - Efface rayures -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  15,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="6985" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="177" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/177-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-3281690188361.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/199-home_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres.jpg"
-                  alt="Tapis Auto Sur Mesure Grand Tourisme Véhicule5p 2 avants + 2 arrières"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/199-large_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/177-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-3281690188361.html" content="https://www.automotoboutic.com/tapis-sur-mesure/177-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-3281690188361.html">Tapis Auto Sur Mesure Grand...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  34,90 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="177" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="6193" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -476,6 +264,291 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="5909" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5909-tapis-voiture-canion-pvc-3281690201725.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/16301-home_default/tapis-voiture-canion-pvc.jpg"
+                  alt="tapis baquet canion pvc"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/16301-large_default/tapis-voiture-canion-pvc.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5909-tapis-voiture-canion-pvc-3281690201725.html" content="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5909-tapis-voiture-canion-pvc-3281690201725.html">Tapis canion PVC</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="5909" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3481" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/3481-cale-tete-ajustable-3281690164518.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12231-home_default/cale-tete-ajustable.jpg"
+                  alt="Câle-tête AJUSTABLE"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12231-large_default/cale-tete-ajustable.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/3481-cale-tete-ajustable-3281690164518.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/3481-cale-tete-ajustable-3281690164518.html">Câle-tête Ajustable</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+                              
+
+                <span class="regular-price" aria-label="Prix de base">20,00 €</span>
+                                  <span class="discount-amount discount-product">-5,00 €</span>
+                              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  15,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3481" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+                    <li class="product-flag discount">-5,00 €</li>
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="4617" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/4617-clio-3-depuis-15-09-2005-noir-3519910203182.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18923-home_default/clio-3-depuis-15-09-2005-noir.jpg"
+                  alt="Tapis de sol Clio 3 pas cher en moquette noir"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18923-large_default/clio-3-depuis-15-09-2005-noir.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/4617-clio-3-depuis-15-09-2005-noir-3519910203182.html" content="https://www.automotoboutic.com/tapis-sur-mesure/4617-clio-3-depuis-15-09-2005-noir-3519910203182.html">Tapis Renault Clio 3 - De...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="4617" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3533" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-siege-auto-voyage/3533-assise-grand-confort-3281690164556.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12419-home_default/assise-grand-confort.jpg"
+                  alt="Coussin de voiture Assise GRAND CONFORT"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12419-large_default/assise-grand-confort.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-siege-auto-voyage/3533-assise-grand-confort-3281690164556.html" content="https://www.automotoboutic.com/coussins-siege-auto-voyage/3533-assise-grand-confort-3281690164556.html">Assise GRAND CONFORT</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  26,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3533" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="7371" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -529,76 +602,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="7371" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="1432" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/1432-bache-voiture-standard-taille-xl-3281690173053.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/5522-home_default/bache-voiture-standard-taille-xl.jpg"
-                  alt="Bache de voiture standard - Taille XL"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/5522-large_default/bache-voiture-standard-taille-xl.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/1432-bache-voiture-standard-taille-xl-3281690173053.html" content="https://www.automotoboutic.com/nouveautes/1432-bache-voiture-standard-taille-xl-3281690173053.html">Bache de voiture standard -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  36,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="1432" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

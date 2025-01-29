@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 16:46:34
+/* Smarty version 4.3.4, created on 2025-01-29 14:27:52
   from '/var/www/html/automotoboutic/themes/classic/templates/cms/_partials/sitemap-nested-list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797aa5a57b046_58374736',
+  'unifunc' => 'content_679a2cd8bce257_31654064',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,20 +21,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:cms/_partials/sitemap-nested-list.tpl' => 2,
   ),
 ),false)) {
-function content_6797aa5a57b046_58374736 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2cd8bce257_31654064 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11806792696797aa5a571a68_79805124', 'sitemap_item');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1023881284679a2cd8bc6309_06112473', 'sitemap_item');
 ?>
 
 <?php }
 /* {block 'sitemap_item'} */
-class Block_11806792696797aa5a571a68_79805124 extends Smarty_Internal_Block
+class Block_1023881284679a2cd8bc6309_06112473 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'sitemap_item' => 
   array (
-    0 => 'Block_11806792696797aa5a571a68_79805124',
+    0 => 'Block_1023881284679a2cd8bc6309_06112473',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 16:13:14
+/* Smarty version 4.3.4, created on 2025-01-29 13:57:12
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797a28aa819b5_08113515',
+  'unifunc' => 'content_679a25a8cffd36_64483086',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797a28aa819b5_08113515 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a25a8cffd36_64483086 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -51,6 +51,356 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
   
 
 <div class="products">
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="6007" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/6007-tapis-renault-kadjar-3281690223338.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/19049-home_default/tapis-renault-kadjar.jpg"
+                  alt="Tapis auto sur mesure vendome- Automotoboutic"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/19049-large_default/tapis-renault-kadjar.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6007-tapis-renault-kadjar-3281690223338.html" content="https://www.automotoboutic.com/nouveautes/6007-tapis-renault-kadjar-3281690223338.html">Tapis Auto Renault Kadjar -...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="6007" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="5697" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/5697-tapis-renault-captur-noir-3281690192849.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/18989-home_default/tapis-renault-captur-noir.jpg"
+                  alt="Tapis auto sur mesure vendome- Automotoboutic"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/18989-large_default/tapis-renault-captur-noir.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5697-tapis-renault-captur-noir-3281690192849.html" content="https://www.automotoboutic.com/nouveautes/5697-tapis-renault-captur-noir-3281690192849.html">Tapis auto Renault Captur -...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="5697" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3531" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12413-home_default/coussin-rehausseur-voiture.jpg"
+                  alt="Coussin REHAUSSEUR voiture"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12413-large_default/coussin-rehausseur-voiture.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" content="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html">Coussin Rehausseur 6 cm -...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  21,60 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3531" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3527" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12401-home_default/coussin-lombaire-voiture.jpg"
+                  alt="Coussin LOMBAIRE voiture"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12401-large_default/coussin-lombaire-voiture.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html" content="https://www.automotoboutic.com/coussins-dos-voyage/3527-coussin-lombaire-voiture-3281690164525.html">Coussin Lombaire</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  21,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3527" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="159" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/159-tapis-auto-dacia-duster-gamme-basique-3519910203717.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/181-home_default/tapis-auto-dacia-duster-gamme-basique.jpg"
+                  alt="Tapis Auto Dacia Duster Gamme Basique"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/181-large_default/tapis-auto-dacia-duster-gamme-basique.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/159-tapis-auto-dacia-duster-gamme-basique-3519910203717.html" content="https://www.automotoboutic.com/nouveautes/159-tapis-auto-dacia-duster-gamme-basique-3519910203717.html">Tapis Auto Dacia Duster...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="159" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="5023" data-id-product-attribute="0">
@@ -123,17 +473,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5699" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="6011" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/5699-tapis-renault-clio-4-noir-3519910203823.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/6011-tapis-citroen-c4-cactus-3281690223345.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/18999-home_default/tapis-renault-clio-4-noir.jpg"
-                  alt="Tapis Clio 4 / Clio 4 Estate - De 2012 à 2019 - Moquette - Noir"
+                  src="https://www.automotoboutic.com/19725-home_default/tapis-citroen-c4-cactus.jpg"
+                  alt="Tapis auto sur mesure vendome- Automotoboutic"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18999-large_default/tapis-renault-clio-4-noir.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/19725-large_default/tapis-citroen-c4-cactus.jpg"
                   width="263"
                   height="292"
                 />
@@ -155,77 +505,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/5699-tapis-renault-clio-4-noir-3519910203823.html" content="https://www.automotoboutic.com/tapis-sur-mesure/5699-tapis-renault-clio-4-noir-3519910203823.html">Tapis Renault Clio 4 / Clio...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  35,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="5699" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5719" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/5719-tapis-vw-golf-7-noir-3281690192856.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/19019-home_default/tapis-vw-golf-7-noir.jpg"
-                  alt="Tapis Golf 7, Leon 3, Audi A3 8V sur mesure - Moquette - Noir"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/19019-large_default/tapis-vw-golf-7-noir.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5719-tapis-vw-golf-7-noir-3281690192856.html" content="https://www.automotoboutic.com/nouveautes/5719-tapis-vw-golf-7-noir-3281690192856.html">Tapis Golf 7 / Leon 3 /...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6011-tapis-citroen-c4-cactus-3281690223345.html" content="https://www.automotoboutic.com/nouveautes/6011-tapis-citroen-c4-cactus-3281690223345.html">Tapis sur mesure Citroën C4...</a></h2>
                   
 
         
@@ -245,7 +525,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="5719" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="6011" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -263,17 +543,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="3481" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="5731" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/3481-cale-tete-ajustable-3281690164518.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5731-tapis-auto-metalic-bleu-carbone-3281690200483.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/12231-home_default/cale-tete-ajustable.jpg"
-                  alt="Câle-tête AJUSTABLE"
+                  src="https://www.automotoboutic.com/16287-home_default/tapis-auto-metalic-bleu-carbone.jpg"
+                  alt="tapis auto metallic bleu carbon"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/12231-large_default/cale-tete-ajustable.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/16287-large_default/tapis-auto-metalic-bleu-carbone.jpg"
                   width="263"
                   height="292"
                 />
@@ -295,82 +575,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/3481-cale-tete-ajustable-3281690164518.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/3481-cale-tete-ajustable-3281690164518.html">Câle-tête Ajustable</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-                              
-
-                <span class="regular-price" aria-label="Prix de base">20,00 €</span>
-                                  <span class="discount-amount discount-product">-5,00 €</span>
-                              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  15,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="3481" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag discount">-5,00 €</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="114" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/114-tapis-auto-renault-clio-3-estate-break-gamme-basique-3519910203182.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/136-home_default/tapis-auto-renault-clio-3-estate-break-gamme-basique.jpg"
-                  alt="Tapis Auto Renault Clio 3 Estate (Break) Gamme Basique"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/136-large_default/tapis-auto-renault-clio-3-estate-break-gamme-basique.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/114-tapis-auto-renault-clio-3-estate-break-gamme-basique-3519910203182.html" content="https://www.automotoboutic.com/nouveautes/114-tapis-auto-renault-clio-3-estate-break-gamme-basique-3519910203182.html">Tapis Auto Renault Clio 3...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5731-tapis-auto-metalic-bleu-carbone-3281690200483.html" content="https://www.automotoboutic.com/tapis-caoutchouc-pvc/5731-tapis-auto-metalic-bleu-carbone-3281690200483.html">Tapis auto PVC effet...</a></h2>
                   
 
         
@@ -390,217 +595,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="114" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="2982" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/2982-couverture-chien-voiture-3281690164754.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/10072-home_default/couverture-chien-voiture.jpg"
-                  alt="Plaid DOGGY"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/10072-large_default/couverture-chien-voiture.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/2982-couverture-chien-voiture-3281690164754.html" content="https://www.automotoboutic.com/nouveautes/2982-couverture-chien-voiture-3281690164754.html">Plaid auto Doggy</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  30,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="2982" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="243" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/243-tapis-voiture-metallic-rose-3281690170977.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/16289-home_default/tapis-voiture-metallic-rose.jpg"
-                  alt="tapis voiture metallic rose"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/16289-large_default/tapis-voiture-metallic-rose.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/243-tapis-voiture-metallic-rose-3281690170977.html" content="https://www.automotoboutic.com/tapis-caoutchouc-pvc/243-tapis-voiture-metallic-rose-3281690170977.html">Tapis auto tuning PVC effet...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  27,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="243" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="234" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/234-tapis-auto-metallic-bleu-3281690147801.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/16291-home_default/tapis-auto-metallic-bleu.jpg"
-                  alt="tapis auto metallic bleu"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/16291-large_default/tapis-auto-metallic-bleu.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-caoutchouc-pvc/234-tapis-auto-metallic-bleu-3281690147801.html" content="https://www.automotoboutic.com/tapis-caoutchouc-pvc/234-tapis-auto-metallic-bleu-3281690147801.html">Tapis auto tuning PVC effet...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  27,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="234" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="5731" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

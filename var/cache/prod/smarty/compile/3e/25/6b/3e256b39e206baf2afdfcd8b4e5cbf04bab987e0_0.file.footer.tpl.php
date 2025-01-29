@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 17:42:53
+/* Smarty version 4.3.4, created on 2025-01-29 13:28:28
   from '/var/www/html/automotoboutic/pdf/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797b78de1c451_68405802',
+  'unifunc' => 'content_679a1eec042e05_60339541',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6797b78de1c451_68405802 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1eec042e05_60339541 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table style="width: 100%;">
 	<tr>
 		<td style="text-align: center; font-size: 6pt; color: #444;  width:100%;">

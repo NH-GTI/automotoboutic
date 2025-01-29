@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:47:03
+/* Smarty version 4.3.4, created on 2025-01-29 13:38:18
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979c67c8edb5_39268932',
+  'unifunc' => 'content_679a213a628657_85359458',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_67979c67c8edb5_39268932 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a213a628657_85359458 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -53,17 +53,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="3531" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="192" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/12413-home_default/coussin-rehausseur-voiture.jpg"
-                  alt="Coussin REHAUSSEUR voiture"
+                  src="https://www.automotoboutic.com/214-home_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
+                  alt="Tapis Auto Sur Mesure Premium Véhicule5p 2 avants + 2 arrières"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/12413-large_default/coussin-rehausseur-voiture.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/214-large_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
                   width="263"
                   height="292"
                 />
@@ -85,7 +85,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" content="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html">Coussin Rehausseur 6 cm -...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" content="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html">Tapis Auto Sur Mesure...</a></h2>
                   
 
         
@@ -94,7 +94,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  21,60 €
+                                                  48,91 €
                               </span>
 
               
@@ -105,77 +105,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="3531" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5121" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/couvre-volant/5121-couvre-volant-cuir-pour-utilitaire-3281690185841.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/15407-home_default/couvre-volant-cuir-pour-utilitaire.jpg"
-                  alt="Couvre volant en cuir pour utilitaire - 41 à 42 cm - Noir"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/15407-large_default/couvre-volant-cuir-pour-utilitaire.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-volant/5121-couvre-volant-cuir-pour-utilitaire-3281690185841.html" content="https://www.automotoboutic.com/couvre-volant/5121-couvre-volant-cuir-pour-utilitaire-3281690185841.html">Couvre volant en cuir pour...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="5121" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="192" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -263,76 +193,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5111" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/5111-protege-ceinture-securite-gris-3281690186374.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/20615-home_default/protege-ceinture-securite-gris.jpg"
-                  alt="Protège-ceintures voiture gris, fourreaux ceinture de sécurité"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20615-large_default/protege-ceinture-securite-gris.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5111-protege-ceinture-securite-gris-3281690186374.html" content="https://www.automotoboutic.com/nouveautes/5111-protege-ceinture-securite-gris-3281690186374.html">Lot de 2 protège-ceintures...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  16,80 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="5111" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="177" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -403,17 +263,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="248" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="3533" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/couvre-siege-auto/248-couvre-siege-auto-noir-rouge-3281690176276.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/coussins-siege-auto-voyage/3533-assise-grand-confort-3281690164556.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/322-home_default/couvre-siege-auto-noir-rouge.jpg"
-                  alt="Couvre Siège noir et rouge"
+                  src="https://www.automotoboutic.com/12419-home_default/assise-grand-confort.jpg"
+                  alt="Coussin de voiture Assise GRAND CONFORT"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/322-large_default/couvre-siege-auto-noir-rouge.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/12419-large_default/assise-grand-confort.jpg"
                   width="263"
                   height="292"
                 />
@@ -435,7 +295,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/248-couvre-siege-auto-noir-rouge-3281690176276.html" content="https://www.automotoboutic.com/couvre-siege-auto/248-couvre-siege-auto-noir-rouge-3281690176276.html">Couvre Siège Noir-rouge</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-siege-auto-voyage/3533-assise-grand-confort-3281690164556.html" content="https://www.automotoboutic.com/coussins-siege-auto-voyage/3533-assise-grand-confort-3281690164556.html">Assise GRAND CONFORT</a></h2>
                   
 
         
@@ -444,7 +304,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  25,00 €
+                                                  26,40 €
                               </span>
 
               
@@ -455,7 +315,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="248" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="3533" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -473,17 +333,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="2222" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="3491" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/2222-protection-de-coffre-t3-3519910034120.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/8722-home_default/protection-de-coffre-t3.jpg"
-                  alt="PROTECTION DE COFFRE T3"
+                  src="https://www.automotoboutic.com/12261-home_default/coussin-voyage-voiture.jpg"
+                  alt="Coussin de voyage mémoire de forme"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/8722-large_default/protection-de-coffre-t3.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/12261-large_default/coussin-voyage-voiture.jpg"
                   width="263"
                   height="292"
                 />
@@ -505,77 +365,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/2222-protection-de-coffre-t3-3519910034120.html" content="https://www.automotoboutic.com/nouveautes/2222-protection-de-coffre-t3-3519910034120.html">Protection de coffre - 100...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  40,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="2222" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="337" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/couvre-volant/337-couvre-volant-en-cuir-noir-surpiqure-rouge-3281690166499.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/20944-home_default/couvre-volant-en-cuir-noir-surpiqure-rouge.jpg"
-                  alt="Couvre volant en cuir noir surpiqûres rouge - Taille universelle"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20944-large_default/couvre-volant-en-cuir-noir-surpiqure-rouge.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-volant/337-couvre-volant-en-cuir-noir-surpiqure-rouge-3281690166499.html" content="https://www.automotoboutic.com/couvre-volant/337-couvre-volant-en-cuir-noir-surpiqure-rouge-3281690166499.html">Couvre volant en cuir -...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" content="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html">Coussin de voyage - Grand...</a></h2>
                   
 
         
@@ -595,7 +385,217 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="337" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="3491" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3002" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/selection-animaux/3002-protection-banquette-my-dog-3281690164761.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/10172-home_default/protection-banquette-my-dog.jpg"
+                  alt="Protection banquette MY DOG"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/10172-large_default/protection-banquette-my-dog.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/selection-animaux/3002-protection-banquette-my-dog-3281690164761.html" content="https://www.automotoboutic.com/selection-animaux/3002-protection-banquette-my-dog-3281690164761.html">Protection banquette &quot;My dog&quot;</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  24,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3002" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="1312" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/5032-home_default/bache-voiture-de-protection-ext-taille-l.jpg"
+                  alt="Bache de voiture extérieur  - Taille L"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/5032-large_default/bache-voiture-de-protection-ext-taille-l.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html" content="https://www.automotoboutic.com/nouveautes/1312-bache-voiture-de-protection-ext-taille-l-3281690168684.html">Bache de voiture extérieur...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  60,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="1312" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="5111" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/5111-protege-ceinture-securite-gris-3281690186374.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/20615-home_default/protege-ceinture-securite-gris.jpg"
+                  alt="Protège-ceintures voiture gris, fourreaux ceinture de sécurité"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/20615-large_default/protege-ceinture-securite-gris.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5111-protege-ceinture-securite-gris-3281690186374.html" content="https://www.automotoboutic.com/nouveautes/5111-protege-ceinture-securite-gris-3281690186374.html">Lot de 2 protège-ceintures...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  16,80 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="5111" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

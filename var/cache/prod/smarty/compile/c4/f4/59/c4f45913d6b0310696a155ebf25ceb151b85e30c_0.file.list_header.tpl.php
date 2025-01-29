@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-28 10:38:35
+/* Smarty version 4.3.4, created on 2025-01-29 12:30:57
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/default/template/controllers/customer_threads/helpers/list/list_header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6798a59b6568b9_03084708',
+  'unifunc' => 'content_679a11719ebc75_07293708',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6798a59b6568b9_03084708 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a11719ebc75_07293708 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,18 +28,18 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1530830196798a59b639424_04922313', "leadin");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2039142834679a11719df9b1_91198361', "leadin");
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "helpers/list/list_header.tpl");
 }
 /* {block "leadin"} */
-class Block_1530830196798a59b639424_04922313 extends Smarty_Internal_Block
+class Block_2039142834679a11719df9b1_91198361 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'leadin' => 
   array (
-    0 => 'Block_1530830196798a59b639424_04922313',
+    0 => 'Block_2039142834679a11719df9b1_91198361',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

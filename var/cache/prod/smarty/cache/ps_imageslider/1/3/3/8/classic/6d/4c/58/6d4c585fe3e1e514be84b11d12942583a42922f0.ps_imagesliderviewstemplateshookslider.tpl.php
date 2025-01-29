@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 17:29:33
+/* Smarty version 4.3.4, created on 2025-01-29 14:28:17
   from 'module:ps_imagesliderviewstemplateshookslider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797b46d9426c8_86945744',
+  'unifunc' => 'content_679a2cf1299a90_62954673',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797b46d9426c8_86945744 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2cf1299a90_62954673 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div style="background-color: #FFFFFF;margin: 1.3em 0;">     <p style="color: #D62C2C;text-align: center;font-size:1.2em;font-weight:700;"></p></div>
 				  <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover" data-touch="true">
 		    <ol class="carousel-indicators">

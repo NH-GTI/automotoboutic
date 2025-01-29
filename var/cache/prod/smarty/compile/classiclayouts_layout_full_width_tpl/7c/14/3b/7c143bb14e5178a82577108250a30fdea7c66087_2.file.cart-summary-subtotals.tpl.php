@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:47:06
+/* Smarty version 4.3.4, created on 2025-01-29 13:20:26
   from '/var/www/html/automotoboutic/themes/classic/templates/checkout/_partials/cart-summary-subtotals.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978e5a768327_31539936',
+  'unifunc' => 'content_679a1d0ae7fbb8_82193551',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67978e5a768327_31539936 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1d0ae7fbb8_82193551 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="card-block cart-summary-subtotals-container js-cart-summary-subtotals-container">
 

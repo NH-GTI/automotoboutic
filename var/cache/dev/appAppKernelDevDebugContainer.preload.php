@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/ContainerDpB5h1W/appAppKernelDevDebugContainer.php';
+require __DIR__.'/ContainerHUjN8bk/appAppKernelDevDebugContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';

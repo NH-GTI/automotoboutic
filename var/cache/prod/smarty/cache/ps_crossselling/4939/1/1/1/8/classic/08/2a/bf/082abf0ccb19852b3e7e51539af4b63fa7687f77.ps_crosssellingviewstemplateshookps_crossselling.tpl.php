@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-28 08:51:48
+/* Smarty version 4.3.4, created on 2025-01-29 13:50:37
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67988c94e9ce85_80942000',
+  'unifunc' => 'content_679a241dc8c449_61810542',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_67988c94e9ce85_80942000 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a241dc8c449_61810542 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -53,227 +53,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="4933" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="5607" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/4933-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-3281690188620.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/5607-tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere-3281690192801.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/12695-home_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Elite Véhicule5p 2 avants"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/12695-large_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/4933-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-3281690188620.html" content="https://www.automotoboutic.com/tapis-sur-mesure/4933-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-3281690188620.html">Tapis Auto Sur Mesure Carat...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  73,68 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="4933" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5905" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/5905-couvre-volant-utilitaire-3281690223475.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/15397-home_default/couvre-volant-utilitaire.jpg"
-                  alt="Couvre volant véhicule utilitaire - Diamètre 41-42cm - Noir"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/15397-large_default/couvre-volant-utilitaire.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5905-couvre-volant-utilitaire-3281690223475.html" content="https://www.automotoboutic.com/nouveautes/5905-couvre-volant-utilitaire-3281690223475.html">Couvre volant véhicule...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="5905" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="160" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/160-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-3281690188545.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/182-home_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Elite Véhicule5p 2 avants"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/182-large_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/160-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-3281690188545.html" content="https://www.automotoboutic.com/tapis-sur-mesure/160-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-3281690188545.html">Tapis Auto Sur Mesure Elite...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  55,97 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="160" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="164" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/164-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188552.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/186-home_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere.jpg"
+                  src="https://www.automotoboutic.com/14043-home_default/tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere.jpg"
                   alt="Tapis Auto Sur Mesure Elite Véhicule5p 2 avants + arrière"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/186-large_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/14043-large_default/tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere.jpg"
                   width="263"
                   height="292"
                 />
@@ -295,7 +85,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/164-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188552.html" content="https://www.automotoboutic.com/tapis-sur-mesure/164-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188552.html">Tapis Auto Sur Mesure Elite...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/5607-tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere-3281690192801.html" content="https://www.automotoboutic.com/tapis-sur-mesure/5607-tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere-3281690192801.html">Tapis Auto Sur Mesure Carat...</a></h2>
                   
 
         
@@ -304,7 +94,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  76,91 €
+                                                  99,92 €
                               </span>
 
               
@@ -315,7 +105,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="164" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="5607" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -403,17 +193,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="173" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="5905" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/5905-couvre-volant-utilitaire-3281690223475.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/195-home_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Grand Tourisme Véhicule5p 2 avants"
+                  src="https://www.automotoboutic.com/15397-home_default/couvre-volant-utilitaire.jpg"
+                  alt="Couvre volant véhicule utilitaire - Diamètre 41-42cm - Noir"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/195-large_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/15397-large_default/couvre-volant-utilitaire.jpg"
                   width="263"
                   height="292"
                 />
@@ -435,7 +225,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html" content="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html">Tapis Auto Sur Mesure Grand...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5905-couvre-volant-utilitaire-3281690223475.html" content="https://www.automotoboutic.com/nouveautes/5905-couvre-volant-utilitaire-3281690223475.html">Couvre volant véhicule...</a></h2>
                   
 
         
@@ -444,7 +234,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  28,91 €
+                                                  20,00 €
                               </span>
 
               
@@ -455,7 +245,147 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="173" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="5905" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="164" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/164-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188552.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/186-home_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere.jpg"
+                  alt="Tapis Auto Sur Mesure Elite Véhicule5p 2 avants + arrière"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/186-large_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/164-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188552.html" content="https://www.automotoboutic.com/tapis-sur-mesure/164-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188552.html">Tapis Auto Sur Mesure Elite...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  76,91 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="164" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="4935" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/4935-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188637.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12697-home_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere.jpg"
+                  alt="Tapis Auto Sur Mesure Elite Véhicule5p 2 avants + arrière"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12697-large_default/tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/4935-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188637.html" content="https://www.automotoboutic.com/tapis-sur-mesure/4935-tapis-auto-sur-mesure-elite-vehicule5p-2-avants-arriere-3281690188637.html">Tapis Auto Sur Mesure Carat...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  79,92 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="4935" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -543,17 +473,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5607" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="3491" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/5607-tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere-3281690192801.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/14043-home_default/tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere.jpg"
-                  alt="Tapis Auto Sur Mesure Elite Véhicule5p 2 avants + arrière"
+                  src="https://www.automotoboutic.com/12261-home_default/coussin-voyage-voiture.jpg"
+                  alt="Coussin de voyage mémoire de forme"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/14043-large_default/tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/12261-large_default/coussin-voyage-voiture.jpg"
                   width="263"
                   height="292"
                 />
@@ -575,7 +505,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/5607-tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere-3281690192801.html" content="https://www.automotoboutic.com/tapis-sur-mesure/5607-tapis-auto-sur-mesure-carat-vehicule7p-2-avants-1er-et-2eme-rang-arriere-3281690192801.html">Tapis Auto Sur Mesure Carat...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html" content="https://www.automotoboutic.com/nouveautes/3491-coussin-voyage-voiture-3281690164501.html">Coussin de voyage - Grand...</a></h2>
                   
 
         
@@ -584,7 +514,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  99,92 €
+                                                  20,00 €
                               </span>
 
               
@@ -595,7 +525,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="5607" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="3491" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -605,6 +535,77 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       
     <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7745" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/saisonnier-hiver/7745-absorbeur-humidite-voiture-3284090009151.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/20589-home_default/absorbeur-humidite-voiture.jpg"
+                  alt="Absorbeur humidité voiture"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/20589-large_default/absorbeur-humidite-voiture.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/saisonnier-hiver/7745-absorbeur-humidite-voiture-3284090009151.html" content="https://www.automotoboutic.com/saisonnier-hiver/7745-absorbeur-humidite-voiture-3284090009151.html">Absorbeur d&#039;humidité pour...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  20,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7745" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+                    <li class="product-flag out_of_stock">Rupture de stock</li>
             </ul>
 
     </div>

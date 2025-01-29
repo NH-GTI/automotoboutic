@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 23:22:30
+/* Smarty version 4.3.4, created on 2025-01-29 13:25:48
   from '/var/www/html/automotoboutic/themes/classic/templates/checkout/_partials/cart-summary-top.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67980726728225_92812294',
+  'unifunc' => 'content_679a1e4c5f10f2_70259254',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67980726728225_92812294 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1e4c5f10f2_70259254 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="cart-summary-top js-cart-summary-top">
   <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayCheckoutSummaryTop'),$_smarty_tpl ) );?>

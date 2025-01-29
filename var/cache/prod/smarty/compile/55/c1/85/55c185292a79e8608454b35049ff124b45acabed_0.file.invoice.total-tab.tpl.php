@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 17:42:53
+/* Smarty version 4.3.4, created on 2025-01-29 13:28:27
   from '/var/www/html/automotoboutic/pdf/invoice.total-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797b78dc1c5c2_69612476',
+  'unifunc' => 'content_679a1eebd99594_93210339',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6797b78dc1c5c2_69612476 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1eebd99594_93210339 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table id="total-tab" width="100%">
 
   <tr>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:34:22
+/* Smarty version 4.3.4, created on 2025-01-29 13:05:45
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/productlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797996e7680f5_30401718',
+  'unifunc' => 'content_679a1999b534d0_83306424',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_6797996e7680f5_30401718 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1999b534d0_83306424 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "productClasses", null);
 if (!empty($_smarty_tpl->tpl_vars['productClass']->value)) {
 echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['productClass']->value, ENT_QUOTES, 'UTF-8');

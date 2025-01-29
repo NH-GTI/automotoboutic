@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:35:06
+/* Smarty version 4.3.4, created on 2025-01-29 12:40:27
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/product-customization.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978b8aabe778_40951339',
+  'unifunc' => 'content_679a13ab833693_04110945',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67978b8aabe778_40951339 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a13ab833693_04110945 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -33,7 +33,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 
 
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_123131878567978b8aaaa4c4_88906648', 'product_customization_form');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_682570191679a13ab81f229_13161142', 'product_customization_form');
 ?>
 
 
@@ -42,12 +42,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_123131878567978b8a
 </section>
 <?php }
 /* {block 'product_customization_form'} */
-class Block_123131878567978b8aaaa4c4_88906648 extends Smarty_Internal_Block
+class Block_682570191679a13ab81f229_13161142 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_customization_form' => 
   array (
-    0 => 'Block_123131878567978b8aaaa4c4_88906648',
+    0 => 'Block_682570191679a13ab81f229_13161142',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

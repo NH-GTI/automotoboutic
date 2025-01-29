@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:07:11
+/* Smarty version 4.3.4, created on 2025-01-29 11:51:54
   from 'module:blockwishlistviewstemplatescomponentsmodalsaddtowishlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679784ff742fe1_06272241',
+  'unifunc' => 'content_679a084ab63c97_06287481',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679784ff742fe1_06272241 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a084ab63c97_06287481 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/blockwishlist/views/templates/components/modals/add-to-wishlist.tpl -->
 <div
   class="wishlist-add-to"

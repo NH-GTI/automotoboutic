@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:07:11
+/* Smarty version 4.3.4, created on 2025-01-29 11:51:54
   from 'module:ps_linklistviewstemplateshooklinkblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679784ff71dab7_22173476',
+  'unifunc' => 'content_679a084ab02a70_67512020',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679784ff71dab7_22173476 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1075342808679784ff719756_60480979';
+function content_679a084ab02a70_67512020 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1419940222679a084aaf93b6_16222148';
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_linklist/views/templates/hook/linkblock.tpl --><div class="col-md-6 links">
   <div class="row">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:34:22
+/* Smarty version 4.3.4, created on 2025-01-29 13:05:45
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/products-bottom.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797996e817781_61747600',
+  'unifunc' => 'content_679a1999bab3f4_96538441',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6797996e817781_61747600 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1999bab3f4_96538441 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="js-product-list-bottom"></div>
 <?php }
 }

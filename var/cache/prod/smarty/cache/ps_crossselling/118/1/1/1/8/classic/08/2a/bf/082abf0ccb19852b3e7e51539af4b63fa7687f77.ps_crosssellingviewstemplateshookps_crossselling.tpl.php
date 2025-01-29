@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-28 04:54:50
+/* Smarty version 4.3.4, created on 2025-01-29 13:39:47
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6798550a108f15_29129426',
+  'unifunc' => 'content_679a2193cf4816_69913456',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6798550a108f15_29129426 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2193cf4816_69913456 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -53,17 +53,15 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="117" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="5197" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/117-tapis-auto-renault-megane-2-break-de-09-02-a-10-08-gamme-basique-3519910202703.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/5197-tapis-auto-ford-fiesta-gamme-basique-3281690195031.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/139-home_default/tapis-auto-renault-megane-2-break-de-09-02-a-10-08-gamme-basique.jpg"
-                  alt="Tapis Auto Renault Megane 2 break - de 09/02 à 10/08 Gamme Basique"
+                  src="https://www.automotoboutic.com/img/p/fr-default-home_default.jpg"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/139-large_default/tapis-auto-renault-megane-2-break-de-09-02-a-10-08-gamme-basique.jpg"
                   width="263"
                   height="292"
                 />
@@ -85,7 +83,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/117-tapis-auto-renault-megane-2-break-de-09-02-a-10-08-gamme-basique-3519910202703.html" content="https://www.automotoboutic.com/tapis-sur-mesure/117-tapis-auto-renault-megane-2-break-de-09-02-a-10-08-gamme-basique-3519910202703.html">Tapis Auto Renault Megane 2...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5197-tapis-auto-ford-fiesta-gamme-basique-3281690195031.html" content="https://www.automotoboutic.com/nouveautes/5197-tapis-auto-ford-fiesta-gamme-basique-3281690195031.html">Tapis Auto Ford Fiesta...</a></h2>
                   
 
         
@@ -94,7 +92,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  27,00 €
+                                                  30,00 €
                               </span>
 
               
@@ -105,7 +103,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="117" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="5197" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -193,17 +191,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="177" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="126" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/177-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-3281690188361.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/126-tapis-auto-peugeot-206-gamme-basique-3519910202420.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/199-home_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres.jpg"
-                  alt="Tapis Auto Sur Mesure Grand Tourisme Véhicule5p 2 avants + 2 arrières"
+                  src="https://www.automotoboutic.com/148-home_default/tapis-auto-peugeot-206-gamme-basique.jpg"
+                  alt="Tapis Auto Peugeot 206 Gamme Basique"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/199-large_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/148-large_default/tapis-auto-peugeot-206-gamme-basique.jpg"
                   width="263"
                   height="292"
                 />
@@ -225,77 +223,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/177-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-3281690188361.html" content="https://www.automotoboutic.com/tapis-sur-mesure/177-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-3281690188361.html">Tapis Auto Sur Mesure Grand...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  34,90 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="177" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5235" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/5235-tapis-auto-citroen-c4-berline-gamme-basique-3519910203762.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/13061-home_default/tapis-auto-citroen-c4-berline-gamme-basique.jpg"
-                  alt="Tapis Auto Peugeot 407 berline Gamme Basique"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/13061-large_default/tapis-auto-citroen-c4-berline-gamme-basique.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/5235-tapis-auto-citroen-c4-berline-gamme-basique-3519910203762.html" content="https://www.automotoboutic.com/tapis-sur-mesure/5235-tapis-auto-citroen-c4-berline-gamme-basique-3519910203762.html">Tapis Auto Citroen C4...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/126-tapis-auto-peugeot-206-gamme-basique-3519910202420.html" content="https://www.automotoboutic.com/nouveautes/126-tapis-auto-peugeot-206-gamme-basique-3519910202420.html">Tapis Auto Peugeot 206...</a></h2>
                   
 
         
@@ -315,7 +243,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="5235" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="126" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -333,17 +261,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="147" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="5105" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/147-tapis-auto-renault-scenic-3-petit-scenic-3-gamme-basique-3519910203618.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/5105-tapis-auto-peugeot-508-berline-gamme-basique-3519910203786.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/169-home_default/tapis-auto-renault-scenic-3-petit-scenic-3-gamme-basique.jpg"
-                  alt="Tapis Auto Renault Scenic 3 - (Petit Scénic 3) Gamme Basique"
+                  src="https://www.automotoboutic.com/17039-home_default/tapis-auto-peugeot-508-berline-gamme-basique.jpg"
+                  alt="Tapis Auto voiture Peugeot 508 berline Gamme Basique"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/169-large_default/tapis-auto-renault-scenic-3-petit-scenic-3-gamme-basique.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/17039-large_default/tapis-auto-peugeot-508-berline-gamme-basique.jpg"
                   width="263"
                   height="292"
                 />
@@ -365,7 +293,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/147-tapis-auto-renault-scenic-3-petit-scenic-3-gamme-basique-3519910203618.html" content="https://www.automotoboutic.com/nouveautes/147-tapis-auto-renault-scenic-3-petit-scenic-3-gamme-basique-3519910203618.html">Tapis Auto Renault Scenic 3...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/5105-tapis-auto-peugeot-508-berline-gamme-basique-3519910203786.html" content="https://www.automotoboutic.com/tapis-sur-mesure/5105-tapis-auto-peugeot-508-berline-gamme-basique-3519910203786.html">Tapis Auto Peugeot 508...</a></h2>
                   
 
         
@@ -385,77 +313,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="147" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="131" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/131-tapis-auto-peugeot-407-berline-gamme-basique-3519910202963.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/153-home_default/tapis-auto-peugeot-407-berline-gamme-basique.jpg"
-                  alt="Tapis Auto Peugeot 407 berline Gamme Basique"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/153-large_default/tapis-auto-peugeot-407-berline-gamme-basique.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/131-tapis-auto-peugeot-407-berline-gamme-basique-3519910202963.html" content="https://www.automotoboutic.com/nouveautes/131-tapis-auto-peugeot-407-berline-gamme-basique-3519910202963.html">Tapis Auto Peugeot 407...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  27,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="131" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="5105" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -543,6 +401,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="153" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/153-tapis-auto-opel-corsa-d-gamme-basique-3281690194973.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/175-home_default/tapis-auto-opel-corsa-d-gamme-basique.jpg"
+                  alt="Tapis Auto Opel Corsa D Gamme Basique"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/175-large_default/tapis-auto-opel-corsa-d-gamme-basique.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/153-tapis-auto-opel-corsa-d-gamme-basique-3281690194973.html" content="https://www.automotoboutic.com/nouveautes/153-tapis-auto-opel-corsa-d-gamme-basique-3281690194973.html">Tapis Auto Opel Corsa D...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="153" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="149" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -596,6 +524,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="149" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="145" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/145-tapis-auto-volkswagen-golf-5-gamme-basique-3519910202949.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/167-home_default/tapis-auto-volkswagen-golf-5-gamme-basique.jpg"
+                  alt="Tapis Auto Volkswagen Golf 5 Gamme Basique"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/167-large_default/tapis-auto-volkswagen-golf-5-gamme-basique.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/145-tapis-auto-volkswagen-golf-5-gamme-basique-3519910202949.html" content="https://www.automotoboutic.com/nouveautes/145-tapis-auto-volkswagen-golf-5-gamme-basique-3519910202949.html">Tapis Auto Volkswagen Golf...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="145" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

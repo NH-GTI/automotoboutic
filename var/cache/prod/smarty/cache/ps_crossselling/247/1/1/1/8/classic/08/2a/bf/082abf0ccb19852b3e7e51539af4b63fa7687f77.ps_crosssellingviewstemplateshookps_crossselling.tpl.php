@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-28 15:23:35
+/* Smarty version 4.3.4, created on 2025-01-29 13:02:47
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6798e867d74388_87245509',
+  'unifunc' => 'content_679a18e778a1d8_31859851',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6798e867d74388_87245509 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a18e778a1d8_31859851 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -53,17 +53,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="296" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="2232" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/couvre-siege-auto/296-housse-protection-express-pocket-3281690164419.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/bache-auto-par-constructeur/2232-housse-pneu-voiture-3281690174661.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21068-home_default/housse-protection-express-pocket.jpg"
-                  alt="Housse de Protection de Siège Avant auto Universelle - Bleu"
+                  src="https://www.automotoboutic.com/8762-home_default/housse-pneu-voiture.jpg"
+                  alt="2 HOUSSES RANGEMENT PNEU"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21068-large_default/housse-protection-express-pocket.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/8762-large_default/housse-pneu-voiture.jpg"
                   width="263"
                   height="292"
                 />
@@ -85,147 +85,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/296-housse-protection-express-pocket-3281690164419.html" content="https://www.automotoboutic.com/couvre-siege-auto/296-housse-protection-express-pocket-3281690164419.html">Housse de siège auto...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  18,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="296" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="109" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/109-tapis-auto-peugeot-307-gamme-basique-3519910202642.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/131-home_default/tapis-auto-peugeot-307-gamme-basique.jpg"
-                  alt="Tapis Auto Peugeot 307 Gamme Basique"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/131-large_default/tapis-auto-peugeot-307-gamme-basique.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/109-tapis-auto-peugeot-307-gamme-basique-3519910202642.html" content="https://www.automotoboutic.com/nouveautes/109-tapis-auto-peugeot-307-gamme-basique-3519910202642.html">Tapis Auto Peugeot 307...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  27,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="109" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="3002" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/selection-animaux/3002-protection-banquette-my-dog-3281690164761.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/10172-home_default/protection-banquette-my-dog.jpg"
-                  alt="Protection banquette MY DOG"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/10172-large_default/protection-banquette-my-dog.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/selection-animaux/3002-protection-banquette-my-dog-3281690164761.html" content="https://www.automotoboutic.com/selection-animaux/3002-protection-banquette-my-dog-3281690164761.html">Protection banquette &quot;My dog&quot;</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/bache-auto-par-constructeur/2232-housse-pneu-voiture-3281690174661.html" content="https://www.automotoboutic.com/bache-auto-par-constructeur/2232-housse-pneu-voiture-3281690174661.html">Housses de pneu - x2</a></h2>
                   
 
         
@@ -245,7 +105,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="3002" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="2232" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -263,17 +123,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="192" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="178" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/178-tapis-auto-sur-mesure-grand-tourisme-vehicule7p-2-avants-1er-rang-arriere-3281690188392.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/214-home_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
-                  alt="Tapis Auto Sur Mesure Premium Véhicule5p 2 avants + 2 arrières"
+                  src="https://www.automotoboutic.com/200-home_default/tapis-auto-sur-mesure-grand-tourisme-vehicule7p-2-avants-1er-rang-arriere.jpg"
+                  alt="Tapis Auto Sur Mesure Grand Tourisme Véhicule7p 2 avants + 1er rang arrière"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/214-large_default/tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/200-large_default/tapis-auto-sur-mesure-grand-tourisme-vehicule7p-2-avants-1er-rang-arriere.jpg"
                   width="263"
                   height="292"
                 />
@@ -295,7 +155,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html" content="https://www.automotoboutic.com/tapis-sur-mesure/192-tapis-auto-sur-mesure-premium-vehicule5p-2-avants-2-arrieres-3281690188460.html">Tapis Auto Sur Mesure...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/178-tapis-auto-sur-mesure-grand-tourisme-vehicule7p-2-avants-1er-rang-arriere-3281690188392.html" content="https://www.automotoboutic.com/tapis-sur-mesure/178-tapis-auto-sur-mesure-grand-tourisme-vehicule7p-2-avants-1er-rang-arriere-3281690188392.html">Tapis Auto Sur Mesure Grand...</a></h2>
                   
 
         
@@ -304,7 +164,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  48,91 €
+                                                  36,91 €
                               </span>
 
               
@@ -315,7 +175,147 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="192" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="178" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="180" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/180-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-coffre-3281690188378.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/202-home_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-coffre.jpg"
+                  alt="Tapis Auto Sur Mesure Grand Tourisme Véhicule5p 2 avants + 2 arrières + Coffre"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/202-large_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-coffre.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/180-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-coffre-3281690188378.html" content="https://www.automotoboutic.com/tapis-sur-mesure/180-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-2-arrieres-coffre-3281690188378.html">Tapis Auto Sur Mesure Grand...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  58,92 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="180" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="242" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/242-tapis-auto-pvc-metallic-noir-3281690170960.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/16295-home_default/tapis-auto-pvc-metallic-noir.jpg"
+                  alt="tapis auto metallic noir"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/16295-large_default/tapis-auto-pvc-metallic-noir.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/242-tapis-auto-pvc-metallic-noir-3281690170960.html" content="https://www.automotoboutic.com/nouveautes/242-tapis-auto-pvc-metallic-noir-3281690170960.html">Tapis auto tuning  PVC...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="242" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -404,147 +404,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="3531" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/12413-home_default/coussin-rehausseur-voiture.jpg"
-                  alt="Coussin REHAUSSEUR voiture"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/12413-large_default/coussin-rehausseur-voiture.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html" content="https://www.automotoboutic.com/nouveautes/3531-coussin-rehausseur-voiture-3281690164549.html">Coussin Rehausseur 6 cm -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  21,60 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="3531" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="2732" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-de-coffre/2732-tapis-de-coffre-ceylan-gris-3281690123447.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/11851-home_default/tapis-de-coffre-ceylan-gris.jpg"
-                  alt="Tapis de coffre Ceylan Gris"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/11851-large_default/tapis-de-coffre-ceylan-gris.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-de-coffre/2732-tapis-de-coffre-ceylan-gris-3281690123447.html" content="https://www.automotoboutic.com/tapis-de-coffre/2732-tapis-de-coffre-ceylan-gris-3281690123447.html">Tapis de coffre ceylan...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  18,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="2732" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="2212" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -598,6 +457,146 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="2212" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="248" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/couvre-siege-auto/248-couvre-siege-auto-noir-rouge-3281690176276.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/322-home_default/couvre-siege-auto-noir-rouge.jpg"
+                  alt="Couvre Siège noir et rouge"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/322-large_default/couvre-siege-auto-noir-rouge.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/248-couvre-siege-auto-noir-rouge-3281690176276.html" content="https://www.automotoboutic.com/couvre-siege-auto/248-couvre-siege-auto-noir-rouge-3281690176276.html">Couvre Siège Noir-rouge</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  25,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="248" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="3529" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/coussins-dos-voyage/3529-coussin-cale-dos-voiture-3281690164532.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/12407-home_default/coussin-cale-dos-voiture.jpg"
+                  alt="Coussin voiture cale dos"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/12407-large_default/coussin-cale-dos-voiture.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-dos-voyage/3529-coussin-cale-dos-voiture-3281690164532.html" content="https://www.automotoboutic.com/coussins-dos-voyage/3529-coussin-cale-dos-voiture-3281690164532.html">Coussin Cale dos</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  24,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="3529" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

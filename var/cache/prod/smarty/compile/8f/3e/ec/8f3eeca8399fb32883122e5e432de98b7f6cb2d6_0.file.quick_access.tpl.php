@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:49:27
+/* Smarty version 4.3.4, created on 2025-01-29 10:35:21
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/components/layout/quick_access.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979cf7dd8a08_58443381',
+  'unifunc' => 'content_6799f659546872_11194091',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67979cf7dd8a08_58443381 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f659546872_11194091 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="dropdown quick-accesses">
   <button class="btn btn-link btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="quick_select">
@@ -39,8 +39,8 @@ echo $_smarty_tpl->tpl_vars['quick']->value['class'];
 }
 ob_start();
 echo $_smarty_tpl->tpl_vars['quick']->value['link'];
-$_prefixVariable3 = ob_get_clean();
-if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable3)) {
+$_prefixVariable4 = ob_get_clean();
+if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable4)) {
 $_smarty_tpl->_assignInScope('matchQuickLink', $_smarty_tpl->tpl_vars['quick']->value['id_quick_access']);?> active<?php }?>"
          href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['quick']->value['link'],'html','UTF-8' ));?>
 "

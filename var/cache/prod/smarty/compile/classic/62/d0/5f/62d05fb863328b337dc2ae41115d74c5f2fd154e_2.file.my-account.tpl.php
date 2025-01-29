@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 17:30:02
+/* Smarty version 4.3.4, created on 2025-01-29 13:00:18
   from '/var/www/html/automotoboutic/themes/classic/modules/ps_emailalerts/views/templates/hook/my-account.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797b48a1ff0e4_28763724',
+  'unifunc' => 'content_679a18529095e6_80996800',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6797b48a1ff0e4_28763724 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a18529095e6_80996800 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <a class="col-lg-4 col-md-6 col-sm-6 col-xs-12" id="emailsalerts"
    href="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('entity'=>'module','name'=>'ps_emailalerts','controller'=>'account'),$_smarty_tpl ) );?>

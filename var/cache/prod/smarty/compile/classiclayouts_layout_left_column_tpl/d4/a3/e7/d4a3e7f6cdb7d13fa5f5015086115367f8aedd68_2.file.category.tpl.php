@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:19:36
+/* Smarty version 4.3.4, created on 2025-01-29 12:32:11
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/listing/category.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679787e8dcef11_97236552',
+  'unifunc' => 'content_679a11bbd6e065_48979974',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,30 +22,30 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/category-footer.tpl' => 1,
   ),
 ),false)) {
-function content_679787e8dcef11_97236552 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a11bbd6e065_48979974 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1001399333679787e8dc89e8_14474138', 'product_list_header');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1231607065679a11bbd6a488_47923956', 'product_list_header');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1175254537679787e8dcd6a2_44730749', 'product_list_footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1980961925679a11bbd6c978_55169152', 'product_list_footer');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'catalog/listing/product-list.tpl');
 }
 /* {block 'product_list_header'} */
-class Block_1001399333679787e8dc89e8_14474138 extends Smarty_Internal_Block
+class Block_1231607065679a11bbd6a488_47923956 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_list_header' => 
   array (
-    0 => 'Block_1001399333679787e8dc89e8_14474138',
+    0 => 'Block_1231607065679a11bbd6a488_47923956',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -56,12 +56,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'product_list_header'} */
 /* {block 'product_list_footer'} */
-class Block_1175254537679787e8dcd6a2_44730749 extends Smarty_Internal_Block
+class Block_1980961925679a11bbd6c978_55169152 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_list_footer' => 
   array (
-    0 => 'Block_1175254537679787e8dcd6a2_44730749',
+    0 => 'Block_1980961925679a11bbd6c978_55169152',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

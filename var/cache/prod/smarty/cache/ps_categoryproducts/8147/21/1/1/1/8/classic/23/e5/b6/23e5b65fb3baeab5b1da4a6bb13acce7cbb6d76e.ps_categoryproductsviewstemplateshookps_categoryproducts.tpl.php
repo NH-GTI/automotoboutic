@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:40:30
+/* Smarty version 4.3.4, created on 2025-01-29 13:24:32
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978cce44c118_72119168',
+  'unifunc' => 'content_679a1e0026e762_89527669',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_67978cce44c118_72119168 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1e0026e762_89527669 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?><section class="featured-products clearfix mt-3">
@@ -54,17 +54,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8263" data-id-product-attribute="231">
+  <article class="product-miniature js-product-miniature" data-id-product="8287" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/8263-231-housse-siege-auto-unitaire.html#" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/8287-housses-siege-auto-banquette-fractionnable-berlines-3281690247099.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21778-home_default/housse-siege-auto-unitaire.jpg"
-                  alt="Housse de siege auto Unitaire - 1 siège conducteur ou Passager"
+                  src="https://www.automotoboutic.com/21846-home_default/housses-siege-auto-banquette-fractionnable-berlines.jpg"
+                  alt="Housses Siege Auto pour berlines - Banquette Fractionnable"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21778-large_default/housse-siege-auto-unitaire.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21846-large_default/housses-siege-auto-banquette-fractionnable-berlines.jpg"
                   width="263"
                   height="292"
                 />
@@ -86,7 +86,497 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8263-231-housse-siege-auto-unitaire.html#" content="https://www.automotoboutic.com/nouveautes/8263-231-housse-siege-auto-unitaire.html#">Housse de siege auto...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8287-housses-siege-auto-banquette-fractionnable-berlines-3281690247099.html" content="https://www.automotoboutic.com/nouveautes/8287-housses-siege-auto-banquette-fractionnable-berlines-3281690247099.html">Housses de siege auto - 2...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  59,99 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8287" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7967" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7967-housses-siege-auto-licata-avant-3281690243930.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21164-home_default/housses-siege-auto-licata-avant.jpg"
+                  alt="Housse siege auto avant Licata"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21164-large_default/housses-siege-auto-licata-avant.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7967-housses-siege-auto-licata-avant-3281690243930.html" content="https://www.automotoboutic.com/nouveautes/7967-housses-siege-auto-licata-avant-3281690243930.html">Housses de siege auto...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  30,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7967" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8282" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/housse-siege-auto/8282-housses-siege-auto-monospaces-5places-3281690247037.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21832-home_default/housses-siege-auto-monospaces-5places.jpg"
+                  alt="Housses siege auto Spécial Monospaces - 5 Places - Noir"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21832-large_default/housses-siege-auto-monospaces-5places.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/8282-housses-siege-auto-monospaces-5places-3281690247037.html" content="https://www.automotoboutic.com/housse-siege-auto/8282-housses-siege-auto-monospaces-5places-3281690247037.html">Housses de siege auto -...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  69,99 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8282" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8296" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/8296-housses-siege-auto-avant-sport-noir-rouge-3281690247204.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21868-home_default/housses-siege-auto-avant-sport-noir-rouge.jpg"
+                  alt="Housses Siege Auto Avant Sport - Noir &amp; Rouge | Automotoboutic"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21868-large_default/housses-siege-auto-avant-sport-noir-rouge.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8296-housses-siege-auto-avant-sport-noir-rouge-3281690247204.html" content="https://www.automotoboutic.com/nouveautes/8296-housses-siege-auto-avant-sport-noir-rouge-3281690247204.html">Housses de siege auto Sport...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  39,99 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8296" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7954" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7954-housses-siege-auto-sport-noir-3281690243770.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21142-home_default/housses-siege-auto-sport-noir.jpg"
+                  alt="Housses Siège Auto Sport - Noir - Jeu complet"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21142-large_default/housses-siege-auto-sport-noir.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7954-housses-siege-auto-sport-noir-3281690243770.html" content="https://www.automotoboutic.com/nouveautes/7954-housses-siege-auto-sport-noir-3281690243770.html">Housses de siege auto...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  32,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7954" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7974" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7974-housses-siege-utilitaire-noir-3281690244005.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21179-home_default/housses-siege-utilitaire-noir.jpg"
+                  alt="Housses siege utilitaire Corleone - Noir - Taille universelle"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21179-large_default/housses-siege-utilitaire-noir.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7974-housses-siege-utilitaire-noir-3281690244005.html" content="https://www.automotoboutic.com/nouveautes/7974-housses-siege-utilitaire-noir-3281690244005.html">Housses de siege auto...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  32,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7974" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7886" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7886-housses-siege-auto-hibiscus-3284090001162.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21007-home_default/housses-siege-auto-hibiscus.jpg"
+                  alt="Housses de siège auto Hibiscus - Motif Fleurs - Noir &amp; Rose"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21007-large_default/housses-siege-auto-hibiscus.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7886-housses-siege-auto-hibiscus-3284090001162.html" content="https://www.automotoboutic.com/nouveautes/7886-housses-siege-auto-hibiscus-3284090001162.html">Housses de siege auto...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  32,40 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7886" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8260" data-id-product-attribute="207">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/8260-207-housses-siege-auto-antarctique-banquette-fractionnable.html#" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21763-home_default/housses-siege-auto-antarctique-banquette-fractionnable.jpg"
+                  alt="Housses siege auto Antarctique - Pour banquette fractionnable"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21763-large_default/housses-siege-auto-antarctique-banquette-fractionnable.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8260-207-housses-siege-auto-antarctique-banquette-fractionnable.html#" content="https://www.automotoboutic.com/nouveautes/8260-207-housses-siege-auto-antarctique-banquette-fractionnable.html#">Housses de siege auto...</a></h2>
                   
 
         
@@ -106,7 +596,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8263" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="8260" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -125,17 +615,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8416" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7964" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/housses-de-siege/8416-housses-siege-auto-avant-3284090001049.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7964-housses-siege-auto-grises-jeu-complet-3281690243862.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/22214-home_default/housses-siege-auto-avant.jpg"
-                  alt="Housses siege auto - Noir - 2 sièges avant"
+                  src="https://www.automotoboutic.com/21161-home_default/housses-siege-auto-grises-jeu-complet.jpg"
+                  alt="Housses de siege auto Gela grises"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/22214-large_default/housses-siege-auto-avant.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21161-large_default/housses-siege-auto-grises-jeu-complet.jpg"
                   width="263"
                   height="292"
                 />
@@ -157,7 +647,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housses-de-siege/8416-housses-siege-auto-avant-3284090001049.html" content="https://www.automotoboutic.com/housses-de-siege/8416-housses-siege-auto-avant-3284090001049.html">Jeu DE Housses Avant...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7964-housses-siege-auto-grises-jeu-complet-3281690243862.html" content="https://www.automotoboutic.com/nouveautes/7964-housses-siege-auto-grises-jeu-complet-3281690243862.html">Housses de siege auto Gela...</a></h2>
                   
 
         
@@ -166,7 +656,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  25,00 €
+                                                  39,60 €
                               </span>
 
               
@@ -177,7 +667,147 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8416" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7964" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8248" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/8248-housses-siege-auto-avant-afrique-3281690247457.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21715-home_default/housses-siege-auto-avant-afrique.jpg"
+                  alt="Housses siège auto Afrique - 2 sièges avant - Noir &amp; Gris"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21715-large_default/housses-siege-auto-avant-afrique.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8248-housses-siege-auto-avant-afrique-3281690247457.html" content="https://www.automotoboutic.com/nouveautes/8248-housses-siege-auto-avant-afrique-3281690247457.html">Housses de siège auto...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  44,99 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8248" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="8257" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/8257-housses-siege-auto-4x4-suv-banquette-fractionnable-3281690247051.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21753-home_default/housses-siege-auto-4x4-suv-banquette-fractionnable.jpg"
+                  alt="Housses de siege auto Milos - 4x4 &amp; SUV"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21753-large_default/housses-siege-auto-4x4-suv-banquette-fractionnable.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8257-housses-siege-auto-4x4-suv-banquette-fractionnable-3281690247051.html" content="https://www.automotoboutic.com/nouveautes/8257-housses-siege-auto-4x4-suv-banquette-fractionnable-3281690247051.html">Housses de siege auto Milos...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  69,99 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="8257" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -265,17 +895,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8288" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7972" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/housse-siege-auto/8288-housses-siege-auto-avant-aspect-matelasse-3281690247105.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7972-housses-siege-auto-sciacca-avant-3281690243848.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21849-home_default/housses-siege-auto-avant-aspect-matelasse.jpg"
-                  alt="Housses siege auto avant - aspect matelassé | Automotoboutic"
+                  src="https://www.automotoboutic.com/21174-home_default/housses-siege-auto-sciacca-avant.jpg"
+                  alt="housses siege auto avant"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21849-large_default/housses-siege-auto-avant-aspect-matelasse.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21174-large_default/housses-siege-auto-sciacca-avant.jpg"
                   width="263"
                   height="292"
                 />
@@ -297,7 +927,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/8288-housses-siege-auto-avant-aspect-matelasse-3281690247105.html" content="https://www.automotoboutic.com/housse-siege-auto/8288-housses-siege-auto-avant-aspect-matelasse-3281690247105.html">Housses de siege auto - 2...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7972-housses-siege-auto-sciacca-avant-3281690243848.html" content="https://www.automotoboutic.com/nouveautes/7972-housses-siege-auto-sciacca-avant-3281690243848.html">Housses de siege auto...</a></h2>
                   
 
         
@@ -306,7 +936,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  39,99 €
+                                                  27,36 €
                               </span>
 
               
@@ -317,7 +947,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8288" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7972" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -335,17 +965,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8276" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7998" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/housse-siege-auto/8276-housses-siege-auto-avant-noir-gris-3281690247266.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7998-housses-siege-monospace-catania-3281690244029.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21819-home_default/housses-siege-auto-avant-noir-gris.jpg"
-                  alt="Housses Siege Auto avant sobres - Noir et Grises"
+                  src="https://www.automotoboutic.com/21260-home_default/housses-siege-monospace-catania.jpg"
+                  alt="Housses de siège Catania, spécial Monospace - Noir - 5 sièges séparés"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21819-large_default/housses-siege-auto-avant-noir-gris.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21260-large_default/housses-siege-monospace-catania.jpg"
                   width="263"
                   height="292"
                 />
@@ -367,7 +997,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/8276-housses-siege-auto-avant-noir-gris-3281690247266.html" content="https://www.automotoboutic.com/housse-siege-auto/8276-housses-siege-auto-avant-noir-gris-3281690247266.html">Housses de siege auto - 2...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7998-housses-siege-monospace-catania-3281690244029.html" content="https://www.automotoboutic.com/nouveautes/7998-housses-siege-monospace-catania-3281690244029.html">Housses de siege auto...</a></h2>
                   
 
         
@@ -376,7 +1006,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  39,99 €
+                                                  36,00 €
                               </span>
 
               
@@ -387,7 +1017,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8276" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7998" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -405,17 +1035,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8292" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7970" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/housse-siege-auto/8292-housses-siege-auto-utilitaire-noir-3281690247143.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/7970-housses-siege-voiture-messina-avant-3281690243909.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21859-home_default/housses-siege-auto-utilitaire-noir.jpg"
-                  alt="Housses Siege Auto Utilitaire - 1 siège + 1 banquette - Noir"
+                  src="https://www.automotoboutic.com/21170-home_default/housses-siege-voiture-messina-avant.jpg"
+                  alt="Housses siege voiture universelles Messina - Noir &amp; Gris - Jeu avant"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21859-large_default/housses-siege-auto-utilitaire-noir.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21170-large_default/housses-siege-voiture-messina-avant.jpg"
                   width="263"
                   height="292"
                 />
@@ -437,7 +1067,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/8292-housses-siege-auto-utilitaire-noir-3281690247143.html" content="https://www.automotoboutic.com/housse-siege-auto/8292-housses-siege-auto-utilitaire-noir-3281690247143.html">Housses de siege auto...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7970-housses-siege-voiture-messina-avant-3281690243909.html" content="https://www.automotoboutic.com/nouveautes/7970-housses-siege-voiture-messina-avant-3281690243909.html">Housses de siege auto...</a></h2>
                   
 
         
@@ -446,7 +1076,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  44,99 €
+                                                  30,00 €
                               </span>
 
               
@@ -457,7 +1087,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8292" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7970" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -475,17 +1105,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5971" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="8300" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/housse-siege-auto/5971-housse-sieges-kampot-noir-gris-t2-3281690223130.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/8300-housses-siege-auto-berlines-matelasse-3281690247273.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/15562-home_default/housse-sieges-kampot-noir-gris-t2.jpg"
-                  alt="Housses sièges Kampot Noir / Gris"
+                  src="https://www.automotoboutic.com/21876-home_default/housses-siege-auto-berlines-matelasse.jpg"
+                  alt="Housses siege auto Spécial berlines - aspect matelassé"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/15562-large_default/housse-sieges-kampot-noir-gris-t2.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21876-large_default/housses-siege-auto-berlines-matelasse.jpg"
                   width="263"
                   height="292"
                 />
@@ -507,78 +1137,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/5971-housse-sieges-kampot-noir-gris-t2-3281690223130.html" content="https://www.automotoboutic.com/housse-siege-auto/5971-housse-sieges-kampot-noir-gris-t2-3281690223130.html">Housses de siege auto...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  60,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="5971" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8255" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/8255-housses-siege-auto-hydra-citadines-3281690246993.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21747-home_default/housses-siege-auto-hydra-citadines.jpg"
-                  alt="Housses Siege Auto Hydra Spécial Citadines - Jeu complet"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21747-large_default/housses-siege-auto-hydra-citadines.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8255-housses-siege-auto-hydra-citadines-3281690246993.html" content="https://www.automotoboutic.com/nouveautes/8255-housses-siege-auto-hydra-citadines-3281690246993.html">Housses de siege auto Hydra...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8300-housses-siege-auto-berlines-matelasse-3281690247273.html" content="https://www.automotoboutic.com/nouveautes/8300-housses-siege-auto-berlines-matelasse-3281690247273.html">Housses de siege auto - 2...</a></h2>
                   
 
         
@@ -598,567 +1157,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8255" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8256" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/8256-housses-siege-auto-milos-monospace-7sieges-3281690247044.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21750-home_default/housses-siege-auto-milos-monospace-7sieges.jpg"
-                  alt="housse siege auto monospace 7 places"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21750-large_default/housses-siege-auto-milos-monospace-7sieges.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8256-housses-siege-auto-milos-monospace-7sieges-3281690247044.html" content="https://www.automotoboutic.com/nouveautes/8256-housses-siege-auto-milos-monospace-7sieges-3281690247044.html">Housses de siege auto Milos...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  79,99 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8256" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7979" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7979-housses-siege-auto-noto-gris-3281690243732.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21187-home_default/housses-siege-auto-noto-gris.jpg"
-                  alt="Housses siege auto Noto - Gris - 2 sièges + 1 banquette"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21187-large_default/housses-siege-auto-noto-gris.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7979-housses-siege-auto-noto-gris-3281690243732.html" content="https://www.automotoboutic.com/nouveautes/7979-housses-siege-auto-noto-gris-3281690243732.html">Housses de siege auto Noto...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  27,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7979" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8298" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/housse-siege-auto/8298-housses-siege-auto-citadines-noir-rouge-3281690247228.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21871-home_default/housses-siege-auto-citadines-noir-rouge.jpg"
-                  alt="Housses siege auto spécial citdadines - Noir &amp; rouge - Jeu complet"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21871-large_default/housses-siege-auto-citadines-noir-rouge.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/8298-housses-siege-auto-citadines-noir-rouge-3281690247228.html" content="https://www.automotoboutic.com/housse-siege-auto/8298-housses-siege-auto-citadines-noir-rouge-3281690247228.html">Housses de siege auto - 2...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  59,99 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8298" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8285" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/housse-siege-auto/8285-housses-de-siege-auto-2-sieges-1-banquette-fractionnable-berlines-3281690247075.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21843-home_default/housses-de-siege-auto-2-sieges-1-banquette-fractionnable-berlines.jpg"
-                  alt="Housses de siege auto - 2 sièges + 1 banquette fractionnable - Berlines"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21843-large_default/housses-de-siege-auto-2-sieges-1-banquette-fractionnable-berlines.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/8285-housses-de-siege-auto-2-sieges-1-banquette-fractionnable-berlines-3281690247075.html" content="https://www.automotoboutic.com/housse-siege-auto/8285-housses-de-siege-auto-2-sieges-1-banquette-fractionnable-berlines-3281690247075.html">Housses de siege auto - 2...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  59,99 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8285" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8265" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/housse-siege-auto/8265-housse-siege-auto-unitaire-conducteur-passager-3281690247532.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21788-home_default/housse-siege-auto-unitaire-conducteur-passager.jpg"
-                  alt="Housse de siege auto - 1 siège avant - Noir"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21788-large_default/housse-siege-auto-unitaire-conducteur-passager.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/housse-siege-auto/8265-housse-siege-auto-unitaire-conducteur-passager-3281690247532.html" content="https://www.automotoboutic.com/housse-siege-auto/8265-housse-siege-auto-unitaire-conducteur-passager-3281690247532.html">Housse de siege auto - 1...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  24,99 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8265" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8280" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/8280-housses-siege-auto-berlines-banquette-fractionnable-3281690247013.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21827-home_default/housses-siege-auto-berlines-banquette-fractionnable.jpg"
-                  alt="Housses siege auto spécial berlines - banquette fractionnable"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21827-large_default/housses-siege-auto-berlines-banquette-fractionnable.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8280-housses-siege-auto-berlines-banquette-fractionnable-3281690247013.html" content="https://www.automotoboutic.com/nouveautes/8280-housses-siege-auto-berlines-banquette-fractionnable-3281690247013.html">Housses de siege auto - 2...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  59,99 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8280" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7995" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7995-housses-siege-auto-sciacca-jeu-complet-3281690243855.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21253-home_default/housses-siege-auto-sciacca-jeu-complet.jpg"
-                  alt="Housses siege auto Sciacca - Noir, Motif Quadrillé - Jeu complet"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21253-large_default/housses-siege-auto-sciacca-jeu-complet.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7995-housses-siege-auto-sciacca-jeu-complet-3281690243855.html" content="https://www.automotoboutic.com/nouveautes/7995-housses-siege-auto-sciacca-jeu-complet-3281690243855.html">Housses de siege auto...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  32,40 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7995" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8296" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/8296-housses-siege-auto-avant-sport-noir-rouge-3281690247204.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21868-home_default/housses-siege-auto-avant-sport-noir-rouge.jpg"
-                  alt="Housses Siege Auto Avant Sport - Noir &amp; Rouge | Automotoboutic"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21868-large_default/housses-siege-auto-avant-sport-noir-rouge.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/8296-housses-siege-auto-avant-sport-noir-rouge-3281690247204.html" content="https://www.automotoboutic.com/nouveautes/8296-housses-siege-auto-avant-sport-noir-rouge-3281690247204.html">Housses de siege auto Sport...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  39,99 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="8296" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="8300" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

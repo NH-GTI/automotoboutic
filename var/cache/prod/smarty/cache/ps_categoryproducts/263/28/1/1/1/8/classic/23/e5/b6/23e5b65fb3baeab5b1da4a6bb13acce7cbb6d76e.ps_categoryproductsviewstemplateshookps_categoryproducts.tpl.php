@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:51:18
+/* Smarty version 4.3.4, created on 2025-01-29 13:26:43
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978f564477f4_66942772',
+  'unifunc' => 'content_679a1e834c59b3_32274846',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_67978f564477f4_66942772 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1e834c59b3_32274846 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?><section class="featured-products clearfix mt-3">
@@ -54,17 +54,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6589" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="274" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/couvre-siege-auto/6589-couvre-siege-managua-noir-3281690227329.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/274-couvre-siege-portovecchio-noir-3281690194867.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/17147-home_default/couvre-siege-managua-noir.jpg"
-                  alt="Couvre-siège Managua noir"
+                  src="https://www.automotoboutic.com/18189-home_default/couvre-siege-portovecchio-noir.jpg"
+                  alt="Couvre-siège noir pour auto : Portovecchio | Automotoboutic"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/17147-large_default/couvre-siege-managua-noir.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/18189-large_default/couvre-siege-portovecchio-noir.jpg"
                   width="263"
                   height="292"
                 />
@@ -86,7 +86,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/6589-couvre-siege-managua-noir-3281690227329.html" content="https://www.automotoboutic.com/couvre-siege-auto/6589-couvre-siege-managua-noir-3281690227329.html">Couvre-siège Managua noir</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/274-couvre-siege-portovecchio-noir-3281690194867.html" content="https://www.automotoboutic.com/nouveautes/274-couvre-siege-portovecchio-noir-3281690194867.html">Couvre Siège Gaïa Noir / Ecru</a></h2>
                   
 
         
@@ -95,7 +95,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  26,40 €
+                                                  30,00 €
                               </span>
 
               
@@ -106,7 +106,287 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="6589" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="274" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="6373" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/couvre-siege-auto/6373-couvre-siege-auto-dynamique-rouge-3281690228272.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21067-home_default/couvre-siege-auto-dynamique-rouge.jpg"
+                  alt="Couvre siège dynamique noir et rouge pour auto | Automotoboutic"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21067-large_default/couvre-siege-auto-dynamique-rouge.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/6373-couvre-siege-auto-dynamique-rouge-3281690228272.html" content="https://www.automotoboutic.com/couvre-siege-auto/6373-couvre-siege-auto-dynamique-rouge-3281690228272.html">Couvre Siège Dynamic</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="6373" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="247" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/247-couvre-siege-superb-3281690174845.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21648-home_default/couvre-siege-superb.jpg"
+                  alt="Couvre Siège Auto - Suédine - Noir"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21648-large_default/couvre-siege-superb.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/247-couvre-siege-superb-3281690174845.html" content="https://www.automotoboutic.com/nouveautes/247-couvre-siege-superb-3281690174845.html">Couvre Siège Auto - Maille...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  27,60 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="247" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="265" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/265-couvre-siege-grand-confort-3281690164570.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/367-home_default/couvre-siege-grand-confort.jpg"
+                  alt="Couvre siège Grand confort"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/367-large_default/couvre-siege-grand-confort.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/265-couvre-siege-grand-confort-3281690164570.html" content="https://www.automotoboutic.com/nouveautes/265-couvre-siege-grand-confort-3281690164570.html">Couvre siège auto Grand...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  50,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="265" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="7937" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/7937-couvre-siege-auto-suedine-mesh-3281690237007.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21119-home_default/couvre-siege-auto-suedine-mesh.jpg"
+                  alt="Couvre Siège Auto en Suèdine avec Inserts en Mesh | Automotoboutic"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21119-large_default/couvre-siege-auto-suedine-mesh.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7937-couvre-siege-auto-suedine-mesh-3281690237007.html" content="https://www.automotoboutic.com/nouveautes/7937-couvre-siege-auto-suedine-mesh-3281690237007.html">Couvre siège Java - Suèdine...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  28,46 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="7937" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -264,216 +544,6 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="5307" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/5307-couvre-siege-grand-confort-noir-3281690191767.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21651-home_default/couvre-siege-grand-confort-noir.jpg"
-                  alt="Couvre siège auto noir grand confort"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21651-large_default/couvre-siege-grand-confort-noir.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5307-couvre-siege-grand-confort-noir-3281690191767.html" content="https://www.automotoboutic.com/nouveautes/5307-couvre-siege-grand-confort-noir-3281690191767.html">Couvre siège auto noir...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  50,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="5307" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7939" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/couvre-siege-auto/7939-couvre-siege-auto-maille-noir-bleu-3281690237052.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21120-home_default/couvre-siege-auto-maille-noir-bleu.jpg"
-                  alt="Couvre Siège Auto en Maille frappée - Noir &amp; inserts Bleus"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21120-large_default/couvre-siege-auto-maille-noir-bleu.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/7939-couvre-siege-auto-maille-noir-bleu-3281690237052.html" content="https://www.automotoboutic.com/couvre-siege-auto/7939-couvre-siege-auto-maille-noir-bleu-3281690237052.html">Couvre siège Géo - Maille...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  28,46 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7939" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7937" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/7937-couvre-siege-auto-suedine-mesh-3281690237007.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21119-home_default/couvre-siege-auto-suedine-mesh.jpg"
-                  alt="Couvre Siège Auto en Suèdine avec Inserts en Mesh | Automotoboutic"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21119-large_default/couvre-siege-auto-suedine-mesh.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/7937-couvre-siege-auto-suedine-mesh-3281690237007.html" content="https://www.automotoboutic.com/nouveautes/7937-couvre-siege-auto-suedine-mesh-3281690237007.html">Couvre siège Java - Suèdine...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  28,46 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7937" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="6593" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -544,17 +614,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="8386" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="253" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/couvre-siege-auto/8386-couvre-siege-auto-daim-noir-gris-3281690237014.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/couvre-siege-auto/253-couvre-siege-magnetic-3281690137581.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/22167-home_default/couvre-siege-auto-daim-noir-gris.jpg"
-                  alt="Couvre siege auto - Aspect Daim - Noir &amp; gris"
+                  src="https://www.automotoboutic.com/335-home_default/couvre-siege-magnetic.jpg"
+                  alt="Couvre Siège Magnetic"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/22167-large_default/couvre-siege-auto-daim-noir-gris.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/335-large_default/couvre-siege-magnetic.jpg"
                   width="263"
                   height="292"
                 />
@@ -576,7 +646,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/8386-couvre-siege-auto-daim-noir-gris-3281690237014.html" content="https://www.automotoboutic.com/couvre-siege-auto/8386-couvre-siege-auto-daim-noir-gris-3281690237014.html">Couvre siege auto - Aspect...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/253-couvre-siege-magnetic-3281690137581.html" content="https://www.automotoboutic.com/couvre-siege-auto/253-couvre-siege-magnetic-3281690137581.html">Couvre Siège Magnetic</a></h2>
                   
 
         
@@ -585,7 +655,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  38,00 €
+                                                  20,00 €
                               </span>
 
               
@@ -596,217 +666,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="8386" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6577" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/couvre-siege-auto/6577-couvre-siege-starting-noir-gris-3281690224540.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/17141-home_default/couvre-siege-starting-noir-gris.jpg"
-                  alt="Couvre-siège Starting noir/gris"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/17141-large_default/couvre-siege-starting-noir-gris.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/6577-couvre-siege-starting-noir-gris-3281690224540.html" content="https://www.automotoboutic.com/couvre-siege-auto/6577-couvre-siege-starting-noir-gris-3281690224540.html">Couvre-siège Starting...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  20,40 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="6577" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="274" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/274-couvre-siege-portovecchio-noir-3281690194867.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/18189-home_default/couvre-siege-portovecchio-noir.jpg"
-                  alt="Couvre-siège noir pour auto : Portovecchio | Automotoboutic"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/18189-large_default/couvre-siege-portovecchio-noir.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/274-couvre-siege-portovecchio-noir-3281690194867.html" content="https://www.automotoboutic.com/nouveautes/274-couvre-siege-portovecchio-noir-3281690194867.html">Couvre Siège Gaïa Noir / Ecru</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  30,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="274" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="246" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/246-couvre-siege-excellence-3281690174876.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/317-home_default/couvre-siege-excellence.jpg"
-                  alt="Couvre Siège Excellence"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/317-large_default/couvre-siege-excellence.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/246-couvre-siege-excellence-3281690174876.html" content="https://www.automotoboutic.com/nouveautes/246-couvre-siege-excellence-3281690174876.html">Couvre Siège Excellence - Gris</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  18,25 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="246" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="253" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -894,17 +754,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6735" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="6537" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/nouveautes/6735-couvre-siege-grand-confort-gris-anthracite-3281690187647.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/couvre-siege-auto/6537-couvre-siege-onyx-3281690237090.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/21649-home_default/couvre-siege-grand-confort-gris-anthracite.jpg"
-                  alt="Couvre siège auto Grand confort - Gris Anthracite"
+                  src="https://www.automotoboutic.com/21650-home_default/couvre-siege-onyx.jpg"
+                  alt="Couvre Siège Auto - Confort Premium - Noir"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21649-large_default/couvre-siege-grand-confort-gris-anthracite.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21650-large_default/couvre-siege-onyx.jpg"
                   width="263"
                   height="292"
                 />
@@ -926,7 +786,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6735-couvre-siege-grand-confort-gris-anthracite-3281690187647.html" content="https://www.automotoboutic.com/nouveautes/6735-couvre-siege-grand-confort-gris-anthracite-3281690187647.html">Couvre siège auto Grand...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/6537-couvre-siege-onyx-3281690237090.html" content="https://www.automotoboutic.com/couvre-siege-auto/6537-couvre-siege-onyx-3281690237090.html">Couvre Siège Auto - Confort...</a></h2>
                   
 
         
@@ -935,7 +795,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  50,00 €
+                                                  51,31 €
                               </span>
 
               
@@ -946,7 +806,77 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="6735" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="6537" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="296" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/couvre-siege-auto/296-housse-protection-express-pocket-3281690164419.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21068-home_default/housse-protection-express-pocket.jpg"
+                  alt="Housse de Protection de Siège Avant auto Universelle - Bleu"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21068-large_default/housse-protection-express-pocket.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/296-housse-protection-express-pocket-3281690164419.html" content="https://www.automotoboutic.com/couvre-siege-auto/296-housse-protection-express-pocket-3281690164419.html">Housse de siège auto...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  18,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="296" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -1034,6 +964,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="5307" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/nouveautes/5307-couvre-siege-grand-confort-noir-3281690191767.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/21651-home_default/couvre-siege-grand-confort-noir.jpg"
+                  alt="Couvre siège auto noir grand confort"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/21651-large_default/couvre-siege-grand-confort-noir.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/5307-couvre-siege-grand-confort-noir-3281690191767.html" content="https://www.automotoboutic.com/nouveautes/5307-couvre-siege-grand-confort-noir-3281690191767.html">Couvre siège auto noir...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  50,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="5307" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
   <article class="product-miniature js-product-miniature" data-id-product="8417" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
@@ -1104,17 +1104,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="253" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="8386" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/couvre-siege-auto/253-couvre-siege-magnetic-3281690137581.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/couvre-siege-auto/8386-couvre-siege-auto-daim-noir-gris-3281690237014.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/335-home_default/couvre-siege-magnetic.jpg"
-                  alt="Couvre Siège Magnetic"
+                  src="https://www.automotoboutic.com/22167-home_default/couvre-siege-auto-daim-noir-gris.jpg"
+                  alt="Couvre siege auto - Aspect Daim - Noir &amp; gris"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/335-large_default/couvre-siege-magnetic.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/22167-large_default/couvre-siege-auto-daim-noir-gris.jpg"
                   width="263"
                   height="292"
                 />
@@ -1136,7 +1136,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/253-couvre-siege-magnetic-3281690137581.html" content="https://www.automotoboutic.com/couvre-siege-auto/253-couvre-siege-magnetic-3281690137581.html">Couvre Siège Magnetic</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-siege-auto/8386-couvre-siege-auto-daim-noir-gris-3281690237014.html" content="https://www.automotoboutic.com/couvre-siege-auto/8386-couvre-siege-auto-daim-noir-gris-3281690237014.html">Couvre siege auto - Aspect...</a></h2>
                   
 
         
@@ -1145,7 +1145,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  20,00 €
+                                                  38,00 €
                               </span>
 
               
@@ -1156,7 +1156,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="253" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="8386" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

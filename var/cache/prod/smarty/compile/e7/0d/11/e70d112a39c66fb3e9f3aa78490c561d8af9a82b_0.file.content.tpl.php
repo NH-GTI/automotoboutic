@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:41:40
+/* Smarty version 4.3.4, created on 2025-01-29 12:30:57
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/default/template/content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67979b24841676_04072163',
+  'unifunc' => 'content_679a1171b89ad1_83206131',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67979b24841676_04072163 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1171b89ad1_83206131 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="ajax_confirmation" class="alert alert-success hide"></div>
 <div id="ajaxBox" style="display:none"></div>
 <div id="content-message-box"></div>

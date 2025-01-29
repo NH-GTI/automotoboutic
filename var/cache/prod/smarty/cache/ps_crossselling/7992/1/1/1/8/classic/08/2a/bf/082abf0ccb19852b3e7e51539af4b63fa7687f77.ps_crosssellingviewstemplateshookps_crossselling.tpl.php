@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 17:16:54
+/* Smarty version 4.3.4, created on 2025-01-29 13:34:48
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797b176d03115_98461110',
+  'unifunc' => 'content_679a2068ed16b7_29648031',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,13 +36,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6797b176d03115_98461110 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a2068ed16b7_29648031 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/automotoboutic/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/88/36/ac/8836ac7944680434878ef424cff9658cbf5943bc_2.file.helpers.tpl.php',
     'uid' => '8836ac7944680434878ef424cff9658cbf5943bc',
-    'call_name' => 'smarty_template_function_renderLogo_1740029218679787ebcb8880_98650918',
+    'call_name' => 'smarty_template_function_renderLogo_20594447136799f6fc978919_91640986',
   ),
 ));
 ?>
@@ -53,17 +53,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 <div class="products">
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6431" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="190" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/190-tapis-auto-sur-mesure-premium-vehicule2p-2-avants-3281690188453.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/20999-home_default/cale-nuque-lines-bleu.jpg"
-                  alt="Cale nuque Mousse à Mémoire de Forme Lines - Bleu| Automotoboutic"
+                  src="https://www.automotoboutic.com/212-home_default/tapis-auto-sur-mesure-premium-vehicule2p-2-avants.jpg"
+                  alt="Tapis Auto Sur Mesure Premium Véhicule2p 2 avants"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20999-large_default/cale-nuque-lines-bleu.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/212-large_default/tapis-auto-sur-mesure-premium-vehicule2p-2-avants.jpg"
                   width="263"
                   height="292"
                 />
@@ -85,7 +85,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html">Cale nuque Lines - Bleu</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/190-tapis-auto-sur-mesure-premium-vehicule2p-2-avants-3281690188453.html" content="https://www.automotoboutic.com/tapis-sur-mesure/190-tapis-auto-sur-mesure-premium-vehicule2p-2-avants-3281690188453.html">Tapis Auto Sur Mesure...</a></h2>
                   
 
         
@@ -94,7 +94,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  20,00 €
+                                                  38,92 €
                               </span>
 
               
@@ -105,148 +105,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="6431" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-                    <li class="product-flag out_of_stock">Rupture de stock</li>
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6623" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/nouveautes/6623-cale-dos-shape-3281690235669.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/17173-home_default/cale-dos-shape.jpg"
-                  alt="Cale dos Shape"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/17173-large_default/cale-dos-shape.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6623-cale-dos-shape-3281690235669.html" content="https://www.automotoboutic.com/nouveautes/6623-cale-dos-shape-3281690235669.html">Cale-dos ergonomique</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  30,00 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="6623" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
-  <div class="grade-stars small-stars"></div>
-  <div class="comments-nb"></div>
-</div>
-
-        
-      </div>
-
-      
-    <ul class="product-flags js-product-flags">
-            </ul>
-
-    </div>
-  </article>
-</div>
-
-            
-<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="7924" data-id-product-attribute="0">
-    <div class="thumbnail-container">
-      <div class="thumbnail-top">
-        
-                      <a href="https://www.automotoboutic.com/tapis-universels-moquette/7924-tapis-auto-universels-moquette-3284090003920.html" class="thumbnail product-thumbnail">
-              <picture>
-                                                <img
-                  src="https://www.automotoboutic.com/21081-home_default/tapis-auto-universels-moquette.jpg"
-                  alt="Tapis auto universels moquette - Noir - Jeu avant et arrière"
-                  loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/21081-large_default/tapis-auto-universels-moquette.jpg"
-                  width="263"
-                  height="292"
-                />
-              </picture>
-            </a>
-                  
-
-        <div class="highlighted-informations no-variants">
-          
-            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
-            </a>
-          
-
-          
-                      
-        </div>
-      </div>
-
-      <div class="product-description">
-        
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-universels-moquette/7924-tapis-auto-universels-moquette-3284090003920.html" content="https://www.automotoboutic.com/tapis-universels-moquette/7924-tapis-auto-universels-moquette-3284090003920.html">Tapis universels moquette -...</a></h2>
-                  
-
-        
-                      <div class="product-price-and-shipping">
-              
-              
-
-              <span class="price" aria-label="Prix">
-                                                  19,20 €
-                              </span>
-
-              
-
-              
-            </div>
-                  
-
-        
-          
-<div class="product-list-reviews" data-id="7924" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="190" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -334,17 +193,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="6205" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="6431" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/couvre-volant/6205-couvre-volant-turbo-rouge-3281690226483.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/20965-home_default/couvre-volant-turbo-rouge.jpg"
-                  alt="Couvre volant  voiture Sport - Noir &amp; Bleu - Taille universelle"
+                  src="https://www.automotoboutic.com/20999-home_default/cale-nuque-lines-bleu.jpg"
+                  alt="Cale nuque Mousse à Mémoire de Forme Lines - Bleu| Automotoboutic"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/20965-large_default/couvre-volant-turbo-rouge.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/20999-large_default/cale-nuque-lines-bleu.jpg"
                   width="263"
                   height="292"
                 />
@@ -366,7 +225,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-volant/6205-couvre-volant-turbo-rouge-3281690226483.html" content="https://www.automotoboutic.com/couvre-volant/6205-couvre-volant-turbo-rouge-3281690226483.html">Couvre volant Sport - Noir...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html" content="https://www.automotoboutic.com/coussins-nuque-voyage/6431-cale-nuque-lines-bleu-3281690233382.html">Cale nuque Lines - Bleu</a></h2>
                   
 
         
@@ -386,7 +245,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="6205" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="6431" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -396,6 +255,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       
     <ul class="product-flags js-product-flags">
+                    <li class="product-flag out_of_stock">Rupture de stock</li>
             </ul>
 
     </div>
@@ -404,17 +264,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="190" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="7924" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/190-tapis-auto-sur-mesure-premium-vehicule2p-2-avants-3281690188453.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/tapis-universels-moquette/7924-tapis-auto-universels-moquette-3284090003920.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/212-home_default/tapis-auto-sur-mesure-premium-vehicule2p-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Premium Véhicule2p 2 avants"
+                  src="https://www.automotoboutic.com/21081-home_default/tapis-auto-universels-moquette.jpg"
+                  alt="Tapis auto universels moquette - Noir - Jeu avant et arrière"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/212-large_default/tapis-auto-sur-mesure-premium-vehicule2p-2-avants.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/21081-large_default/tapis-auto-universels-moquette.jpg"
                   width="263"
                   height="292"
                 />
@@ -436,7 +296,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/190-tapis-auto-sur-mesure-premium-vehicule2p-2-avants-3281690188453.html" content="https://www.automotoboutic.com/tapis-sur-mesure/190-tapis-auto-sur-mesure-premium-vehicule2p-2-avants-3281690188453.html">Tapis Auto Sur Mesure...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-universels-moquette/7924-tapis-auto-universels-moquette-3284090003920.html" content="https://www.automotoboutic.com/tapis-universels-moquette/7924-tapis-auto-universels-moquette-3284090003920.html">Tapis universels moquette -...</a></h2>
                   
 
         
@@ -445,7 +305,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  38,92 €
+                                                  19,20 €
                               </span>
 
               
@@ -456,7 +316,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="190" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="7924" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -474,17 +334,17 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
             
 <div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-  <article class="product-miniature js-product-miniature" data-id-product="173" data-id-product-attribute="0">
+  <article class="product-miniature js-product-miniature" data-id-product="6623" data-id-product-attribute="0">
     <div class="thumbnail-container">
       <div class="thumbnail-top">
         
-                      <a href="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html" class="thumbnail product-thumbnail">
+                      <a href="https://www.automotoboutic.com/nouveautes/6623-cale-dos-shape-3281690235669.html" class="thumbnail product-thumbnail">
               <picture>
                                                 <img
-                  src="https://www.automotoboutic.com/195-home_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants.jpg"
-                  alt="Tapis Auto Sur Mesure Grand Tourisme Véhicule5p 2 avants"
+                  src="https://www.automotoboutic.com/17173-home_default/cale-dos-shape.jpg"
+                  alt="Cale dos Shape"
                   loading="lazy"
-                  data-full-size-image-url="https://www.automotoboutic.com/195-large_default/tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants.jpg"
+                  data-full-size-image-url="https://www.automotoboutic.com/17173-large_default/cale-dos-shape.jpg"
                   width="263"
                   height="292"
                 />
@@ -506,7 +366,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
       <div class="product-description">
         
-                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html" content="https://www.automotoboutic.com/tapis-sur-mesure/173-tapis-auto-sur-mesure-grand-tourisme-vehicule5p-2-avants-3281690188354.html">Tapis Auto Sur Mesure Grand...</a></h2>
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/nouveautes/6623-cale-dos-shape-3281690235669.html" content="https://www.automotoboutic.com/nouveautes/6623-cale-dos-shape-3281690235669.html">Cale-dos ergonomique</a></h2>
                   
 
         
@@ -515,7 +375,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
               
 
               <span class="price" aria-label="Prix">
-                                                  28,91 €
+                                                  30,00 €
                               </span>
 
               
@@ -526,7 +386,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
         
           
-<div class="product-list-reviews" data-id="173" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+<div class="product-list-reviews" data-id="6623" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>
@@ -597,6 +457,76 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
         
           
 <div class="product-list-reviews" data-id="3002" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
+  <div class="grade-stars small-stars"></div>
+  <div class="comments-nb"></div>
+</div>
+
+        
+      </div>
+
+      
+    <ul class="product-flags js-product-flags">
+            </ul>
+
+    </div>
+  </article>
+</div>
+
+            
+<div class="js-product product col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+  <article class="product-miniature js-product-miniature" data-id-product="6205" data-id-product-attribute="0">
+    <div class="thumbnail-container">
+      <div class="thumbnail-top">
+        
+                      <a href="https://www.automotoboutic.com/couvre-volant/6205-couvre-volant-turbo-rouge-3281690226483.html" class="thumbnail product-thumbnail">
+              <picture>
+                                                <img
+                  src="https://www.automotoboutic.com/20965-home_default/couvre-volant-turbo-rouge.jpg"
+                  alt="Couvre volant  voiture Sport - Noir &amp; Bleu - Taille universelle"
+                  loading="lazy"
+                  data-full-size-image-url="https://www.automotoboutic.com/20965-large_default/couvre-volant-turbo-rouge.jpg"
+                  width="263"
+                  height="292"
+                />
+              </picture>
+            </a>
+                  
+
+        <div class="highlighted-informations no-variants">
+          
+            <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
+              <i class="material-icons search">&#xE8B6;</i> Aperçu rapide
+            </a>
+          
+
+          
+                      
+        </div>
+      </div>
+
+      <div class="product-description">
+        
+                      <h2 class="h3 product-title"><a href="https://www.automotoboutic.com/couvre-volant/6205-couvre-volant-turbo-rouge-3281690226483.html" content="https://www.automotoboutic.com/couvre-volant/6205-couvre-volant-turbo-rouge-3281690226483.html">Couvre volant Sport - Noir...</a></h2>
+                  
+
+        
+                      <div class="product-price-and-shipping">
+              
+              
+
+              <span class="price" aria-label="Prix">
+                                                  20,00 €
+                              </span>
+
+              
+
+              
+            </div>
+                  
+
+        
+          
+<div class="product-list-reviews" data-id="6205" data-url="https://www.automotoboutic.com/module/productcomments/CommentGrade">
   <div class="grade-stars small-stars"></div>
   <div class="comments-nb"></div>
 </div>

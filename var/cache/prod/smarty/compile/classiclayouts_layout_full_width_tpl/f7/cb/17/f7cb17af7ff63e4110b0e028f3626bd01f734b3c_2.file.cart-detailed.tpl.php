@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:47:01
+/* Smarty version 4.3.4, created on 2025-01-29 13:20:13
   from '/var/www/html/automotoboutic/themes/classic/templates/checkout/_partials/cart-detailed.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67978e55d41454_19781059',
+  'unifunc' => 'content_679a1cfd01ee20_71739813',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,15 +21,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/cart-detailed-product-line.tpl' => 1,
   ),
 ),false)) {
-function content_67978e55d41454_19781059 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1cfd01ee20_71739813 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_160115218767978e55d35045_74992051', 'cart_detailed_product');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1535156085679a1cfd014895_71011251', 'cart_detailed_product');
 ?>
 
 <?php }
 /* {block 'cart_detailed_product_line'} */
-class Block_171602143867978e55d3a4e3_74478695 extends Smarty_Internal_Block
+class Block_1055116581679a1cfd018be5_67317110 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -41,16 +41,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'cart_detailed_product_line'} */
 /* {block 'cart_detailed_product'} */
-class Block_160115218767978e55d35045_74992051 extends Smarty_Internal_Block
+class Block_1535156085679a1cfd014895_71011251 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'cart_detailed_product' => 
   array (
-    0 => 'Block_160115218767978e55d35045_74992051',
+    0 => 'Block_1535156085679a1cfd014895_71011251',
   ),
   'cart_detailed_product_line' => 
   array (
-    0 => 'Block_171602143867978e55d3a4e3_74478695',
+    0 => 'Block_1055116581679a1cfd018be5_67317110',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -69,7 +69,7 @@ $_smarty_tpl->tpl_vars['product']->do_else = false;
 ?>
         <li class="cart-item">
           <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_171602143867978e55d3a4e3_74478695', 'cart_detailed_product_line', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1055116581679a1cfd018be5_67317110', 'cart_detailed_product_line', $this->tplIndex);
 ?>
 
         </li>

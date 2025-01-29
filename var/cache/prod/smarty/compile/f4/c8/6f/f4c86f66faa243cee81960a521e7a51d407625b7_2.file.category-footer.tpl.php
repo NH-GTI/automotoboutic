@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 15:23:38
+/* Smarty version 4.3.4, created on 2025-01-29 12:43:22
   from '/var/www/html/automotoboutic/themes/classic/templates/catalog/_partials/category-footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679796eaee5141_51229452',
+  'unifunc' => 'content_679a145aaabbf0_76119046',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679796eaee5141_51229452 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a145aaabbf0_76119046 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="js-product-list-footer">
     <?php if ((isset($_smarty_tpl->tpl_vars['category']->value)) && $_smarty_tpl->tpl_vars['category']->value['additional_description'] && $_smarty_tpl->tpl_vars['listing']->value['pagination']['items_shown_from'] == 1) {?>
         <div class="card">

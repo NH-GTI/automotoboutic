@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 17:42:53
+/* Smarty version 4.3.4, created on 2025-01-29 13:28:27
   from '/var/www/html/automotoboutic/pdf/invoice.style-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797b78dbbfee4_46888725',
+  'unifunc' => 'content_679a1eebd365a3_04902749',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,28 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6797b78dbbfee4_46888725 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a1eebd365a3_04902749 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8589980836797b78dbb9701_31450309', "variables");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1561772363679a1eebd2bf62_12856366', "variables");
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15952869896797b78dbbca34_98519951', "styles");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1964401587679a1eebd30f17_23059118', "styles");
 ?>
 
 <?php }
 /* {block "variables"} */
-class Block_8589980836797b78dbb9701_31450309 extends Smarty_Internal_Block
+class Block_1561772363679a1eebd2bf62_12856366 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'variables' => 
   array (
-    0 => 'Block_8589980836797b78dbb9701_31450309',
+    0 => 'Block_1561772363679a1eebd2bf62_12856366',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -61,12 +61,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "variables"} */
 /* {block "styles"} */
-class Block_15952869896797b78dbbca34_98519951 extends Smarty_Internal_Block
+class Block_1964401587679a1eebd30f17_23059118 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'styles' => 
   array (
-    0 => 'Block_15952869896797b78dbbca34_98519951',
+    0 => 'Block_1964401587679a1eebd30f17_23059118',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
