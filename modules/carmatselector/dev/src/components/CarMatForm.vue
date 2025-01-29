@@ -9,12 +9,12 @@
                     <h2 class="text-2xl font-bold text-white">
                         Configurateur de tapis sur mesure
                     </h2>
-                    <p class="mt-1 text-blue-100">
+                    <p class="mt-1 text-white">
                         Sélectionnez les caractéristiques de votre véhicule
                     </p>
                 </div>
 
-                <form @submit.prevent="handleSubmit" class="p-6 space-y-6">
+                <form @submit.prevent="handleSubmit" class="p-6">
                     <!-- Brand Select -->
                     <div class="form-group">
                         <label class="form-label">Marque du véhicule</label>
@@ -118,6 +118,9 @@
                                     {{ gamme.name }}
                                     {{ "⭐".repeat(gamme.rating) }}
                                 </h3>
+                                <p class="text-neutral-950 text-center mt-2">
+                                    {{ gamme.description }}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -137,8 +140,7 @@
                                 v-for="configuration in store.availableConfigurations"
                                 :key="configuration.id"
                                 @click="
-                                    store.selectedConfiguration =
-                                        configuration.id
+                                    handleConfigurationChange(configuration.id)
                                 "
                                 :class="[
                                     'cursor-pointer p-4 border rounded-lg transition-all duration-200',
@@ -181,7 +183,7 @@
                             <div
                                 v-for="color in store.availableColors"
                                 :key="color.id"
-                                @click="store.selectedColor = color.id"
+                                @click="handleColorChange(color.id)"
                                 :class="[
                                     'cursor-pointer p-4 border rounded-lg transition-all duration-200',
                                     store.selectedColor === color.id
@@ -209,41 +211,56 @@
                     </div>
 
                     <!-- Submit Button -->
-                    <div class="pt-4">
+                    <div class="pt-4 flex justify-center">
                         <button
                             type="submit"
-                            class="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-[1.02]"
+                            class="w-2/3 bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-lg transition duration-200 ease-in-out transform hover:scale-[1.02] text-lg"
                         >
                             Rechercher les tapis disponibles
                         </button>
                     </div>
-                    <div v-if="store.productToAdd.id != 0" class="pt-4">
-                        <p>
+                    <!-- v-if="store.productToAdd['id']" -->
+                    <div class="pt-4 flex flex-col justify-center">
+                        <p class="mb-4 text-neutral-950 text-center">
                             Nous avons trouvé pour vous les tapis qui
-                            correspondent parfaitement à votre véhicule. En
-                            cliquant sur le bouton ci-dessous, le produit
-                            suivant sera ajouté à votre panier :
-                            {{ store.productToAdd.name }}
+                            correspondent parfaitement à votre véhicule ! <br />
+                            En cliquant sur le bouton ci-dessous, le produit
+                            suivant sera ajouté à votre panier : <br />
+                            <span class="font-bold text-lg">{{
+                                store.productToAdd.name || "Nom du produit"
+                            }}</span>
                         </p>
-                        <a
-                            title="Add to cart"
-                            :href="cartUrl"
-                            rel="ajax_id_product_1"
-                            class=""
-                            ><button
-                                class="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-[1.02]"
+                        <div class="flex justify-center">
+                            <a
+                                title="Add to cart"
+                                :href="cartUrl"
+                                rel="ajax_id_product_1"
+                                class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 m-0 m-auto text-center w-1/3 text-lg"
                             >
-                                Add to cart
-                            </button>
-                        </a>
+                                Ajouter au panier
+                            </a>
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
         <div
+            v-if="!store.cartSummaryVisible"
             class="fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
         >
-            <h3 class="font-bold text-lg border-b pb-2">Récapitulatif</h3>
+            <button @click="toggleCartSummary">Montrer le récapitulatif</button>
+        </div>
+        <div
+            v-else
+            class="fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
+        >
+            <div></div>
+            <div>
+                <h3 class="font-bold text-lg border-b pb-2">Récapitulatif</h3>
+            </div>
+            <button @click="toggleCartSummary" class="text-blue-500">
+                Cacher le récapitulatif
+            </button>
 
             <!-- Marque -->
             <div v-if="store.selectedBrand" class="space-y-1">
@@ -337,6 +354,10 @@ const brandOptions = computed(() => {
     }));
 });
 
+const toggleCartSummary = () => {
+    store.cartSummaryVisible = !store.cartSummaryVisible;
+};
+
 const cartUrl = computed(() => {
     return `index.php?controller=cart&add=1&id_product=${store.productToAdd.id}&token=${store.token}`;
 });
@@ -344,6 +365,7 @@ const cartUrl = computed(() => {
 const handleBrandChange = async () => {
     store.selectedModel = null;
     store.selectedVersion = null;
+    store.productToAdd = [];
     console.log(brandOptions.value);
 
     if (store.selectedBrand) {
@@ -362,6 +384,7 @@ const handleBrandChange = async () => {
 
 const handleModelChange = async () => {
     store.selectedVersion = null;
+    store.productToAdd = [];
 
     if (store.selectedModel) {
         console.log("Fetching versions for model:", store.selectedModel);
@@ -381,6 +404,8 @@ const handleVersionChange = async () => {
     const selectedVersion = store.availableVersions.find(
         (v) => v.id === store.selectedVersion
     );
+
+    store.productToAdd = [];
 
     if (selectedVersion?.carbody) {
         isLoading.value = true;
@@ -405,6 +430,7 @@ const handleVersionChange = async () => {
 const handleGammeChange = async (gamme) => {
     store.selectedColor = null;
     store.selectedGamme = gamme;
+    store.productToAdd = [];
 
     if (store.selectedGamme) {
         console.log("Fetching colors for gamme:", store.selectedGamme);
@@ -418,6 +444,16 @@ const handleGammeChange = async (gamme) => {
             isLoading.value = false;
         }
     }
+};
+
+const handleConfigurationChange = (configurationID) => {
+    store.selectedConfiguration = configurationID;
+    store.productToAdd = [];
+};
+
+const handleColorChange = (colorID) => {
+    store.selectedColor = colorID;
+    store.productToAdd = [];
 };
 
 const handleSubmit = async () => {
@@ -456,16 +492,15 @@ const hasAnySelection = computed(() => {
 </script>
 
 <style scoped>
-.form-group {
-    @apply space-y-1;
-}
-
-.form-label {
-    @apply block text-sm font-medium text-gray-700;
-}
-
 .form-select {
-    @apply mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md;
+    margin: 0.5em 0 0.5em 1em;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    background-color: #fff;
+}
+
+.form-select:disabled {
+    background-color: #f3f4f6;
 }
 
 .form-select[disabled] {

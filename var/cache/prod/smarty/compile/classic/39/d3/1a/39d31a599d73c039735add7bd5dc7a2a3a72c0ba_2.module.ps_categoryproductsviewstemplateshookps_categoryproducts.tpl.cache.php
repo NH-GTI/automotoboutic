@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:21:28
+/* Smarty version 4.3.4, created on 2025-01-29 10:40:26
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679788580a4883_92258874',
+  'unifunc' => 'content_6799f78a7d9ff8_50550858',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,9 +21,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_679788580a4883_92258874 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f78a7d9ff8_50550858 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
-$_smarty_tpl->compiled->nocache_hash = '5503433866797885809e584_86888846';
+$_smarty_tpl->compiled->nocache_hash = '11506571746799f78a7d2b69_91326657';
 ?>
 <section class="featured-products clearfix mt-3">
   <h2>

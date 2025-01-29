@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:20:10
+/* Smarty version 4.3.4, created on 2025-01-29 10:38:04
   from 'module:ps_imagesliderviewstemplateshookslider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6797880a56b672_58268758',
+  'unifunc' => 'content_6799f6fc052399_25999003',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6797880a56b672_58268758 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '9352928986797880a554421_22116206';
+function content_6799f6fc052399_25999003 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '14545591616799f6fc034299_46098626';
 ?>
 <div style="background-color: #FFFFFF;margin: 1.3em 0;">     <p style="color: #D62C2C;text-align: center;font-size:1.2em;font-weight:700;"></p></div>
 		<?php if ($_smarty_tpl->tpl_vars['homeslider']->value['slides']) {?>

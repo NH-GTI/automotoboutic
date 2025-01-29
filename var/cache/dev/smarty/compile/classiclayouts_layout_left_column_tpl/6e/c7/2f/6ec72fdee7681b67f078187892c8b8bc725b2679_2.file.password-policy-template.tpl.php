@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:07:11
+/* Smarty version 4.3.4, created on 2025-01-29 11:30:55
   from '/var/www/html/automotoboutic/themes/classic/templates/_partials/password-policy-template.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679784ff753842_41556031',
+  'unifunc' => 'content_679a035f127585_68488534',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679784ff753842_41556031 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a035f127585_68488534 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <template id="password-feedback">

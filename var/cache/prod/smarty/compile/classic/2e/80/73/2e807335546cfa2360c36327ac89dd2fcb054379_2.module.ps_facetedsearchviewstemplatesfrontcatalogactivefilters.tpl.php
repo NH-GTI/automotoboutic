@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-27 14:19:36
+/* Smarty version 4.3.4, created on 2025-01-29 10:38:14
   from 'module:ps_facetedsearchviewstemplatesfrontcatalogactivefilters.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679787e8db14a1_24120171',
+  'unifunc' => 'content_6799f706af94b5_35085696',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679787e8db14a1_24120171 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6799f706af94b5_35085696 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <section id="js-active-search-filters" class="<?php if (smarty_modifier_count($_smarty_tpl->tpl_vars['activeFilters']->value)) {?>active_filters<?php } else { ?>hide<?php }?>">
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1195706356679787e8d9d918_37142860', 'active_filters_title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_5986241056799f706aecb45_87858579', 'active_filters_title');
 ?>
 
 
@@ -40,7 +40,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['filter']->value)
 $_smarty_tpl->tpl_vars['filter']->do_else = false;
 ?>
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_758435176679787e8dab156_58550543', 'active_filters_item');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_12886100166799f706af4cb3_42100244', 'active_filters_item');
 ?>
 
       <?php
@@ -51,12 +51,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 </section>
 <?php }
 /* {block 'active_filters_title'} */
-class Block_1195706356679787e8d9d918_37142860 extends Smarty_Internal_Block
+class Block_5986241056799f706aecb45_87858579 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'active_filters_title' => 
   array (
-    0 => 'Block_1195706356679787e8d9d918_37142860',
+    0 => 'Block_5986241056799f706aecb45_87858579',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -70,12 +70,12 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic
 }
 /* {/block 'active_filters_title'} */
 /* {block 'active_filters_item'} */
-class Block_758435176679787e8dab156_58550543 extends Smarty_Internal_Block
+class Block_12886100166799f706af4cb3_42100244 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'active_filters_item' => 
   array (
-    0 => 'Block_758435176679787e8dab156_58550543',
+    0 => 'Block_12886100166799f706af4cb3_42100244',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
