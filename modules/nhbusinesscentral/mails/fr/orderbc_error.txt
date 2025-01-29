@@ -1,0 +1,9 @@
+{shop_url}
+
+Bonjour,
+
+Une erreur est survenue lors de l'envoi vers Business Central de l'ID Order {$idOrder}
+
+Vérifiez en back-office
+
+[{shop_name}]({shop_url})

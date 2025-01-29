@@ -1,0 +1,13 @@
+*ERROR* 	v8.1.7	2024/11/12 - 03:10:08: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#039;AND cfb.id_brand = 232483&#039; at line 3 at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 10:00:44: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#039;&#039; at line 4 at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 10:06:26: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 10:29:11: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 11:31:18: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 11:37:22: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#039;&#039; at line 4 at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 11:48:59: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 12:28:59: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 13:38:40: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 13:41:26: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 13:42:15: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 17:48:07: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/11/12 - 21:03:46: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;id_employee&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php

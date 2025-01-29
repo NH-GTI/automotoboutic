@@ -1,0 +1,23 @@
+{
+    "name": "instanweb/nhbusinesscentral",
+    "description": "NH Business Central",
+    "authors": [
+        {
+            "name": "InstanWeb",
+            "email": "pat.pbe@instanweb.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InstanWeb\\Module\\NHBusinessCentral\\": "src/"
+        },
+        "classmap": [
+            "nhbusinesscentral.php"
+        ],
+        "exclude-from-classmap": []
+    },
+    "type": "prestashop-module"
+}

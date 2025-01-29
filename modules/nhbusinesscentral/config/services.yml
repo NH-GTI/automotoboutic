@@ -1,0 +1,9 @@
+imports:
+  # Grilles, Contrôleurs et Repository
+  - { resource: services/nhbusinesscentral/nhbusinesscentral.yml }
+
+  # Configuration
+  - { resource: services/configuration/businesscentralconfiguration.yml }
+
+  # Transaction
+  - { resource: services/transaction/order.yml }

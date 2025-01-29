@@ -1,0 +1,75 @@
+#Transaction
+admin_nhbusinesscentral_transaction_grid:
+  path: nhbusinesscentral/transactiongrid
+  methods: [GET]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionGridController::index'
+    _legacy_controller: 'TransactionGridController'
+    _legacy_link: 'TransactionGridController'
+
+admin_nhbusinesscentral_transaction_grid_search:
+  path: nhbusinesscentral/transactiongrid
+  methods: [POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionGridController::searchAction'
+
+admin_nhbusinesscentral_transaction_detail:
+  path: nhbusinesscentral/transactiongrid/detail/{idTransaction}
+  methods: [GET]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionGridController::showDetail'
+
+admin_nhbusinesscentral_transaction_delete:
+  path: nhbusinesscentral/transactiongrid/delete/{idTransaction}
+  methods: [GET,POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionGridController::deleteAction'
+
+admin_nhbusinesscentral_transaction_process:
+  path: nhbusinesscentral/transactiongrid/process/{idTransaction}
+  methods: [GET,POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionGridController::processAction'
+
+admin_nhbusinesscentral_transaction_bulkdelete:
+  path: nhbusinesscentral/transactiongrid/bulkdelete
+  methods: [POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionGridController::bulkDeleteAction'
+
+#Transaction Detail
+admin_nhbusinesscentral_transactiondetail_grid:
+   path: nhbusinesscentral/transactiondetailgrid
+   methods: [GET]
+   defaults:
+     _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionDetailGridController::index'
+
+admin_nhbusinesscentral_transactiondetail_grid_search:
+  path: nhbusinesscentral/transactiondetailgrid
+  methods: [POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionDetailGridController::searchAction'
+
+admin_nhbusinesscentral_transactiondetail_refresh:
+  path: nhbusinesscentral/transactiondetailgrid/refresh/{idTransactionDetail}
+  methods: [GET,POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionDetailGridController::refreshAction'
+
+admin_nhbusinesscentral_transactiondetail_delete:
+  path: nhbusinesscentral/transactiondetailgrid/delete/{idTransactionDetail}
+  methods: [GET,POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionDetailGridController::deleteAction'
+
+admin_nhbusinesscentral_transactiondetail_bulkrefresh:
+  path: nhbusinesscentral/transactiondetailgrid/bulkrefresh
+  methods: [POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionDetailGridController::bulkRefreshAction'
+
+admin_nhbusinesscentral_transactiondetail_bulkdelete:
+  path: nhbusinesscentral/transactiondetailgrid/bulkdelete
+  methods: [POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\TransactionDetailGridController::bulkDeleteAction'

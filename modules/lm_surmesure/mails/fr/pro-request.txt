@@ -1,0 +1,19 @@
+[{shop_url}] 
+
+Demande d'inscripion d'un client PRO de {shop_name}
+
+NOM : {firstname} {lastname}
+
+SOCIETE : {company}
+
+SIREN : {siren}
+
+ACTIVITE : {activity}
+
+EMAIL : {email}
+
+TELEPHONE : {telephone} 
+
+{shop_name} [{shop_url}] powered
+by PrestaShop(tm) [http://www.prestashop.com/] 
+

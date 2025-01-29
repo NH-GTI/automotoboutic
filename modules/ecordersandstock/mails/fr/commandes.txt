@@ -1,0 +1,6 @@
+Bonjour,
+
+Vous trouverez ci-jointe les commandes au {date}
+
+Cordialement,
+{expe}

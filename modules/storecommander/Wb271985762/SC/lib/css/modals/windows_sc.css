@@ -1,0 +1,187 @@
+#scWindowCoreUpdate {
+    bottom: 40px;
+    top: unset !important;
+}
+
+#scWindowTermsAndConditions #cgu_detail {
+        height: 100%;
+        overflow-y: scroll;
+        width: 100%;
+        border: 1px solid #65717a;
+        display: block;
+}
+
+#scWindowTermsAndConditions #cgu_detail body{
+    padding: 0 10px;
+}
+
+#scWindowTermsAndConditions .scModalForm > .dhxform_base{
+    height:calc(100% - 210px);
+}
+#scWindowTermsAndConditions .scModalForm .dhxform_item_label_left:nth-child(3),
+#scWindowTermsAndConditions .scModalForm .dhxform_item_label_left:nth-child(3) > .dhxform_control,
+#scWindowTermsAndConditions .scModalForm .dhxform_item_label_left:nth-child(3) > .dhxform_control > .dhxform_container{
+    height:100%;
+}
+
+#scWindowCoreSettings div.dhx_cell_layout:has(h1.title) {
+    box-shadow: none;
+    z-index: 99;
+}
+
+#scWindowCoreSettings div.dhx_cell_cont_layout:has(h1.title) {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#scWindowCoreSettings .dhx_cell_hdr_hidden{
+    display: none;
+}
+#scWindowCoreSettings h1.title {
+    margin:0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+#scWindowCoreSettings #toolList,
+#scWindowCoreSettings #toolForm {
+    box-shadow: none;
+}
+
+#scWindowCoreSettings #toolList .dhx_cell_cont_layout,
+#scWindowCoreSettings #toolForm .dhx_cell_cont_layout{
+    box-shadow: none;
+    border-bottom: none;
+}
+
+#scWindowCoreSettings #toolList .dhx_cell_cont_layout{
+    border-left: none;
+    border-right: none;
+}
+#scWindowCoreSettings #toolForm .dhx_cell_cont_layout{
+    border-right: none;
+}
+#scWindowCoreSettings #scCoreSettings{
+    top:0!important;
+}
+
+#scWindowCoreSettings #toolList .xhdr tr:has(.hdrcell:not(.filter)),
+#scWindowCoreSettings #toolList .treegrid_cell img:not(.space) {
+    display: none;
+}
+
+#scWindowCoreSettings #toolList .gridbox > .xhdr ,
+#scWindowCoreSettings #toolList .gridbox table.hdr td,
+#scWindowCoreSettings #toolList .gridbox table.hdr td:hover,
+#scWindowCoreSettings #toolList .gridbox tr > td{
+    border:none;
+}
+
+#scWindowCoreSettings #toolList .gridbox tr > td {
+    padding-left: 0;
+}
+
+#scWindowCoreSettings #toolList .gridbox tr.rowselected,
+#scWindowCoreSettings #toolList .gridbox tr.rowselected > td {
+    background: none;
+}
+
+#scWindowCoreSettings #toolList .gridbox table.hdr td {
+    padding: 16px 0;
+}
+
+#scWindowCoreSettings #toolList .objbox tr > td > div{
+    border-radius:6px;
+    padding:8px;
+    cursor:pointer;
+    width: calc(100% - 31px);
+    white-space: pre-wrap!important;
+    height:auto!important;
+}
+
+#scWindowCoreSettings #toolList .objbox tr > td > div[data-countspace="1"]{
+    padding-left: 18px;
+}
+#scWindowCoreSettings #toolList .objbox tr > td > div[data-countspace="2"]{
+    padding-left: 36px;
+}
+#scWindowCoreSettings #toolList .objbox tr > td > div[data-countspace="3"]{
+    padding-left: 52px;
+}
+
+#scWindowCoreSettings #toolList .objbox tr > td > div img{
+    display: none;
+}
+
+#scWindowCoreSettings #toolList .objbox tr > td:hover > div {
+    background:#e7e7e7
+}
+
+#scWindowCoreSettings #toolList .objbox tr.rowselected > td > div{
+    background:#dceaf3
+}
+
+#scWindowCoreSettings #toolList .gridbox > .xhdr table{
+    table-layout: auto!important;
+}
+
+#scWindowCoreSettings #toolList .gridbox > .xhdr table,
+#scWindowCoreSettings #toolList .gridbox > .objbox table {
+    max-width: 270px;
+    padding-right: 0 !important;
+}
+
+#scWindowCoreSettings #toolList .hdrcell.filter:has(i.clearSearch) {
+    padding-left:0;
+    position: relative;
+}
+#scWindowCoreSettings #toolList .hdrcell.filter:has(i.clearSearch):before {
+    content: '\f002';
+    font-family: "Font Awesome 5 Pro";
+    display: block;
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: 8px;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 15px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+#scWindowCoreSettings #toolList .hdrcell.filter > input {
+    padding: 0 28px 0 34px;
+    height: 40px;
+    width: 100% !important;
+    border:1px solid #c7c7c7;
+    border-radius: 6px;
+    outline: none;
+}
+#scWindowCoreSettings #toolList i.clearSearch {
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right:6px;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    width: 24px !important;
+    height:40px;
+    text-align: center;
+    transition:color 0.2s ease-in-out;
+}
+#scWindowCoreSettings #toolList i.clearSearch:hover {
+    color:#2a2424;
+}
+#scWindowCoreSettings #toolList i.clearSearch:before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}

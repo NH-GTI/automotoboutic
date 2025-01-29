@@ -1,0 +1,23 @@
+imports:
+
+  # Transaction
+  - { resource: ../services/transaction/order.yml }
+
+services:
+  instanweb.module.nhbusinesscentral.transaction.repository:
+      public: true
+      class: InstanWeb\Module\NHBusinessCentral\Repository\TransactionRepository
+      arguments:
+        - '@doctrine.dbal.default_connection'
+        - '%database_prefix%'
+
+  instanweb.module.nhbusinesscentral.businesscentralconfiguration.config.data:
+      public: true
+      class: 'InstanWeb\Module\NHBusinessCentral\Provider\ConfigurationData'
+      arguments:
+        - '@InstanWeb\Module\NHBusinessCentral\Adapter\Config\BusinessCentralConfiguration'
+
+  InstanWeb\Module\NHBusinessCentral\Adapter\Config\BusinessCentralConfiguration:
+      public: true
+      class: InstanWeb\Module\NHBusinessCentral\Adapter\Config\BusinessCentralConfiguration
+      arguments: ['@prestashop.adapter.legacy.configuration']

@@ -1,0 +1,281 @@
+.scModalForm *:focus {
+    outline: none;
+}
+
+.scModalForm > .dhxform_base {
+    padding: 0 32px 24px 32px;
+    width: calc(100% - 64px)
+}
+
+
+.scModalForm .columns > .dhxform_block {
+    width: 100%;
+}
+
+.scModalForm .columns .dhxform_item_label_right,
+.scModalForm .columns .in_block {
+    padding: 0 !important;
+}
+
+.scModalForm h1,
+.scModalForm h2,
+.scModalForm h3,
+.scModalForm h4,
+.scModalForm p {
+    margin: 0;
+    padding: 0;
+    color:#393838;
+}
+
+.scModalForm p {
+    font-weight: normal;
+}
+
+.scModalForm h1 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.scModalForm h2 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.scModalForm .dhxform_control:has(iframe),
+.scModalForm .dhxform_control:has(hr),
+.scModalForm .dhxform_control:has(.dhxform_item_template > .message) {
+    float: none !important;
+}
+
+.scModalForm div[class^='dhxform_item_label'] {
+    padding-top: 15px;
+}
+
+.scModalForm div[class^='dhxform_item_label']:has(hr) {
+    margin-bottom: 24px;
+}
+
+.scModalForm div[class*='btn2state'] {
+    cursor: pointer;
+}
+
+.scModalForm hr {
+    height: 1px;
+    border: none;
+    background: #e3e3e3;
+}
+
+.scModalForm .dhxform_item_label_left:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/*
+    Buttons
+ */
+.scModalForm div[class^='dhxform_item'].checkConditions {
+    padding: 6px 0 0 0 !important;
+}
+.scModalForm div[class^='dhxform_item'].checkConditions .dhxform_info {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: #39c;
+    text-decoration: underline;
+}
+.scModalForm div[class^='dhxform_item'].checkConditions .dhxform_info:after{
+    content:"\f08e";
+    font-family: "Font Awesome 5 Pro";
+    margin-left: 5px;
+
+}
+
+.scModalForm div[class^='dhxform_item'].checkConditions .dhxform_img:hover {
+    cursor: pointer;
+}
+.scModalForm .dhxform_base:has(.alignRight),
+.scModalForm .dhxform_base:has(.validationSubmit) {
+    float: right;
+}
+
+.scModalForm .dhxform_base:has(.alignRight){
+    margin-right: 8px;
+}
+
+.scModalForm .dhxform_btn {
+    margin: 0 !important;
+    border-radius: 6px;
+}
+
+.scModalForm .dhxform_btn:not([disabled="true"]):hover {
+    cursor: pointer;
+}
+
+.scModalForm .dhxform_btn > .dhxform_btn_txt {
+    height: auto !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    padding: 8px 16px;
+    margin: 0 !important;
+}
+
+.scModalForm .validationSubmit .dhxform_btn {
+    border-color: #3b83b5 !important;
+    background-color: #3b83b5 !important;
+    color: #fff;
+}
+
+.scModalForm .validationSubmit .dhxform_btn:hover {
+    background-color: #2d658c !important;
+}
+
+.scModalForm .validationSubmit .dhxform_btn:focus {
+    color: #fff !important;
+    border-width: 1px !important
+}
+
+.scModalForm .dhxform_btn[disabled="true"],
+.scModalForm .dhxform_btn[disabled="true"]:hover {
+    border-color: #8d9ca7 !important;
+    background-color: #8d9ca7 !important;
+}
+
+.scModalForm .dhxform_btn[disabled="true"] .dhxform_btn_txt {
+    opacity: 0.5;
+}
+/*
+    End buttons
+ */
+/*
+    Start Modal message
+ */
+
+.scModalForm .message {
+    float: none !important;
+    position: relative;
+    margin: 0;
+    padding: 16px 52px 13px 52px !important;
+}
+
+.scModalForm .message:before {
+    position: absolute;
+    float: none;
+    left: 20px;
+    top: 20px;
+    margin: 0;
+}
+
+.scModalForm .message.process:before {
+    content: "\f110";
+}
+
+.scModalForm .message h1 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.scModalForm .message > .paragraph {
+    opacity: 0.8;
+    max-height: 110px;
+    word-break: break-word;
+    overflow-y: auto;
+}
+
+/*
+    End Modal message
+ */
+/*
+    SC Specific Settings
+ */
+.scModalForm.scSettings h1 {
+    padding-left:16px;
+    margin:10px 0;
+}
+.scModalForm.scSettings h2 {
+    font-size: 14px;
+}
+
+.scModalForm.scSettings .twoState .dhxform_label:has(h2) {
+    margin:0!important;
+    width: 100%;
+    max-width: calc(100% - 45px);
+}
+
+.scModalForm.scSettings .dhxform_base .dhxform_base_nested.in_block:has(h2) {
+    background:#fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.scModalForm.scSettings .dhxform_base .dhxform_base_nested.in_block:has(h2.active) {
+    background:#dceaf3
+}
+
+.scModalForm.scSettings .dhxform_base .dhxform_base_nested > .dhxform_base,
+.scModalForm.scSettings .dhxform_base .dhxform_base_nested .dhxform_block,
+.scModalForm.scSettings .dhxform_base_nested.in_block > .dhxform_base,
+.scModalForm.scSettings .description > .dhxform_control{
+    float: none;
+}
+.scModalForm.scSettings .dhxform_base .dhxform_base_nested,
+.scModalForm.scSettings div[class^='dhxform_item_label']{
+    padding:0!important;
+}
+.scModalForm.scSettings .dhxform_base .dhxform_base_nested.in_block {
+    padding:16px!important;
+}
+.scModalForm.scSettings .description{
+    padding:0;
+}
+.scModalForm.scSettings .dhxform_base div[class^='block_dhxform_item'] > .dhxform_block{
+    border-top:1px solid #e3e3e3;
+    border-left:1px solid #e3e3e3;
+    border-right:1px solid #e3e3e3;
+}
+.scModalForm.scSettings .dhxform_base div[class^='block_dhxform_item']:first-child > .dhxform_block{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px
+}
+.scModalForm.scSettings .dhxform_base div[class^='block_dhxform_item']:last-child > .dhxform_block{
+    border-bottom:1px solid #e3e3e3;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px
+}
+.scModalForm.scSettings .description > .dhxform_label,
+.scModalForm.scSettings .twoState .dhxform_control > .dhxform_textarea{
+    display: none;
+}
+.scModalForm.scSettings .description .dhxform_item_template{
+    font-size: 12px;
+    line-height: 16px;
+    color:#898989;
+}
+.scModalForm.scSettings .twoState .dhxform_control{
+    float:right;
+}
+.scModalForm.scSettings .twoState .dhxform_control > .dhxform_img{
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+.scModalForm.scSettings div:not(.dhxform_img_node) > input.dhxform_textarea,
+.scModalForm.scSettings select.dhxform_select{
+    width: calc(100% - 16px);
+    height: 40px;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 0 0 16px !important;
+}
+.scModalForm.scSettings select.dhxform_select{
+    background-position-y: center;
+    width: 100%;
+}
+.scModalForm.scSettings input.calendar{
+    background-position-y: center;
+}
+
+
+/*
+    END SC Specific Settings
+ */

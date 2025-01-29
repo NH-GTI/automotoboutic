@@ -1,0 +1,13 @@
+.bootstrap input[type="date"], .bootstrap input[type="time"], .bootstrap input[type="datetime-local"], .bootstrap input[type="month"] {
+    line-height: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+@media screen and (min-width: 768px) {
+    .box_status{
+        margin-left: 80px;
+    }
+}

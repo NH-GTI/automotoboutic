@@ -1,0 +1,5 @@
+<?php
+/*
+StoreCommander
+*/
+ use Sc\Service\Usage; class ExternHallUsage { private $params; public function __construct($payloadParams = null) { $this->params = $payloadParams; } public function doProcess() { goto SDc6M; SDc6M: $usages = new Usage(); goto SOPyg; Trg73: return true; goto cQbtL; P3cm7: Jc3Wt: goto nELcN; SOPyg: $usageData = $usages->getForApi(); goto px6qo; px6qo: if (!$usageData) { goto sqoKR; } goto v9Mcf; nELcN: sqoKR: goto Trg73; v9Mcf: $apiResult = makeDefaultCallToOurApi("\145\170\x74\x65\162\156\x68\x61\x6c\x6c\57\x75\163\141\x67\x65\57\141\x64\x64", array(), array("\x61\x63\x74\x69\157\x6e\x5f\x69\x64" => $this->params["\141\x63\164\151\x6f\156\x5f\x69\144"], "\165\x73\x61\x67\145" => json_encode($usageData))); goto X0cYH; SS6hj: $usages->reset(); goto P3cm7; X0cYH: if (!((int) $apiResult["\x63\157\144\x65"] == 200 && (string) $apiResult["\x72\145\x73\165\154\164"] == "\x63\141\156\137\162\x65\163\145\164\137\x75\x73\x61\147\145")) { goto Jc3Wt; } goto SS6hj; cQbtL: } }

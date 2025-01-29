@@ -1,0 +1,7 @@
+#Configuration
+app_configuration:
+  resource: 'routing/configuration.yml'
+
+#Transaction
+app_transaction:
+  resource: 'routing/transaction.yml'

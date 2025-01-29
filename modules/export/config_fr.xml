@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>export</name>
+    <displayName><![CDATA[Export CSV &amp; PDF]]></displayName>
+    <version><![CDATA[0.1]]></version>
+    <description><![CDATA[Export des commandes CSV et PDF]]></description>
+    <author><![CDATA[Lemon Interactive]]></author>
+    <tab><![CDATA[back_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

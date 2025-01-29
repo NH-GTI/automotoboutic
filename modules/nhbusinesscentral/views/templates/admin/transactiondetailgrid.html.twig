@@ -1,0 +1,21 @@
+{% extends '@PrestaShop/Admin/layout.html.twig' %}
+{% trans_default_domain "Admin.Design.Feature" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-sm-12">
+        {% include '@PrestaShop/Admin/Common/Grid/grid_panel.html.twig' with {'grid' : transactiondetailgrid } %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        <a href="{{ url('admin_nhbusinesscentral_transaction_grid') }}" class="btn btn-secondary">{{ 'Back to transactions'|trans({}, 'Admin.NHBusinessCentral.Actions') }}</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('../modules/nhbusinesscentral/views/js/transactiondetailgrid.js') }}"></script>
+    <script src="{{ asset('themes/default/js/bundle/pagination.js') }}"></script>
+{% endblock %}

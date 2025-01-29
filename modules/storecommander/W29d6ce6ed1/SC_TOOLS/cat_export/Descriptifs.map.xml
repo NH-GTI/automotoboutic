@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping version="5">
+<field><used><![CDATA[1]]></used><name><![CDATA[id_product]]></name><lang><![CDATA[]]></lang><options><![CDATA[]]></options><options_two><![CDATA[]]></options_two><modifications><![CDATA[]]></modifications><column_name><![CDATA[]]></column_name></field>
+<field><used><![CDATA[1]]></used><name><![CDATA[reference]]></name><lang><![CDATA[]]></lang><options><![CDATA[]]></options><options_two><![CDATA[default]]></options_two><modifications><![CDATA[]]></modifications><column_name><![CDATA[]]></column_name></field>
+<field><used><![CDATA[1]]></used><name><![CDATA[name]]></name><lang><![CDATA[fr]]></lang><options><![CDATA[]]></options><options_two><![CDATA[]]></options_two><modifications><![CDATA[]]></modifications><column_name><![CDATA[]]></column_name></field>
+<field><used><![CDATA[1]]></used><name><![CDATA[description]]></name><lang><![CDATA[fr]]></lang><options><![CDATA[]]></options><options_two><![CDATA[]]></options_two><modifications><![CDATA[nohtml]]></modifications><column_name><![CDATA[]]></column_name></field>
+<field><used><![CDATA[1]]></used><name><![CDATA[description_short]]></name><lang><![CDATA[fr]]></lang><options><![CDATA[]]></options><options_two><![CDATA[]]></options_two><modifications><![CDATA[nohtml]]></modifications><column_name><![CDATA[]]></column_name></field>
+</mapping>

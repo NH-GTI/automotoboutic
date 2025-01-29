@@ -1,0 +1,1 @@
+*ERROR* 	v8.1.7	2024/11/06 - 15:37:46: SQLSTATE[HY000]: General error: 3 Error writing file &#039;/tmp/MYfd=2442&#039; (OS errno 28 - No space left on device) at line 151 in file classes/db/DbPDO.php

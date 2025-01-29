@@ -1,0 +1,27 @@
+div[id^='scWindow'] {
+    border: none !important;
+    background: none !important;
+    border-radius: 8px !important;
+}
+
+div[id^='scWindow'] .dhxwin_brd {
+    border: none !important;
+}
+
+div[id^='scWindow'] .dhxwin_hdr {
+    background: #fff !important;
+}
+
+div[id^='scWindow'] .dhxwin_btns .dhxwin_button {
+    filter: contrast(0.1);
+}
+
+div[id^='scWindow'] .dhxwin_btns .dhxwin_button:hover {
+    cursor: pointer;
+    background-color: unset !important;
+    filter: contrast(0.4);
+}
+
+div[id^='scWindow'] .dhxwin_hdr > .dhxwin_text {
+    display: none;
+}

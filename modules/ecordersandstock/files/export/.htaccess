@@ -1,0 +1,4 @@
+AuthName "Private access"
+AuthType Basic
+AuthUserFile "/home/automotoboutic/etc/.htpasswd"
+Require valid-user

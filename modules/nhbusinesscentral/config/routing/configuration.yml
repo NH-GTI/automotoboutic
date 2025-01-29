@@ -1,0 +1,7 @@
+admin_nhbusinesscentral_configuration:
+  path: nhbusinesscentral/configuration
+  methods: [GET, POST]
+  defaults:
+    _controller: 'InstanWeb\Module\NHBusinessCentral\Controller\ConfigurationController::index'
+    _legacy_controller: 'ConfigurationController'
+    _legacy_link: 'ConfigurationController'

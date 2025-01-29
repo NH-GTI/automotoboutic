@@ -1,0 +1,13 @@
+A00000055    180620????????00000055                                            DATE DE LIVRAISON : 180620 HEURE MINI :      HEURE MAXI :                     EUR 00000055             3012810000003
+BCClément BEGHIN                    25 résidence le clos                    59310    FAUMONT                            FR 0627141337                                        cbeghin@automotoboutic.com                                                                                                            
+BLClément BEGHIN                    27 RUE DE L ABBE GIL                    59148    FLINES LEZ RACHES                  FR 0627141337                                                                                                                                                                              
+BFClément BEGHIN                    25 résidence le clos                    59310    FAUMONT                            FR 0627141337                                                                                                                                                                              
+C1   ????????        00000000010000108.25                                                                                                                                                                  000000553281690188644
+Peugeot / 307 / Gamme Carat / 2 avants + 1 arriére + 1 coffre / Carat Gris anthracite surpiqure rouge / 08-10-2006 / ~~PGT135~~
+C3   ????????        00000000010000033.25                                                                                                                                                                  000000553281690188484
+Peugeot / 407 coupé / Gamme Premium / coffre uniquement / Premium Gris / 13-06-1999 / ~~PGT235~~
+C5   ????????        0000000004016.584533                                                                                                                                                                  000000553281690173084
+C6   ????????        0000000001041.583333                                                                                                                                                                  000000553281690188545
+Bentley / Arnage (arriéres en deux parties) / Gamme Elite / 2 avants / Elite Bleu Marine / 10-08-1994 / ~~BEN01~~
+C8   ????????        0000000001037.416667                                                                                                                                                                  000000553281690188460
+Cadillac / STS 2005-2013 (Arrière en 2 parties) / Gamme Premium / 2 avants + 2 arrières / Premium Noir / 01-01-2019 / ~~CAD10~~

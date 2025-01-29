@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "prestashop/php-dev-tools": "1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "cmcicpaiement.php",
+            "CmCicTpe.inc.php",
+            "controllers/"
+        ]
+    }
+
+}

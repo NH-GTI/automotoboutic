@@ -1,0 +1,23 @@
+[{shop_url}] 
+
+Votre inscription à notre boutique {shop_name} 
+
+Votre inscription a bien été soumise à notre service client.
+
+NOM : {firstname} {lastname}
+
+SOCIETE : {company}
+
+SIREN : {siren}
+
+ACTIVITE : {activity}
+
+EMAIL : {email}
+
+TELEPHONE : {telephone}
+
+Nous vous répondrons dans les meilleurs délais. 
+
+{shop_name} [{shop_url}] powered
+by PrestaShop(tm) [http://www.prestashop.com/] 
+

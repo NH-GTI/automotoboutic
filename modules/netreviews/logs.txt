@@ -1,0 +1,633 @@
+2024-12-04 10:55:01 [Netreviews - 2] Init migration
+
+2024-12-04 10:55:01 [Netreviews - 2] Migration config:array (
+  &#039;90e983f7-d843-9514-89df-3656d7596ba2&#039; =&gt; 
+  array (
+    &#039;moduleVersion&#039; =&gt; &#039;9.0.2&#039;,
+    &#039;urlCertificate&#039; =&gt; NULL,
+    &#039;signature&#039; =&gt; &#039;6594fe2b5f5365f94ca96a498c377b681848ecf4034ae2856f9863c408731f6a&#039;,
+  ),
+)
+
+2024-12-04 10:55:07 [Netreviews - 2] Response from Genesis endpoint: array (
+  &#039;90e983f7-d843-9514-89df-3656d7596ba2&#039; =&gt; 
+  array (
+    &#039;id&#039; =&gt; 1415,
+    &#039;modifiedDate&#039; =&gt; NULL,
+    &#039;websiteId&#039; =&gt; &#039;90e983f7-d843-9514-89df-3656d7596ba2&#039;,
+    &#039;settings&#039; =&gt; 
+    array (
+      &#039;clientid&#039; =&gt; &#039;8425414b-46b7-4ba7-8553-2166350ec495&#039;,
+      &#039;features&#039; =&gt; 
+      array (
+        &#039;embeddedBrandWidget&#039; =&gt; 1,
+        &#039;embeddedProductWidget&#039; =&gt; 1,
+      ),
+      &#039;reloaded&#039; =&gt; 1,
+      &#039;secretapi&#039; =&gt; &#039;JAgDzfLKOLW4feChDxSGO8RpBuhirzf5j_bNQ2gmKqr5OhBZr4GdHoaPE3zK0nOO3LtoQhyPbi4-BFwYuR5O7w&#039;,
+      &#039;brandDelay&#039; =&gt; &#039;8&#039;,
+      &#039;statusList&#039; =&gt; 
+      array (
+        0 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Annul&eacute;&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;6&#039;,
+        ),
+        1 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En attente de d&eacute;blocage compte client&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;45&#039;,
+        ),
+        2 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En attente de paiement &agrave; la livraison&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;13&#039;,
+        ),
+        3 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En attente de r&eacute;approvisionnement (non pay&eacute;)&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;12&#039;,
+        ),
+        4 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En attente de r&eacute;approvisionnement (pay&eacute;)&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;9&#039;,
+        ),
+        5 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En attente du paiement par ch&egrave;que&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;1&#039;,
+        ),
+        6 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En cours de pr&eacute;paration&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;3&#039;,
+        ),
+        7 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En cours d&rsquo;exp&eacute;dition&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;41&#039;,
+        ),
+        8 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;En instance de production&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;23&#039;,
+        ),
+        9 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Erreur de paiement&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;8&#039;,
+        ),
+        10 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Exp&eacute;di&eacute;&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;4&#039;,
+        ),
+        11 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Livr&eacute;&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;5&#039;,
+        ),
+        12 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Marketplace - Technical error&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;44&#039;,
+        ),
+        13 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Nouvelle commande &agrave; traiter&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;10&#039;,
+        ),
+        14 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Paiement &agrave; distance accept&eacute;&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;11&#039;,
+        ),
+        15 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Paiement accept&eacute;&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;2&#039;,
+        ),
+        16 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;point de retrait/BDP&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;31&#039;,
+        ),
+        17 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;preparation tapis&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;39&#039;,
+        ),
+        18 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Rembours&eacute;&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;7&#039;,
+        ),
+        19 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;remboursement partiel&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;29&#039;,
+        ),
+        20 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Remis au transporteur&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;43&#039;,
+        ),
+        21 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Retour GTI&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;33&#039;,
+        ),
+        22 =&gt; 
+        array (
+          &#039;name&#039; =&gt; &#039;Transmis NAVISION (PRODUCTION)&#039;,
+          &#039;idLang&#039; =&gt; &#039;1&#039;,
+          &#039;idOrderState&#039; =&gt; &#039;38&#039;,
+        ),
+      ),
+      &#039;countryCode&#039; =&gt; &#039;fr&#039;,
+      &#039;multishopNb&#039; =&gt; 0,
+      &#039;productDelay&#039; =&gt; &#039;8&#039;,
+      &#039;choosenStatus&#039; =&gt; 
+      array (
+      ),
+      &#039;reminderDelay&#039; =&gt; 3,
+      &#039;displayReviews&#039; =&gt; 1,
+      &#039;activateCollect&#039; =&gt; 1,
+      &#039;solutionVersion&#039; =&gt; &#039;1.7.2.4&#039;,
+      &#039;firstRetroactive&#039; =&gt; 1,
+      &#039;genesisSecretKey&#039; =&gt; &#039;8aecbb40-d670-5304-45ef-10ab9713b58b&#039;,
+      &#039;installationDate&#039; =&gt; &#039;&#039;,
+      &#039;multilingualMode&#039; =&gt; 0,
+      &#039;collected_consent&#039; =&gt; 0,
+      &#039;scriptWidgetBrand&#039; =&gt; 
+      array (
+        0 =&gt; 
+        array (
+          &#039;61f2039a-d803-485e-878d-31a5a7ec0293&#039; =&gt; &#039;&#039;,
+        ),
+      ),
+      &#039;configuredLanguage&#039; =&gt; 
+      array (
+      ),
+      &#039;hasProductPostpone&#039; =&gt; 1,
+      &#039;scriptWidgetProduct&#039; =&gt; 
+      array (
+        &#039;script&#039; =&gt; &#039;&#039;,
+        &#039;idWidget&#039; =&gt; &#039;&#039;,
+        &#039;tagAverage&#039; =&gt; &#039;&#039;,
+        &#039;tagReviews&#039; =&gt; &#039;&#039;,
+      ),
+      &#039;blacklistedExtensions&#039; =&gt; 
+      array (
+        0 =&gt; &#039;marketplace.amazon.com&#039;,
+        1 =&gt; &#039;ebay.com&#039;,
+        2 =&gt; &#039;marketplace.amazon.fr&#039;,
+        3 =&gt; &#039;rueducommerce.com&#039;,
+        4 =&gt; &#039;laredoute.com&#039;,
+        5 =&gt; &#039;zalando.de&#039;,
+        6 =&gt; &#039;zalando.fr&#039;,
+        7 =&gt; &#039;priceminister.com&#039;,
+        8 =&gt; &#039;cdiscount.com&#039;,
+        9 =&gt; &#039;sc.rueducommerce.com&#039;,
+        10 =&gt; &#039;marketplace.fnac.com&#039;,
+        11 =&gt; &#039;clemarche.com&#039;,
+        12 =&gt; &#039;noreplylziflux.fr&#039;,
+        13 =&gt; &#039;spartoo.com&#039;,
+        14 =&gt; &#039;marketplace.amazon.it&#039;,
+        15 =&gt; &#039;natureetdecouvertes.com&#039;,
+        16 =&gt; &#039;mp.laredoute-marketplace.fr&#039;,
+        17 =&gt; &#039;monechelle.com&#039;,
+        18 =&gt; &#039;galeries_lafayette.com&#039;,
+        19 =&gt; &#039;marketplace.amazon.de&#039;,
+        20 =&gt; &#039;noreply-iziflux.com&#039;,
+        21 =&gt; &#039;marketplace.amazon.co.uk&#039;,
+        22 =&gt; &#039;anonyme.com&#039;,
+        23 =&gt; &#039;darty.fr &#039;,
+        24 =&gt; &#039;auchan.fr&#039;,
+        25 =&gt; &#039;marketplace.amazon.es&#039;,
+        26 =&gt; &#039;manomano.fr&#039;,
+        27 =&gt; &#039;noreplyiziflux.fr&#039;,
+        28 =&gt; &#039;alerts-shopping-flux.com&#039;,
+        29 =&gt; &#039;macway.fr&#039;,
+        30 =&gt; &#039;downtownstock.com&#039;,
+        31 =&gt; &#039;roure.net&#039;,
+        32 =&gt; &#039;message.manomano.com&#039;,
+        33 =&gt; &#039;notification.mirakl.net&#039;,
+        34 =&gt; &#039;web.redoute.fr&#039;,
+        35 =&gt; &#039;darty.fr&#039;,
+        36 =&gt; &#039;alert-shopping-flux.com&#039;,
+      ),
+      &#039;hasReviewRequestReminder&#039; =&gt; true,
+      &#039;hasProductReviewCollection&#039; =&gt; 1,
+    ),
+    &#039;urlConnector&#039; =&gt; &#039;http://www.automotoboutic.com/modules/netreviews/netreviewsApi.php&#039;,
+    &#039;connector&#039; =&gt; 
+    array (
+      &#039;id&#039; =&gt; 24,
+      &#039;createdDate&#039; =&gt; &#039;2024-11-21T10:16:43+01:00&#039;,
+      &#039;modifiedDate&#039; =&gt; &#039;2024-11-21T10:16:43+01:00&#039;,
+      &#039;name&#039; =&gt; &#039;Prestashop&#039;,
+      &#039;description&#039; =&gt; &#039;Connector for Prestashop sites R&amp;R&#039;,
+      &#039;release&#039; =&gt; &#039;9.0.2&#039;,
+      &#039;releaseDate&#039; =&gt; &#039;2024-11-21T00:00:00+01:00&#039;,
+      &#039;newFeatures&#039; =&gt; NULL,
+      &#039;bugFixes&#039; =&gt; &#039;Fix: fix error when brand widgets are integrated with php 7.1&#039;,
+      &#039;downloadLink&#039; =&gt; &#039;https://addons.prestashop.com/en/customer-reviews/17497-verified-reviews-.html&#039;,
+      &#039;documentationLink&#039; =&gt; &#039;https://verifiedreviews.zendesk.com/hc/fr/articles/4407572575122-Prestashop-Documentation-Connecteur&#039;,
+      &#039;defaultSettings&#039; =&gt; 
+      array (
+        &#039;clientid&#039; =&gt; &#039;&#039;,
+        &#039;features&#039; =&gt; 
+        array (
+          &#039;embeddedBrandWidget&#039; =&gt; 1,
+          &#039;embeddedProductWidget&#039; =&gt; 1,
+        ),
+        &#039;secretapi&#039; =&gt; &#039;&#039;,
+        &#039;brandDelay&#039; =&gt; 0,
+        &#039;statusList&#039; =&gt; 
+        array (
+        ),
+        &#039;multishopNb&#039; =&gt; 0,
+        &#039;productDelay&#039; =&gt; 0,
+        &#039;choosenStatus&#039; =&gt; 
+        array (
+        ),
+        &#039;reminderDelay&#039; =&gt; 3,
+        &#039;displayReviews&#039; =&gt; 0,
+        &#039;activateCollect&#039; =&gt; 0,
+        &#039;solutionVersion&#039; =&gt; &#039;&#039;,
+        &#039;installationDate&#039; =&gt; &#039;&#039;,
+        &#039;multilingualMode&#039; =&gt; 0,
+        &#039;collected_consent&#039; =&gt; 0,
+        &#039;scriptWidgetBrand&#039; =&gt; 
+        array (
+        ),
+        &#039;configuredLanguage&#039; =&gt; 
+        array (
+        ),
+        &#039;hasProductPostpone&#039; =&gt; false,
+        &#039;scriptWidgetProduct&#039; =&gt; 
+        array (
+          &#039;script&#039; =&gt; &#039;&#039;,
+          &#039;idWidget&#039; =&gt; &#039;&#039;,
+          &#039;tagAverage&#039; =&gt; &#039;&#039;,
+          &#039;tagReviews&#039; =&gt; &#039;&#039;,
+        ),
+        &#039;blacklistedExtensions&#039; =&gt; 
+        array (
+          0 =&gt; &#039;marketplace.amazon.com&#039;,
+          1 =&gt; &#039;marketplace.amazon.fr&#039;,
+          2 =&gt; &#039;rueducommerce.com&#039;,
+          3 =&gt; &#039;laredoute.com&#039;,
+          4 =&gt; &#039;zalando.fr&#039;,
+          5 =&gt; &#039;priceminister.com&#039;,
+          6 =&gt; &#039;cdiscount.com&#039;,
+          7 =&gt; &#039;sc.rueducommerce.com&#039;,
+          8 =&gt; &#039;marketplace.fnac.com&#039;,
+          9 =&gt; &#039;clemarche.com&#039;,
+          10 =&gt; &#039;noreplylziflux.fr&#039;,
+          11 =&gt; &#039;marketplace.amazon.it&#039;,
+          12 =&gt; &#039;natureetdecouvertes.com&#039;,
+          13 =&gt; &#039;mp.laredoute-marketplace.fr&#039;,
+          14 =&gt; &#039;monechelle.com&#039;,
+          15 =&gt; &#039;galeries_lafayette.com&#039;,
+          16 =&gt; &#039;noreply-iziflux.com&#039;,
+          17 =&gt; &#039;marketplace.amazon.co.uk&#039;,
+          18 =&gt; &#039;anonyme.com&#039;,
+          19 =&gt; &#039;darty.fr&#039;,
+          20 =&gt; &#039;auchan.fr&#039;,
+          21 =&gt; &#039;marketplace.amazon.es&#039;,
+          22 =&gt; &#039;manomano.fr&#039;,
+          23 =&gt; &#039;noreplyiziflux.fr&#039;,
+          24 =&gt; &#039;alert-shopping-flux.com&#039;,
+          25 =&gt; &#039;macway.fr&#039;,
+          26 =&gt; &#039;downtownstock.com&#039;,
+          27 =&gt; &#039;roure.net&#039;,
+          28 =&gt; &#039;message.manomano.com&#039;,
+          29 =&gt; &#039;notification.mirakl.net&#039;,
+        ),
+        &#039;hasReviewRequestReminder&#039; =&gt; true,
+        &#039;hasProductReviewCollection&#039; =&gt; false,
+      ),
+      &#039;connectorType&#039; =&gt; 
+      array (
+        &#039;id&#039; =&gt; 1,
+        &#039;createdDate&#039; =&gt; &#039;2022-08-25T13:22:48+02:00&#039;,
+        &#039;modifiedDate&#039; =&gt; NULL,
+        &#039;name&#039; =&gt; &#039;Ratings and reviews&#039;,
+        &#039;description&#039; =&gt; &#039;Ratings and reviews connectors&#039;,
+      ),
+      &#039;solution&#039; =&gt; 
+      array (
+        &#039;id&#039; =&gt; 1,
+        &#039;createdDate&#039; =&gt; &#039;2022-08-25T13:22:48+02:00&#039;,
+        &#039;modifiedDate&#039; =&gt; NULL,
+        &#039;name&#039; =&gt; &#039;Prestashop&#039;,
+        &#039;description&#039; =&gt; &#039;French e-commerce solution&#039;,
+        &#039;release&#039; =&gt; &#039;1.7.8.6&#039;,
+        &#039;releaseDate&#039; =&gt; &#039;2022-05-17T00:00:00+02:00&#039;,
+        &#039;solutionType&#039; =&gt; 
+        array (
+          &#039;id&#039; =&gt; 1,
+          &#039;createdDate&#039; =&gt; &#039;2022-08-25T13:22:48+02:00&#039;,
+          &#039;modifiedDate&#039; =&gt; NULL,
+          &#039;name&#039; =&gt; &#039;Classic e-commerce&#039;,
+          &#039;description&#039; =&gt; &#039;Classic e-commerce solutions&#039;,
+        ),
+      ),
+      &#039;status&#039; =&gt; NULL,
+    ),
+    &#039;websiteSolution&#039; =&gt; 
+    array (
+      &#039;id&#039; =&gt; 1415,
+      &#039;createdDate&#039; =&gt; &#039;2024-12-04T10:55:02+01:00&#039;,
+      &#039;modifiedDate&#039; =&gt; &#039;2024-12-04T10:55:02+01:00&#039;,
+      &#039;solution&#039; =&gt; 
+      array (
+        &#039;id&#039; =&gt; 1,
+        &#039;createdDate&#039; =&gt; &#039;2022-08-25T13:22:48+02:00&#039;,
+        &#039;modifiedDate&#039; =&gt; NULL,
+        &#039;name&#039; =&gt; &#039;Prestashop&#039;,
+        &#039;description&#039; =&gt; &#039;French e-commerce solution&#039;,
+        &#039;release&#039; =&gt; &#039;1.7.8.6&#039;,
+        &#039;releaseDate&#039; =&gt; &#039;2022-05-17T00:00:00+02:00&#039;,
+        &#039;solutionType&#039; =&gt; 
+        array (
+          &#039;id&#039; =&gt; 1,
+          &#039;createdDate&#039; =&gt; &#039;2022-08-25T13:22:48+02:00&#039;,
+          &#039;modifiedDate&#039; =&gt; NULL,
+          &#039;name&#039; =&gt; &#039;Classic e-commerce&#039;,
+          &#039;description&#039; =&gt; &#039;Classic e-commerce solutions&#039;,
+        ),
+      ),
+      &#039;websiteId&#039; =&gt; 
+      array (
+        &#039;websiteId&#039; =&gt; &#039;90e983f7-d843-9514-89df-3656d7596ba2&#039;,
+        &#039;connectorApiKey&#039; =&gt; &#039;e0fe629c-56dc-4001-825b-3e03e638b615&#039;,
+        &#039;name&#039; =&gt; &#039;www.automotoboutic.com&#039;,
+        &#039;url&#039; =&gt; &#039;https://www.automotoboutic.com&#039;,
+        &#039;createdDate&#039; =&gt; &#039;2024-12-04T10:55:02+01:00&#039;,
+        &#039;modifiedDate&#039; =&gt; NULL,
+        &#039;country&#039; =&gt; &#039;fr_FR&#039;,
+        &#039;preferredLanguage&#039; =&gt; &#039;fr_FR&#039;,
+        &#039;certificateDomain&#039; =&gt; NULL,
+      ),
+    ),
+    &#039;lastSeen&#039; =&gt; NULL,
+    &#039;migrationStatus&#039; =&gt; 200,
+  ),
+)
+
+2024-12-04 10:55:08 [Netreviews - 2] Config updated after migration: array (
+  &#039;clientid&#039; =&gt; &#039;8425414b-46b7-4ba7-8553-2166350ec495&#039;,
+  &#039;features&#039; =&gt; 
+  array (
+    &#039;embeddedBrandWidget&#039; =&gt; 1,
+    &#039;embeddedProductWidget&#039; =&gt; 1,
+  ),
+  &#039;reloaded&#039; =&gt; 1,
+  &#039;secretapi&#039; =&gt; &#039;JAgDzfLKOLW4feChDxSGO8RpBuhirzf5j_bNQ2gmKqr5OhBZr4GdHoaPE3zK0nOO3LtoQhyPbi4-BFwYuR5O7w&#039;,
+  &#039;brandDelay&#039; =&gt; &#039;8&#039;,
+  &#039;statusList&#039; =&gt; 
+  array (
+    0 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Annul&eacute;&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;6&#039;,
+    ),
+    1 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En attente de d&eacute;blocage compte client&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;45&#039;,
+    ),
+    2 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En attente de paiement &agrave; la livraison&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;13&#039;,
+    ),
+    3 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En attente de r&eacute;approvisionnement (non pay&eacute;)&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;12&#039;,
+    ),
+    4 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En attente de r&eacute;approvisionnement (pay&eacute;)&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;9&#039;,
+    ),
+    5 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En attente du paiement par ch&egrave;que&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;1&#039;,
+    ),
+    6 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En cours de pr&eacute;paration&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;3&#039;,
+    ),
+    7 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En cours d&rsquo;exp&eacute;dition&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;41&#039;,
+    ),
+    8 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;En instance de production&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;23&#039;,
+    ),
+    9 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Erreur de paiement&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;8&#039;,
+    ),
+    10 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Exp&eacute;di&eacute;&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;4&#039;,
+    ),
+    11 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Livr&eacute;&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;5&#039;,
+    ),
+    12 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Marketplace - Technical error&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;44&#039;,
+    ),
+    13 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Nouvelle commande &agrave; traiter&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;10&#039;,
+    ),
+    14 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Paiement &agrave; distance accept&eacute;&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;11&#039;,
+    ),
+    15 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Paiement accept&eacute;&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;2&#039;,
+    ),
+    16 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;point de retrait/BDP&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;31&#039;,
+    ),
+    17 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;preparation tapis&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;39&#039;,
+    ),
+    18 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Rembours&eacute;&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;7&#039;,
+    ),
+    19 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;remboursement partiel&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;29&#039;,
+    ),
+    20 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Remis au transporteur&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;43&#039;,
+    ),
+    21 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Retour GTI&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;33&#039;,
+    ),
+    22 =&gt; 
+    array (
+      &#039;name&#039; =&gt; &#039;Transmis NAVISION (PRODUCTION)&#039;,
+      &#039;idLang&#039; =&gt; &#039;1&#039;,
+      &#039;idOrderState&#039; =&gt; &#039;38&#039;,
+    ),
+  ),
+  &#039;countryCode&#039; =&gt; &#039;fr&#039;,
+  &#039;multishopNb&#039; =&gt; 0,
+  &#039;productDelay&#039; =&gt; &#039;8&#039;,
+  &#039;choosenStatus&#039; =&gt; 
+  array (
+  ),
+  &#039;reminderDelay&#039; =&gt; 3,
+  &#039;displayReviews&#039; =&gt; 1,
+  &#039;activateCollect&#039; =&gt; 1,
+  &#039;solutionVersion&#039; =&gt; &#039;1.7.2.4&#039;,
+  &#039;firstRetroactive&#039; =&gt; 1,
+  &#039;genesisSecretKey&#039; =&gt; &#039;8aecbb40-d670-5304-45ef-10ab9713b58b&#039;,
+  &#039;installationDate&#039; =&gt; &#039;&#039;,
+  &#039;multilingualMode&#039; =&gt; 0,
+  &#039;collected_consent&#039; =&gt; 0,
+  &#039;scriptWidgetBrand&#039; =&gt; 
+  array (
+    0 =&gt; 
+    array (
+      &#039;61f2039a-d803-485e-878d-31a5a7ec0293&#039; =&gt; &#039;&#039;,
+    ),
+  ),
+  &#039;configuredLanguage&#039; =&gt; 
+  array (
+  ),
+  &#039;hasProductPostpone&#039; =&gt; 1,
+  &#039;scriptWidgetProduct&#039; =&gt; 
+  array (
+    &#039;script&#039; =&gt; &#039;&#039;,
+    &#039;idWidget&#039; =&gt; &#039;&#039;,
+    &#039;tagAverage&#039; =&gt; &#039;&#039;,
+    &#039;tagReviews&#039; =&gt; &#039;&#039;,
+  ),
+  &#039;blacklistedExtensions&#039; =&gt; 
+  array (
+    0 =&gt; &#039;marketplace.amazon.com&#039;,
+    1 =&gt; &#039;ebay.com&#039;,
+    2 =&gt; &#039;marketplace.amazon.fr&#039;,
+    3 =&gt; &#039;rueducommerce.com&#039;,
+    4 =&gt; &#039;laredoute.com&#039;,
+    5 =&gt; &#039;zalando.de&#039;,
+    6 =&gt; &#039;zalando.fr&#039;,
+    7 =&gt; &#039;priceminister.com&#039;,
+    8 =&gt; &#039;cdiscount.com&#039;,
+    9 =&gt; &#039;sc.rueducommerce.com&#039;,
+    10 =&gt; &#039;marketplace.fnac.com&#039;,
+    11 =&gt; &#039;clemarche.com&#039;,
+    12 =&gt; &#039;noreplylziflux.fr&#039;,
+    13 =&gt; &#039;spartoo.com&#039;,
+    14 =&gt; &#039;marketplace.amazon.it&#039;,
+    15 =&gt; &#039;natureetdecouvertes.com&#039;,
+    16 =&gt; &#039;mp.laredoute-marketplace.fr&#039;,
+    17 =&gt; &#039;monechelle.com&#039;,
+    18 =&gt; &#039;galeries_lafayette.com&#039;,
+    19 =&gt; &#039;marketplace.amazon.de&#039;,
+    20 =&gt; &#039;noreply-iziflux.com&#039;,
+    21 =&gt; &#039;marketplace.amazon.co.uk&#039;,
+    22 =&gt; &#039;anonyme.com&#039;,
+    23 =&gt; &#039;darty.fr &#039;,
+    24 =&gt; &#039;auchan.fr&#039;,
+    25 =&gt; &#039;marketplace.amazon.es&#039;,
+    26 =&gt; &#039;manomano.fr&#039;,
+    27 =&gt; &#039;noreplyiziflux.fr&#039;,
+    28 =&gt; &#039;alerts-shopping-flux.com&#039;,
+    29 =&gt; &#039;macway.fr&#039;,
+    30 =&gt; &#039;downtownstock.com&#039;,
+    31 =&gt; &#039;roure.net&#039;,
+    32 =&gt; &#039;message.manomano.com&#039;,
+    33 =&gt; &#039;notification.mirakl.net&#039;,
+    34 =&gt; &#039;web.redoute.fr&#039;,
+    35 =&gt; &#039;darty.fr&#039;,
+    36 =&gt; &#039;alert-shopping-flux.com&#039;,
+  ),
+  &#039;hasReviewRequestReminder&#039; =&gt; true,
+  &#039;hasProductReviewCollection&#039; =&gt; 1,
+)
+
+2024-12-04 10:55:08 [Netreviews - 2] End migration
+

@@ -1,0 +1,14 @@
+services:
+  # Transaction Order
+    instanweb.module.nhbusinesscentral.transaction.order.communication:
+        public: true
+        class: InstanWeb\Module\NHBusinessCentral\Transaction\Order\OrderCommunication
+        arguments:
+          - '@instanweb.module.nhbusinesscentral.businesscentralconfiguration.config.data'
+
+    instanweb.module.nhbusinesscentral.transaction.order:
+        public: true
+        class: InstanWeb\Module\NHBusinessCentral\Transaction\Order\Order
+        arguments:
+          - '@instanweb.module.nhbusinesscentral.transaction.repository'
+          - '@instanweb.module.nhbusinesscentral.transaction.order.communication'

@@ -1,0 +1,67 @@
+
+
+/* ------------------------------ */
+/* Progress bar */
+/* ------------------------------ */
+
+.progress_bar {
+    --width: 200px;
+    --height: 16px;
+    position: relative;
+    border: #ccc solid 1px;
+    width: var(--width);
+    height: var(--height);
+    line-height: var(--height);
+    vertical-align: middle;
+    overflow: hidden;
+    /*margin: 100px auto 50px;*/
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+
+.progress_bar .bar {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: width 0.1s linear;
+    -moz-transition: width 0.1s linear;
+    -o-transition: width 0.1s linear;
+    transition: width 0.1s linear;
+}
+
+.progress_bar .bar span {
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.progress_bar .bar.positive {
+    background: #07A4DD;
+    left: 0;
+    width:0;
+}
+
+.progress_bar .bar.positive span {
+    left: 0;
+    color: #fff;
+}
+
+.progress_bar .bar.negative {
+    background: #fff;
+    right: 0;
+    width:100%;
+}
+
+.progress_bar .bar.negative span {
+    right: 0;
+    color: #333;
+}
+
+
+
+/* ------------------------------ */
+/* END Progress bar */
+/* ------------------------------ */

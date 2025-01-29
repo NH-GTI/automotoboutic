@@ -1,0 +1,40 @@
+
+
+/* satus icons */
+.status {
+    color: #777575;
+}
+
+.status:before {
+    font-family: 'Font Awesome 5 Pro';
+    margin-right: 5px;
+    min-width: 12px;
+    content: ' ';
+    display: inline-block;
+
+}
+
+
+.status_success:before {
+    content: "\f058";
+    color: #1D7D3B;
+    font-weight: bold;
+}
+
+.status_error:before {
+    content: "\f071";
+    color: #B40303;
+    font-weight: bold;
+}
+
+.status_awaiting:before {
+    content: "\f021";
+    color: #FF8C00;
+    font-weight: normal;
+}
+
+.status_locked:before {
+    content: "\f30d";
+    color: #39c;
+    font-weight: bold;
+}

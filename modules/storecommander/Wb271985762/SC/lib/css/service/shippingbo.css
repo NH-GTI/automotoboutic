@@ -1,0 +1,869 @@
+
+
+
+/* ------------------------------ */
+/* Shippingbo */
+/* ------------------------------ */
+
+/* dhtmlx override */
+.dhtmlxMenu_material_TopLevel_Item_Normal .menu.shippingbo,
+.dhtmlxMenu_material_TopLevel_Item_Selected .menu.shippingbo,
+.sub_item .sub_item_icon .shippingbo,
+.sub_item_dis .sub_item_icon .shippingbo,
+.sub_item_selected .sub_item_icon .shippingbo {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    background: url('../../img/shippingbo/sbo-24x24.png') 0 0 no-repeat;
+}
+
+.sub_item_dis .sub_item_icon .shippingbo {
+    filter: grayscale(1);
+    opacity: 0.7;
+}
+
+.sub_item .sub_item_icon .contextmenu.shippingbo,
+.sub_item_dis .sub_item_icon .contextmenu.shippingbo,
+.sub_item_selected .sub_item_icon .contextmenu.shippingbo {
+    width: 16px;
+    height: 16px;
+    background: url('../../img/shippingbo/sbo-14x14.png') 2px 1px no-repeat;
+}
+
+.html_content.first_screen {
+    width:800px;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.sbo-dashboard {
+    font-family: arial, sans-serif;
+}
+
+/* first start */
+.service#shippingBo #firstStartLogo {
+    margin:35px 0 15px 0;
+}
+.service#shippingBo #firstStartLogo,
+.service#shippingBo #firstStartBegin,
+.service#shippingBo #firstStartSteps,
+.service#shippingBo #firstStartSetup {
+    text-align: center;
+}
+
+.service#shippingBo #firstStartLogo h2,
+.service#shippingBo #firstStartBegin h2,
+.service#shippingBo #firstStartSteps h2 {
+    width: 100%;
+    vertical-align: center;
+}
+.service#shippingBo #firstStartBegin button,
+.service#shippingBo #firstStartSetup {
+    padding: 10px 20px;
+    margin: 5px;
+    background:#3b83b5!important;
+    border-color:#3b83b5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.service#shippingBo #firstStartBegin button:hover {
+    background: #295c80 !important;
+}
+
+.service#shippingBo #firstStartBegin a {
+    display:inline-block;
+    margin: 8px !important;
+    font-weight:normal;
+}
+.service#shippingBo #firstStartBegin a:hover {
+    color:#3b83b5;
+}
+
+.service#shippingBo #firstStartSetup{
+    margin:0!important;
+}
+
+
+.sbo_open_view{
+    /*cursor:pointer;*/
+}
+.sbo_open_view:hover{
+/*    background-color: #FEF7E6;*/
+}
+
+
+#shippingBo .dhxform_base .dhxform_item_label_left.important .dhxform_select{
+    font-size: 18px;
+    font-weight: bold;
+    color: #202223;
+}
+
+.service#shippingBo .form-step .dhxform_fs {
+    width: calc(100% - 2px);
+    border: none;
+    box-shadow: 0 0 0 1px #C9CCCF inset;
+}
+
+.service#shippingBo .form-step .fs_legend {
+    width: calc(100% - 40px);
+    margin:0;
+    padding:4px 20px;
+    background: #FBFBFB;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2.4;
+    border: none;
+    box-shadow: 0 0 0 1px #C9CCCF inset;
+}
+
+.service#shippingBo #firstStartLogo img.shippingbo {
+    width: 200px;
+}
+
+.service#shippingBo #firstStartLogo img.sync {
+    width: 24px;
+    margin: 0 15px;
+    position: relative;
+    top: -11px;
+}
+
+.service#shippingBo #firstStartLogo img.prestashop {
+    width: 200px;
+    position: relative;
+    top: -4px;
+}
+
+.service#shippingBo #firstStartEnd img.shippingbo_checked {
+    width: 40px;
+}
+
+.service#shippingBo .hide {
+    display: none !important;
+}
+
+.service#shippingBo .show {
+    display: inherit;
+}
+
+.service#shippingBo button.first-start.validate {
+    float: right !important;
+    width: auto !important;
+    background-color: #3399cc;
+    font-size: medium;
+    color: white;
+    padding: 12px;
+}
+
+.service#shippingBo button.first-start.validate:hover {
+    background-color: #1d7eaf;
+}
+
+/* CSS Grid for shop configuration page */
+.service#shippingBo #sboGuideSteps {
+    display: grid;
+    grid-template-rows: auto 1fr auto auto auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service#shippingBo #sboGuideSteps .dhxform_base {
+    display:grid;
+    grid-row:1/span 5;
+    grid-column:1/span 2;
+    column-gap: 1%;
+}
+
+.service#shippingBo .form-step
+{
+    display:grid;
+    grid-row:1/span 4;
+    grid-column:1/span 2;
+}
+
+.service#shippingBo .form-step-content
+{
+    display:grid;
+    grid-row:1/span 5;
+    grid-column:1/span 2;
+}
+
+.service#shippingBo .formApi {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.service#shippingBo .formImport {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.service#shippingBo .formExport {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.service#shippingBo .formUnitConversion {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.service#shippingBo .endForm {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.service#shippingBo .endGrid {
+    grid-row: 5;
+}
+
+/* dashboard */
+.sbo-dashboard .status {
+    color: #202223;
+}
+
+.sync_infos {
+    /*padding: 4px 10px;*/
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+
+.sbo-dashboard.sync_in_progress > div:not(.sync_infos) button,
+.sbo-dashboard.sync_in_progress > div:not(.sync_infos) strong,
+.sbo-dashboard.sync_in_progress > div:not(.sync_infos) .ok,
+.sbo-dashboard.sync_in_progress > div:not(.sync_infos) .ko {
+    color: dimgrey;
+    border-color: dimgrey;
+}
+
+.sbo-dashboard.sync_in_progress a,
+.sbo-dashboard.sync_in_progress > div:not(.sync_infos) button {
+    cursor: wait;
+}
+
+
+.sbo-dashboard h2 {
+    text-align: left;
+    font-size: 1rem;
+    color: dimgrey;
+}
+
+.sbo-dashboard .platform .details a {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #666;
+    cursor: pointer;
+}
+
+
+.sbo-dashboard #first_import {
+    display: none;
+    text-align: center;
+}
+
+
+.sbo-dashboard .process {
+    float: right;
+    margin-top: -2.6em;
+    text-align: right;
+    margin-right:6px;
+}
+
+.sbo-dashboard .process .refresh {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: -2px !important;
+    margin-right: -2px !important;
+    position: relative;
+}
+
+.sbo-dashboard .process button.refresh:before {
+    content: "\f021";
+    font-family: 'Font Awesome 5 Pro';
+    margin-right: 5px;
+}
+
+.sbo-dashboard .stats {
+    display: flex;
+    flex-flow: row;
+}
+
+.sbo-dashboard .stats .loading {
+    display: inline-block;
+    width: 16px;
+    height: 8px;
+    background: radial-gradient(circle closest-side, #000 90%, #0000) 0 50%,
+    radial-gradient(circle closest-side, #000 90%, #0000) 50% 50%,
+    radial-gradient(circle closest-side, #000 90%, #0000) 100% 50%;
+    background-size: calc(100% / 3) 2.8px;
+    background-repeat: no-repeat;
+    animation: dots-7ar3yq 0.8s infinite linear;
+}
+
+@keyframes dots-7ar3yq {
+    20% {
+        background-position: 0 0, 50% 50%, 100% 50%;
+    }
+
+    40% {
+        background-position: 0 100%, 50% 0, 100% 50%;
+    }
+
+    60% {
+        background-position: 0 50%, 50% 100%, 100% 0;
+    }
+
+    80% {
+        background-position: 0 50%, 50% 50%, 100% 100%;
+    }
+}
+
+.sbo-dashboard .stats > div {
+    padding: 0;
+    flex: 1 100%;
+    border: 1px solid #E7E7E7;
+    border-right-width: 0;
+    color: #202223;
+
+
+}
+
+.sbo-dashboard .stats > div:last-child {
+    border-right: 0;
+}
+
+.sbo-dashboard .stats h2 {
+    color: #202223;
+    text-align: left;
+    background: #FBFBFB;
+    line-height: 1.3rem;
+    margin: 0;
+    height: 26px;
+    padding: 5%;
+    font-weight: normal;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+
+.sbo-dashboard .stats h2 img {
+    height: 90%;
+}
+
+.sbo-dashboard .platforms {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.sbo-dashboard .platform {
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: 49%;
+    background: white;
+    border: 1px solid #E7E7E7;
+}
+
+.sbo-dashboard .platform .intro {
+    font-size: 14px;
+}
+
+.sbo-dashboard .platform.sbo .intro a,
+.sbo-dashboard .platform.sbo .intro a:visited {
+    color: #39c;
+}
+
+.sbo-dashboard .platform.sbo .intro a:after {
+    content: "\f08e";
+    font-family: 'Font Awesome 5 Pro';
+    margin-left: 5px;
+}
+
+.sbo-dashboard .platform h3 {
+    margin-top: 0;
+}
+
+.sbo-dashboard .platform h3:before {
+    content: "\f058";
+    font-family: 'Font Awesome 5 Pro';
+    color: #1D7D3B;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.sbo-dashboard .platform h3.awaiting:before {
+    content: "\f021";
+    color: #FF8C00;
+    font-weight: normal;
+}
+
+.sbo-dashboard .platform h3.error:before {
+    content: "\f071";
+    color: #B40303;
+    font-weight: bold;
+}
+
+.sbo-dashboard .platform .details h3 a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#202223;
+}
+
+.sbo-dashboard .platform .details h3 a:hover{
+    text-decoration:underline;
+}
+
+.sbo-dashboard .platform-header,
+.sbo-dashboard .details > div {
+    padding: 10px;
+    border-bottom: 2px solid #E7E7E7;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.sbo-dashboard .details h2 {
+    color: dimgrey;
+    background: #efefef;
+    line-height: 2rem;
+}
+
+.sbo-dashboard .details .actions {
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid #efefef;
+    /*border-radius: 6px;*/
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: bold;
+    text-align: left;
+    list-style: none outside none;
+    padding: 0 12px 0 12px;
+    margin: 10px 0 0 0;
+}
+
+
+.sbo-dashboard .details .actions li{
+    margin:0;
+}
+
+.sbo-dashboard .details .actions a{
+    width:100%;
+    display:block;
+    padding: 10px 5px 10px 18px;
+    position:relative;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.sbo-dashboard .details .actions li a:hover{
+    color:#39c;
+    background: transparent;
+    text-decoration:none;
+}
+
+
+.sbo-dashboard .details .actions a:before{
+    font-family: 'Font Awesome 5 Pro';
+    content: "\f061";
+    font-size:0.8em;
+    color: #202223;
+    font-weight: normal;
+    position:absolute;
+    top:10px;
+    left:0;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+.sbo-dashboard .details .actions a:hover:before{
+    left:2px;
+}
+
+/*.sbo-dashboard .details .actions .awaiting a:before{*/
+/*    content: "\f021";*/
+/*    color: #FF8C00;*/
+/*}*/
+/*.sbo-dashboard .details .actions .error a:before{*/
+/*    content: "\f071";*/
+/*    color: #B40303;*/
+/*}*/
+
+/*.sbo-dashboard .details .actions .locked a:before{*/
+/*    content: "\f30d";*/
+/*    color: #33729E;*/
+/*}*/
+
+.sbo-dashboard .details .actions .locked a,
+.sbo-dashboard .details .actions .locked a:before{
+    color: #999;
+}
+
+
+.sbo-dashboard .details .active .actions{
+    background: #FEF7E6;
+}
+.sbo-dashboard .details > div.active {
+    background: #FEF7E6;
+}
+
+.sbo-dashboard .details .downloads {
+    margin:0;
+}
+
+.sbo-dashboard .details > div.active .downloads {
+    background: #FEF7E6;
+    border-color: #FFC836FF;
+}
+
+
+
+.sbo-dashboard .details .downloads li {
+    /*flex: 1 1 50%;*/
+    margin: 0 5px;
+}
+
+.sbo-dashboard .details .downloads li.name {
+    padding: 4px 0 4px 0;
+}
+
+
+.sbo-dashboard .details .downloads li button[disabled] {
+    border-color: #e6e6e6;
+    color: dimgrey;
+    cursor: not-allowed;
+}
+
+.sbo-dashboard .details .downloads li button[disabled]:hover {
+    color: dimgrey;
+    cursor: not-allowed;
+    background: inherit;
+}
+
+.sbo-dashboard .details .downloads li.download button {
+    margin:6px 0 6px 5px!important;
+    padding: 4px 10px !important;
+    background:white !important;
+    color:#39c !important;
+    border:1px solid #ddd !important;
+    border-radius:0 !important;
+    font-family: Arial, sans-serif;
+    font-size:1rem;
+    font-weight: normal;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.sbo-dashboard .details .downloads li.download button:hover {
+    border-color:#39c !important;
+    color:#33729E !important;
+}
+
+.sbo-dashboard .details .downloads li.download span {
+    line-height: 1rem;
+    font-weight: normal;
+    font-size: 14px;
+    color: #A2A2A2;
+    position: relative;
+    display: block;
+}
+
+.sbo-dashboard ul {
+    padding: 0;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.sbo-dashboard li {
+    margin: 5px 0;
+}
+
+.sbo-dashboard li .dhxform_btn {
+    display: inline-block
+}
+
+
+.sbo-dashboard .custom-select {
+    position: relative;
+    width: 44%;
+    max-width: 100%;
+    /*font-size: 1.1rem;*/
+    color: #000;
+}
+
+.sbo-dashboard .select-button {
+    width: 100%;
+    /*font-size: 1.1rem;*/
+    background-color: #fff;
+    padding: 0.675em 1em;
+    border: 1px solid #E7E7E7;
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sbo-dashboard .selected-text {
+    text-align: left;
+}
+
+.sbo-dashboard .arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #000;
+    /*transition: transform ease-in-out 0.3s;*/
+}
+
+.sbo-dashboard .select-dropdown {
+    position: absolute;
+    list-style: none;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    /*transition: 0.5s ease;*/
+
+    /*transform: scaleY(0);*/
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sbo-dashboard .select-dropdown:focus-within {
+    box-shadow: 0 10px 25px rgba(94, 108, 233, 0.6);
+}
+
+.sbo-dashboard .select-dropdown li {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+
+    gap: 1rem;
+    align-items: center;
+}
+
+.sbo-dashboard .select-dropdown li label {
+    width: 100%;
+    padding: 8px 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.sbo-dashboard .select-dropdown::-webkit-scrollbar {
+    width: 7px;
+}
+.sbo-dashboard .select-dropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+
+.sbo-dashboard .select-dropdown::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+}
+
+.sbo-dashboard .select-dropdown li:hover,
+.sbo-dashboard .select-dropdown input:checked ~ label {
+    background-color: #f2f2f2;
+}
+
+.sbo-dashboard .select-dropdown input:focus ~ label {
+    background-color: #dfdfdf;
+}
+
+.sbo-dashboard .select-dropdown input[type="radio"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+/* interactivity */
+
+.sbo-dashboard .custom-select.active .arrow {
+    transform: rotate(180deg);
+}
+
+.sbo-dashboard .custom-select.active .select-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+
+/* settings form */
+.sboSettingsMenu {
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+}
+
+.sboSettingsMenu li{
+    padding:0;
+}
+.sboSettingsMenu li,
+.sboSettingsMenu li a {
+    margin: 0;
+    display:block;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.sboSettingsMenu li a {
+    background: white;
+    border: 1px solid #E7E7E7;
+    color: #202223;
+    line-height: 1.1rem;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.sboSettingsMenu li a:hover {
+    background: #efefef;
+}
+
+.sboSettingsMenu li a.active,
+.sboSettingsMenu li a.active:hover {
+    background: #F9D983;
+    color: inherit;
+}
+
+/* preview panel hide button */
+.sbo_close_preview {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    z-index: 1;
+    background: transparent;
+    border-radius: 6px;
+    color: white;
+    margin: 0 !important;
+    padding: 2px 5px;
+    line-height: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.sbo_close_preview a:before {
+    content: "\f070";
+    color: white;
+    font-family: 'Font Awesome 5 Pro';
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin: 0 0 0 -24px;
+    float: left;
+    font-weight: bold;
+}
+
+.sboSettingsMenu .btn {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.sboSettingsMenu .btn a{
+    text-align: center;
+    display:block;
+}
+
+
+
+/* Sbo initial setup*/
+
+#shippingBo #firstStartForm .dhxform_base .dhxform_item_label_left > .dhxform_label_align_left{
+    min-width: 100px;
+    font-weight: bold;
+}
+/* IS SCMS*/
+#shippingBo.SCMS #firstStartForm .dhxform_base{
+    padding: 0;
+}
+#shippingBo.SCMS #firstStartForm .dhxform_base fieldset{
+    border:none;
+}
+#shippingBo.SCMS #firstStartForm .dhxform_base .collapsible legend{
+    display: none;
+}
+
+
+
+/* --------------------------------------- */
+/* convert products to combinations */
+/* --------------------------------------- */
+.service .button.add_attribute_group {
+    line-height: 1.2rem;
+}
+
+.service .button.remove_column {
+    display: block;
+    text-align: center;
+    line-height: 1.2rem;
+    border: 0;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.service#shippingBo .form_content_import_export div.dhxform_block {
+    height: 445px !important;
+}
+
+.service#shippingBo .withDeleteButton .delete_btn {
+    float:left;
+}
+.service#shippingBo .withDeleteButton .delete_btn > .dhxform_btn{
+    border:none;
+}
+.service#shippingBo .withDeleteButton .delete_btn > .dhxform_btn_over > .dhxform_btn_txt{
+    border:1px solid #d9d9d9 !important;
+}
+.service#shippingBo .withDeleteButton .delete_btn .dhxform_btn_txt {
+    background:none;
+    border:1px solid #fff !important;
+    transition: border 0.3s ease-in;
+    font-weight: normal;
+}
+.service#shippingBo .withDeleteButton .delete_btn .dhxform_btn_txt:before {
+    content:"\f2ed";
+    font-family:"Font Awesome 5 Pro";
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.service#shippingBo .withDeleteButton .save_btn {
+    float:right!important;
+    clear:none;
+}
+
+.service#shippingBo .withDeleteButton .in_block {
+    padding-left:0!important;
+}
+
+.service#shippingBo .withDeleteButton .in_block > .dhxform_base{
+    display: block!important;
+}

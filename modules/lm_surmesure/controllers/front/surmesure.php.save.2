@@ -1,0 +1,1336 @@
+
+<?php
+
+class Lm_SurmesureSurmesureModuleFrontController extends ModuleFrontController
+{
+    public $ssl = true;
+    // public $this->baseUrl = '/tapis-auto-sur-mesure';
+    public $baseUrl = 'tapis';
+
+    public function initContent()
+    {
+        parent::initContent();
+
+        if (Tools::isSubmit('submitGetModels') ) {
+            $this->postProcessGetModels();
+        }
+        $this->context->cookie->__set('espace_pro', !$this->includeTaxes());
+        $this->context->smarty->assign(array(
+            'notifications' => array('nw_error' => '', 'messages' => array()),
+            'baseUrl' => $this->baseUrl,
+            'espace_pro' => $this->context->cookie->espace_pro,
+            'module_media_base_url' => _MODULE_DIR_ . $this->module->name . '/views/assets/',
+            'surmesure_img_url' => _PS_IMG_,
+            'this_path' => $this->module->getPathUri(),
+            'this_path_check' => $this->module->getPathUri(),
+            'this_path_ssl' => Tools::getShopDomainSsl(true, true) . __PS_BASE_URI__ . 'modules/' . $this->module->name . '/'
+        ));
+
+        // Init step
+        $step = Tools::getValue('step', 1);
+
+        switch($step) {
+            case 1 : $this->processStepOne(); break;
+            case 2 : $this->processStepTwo(); break;
+            case 3 : $this->processStepThree(); break;
+            case 4 : $this->processStepFour(); break;
+            case 5 : $this->processStepFive(); break;
+            case 6 : $this->processStepSix(); break;
+            case 7 :
+            case 8 : 
+                $this->context->cookie->__unset('custom_product_marque_id');
+                $this->context->cookie->__unset('custom_product_marque_value');
+                $this->context->cookie->__unset('custom_product_family_id');
+                $this->context->cookie->__unset('custom_product_model_id');
+                $this->context->cookie->__unset('custom_product_modele_value');
+                $this->context->cookie->__unset('custom_product_model_name');
+                $this->context->cookie->__unset('custom_product_id_attribute');
+                $this->context->cookie->__unset('custom_product_id');
+                $this->context->cookie->__unset('custom_product_id_gam');
+                $this->context->cookie->__unset('custom_product_id_conf');
+                $this->context->cookie->__unset('custom_color');
+                $this->context->cookie->__unset('custom_color_nom');
+                $this->context->cookie->__unset('custom_color_img');
+                $this->context->cookie->__unset('custom_product_gam_value');
+                $this->context->cookie->__unset('custom_product_gam_alias');
+                $this->context->cookie->__unset('custom_product_conf_value');
+                $this->context->cookie->__unset('custom_product_conf_img');
+                $this->context->cookie->__unset('custom_product_conf_desc');
+                if ($step == 7) {
+                    Tools::redirect($this->context->link->getPageLink('cart', null, null, array('action' => 'show')));
+                } else {
+                    Tools::redirect($this->context->link->getPageLink('index'));
+                }
+                break;
+        }
+        $this->context->smarty->assign('step', $step);
+        $this->setTemplate('module:' . $this->module->name . '/views/templates/front/surmesure.tpl');
+    }
+
+    public function setMedia()
+    {
+        parent::setMedia();
+        $this->addCSS(_MODULE_DIR_ . $this->module->name . '/views/assets/css/style.css');
+        $this->addJS(_MODULE_DIR_ . $this->module->name . '/views/assets/js/jquery.validate.min.js');
+        $this->addJS(_MODULE_DIR_ . $this->module->name . '/views/assets/js/script.js');
+    }
+    
+    public function rewrite_url($url)
+    {
+        $url = str_replace(' ', '-', $url);
+        $url = 'tapis-auto-' . strtolower($url);
+        return $url;
+    }
+    
+    public function includeTaxes()
+    {
+        if (!Configuration::get('PS_TAX')) {
+            return false;
+        }
+
+        return !Product::getTaxCalculationMethod(Context::getContext()->cookie->id_customer);
+    }
+    
+    /**
+     *  Lm_SurmesureAuthenticationModuleFrontController::processStepOne()
+     *  Choose the brand and the model
+     */
+    public function processStepOne()
+    {
+        // Get All brands and featured brands
+        $id_lang = $this->context->language->id;
+        $all_brands = array();
+        foreach (FeatureValue::getFeatureValuesWithLang($id_lang, $this->module->_id_marque) as $marque) {
+            $marque['seo'] = $this->rewrite_url($marque['value']);
+            $all_brands[(int)$marque['id_feature_value']] = $marque;
+        }
+
+        $featured_brands = array();
+        foreach ($this->module->_featured_brand_ids as $id_feature_value) {
+            if (isset($all_brands[(int)$id_feature_value])) {
+                $featured_brands[$id_feature_value] = $all_brands[(int)$id_feature_value];
+            }
+        }
+        
+        // If ma is submitted without mo, we reset mo
+        if (Tools::isSubmit('ma') && !Tools::isSubmit('mo')) {
+            $this->context->cookie->__unset('custom_product_family_id');
+        }
+        
+        // Get selected brand and model
+        $marque_selected = (int)Tools::getValue("ma", (int)$this->context->cookie->custom_product_marque_id);
+        $family_selected = (int)Tools::getValue("mo", (int)$this->context->cookie->custom_product_family_id);
+        $marque_selected_nom = '';
+        if ($marque_selected) {
+            // The name of the selected brand
+            $marque_selected_nom = isset($all_brands[$marque_selected]['value']) ? $all_brands[$marque_selected]['value'] : '';
+            if ($family_selected && $this->_checkIfFamilyMatchBrand($marque_selected, $family_selected)) {
+                // if the sected modele do not match with the selected marque, we cancel the model
+                // The brand and the model were selected
+                $selectedModelObj = new FeatureValue($family_selected, $this->context->language->id);
+                $family_selected_nom = str_replace('[' . $marque_selected_nom . '] ', '', $selectedModelObj->value);
+                if (!empty($family_selected_nom) && !empty($marque_selected_nom)) {
+                    $this->context->cookie->__set('custom_product_marque_id', $marque_selected);
+                    $this->context->cookie->__set('custom_product_marque_value', $marque_selected_nom);
+                    $this->context->cookie->__set('custom_product_family_id', $family_selected);
+                    $this->context->cookie->__set('custom_product_family_value', $family_selected_nom);
+                    $brand = $this->_getAliasOfAFeature($marque_selected);
+                    // Switch to the next step
+                    if (Tools::isSubmit('ma') && Tools::isSubmit('mo')) {
+                        $url =  $this->context->link->getBaseLink().$this->baseUrl.'/'.$brand['alias'].'/'.trim($family_selected_nom).'/step-2';
+                        header('Location: ' . $url);
+                    }
+                } 
+            }
+            
+            // For the selected brand, take the list of associated model
+            $families = $this->_getFamiliesOfABrand($marque_selected);
+        }
+        
+        $this->context->smarty->assign(array(
+            'marques' => $all_brands,
+            'featured_brands' => $featured_brands,
+            'marque_selected' => $marque_selected,
+            'marque_selected_nom' => $marque_selected_nom,
+            'marque_selected_seo' => $this->rewrite_url($marque_selected_nom),
+            'modele_selected' => $family_selected,
+            'modeles' => $families
+        ));
+    }
+    
+    public function processStepTwo()
+    {
+        $id_brand = $this->_getFeatureOfAnAlias(true, Tools::getValue('brand'))['id_feature_value'];
+        $id_family = $this->_getFeatureOfAnAlias(false, Tools::getValue('family'), $id_brand)['id_feature_value'];
+        $models = $this->_getModelsOfAFamily($id_family, Tools::getValue('family'), $id_brand);
+        foreach ($models as &$model) {
+            $valueWithoutBrand = explode(']', $model['value']);
+            $modelTitle = explode(' - ', $valueWithoutBrand[1]); // Titre du modèle
+            $model['title'] = trim($modelTitle[0]);
+            $model['caracs'] = trim($modelTitle[1]);
+            if(isset($modelTitle[2])){
+                $model['caracs'] = trim($modelTitle[1]).' '.trim($modelTitle[2]);
+            }
+            else{
+                $model['caracs'] = trim($modelTitle[1]);
+            }
+            // {$urls.img_ps_url}custom/models/{$mod.id_feature_value}.png
+            if (file_exists('./img/custom/models/' . $model['id_feature_value'].'.png')) {
+                $model['img'] = '/img/custom/models/' . $model['id_feature_value'].'.png';
+            } 
+            else{
+                $model['img'] = '/img/custom/models/default.png';
+                // $model['img'] = 'none';
+            }
+        }
+
+        $seoTexts = Db::getInstance()->executeS('
+				SELECT name, value
+				FROM `'._DB_PREFIX_.'configuration`
+				WHERE `name` LIKE "NHSEO%"'
+            );
+            foreach($seoTexts as &$text) {
+                $text['value'] = str_replace('BRAND', '<span class="seo-brand">'.str_replace('-', ' ', ucfirst(Tools::getValue('brand'))).' '.Tools::getValue('family').'</span>', $text['value']);
+            }
+            
+            $lastChar = substr($id_family, -1);
+            $text1 = ($lastChar>8)?$lastChar - 2:$lastChar;
+            $text2 = ($lastChar<6)?$lastChar + 9:$lastChar+4;
+            if ($lastChar != 6){
+                $text3 = ($lastChar<4)?$lastChar + 14:$lastChar+8;
+            }
+            else{
+                $text3 = $lastChar + 8;
+            }
+ 
+            $randSeoTexts[] = $seoTexts[$text1];
+            $randSeoTexts[] = $seoTexts[$text2];
+            $randSeoTexts[] = $seoTexts[$text3];
+            $randSeoTexts[0]['value'] = substr_replace($randSeoTexts[0]['value'], '<span id="seo-more">', 199, 0);
+            $randSeoTexts[0]['value'] = $randSeoTexts[0]['value'] . '</span>';
+            
+        if (Tools::isSubmit('id_model') && Tools::isSubmit('name_model')) {
+            $brand = str_replace('-', ' ', Tools::getValue('brand'));
+            $this->context->cookie->__set('custom_product_marque_value', $brand);
+            $this->context->cookie->__set('custom_product_family_id', $id_family);
+            $this->context->cookie->__set('custom_product_family_value', Tools::getValue('family'));
+            $this->context->cookie->__set('custom_product_model_id', Tools::getValue('id_model'));
+            $this->context->cookie->__set('custom_product_model_name', str_replace('|', '', Tools::getValue('name_model')));
+            $url = $this->context->link->getBaseLink().$this->baseUrl.'/'.$brand.'/'.$this->context->cookie->custom_product_family_value.'/step-3';
+            header('Location: ' . $url);
+        }
+        $this->addJS(_MODULE_DIR_ . $this->module->name . '/views/assets/js/script-step2.js');
+
+        $this->context->smarty->assign(array( 
+            'marque_selected' => $this->context->cookie->custom_product_marque_id,
+            'modeles' => $models,
+            'seoTexts' => $randSeoTexts,
+            'marque_selected_nom' => Tools::getValue('brand'),
+            'family_selected_nom' => Tools::getValue('family'),
+            'marque_selected_seo' => $this->rewrite_url($this->context->cookie->custom_product_marque_value),
+        ));
+    }
+
+     /**
+     *  Lm_SurmesureAuthenticationModuleFrontController::processStepTwo()
+     *  Choose the gamme
+     */
+    public function processStepThree() // Step Three
+    {
+        if ( !empty($this->context->cookie->custom_product_family_id)
+            && !empty($this->context->cookie->custom_product_model_id) ) {
+            // Assign to smarty info on selected brand and model
+            $model_name_for_title = str_replace(array('[', ']'), array('', ''),substr($this->context->cookie->custom_product_model_name, 0, strpos($this->context->cookie->custom_product_model_name, " - ")));
+            $this->context->smarty->assign(array(
+    			'marque_selected' => $this->context->cookie->custom_product_marque_id,
+    			'modele_selected' => $this->context->cookie->custom_product_model_id,
+    			'model_name_for_title' => $model_name_for_title,
+                'marque_selected_nom' => $this->context->cookie->custom_product_marque_value,
+                'marque_selected_seo' => $this->rewrite_url($this->context->cookie->custom_product_marque_value),
+                'modele_selected_nom' => $this->context->cookie->custom_product_model_name
+            ));
+            
+            // Init the selected gamme
+            $id_gamme = $gamme_selected_nom = $gamme_selected_alias = null;
+            
+            // The selected model
+            $id_mod = $this->context->cookie->custom_product_model_id;
+            $gammes = array();
+            
+            // Check if any product with the selected model has the type (Feature) basique (Feature Value)
+            if ($this->hasBasique($id_mod)) {
+                // If yes, we take the Gamme (Feature) Basique (Feature Value)
+                $gammes[$this->module->_id_gam_basique] = $this->getDetailsGammes($this->module->_id_gam_basique);
+            }
+            // Keep in cookie, the associated carrosserie of the selected model
+            $id_carro = (int)Db::getInstance()->getValue('
+				SELECT `id_carro`
+				FROM `'._DB_PREFIX_.'customproducts_carro_mod`
+				WHERE `id_mod` = ' . $id_mod
+            );
+            // var_dump('SELECT `id_carro`
+            // FROM `'._DB_PREFIX_.'customproducts_carro_mod`
+            // WHERE `id_mod` = ' . $id_mod);
+            // var_dump($id_carro);
+            // var_dump("SELECT cg.`id_gam`
+            // FROM `'._DB_PREFIX_.'customproducts_carro_gam` cg
+            // INNER JOIN  `'._DB_PREFIX_.'customproducts_gammes` g ON (g.`id_gamme` = cg.`id_gam`)
+            // WHERE `id_carro` = ' . $id_carro . ' AND g.`status` = 1
+            // ORDER BY ' . ((Context::getContext()->isMobile()) ? case when id_gam = '3264' then 1
+            //     when id_gam = '3262' then 2
+            //     when id_gam = '3266' then 3
+            //     when id_gam = '3265' then 4
+            //     when id_gam = '50171' then 5
+            //     end");
+
+            if ($id_carro) {
+                $this->context->cookie->__set('custom_carro', $id_carro);
+                // Divioseo 25012021 #434 - Gamme Elite first position on mobile device
+                $results = Db::getInstance()->executeS('
+					SELECT cg.`id_gam`
+					FROM `'._DB_PREFIX_.'customproducts_carro_gam` cg
+					INNER JOIN  `'._DB_PREFIX_.'customproducts_gammes` g ON (g.`id_gamme` = cg.`id_gam`)
+					WHERE `id_carro` = ' . $id_carro . ' AND g.`status` = 1
+					ORDER BY g.`prix` DESC
+                        ');
+                foreach ($results as $result) {
+                    $gammes[$result['id_gam']] = $this->getDetailsGammes($result['id_gam']);
+                }
+            }
+            // ksort($gammes);
+            $this->context->smarty->assign(array('gammes' => $gammes));
+            
+        } else {
+            Tools::redirect($this->context->link->getModuleLink($this->module->name, 'surmesure', array('step' => 1)));
+        }
+        
+        // On Submit, save the selected gam
+        if ($id_gamme = (int)Tools::getValue('id_gamme')) {
+            if ($id_gamme == $this->module->_id_gam_basique)
+                $this->context->cookie->__set('custom_basique', true);
+            else
+                $this->context->cookie->__unset('custom_basique');
+            
+            $gamme = $this->getDetailsGammes($id_gamme);
+            $gamme_selected_nom = $gamme['value'];
+            $gamme_selected_alias = $gamme['alias'];
+            $this->context->cookie->__set('custom_product_id_gam', $id_gamme);
+            $this->context->cookie->__set('custom_product_gam_value', $gamme_selected_nom);
+            $this->context->cookie->__set('custom_product_gam_alias', $gamme_selected_alias);
+            $url = $this->context->link->getBaseLink().$this->baseUrl.'/'.$this->context->cookie->custom_product_marque_value.'/'.$this->context->cookie->custom_product_family_value.'/step-4';
+            header('Location: ' . $url);
+        }
+        $this->addJS(_MODULE_DIR_ . $this->module->name . '/views/assets/js/script-step2.js');
+    }
+    
+    /**
+     *  Lm_SurmesureAuthenticationModuleFrontController::processStepTwo()
+     *  Choose the gamme
+     */
+    public function processStepFour()
+    {
+        if (
+            !empty($this->context->cookie->custom_product_marque_id)
+            && !empty($this->context->cookie->custom_product_model_id)
+            && !empty($this->context->cookie->custom_product_id_gam)
+        ) {
+            $model_name_for_title = str_replace(array('[', ']'), array('', ''),substr($this->context->cookie->custom_product_model_name, 0, strpos($this->context->cookie->custom_product_model_name, " - ")));
+    		$this->context->smarty->assign(array(
+    			'marque_selected' => $this->context->cookie->custom_product_marque_id,
+    			'modele_selected' => $this->context->cookie->custom_product_model_id,
+    			'gamme_selected' => $this->context->cookie->custom_product_id_gam,
+    			'model_name_for_title' => $model_name_for_title,
+                'marque_selected_nom' => $this->context->cookie->custom_product_marque_value,
+    			'marque_selected_seo' => $this->rewrite_url($this->context->cookie->custom_product_marque_value),
+    			'modele_selected_nom' => $this->context->cookie->custom_product_model_name,
+    			'gamme_selected_nom' => $this->context->cookie->custom_product_gam_value,
+    			'gamme_selected_alias' => $this->context->cookie->custom_product_gam_alias
+    		));
+            
+            if (!empty($this->context->cookie->custom_product_id_conf)) {
+                $this->context->smarty->assign('configuration_selected', $this->context->cookie->custom_product_id_conf);
+            }
+            if (!empty($this->context->cookie->custom_product_conf_value)) {
+                $this->context->smarty->assign('conf_selected_nom', $this->context->cookie->custom_product_conf_value);
+            }
+            if (!empty($this->context->cookie->custom_product_conf_img)) {
+                $this->context->smarty->assign('conf_selected_img', $this->context->cookie->custom_product_conf_img);
+            }
+            if (!empty($this->context->cookie->custom_product_conf_desc)) {
+                $this->context->smarty->assign('conf_selected_desc', $this->context->cookie->custom_product_conf_desc);
+            }
+            if (!empty($this->context->cookie->custom_product_id)) {
+                $this->context->smarty->assign('product_selected', $this->context->cookie->custom_product_id);
+            }
+            if (!empty($this->context->cookie->custom_color)) {
+                $this->context->smarty->assign('color_selected', $this->context->cookie->custom_color);
+            }
+            
+            $id_mod = (int)$this->context->cookie->custom_product_model_id;
+            
+			// Select slipcover configuration depending on the carrossery
+			$configurations = array();
+
+			if (!empty($this->context->cookie->custom_basique)) {
+				// If the gamme basique was chosen, only Avant+Arriere dispo
+				$results =  Db::getInstance()->executeS('
+					SELECT *
+					FROM `'._DB_PREFIX_.'customproducts_configurations` cf
+					INNER JOIN  `'._DB_PREFIX_.'feature_value_lang` f
+                        ON (f.`id_feature_value` = cf.`id_conf` AND f.`id_lang` = '.(int)$this->context->language->id .')
+					WHERE cf.`id_conf` = '. (int)$this->module->_id_basique_conf .' 
+                        AND f.`id_lang` = '.(int)$this->context->language->id
+                );
+			} else {
+				$id_carro = (int)$this->context->cookie->custom_carro;
+				$id_gam = (int)$this->context->cookie->custom_product_id_gam;
+
+				$results =  Db::getInstance()->executeS('
+					SELECT *
+					FROM `'._DB_PREFIX_.'customproducts_carro_conf` cc
+					INNER JOIN  `'._DB_PREFIX_.'feature_value_lang` f 
+                        ON (cc.`id_conf` = f.`id_feature_value` AND f.`id_lang` = '.(int)$this->context->language->id .')
+					INNER JOIN  `'._DB_PREFIX_.'customproducts_configurations` cf ON (cc.`id_conf` = cf.`id_conf`)
+					WHERE cc.`id_carro` = '. $id_carro
+                );
+			}
+			// Get product foreach each carrosserie - gamme and get the price
+			if (!empty($results)) {
+                
+				foreach($results as $result) {
+					// Parse description into a ul li list
+                    $split = explode('|', $result['description']);
+					$description_format = '<ul>';
+					foreach($split as $desc) {
+					   $description_format.= '<li>'.$desc.'</li>';
+					}
+					$description_format.= '</ul>';
+                    $result['description'] = $description_format;
+                    
+					if (!empty($this->context->cookie->custom_basique)) {
+					   $id_product = $this->getProductByMod($id_mod);
+					} else {
+					   $id_product = $this->getProductByConfCarroGamme($result['id_conf'], $id_carro, $id_gam);
+					}
+					$result['product'] = new Product($id_product);
+					if ( in_array($this->context->cookie->custom_product_id_gam, $this->module->_id_gam_elite_carat) ) {
+						if ($result['id_conf'] == 515) {
+							$id_product = $this->getProductByConfCarroGamme(49077, $id_carro, $id_gam);
+							$result['product'] = new Product($id_product);
+							$result['id_conf'] = 49077;
+							$result['id_feature_value'] = 49077;
+
+							$result['value'] = '2 avants + 1 arrière';
+							$result['image'] = 'config05.png';
+							$result['description'] = '<ul><li>2 tapis avant sur mesure</li><li>1 tapis arrière sur mesure</li></ul>';
+						
+                        } elseif ($result['id_conf'] == 514) {
+							$id_product = $this->getProductByConfCarroGamme(49079,$id_carro, $id_gam);
+							$result['product'] = new Product($id_product);
+							$result['id_conf'] = 49079;
+							$result['id_feature_value'] = 49079;
+
+							$result['value'] = '2 avants + 1 arrière + 1 coffre';
+							$result['image'] = 'config09.png';
+							$result['description'] = '<ul><li>2 tapis avant sur mesure</li><li>1 tapis arrière sur mesure</li><li>1 tapis de coffre sur mesure</li></ul>';
+						}
+					}
+                    
+					if (preg_match('/coffre/', $result['description'])) {
+						if ($id_mod > 0) {
+							$results_coffre = (int)Db::getInstance()->getValue('
+								SELECT COUNT(*)
+								FROM `'._DB_PREFIX_.'customproducts_mod_coffre`
+								WHERE `id_mod` = '. $id_mod .' AND coffre = 1
+                            ');
+							if ($results_coffre > 0) {
+								$configurations[(int)$result['id_conf']] = $result;
+							}
+						}
+					} else {
+						$configurations[(int)$result['id_conf']] = $result;
+					}
+				}
+			}
+            // Get available color
+            $colors = $this->getColorsByGamme($this->context->cookie->custom_product_id_gam);
+
+            // Proccess selected configurations
+            if (($id_conf = (int)Tools::getValue('id_conf')) 
+                && ($id_product = (int)Tools::getValue('id_product'))
+                && ($id_color = (int)Tools::getValue('color'))
+                && ($price = (string)Tools::getValue('price'))
+                && !empty($configurations[$id_conf])
+                && !empty($colors[$id_color])
+            ) {
+			$id_final_product = (int)Db::getInstance()->getRow('
+                    	SELECT `id_final_product`
+	                    FROM `nh_custom_product_color` 
+	                    WHERE `id_product` = '. $id_product .' AND `id_color` = '.$id_color
+	                var_dump()[0];
+			
+        		$this->context->cookie->__set('custom_product_id' , $id_final_product);
+        		$this->context->cookie->__set('custom_product_id_conf' , $id_conf);
+        		$this->context->cookie->__set('custom_product_conf_value' , html_entity_decode($configurations[$id_conf]['value']));
+        		$this->context->cookie->__set('custom_product_conf_img' , $configurations[$id_conf]['image']);
+        		$this->context->cookie->__set('custom_product_conf_desc' , $configurations[$id_conf]['description']);
+                $this->context->cookie->__set('custom_product_price' , str_replace('&nbsp;', ' ', $price));
+                
+        		$this->context->cookie->__set('custom_color', $id_color);
+                $this->context->cookie->__set('custom_color_img', $colors[$id_color]['image']);
+                $this->context->cookie->__set('custom_color_nom', $colors[$id_color]['value']);
+                $url =  $this->context->link->getBaseLink().$this->baseUrl.'/'.$this->context->cookie->custom_product_marque_value.'/'.$this->context->cookie->custom_product_family_value.'/step-5';
+                header('Location: ' . $url);
+        		// Tools::redirect($this->context->link->getModuleLink($this->module->name, 'surmesure', array('step' => 5)));
+            } else {
+                $gamme_images = $this->getImagesByGamme($this->context->cookie->custom_product_id_gam);
+                $gamme_details = Db::getInstance()->getRow('
+                    SELECT * 
+                    FROM `'._DB_PREFIX_.'customproducts_gammes` 
+                    WHERE `id_gamme` = ' . (int)$this->context->cookie->custom_product_id_gam
+                );
+                if (!empty($gamme_details['plus_produit'])) {
+                    $gamme_details['plus_produit'] = explode('|', $gamme_details['plus_produit']);
+                }
+                
+				$this->context->smarty->assign(array(
+					'configurations' => $configurations,
+					'colors' => $colors,
+                    'gamme_images' => $gamme_images,
+                    'gamme_details' => $gamme_details,
+					'nbconfig' => sizeof($configurations),
+                    'gamme' => $this->getDetailsGammes($this->context->cookie->custom_product_id_gam)
+				));
+                $this->addJqueryPlugin('fancybox');
+                $this->addJS(_MODULE_DIR_ . $this->module->name . '/views/assets/js/script-step3.js');
+        	}
+    	} else {
+    	   Tools::redirect($this->context->link->getModuleLink($this->module->name, 'surmesure', array('step' => 2)));
+    	}
+    }
+    
+    /**
+     *  Lm_SurmesureAuthenticationModuleFrontController::processStepTree()
+     *  Choose the slipcover configuration
+     */
+    public function processStepFourr()
+    {
+    	if (
+            !empty($this->context->cookie->custom_product_marque_id)
+            && !empty($this->context->cookie->custom_product_model_id)
+            && !empty($this->context->cookie->custom_product_id_gam)
+        ) {
+    		$this->context->smarty->assign(array(
+    			'marque_selected' => $this->context->cookie->custom_product_marque_id,
+    			'modele_selected' => $this->context->cookie->custom_product_model_id,
+    			'gamme_selected' => $this->context->cookie->custom_product_id_gam,
+    			
+                'marque_selected_nom' => $this->context->cookie->custom_product_marque_value,
+    			'marque_selected_seo' => $this->rewrite_url($this->context->cookie->custom_product_marque_value),
+    			'modele_selected_nom' => $this->context->cookie->custom_product_model_name,
+    			'gamme_selected_nom' => $this->context->cookie->custom_product_gam_value,
+    			'gamme_selected_alias' => $this->context->cookie->custom_product_gam_alias
+    		));
+            if (!empty($this->context->cookie->custom_product_id_conf)) {
+                $this->context->smarty->assign('configuration_selected', $this->context->cookie->custom_product_id_conf);
+            }
+            if (!empty($this->context->cookie->custom_product_conf_value)) {
+                $this->context->smarty->assign('conf_selected_nom', $this->context->cookie->custom_product_conf_value);
+            }
+            if (!empty($this->context->cookie->custom_product_conf_img)) {
+                $this->context->smarty->assign('conf_selected_img', $this->context->cookie->custom_product_conf_img);
+            }
+            if (!empty($this->context->cookie->custom_product_conf_desc)) {
+                $this->context->smarty->assign('conf_selected_desc', $this->context->cookie->custom_product_conf_desc);
+            }
+            if (!empty($this->context->cookie->custom_product_id)) {
+                $this->context->smarty->assign('product_selected', $this->context->cookie->custom_product_id);
+            }
+            if (!empty($this->context->cookie->custom_color)) {
+                $this->context->smarty->assign('color_selected', $this->context->cookie->custom_color);
+            }
+            
+            $id_mod = (int)$this->context->cookie->custom_product_model_id;
+
+			// Select slipcover configuration depending on the carrossery
+			$configurations = array();
+
+			if (!empty($this->context->cookie->custom_basique)) {
+				// If the gamme basique was chosen, only Avant+Arriere dispo
+				$results =  Db::getInstance()->executeS('
+					SELECT *
+					FROM `'._DB_PREFIX_.'customproducts_configurations` cf
+					INNER JOIN  `'._DB_PREFIX_.'feature_value_lang` f
+                        ON (f.`id_feature_value` = cf.`id_conf` AND f.`id_lang` = '.(int)$this->context->language->id .')
+					WHERE cf.`id_conf` = '. (int)$this->module->_id_basique_conf .' 
+                        AND f.`id_lang` = '.(int)$this->context->language->id
+                );
+			} else {
+				$id_carro = (int)$this->context->cookie->custom_carro;
+				$id_gam = (int)$this->context->cookie->custom_product_id_gam;
+
+				$results =  Db::getInstance()->executeS('
+					SELECT *
+					FROM `'._DB_PREFIX_.'customproducts_carro_conf` cc
+					INNER JOIN  `'._DB_PREFIX_.'feature_value_lang` f 
+                        ON (cc.`id_conf` = f.`id_feature_value` AND f.`id_lang` = '.(int)$this->context->language->id .')
+					INNER JOIN  `'._DB_PREFIX_.'customproducts_configurations` cf ON (cc.`id_conf` = cf.`id_conf`)
+					WHERE cc.`id_carro` = '. $id_carro
+                );
+			}
+            
+			// Get product foreach each carrosserie - gamme and get the price
+			if (!empty($results)) {
+				foreach($results as $result) {
+					// Parse description into a ul li list
+                    $split = explode('|', $result['description']);
+					$description_format = '<ul>';
+					foreach($split as $desc) {
+					   $description_format.= '<li>'.$desc.'</li>';
+					}
+					$description_format.= '</ul>';
+                    $result['description'] = $description_format;
+                    
+					if (!empty($this->context->cookie->custom_basique)) {
+					   $id_product = $this->getProductByMod($id_mod);
+					} else {
+					   $id_product = $this->getProductByConfCarroGamme($result['id_conf'], $id_carro, $id_gam);
+					}
+                    
+					$result['product'] = new Product($id_product);
+					if ( in_array($this->context->cookie->custom_product_id_gam, $this->module->_id_gam_elite_carat) ) {
+						if ($result['id_conf'] == 515) {
+							$id_product = $this->getProductByConfCarroGamme(49077, $id_carro, $id_gam);
+							$result['product'] = new Product($id_product);
+							$result['id_conf'] = 49077;
+							$result['id_feature_value'] = 49077;
+
+							$result['value'] = '2 avants + 1 arrière';
+							$result['image'] = 'config05.png';
+							$result['description'] = '<ul><li>2 tapis avant sur mesure</li><li>1 tapis arrière sur mesure</li></ul>';
+						
+                        } elseif ($result['id_conf'] == 514) {
+							$id_product = $this->getProductByConfCarroGamme(49079,$id_carro, $id_gam);
+							$result['product'] = new Product($id_product);
+							$result['id_conf'] = 49079;
+							$result['id_feature_value'] = 49079;
+
+							$result['value'] = '2 avants + 1 arrière + 1 coffre';
+							$result['image'] = 'config09.png';
+							$result['description'] = '<ul><li>2 tapis avant sur mesure</li><li>1 tapis arrière sur mesure</li><li>1 tapis de coffre sur mesure</li></ul>';
+						}
+					}
+                    
+					if (preg_match('/coffre/', $result['description'])) {
+						if ($id_mod > 0) {
+							$results_coffre = (int)Db::getInstance()->getValue('
+								SELECT COUNT(*)
+								FROM `'._DB_PREFIX_.'customproducts_mod_coffre`
+								WHERE `id_mod` = '. $id_mod .' AND coffre = 1
+                            ');
+							if ($results_coffre > 0) {
+								$configurations[(int)$result['id_conf']] = $result;
+							}
+						}
+					} else {
+						$configurations[(int)$result['id_conf']] = $result;
+					}
+				}
+			}
+            
+            // Get available color
+            $colors = $this->getColorsByGamme($this->context->cookie->custom_product_id_gam);
+
+            // Proccess selected configurations
+            if (($id_conf = (int)Tools::getValue('id_conf')) 
+                && ($id_product = (int)Tools::getValue('id_product'))
+                && ($id_color = (int)Tools::getValue('color'))
+                && ($price = (int)Tools::getValue('price'))
+                && !empty($configurations[$id_conf])
+                && !empty($colors[$id_color])
+            ) {
+        		$this->context->cookie->__set('custom_product_id' , $id_product);
+        		$this->context->cookie->__set('custom_product_id_conf' , $id_conf);
+        		$this->context->cookie->__set('custom_product_conf_value' , html_entity_decode($configurations[$id_conf]['value']));
+        		$this->context->cookie->__set('custom_product_conf_img' , $configurations[$id_conf]['image']);
+        		$this->context->cookie->__set('custom_product_conf_desc' , $configurations[$id_conf]['description']);
+        		$this->context->cookie->__set('custom_product_price' , $price);
+                
+        		$this->context->cookie->__set('custom_color' , $id_color);
+                $this->context->cookie->__set('custom_color_img', $colors[$id_color]['image']);
+                $this->context->cookie->__set('custom_color_nom', $colors[$id_color]['value']);
+        
+        		Tools::redirect($this->context->link->getModuleLink($this->module->name, 'surmesure', array('step' => 4)));
+        	
+            } else {
+                $gamme_images = $this->getImagesByGamme($this->context->cookie->custom_product_id_gam);
+                $gamme_details = Db::getInstance()->getRow('
+                    SELECT * 
+                    FROM `'._DB_PREFIX_.'customproducts_gammes` 
+                    WHERE `id_gamme` = ' . (int)$this->context->cookie->custom_product_id_gam
+                );
+                if (!empty($gamme_details['plus_produit'])) {
+                    $gamme_details['plus_produit'] = explode('|', $gamme_details['plus_produit']);
+                }
+                
+				$this->context->smarty->assign(array(
+					'configurations' => $configurations,
+					'colors' => $colors,
+                    'gamme_images' => $gamme_images,
+                    'gamme_details' => $gamme_details,
+					'nbconfig' => sizeof($configurations),
+                    'gamme' => $this->getDetailsGammes($this->context->cookie->custom_product_id_gam)
+				));
+                $this->addJqueryPlugin('fancybox');
+                $this->addJS(_MODULE_DIR_ . $this->module->name . '/views/assets/js/script-step3.js');
+        	}
+    	} else {
+    	   Tools::redirect($this->context->link->getModuleLink($this->module->name, 'surmesure', array('step' => 2)));
+    	}
+    }
+    
+    public function processStepFive() // Step 5
+    {
+    	if (
+            !empty($this->context->cookie->custom_product_marque_id)
+            && !empty($this->context->cookie->custom_product_model_id)
+            && !empty($this->context->cookie->custom_product_id_gam)
+            && !empty($this->context->cookie->custom_product_id_conf)
+            && !empty($this->context->cookie->custom_product_id)
+            && !empty($this->context->cookie->custom_color)
+        ) {
+            $display_popup = 0;
+            
+            $model_name_for_title = str_replace(array('[', ']'), array('', ''),substr($this->context->cookie->custom_product_model_name, 0, strpos($this->context->cookie->custom_product_model_name, " - ")));
+ 
+            if ( Tools::getValue('add') == 1 
+                // && ($jour = (int)Tools::getValue('day'))
+                // && ($mois = (int)Tools::getValue('month'))
+                // && ($year = (int)Tools::getValue('year'))
+                && ($id_product = (int)Tools::getValue('id_product'))
+                && ($qty = (int)Tools::getValue('qty', 1))
+            ) {
+		var_dump($id_product);
+exit();
+                // $jour = str_pad($jour, 2, '0', STR_PAD_LEFT);
+                // $mois = str_pad($mois, 2, '0', STR_PAD_LEFT);
+                // $date = $year . '-' . $mois . '-' . $jour;
+                
+                // $date_fr = $jour . '-' . $mois . '-' . $year;
+                // $this->context->cookie->__set('custom_date_car', $date);
+                // $this->context->cookie->__set('custom_year_car', $year);
+
+                $code_gabarit = Db::getInstance()->getValue('
+                    SELECT `code_gabarit` 
+                    FROM `'._DB_PREFIX_.'customproducts_mod_code_gabarit` 
+                    WHERE `id_mod` = ' . (int)$this->context->cookie->custom_product_model_id
+                );
+                
+                if ($code_gabarit) {
+                    $code_gabarit = "~~" . $code_gabarit . "~~";
+                } else {
+                    $code_gabarit = "";
+                }
+                $customization_value = $this->context->cookie->custom_product_marque_value;
+                $customization_value .= ' / ' . str_replace(
+                    '[' . $this->context->cookie->custom_product_marque_value . '] '
+                    , ''
+                    , $this->context->cookie->custom_product_model_name
+                );
+                $customization_value .= ' / Gamme ' . $this->context->cookie->custom_product_gam_value;
+                $customization_value .= ' / ' . $this->context->cookie->custom_product_conf_value;
+                $customization_value .= ' / ' . $this->context->cookie->custom_color_nom;
+                // $customization_value .= ' / ' . $date_fr;
+                $customization_value .= ' / ' . $code_gabarit;
+                if (empty($this->context->cart->id)) {
+                    $this->context->cart = new Cart((int)($this->context->cookie->id_cart));
+                    $this->context->cart->id_lang = (int)($this->context->language->id);
+                    $this->context->cart->id_currency = (int)($this->context->cookie->id_currency);
+                    $this->context->cart->add();
+                    $this->context->cookie->__set('id_cart', $this->context->cart->id);
+                }
+
+                Db::getInstance()->execute('
+					INSERT INTO  `'._DB_PREFIX_.'customization` (`id_product_attribute`, `id_cart`, `id_product`, `quantity`, `quantity_refunded`, `quantity_returned`, `in_cart`)
+					VALUES ("0","' . (int)$this->context->cart->id . '","' . (int)$id_product . '", "0", "0", "0", "1")
+                ');
+                $id_customization = Db::getInstance()->Insert_ID();
+
+                $customization_field = (int)Db::getInstance()->getValue('
+					SELECT `id_customization_field`
+					FROM `'._DB_PREFIX_.'customization_field`
+					WHERE `id_product` = ' . (int)$id_product . ' AND `type` = 1
+                ');
+                // The customization field do not exists
+                if (empty($customization_field)) {
+                    Db::getInstance()->execute('
+    					INSERT INTO  `'._DB_PREFIX_.'customization_field` (`id_product`, `type`, `required`, `is_module`)
+    					VALUES ("' . (int)$id_product . '","1","0","0")
+                    ');
+                    $customization_field = (int)Db::getInstance()->Insert_ID();
+                    foreach (Language::getLanguages(false) AS $language) {
+                        Db::getInstance()->execute('
+        					INSERT INTO  `'._DB_PREFIX_.'customization_field_lang` (`id_customization_field`, `id_lang`, `id_shop`, `name`)
+        					VALUES ("' . $customization_field . '","' . (int)$language['id_lang'] . '","' . (int)$this->context->shop->id . '","Détails")
+                        ');
+                    }
+                }
+
+                Db::getInstance()->execute('
+					INSERT INTO  `'._DB_PREFIX_.'customized_data` (`id_customization`, `type`, `index`, `value`, `id_module`)
+					VALUES ("' . $id_customization . '","1","' . $customization_field . '", "' . $customization_value . '","0")
+                ');
+
+                // Add to cart
+		$this->context->cart->updateQty(1, (int)$id_product, 0, (int)$id_customization);
+                /*
+                if ((int)Db::getInstance()->getValue('
+					SELECT `id_cart`
+					FROM `'._DB_PREFIX_.'cart_product`
+					WHERE `id_cart` = ' . (int)$this->context->cart->id . ' AND `id_product` = ' . (int)$id_product . '
+                ')) {
+                    Db::getInstance()->execute('
+						UPDATE  `'._DB_PREFIX_.'cart_product` 
+                        SET `quantity` = `quantity` + 1
+                            , `date_add` = now()
+                            , `id_customization` = '. (int)$id_customization .'
+						WHERE `id_cart` = "' . (int)$this->context->cart->id . '" 
+                            AND `id_product` = "' . (int)$id_product . '"
+					');
+                } else {
+                    Db::getInstance()->execute('
+						INSERT INTO  `'._DB_PREFIX_.'cart_product` (`id_cart`, `id_product`, `id_product_attribute`, `id_customization`, `quantity`, `date_add`)
+						VALUES ("' . (int)$this->context->cart->id . '", "' . (int)$id_product . '","0","'. (int)$id_customization .'","' . (int)$qty . '", now()) 
+                    ');
+                }
+                */
+                // $url =  $this->context->link->getBaseLink().$this->baseUrl.'/'.$this->context->cookie->custom_product_marque_value.'/'.$this->context->cookie->custom_product_family_value.'/step-6';
+                // header('Location: ' . $url);
+                Tools::redirect($this->context->link->getModuleLink($this->module->name, 'surmesure', array('step' => 6)));
+            }
+
+            $tabyears = array();
+            for ($i = date('Y') + 1; $i >= 1900; $i--)
+                $tabyears[] = $i;
+
+    		$this->context->smarty->assign(array(
+    			'marque_selected' => $this->context->cookie->custom_product_marque_id,
+    			'modele_selected' => $this->context->cookie->custom_product_model_id,
+    			'gamme_selected' => $this->context->cookie->custom_product_id_gam,
+    			
+                'model_name_for_title' => $model_name_for_title,
+                'marque_selected_nom' => $this->context->cookie->custom_product_marque_value,
+    			'marque_selected_seo' => $this->rewrite_url($this->context->cookie->custom_product_marque_value),
+    			'modele_selected_nom' => $this->context->cookie->custom_product_model_name,
+    			'gamme_selected_nom' => $this->context->cookie->custom_product_gam_value,
+    			'gamme_selected_alias' => $this->context->cookie->custom_product_gam_alias,
+    			'product_price' => $this->context->cookie->custom_product_price,
+                
+    			'configuration_selected' => $this->context->cookie->custom_product_id_conf,
+    			'conf_selected_nom' => $this->context->cookie->custom_product_conf_value,
+    			'conf_selected_img' => $this->context->cookie->custom_product_conf_img,
+    			'conf_selected_desc' => $this->context->cookie->custom_product_conf_desc,
+                
+                'color_img' => $this->context->cookie->custom_color_img,
+                'color_nom' => $this->context->cookie->custom_color_nom,
+                'product_id' => $this->context->cookie->custom_product_id,
+                
+                'year' => date('Y'),
+                'years' => $tabyears,
+                'custom_year_car' => $this->context->cookie->custom_year_car,
+                'display_popup' => $display_popup,
+                
+                'gamme' => $this->getDetailsGammes($this->context->cookie->custom_product_id_gam)
+    		));
+            
+    	} else {
+            $url =  $this->context->link->getBaseLink().$this->baseUrl.'/'.$this->context->cookie->custom_product_marque_value.'/'.$this->context->cookie->custom_product_family_value.'/step-4';
+            header('Location: ' . $url);
+    	}
+    }
+    
+    public function processStepSix ()
+    {
+    	if (
+            !empty($this->context->cookie->custom_product_marque_id)
+            && !empty($this->context->cookie->custom_product_model_id)
+            && !empty($this->context->cookie->custom_product_id_gam)
+            && !empty($this->context->cookie->custom_product_id_conf)
+            && !empty($this->context->cookie->custom_product_id)
+            && !empty($this->context->cookie->custom_color)
+        ) {
+            $step = Tools::getValue('step', 1);
+            if ($step == 6) {
+                $display_popup = 1;
+                $product = new Product($this->context->cookie->custom_product_id);
+                $accessories = $product->getAccessories((int)$this->context->language->id);
+                $this->context->smarty->assign(array('display_popup' => $display_popup, 'accessories' => $accessories));
+            }
+            $model_name_for_title = str_replace(array('[', ']'), array('', ''),substr($this->context->cookie->custom_product_model_name, 0, strpos($this->context->cookie->custom_product_model_name, " - ")));
+
+            $tabyears = array();
+            for ($i = date('Y') + 1; $i >= 1900; $i--)
+                $tabyears[] = $i;
+            
+    		$this->context->smarty->assign(array(
+    			'marque_selected' => $this->context->cookie->custom_product_marque_id,
+    			'modele_selected' => $this->context->cookie->custom_product_model_id,
+    			'gamme_selected' => $this->context->cookie->custom_product_id_gam,
+    			
+                'model_name_for_title' => $model_name_for_title,
+                'marque_selected_nom' => $this->context->cookie->custom_product_marque_value,
+    			'marque_selected_seo' => $this->rewrite_url($this->context->cookie->custom_product_marque_value),
+    			'modele_selected_nom' => $this->context->cookie->custom_product_model_name,
+    			'gamme_selected_nom' => $this->context->cookie->custom_product_gam_value,
+    			'gamme_selected_alias' => $this->context->cookie->custom_product_gam_alias,
+                'product_price' => $this->context->cookie->custom_product_price,
+                
+    			'configuration_selected' => $this->context->cookie->custom_product_id_conf,
+    			'conf_selected_nom' => $this->context->cookie->custom_product_conf_value,
+    			'conf_selected_img' => $this->context->cookie->custom_product_conf_img,
+    			'conf_selected_desc' => $this->context->cookie->custom_product_conf_desc,
+                
+                'color_img' => $this->context->cookie->custom_color_img,
+                'color_nom' => $this->context->cookie->custom_color_nom,
+                'product_id' => $this->context->cookie->custom_product_id,
+                
+                'display_popup' => $display_popup,
+                
+                'gamme' => $this->getDetailsGammes($this->context->cookie->custom_product_id_gam)
+    		));
+            $this->addJS(_MODULE_DIR_ . $this->module->name . '/views/assets/js/script-step5.js');
+            
+    	} else {
+    	//    Tools::redirect($this->context->link->getModuleLink($this->module->name, 'surmesure', array('step' => 4)));
+            $url =  $this->context->link->getBaseLink().$this->baseUrl.'/'.$this->context->cookie->custom_product_marque_value.'/'.$this->context->cookie->custom_product_family_value.'/step-4';
+            header('Location: ' . $url);
+    	}
+    }
+    
+    public function postProcessGetModels ()
+    {
+        if (Tools::isSubmit('ajax') && ($id_brand = Tools::getValue('ma'))) {
+            echo json_encode(array(
+                'models' => $this->_getModelsOfABrand($id_brand),
+                'hasError' => false,
+                'message' => null,
+            ));
+            die();
+        }
+    }
+
+    function getProductByEan($ean){
+        $sql = "SELECT p.id_product, p.ean13, p.reference, l.name, l.description_short AS description 
+        FROM ps_product_lang AS l
+        LEFT JOIN ps_product AS p ON p.id_product = l.id_product
+        Where p.ean13 = $ean";
+        return Db::getInstance()->executeS($sql);
+    }
+
+    public function getProductsImages(){
+        $file = file_get_contents('./tapis_jmb.txt', FALSE);
+        $file_exp=explode("\n",$file);
+        $product_list = array();
+        $brand = "JMB";
+        $productType = "tapis";
+        foreach ($file_exp as $var) {
+            $product = $this->getProductByEan($var);
+            $anyproduct = new Product($product[0]['id_product'], true, $this->context->language->id, $this->context->shop->id);
+            $images = $anyproduct->getImages($this->context->language->id);
+            if(count($images)>0){
+                foreach ($images as $img) {
+                    $img_split = str_split($img['id_image']);
+                    $img_path['name'] = $img['id_image'];
+                    $img_path['url'] = '';
+                    foreach ($img_split as $img_s) {
+                        if($img_path['url'] === ''){
+                            $img_path['url'] = $img_s;
+                        }
+                        else{
+                            $img_path['url'] = $img_path['url'].'/'.$img_s;
+                        }
+                    }
+                }
+                
+                if (!is_dir("./img/custom/products/".$brand."/".$productType."/".$product[0]['ean13'])) { 
+                    mkdir("./img/custom/products/".$brand."/".$productType."/".$product[0]['ean13']); // Create a directory if it doesn't exist
+                }
+                    
+                $i=1;
+                foreach ($images as $img) {
+                    $img_split = str_split($img['id_image']);
+                    $image['name'] = $img['id_image'];
+                    $image['path'] = '';
+                    foreach ($img_split as $img_s) {
+                        if($image['path'] === ''){
+                            $image['path'] = $img_s;
+                        }
+                        else{
+                            $image['path'] = $image['path'].'/'.$img_s;
+                        }
+                    }
+                    $image['cover'] = (bool)$img['cover'];
+                    $image['url'] = $this->context->link->getImageLink($anyproduct->link_rewrite, $img['id_image']);
+                    $image['position'] = $img['position'];
+                    if($i>1){
+                        $imgName = "./img/custom/products/".$brand."/".$productType."/".$product[0]['ean13']."/".$product[0]['ean13']."-".$i.".jpg";
+                    }
+                    else{
+                        $imgName = "./img/custom/products/".$brand."/".$productType."/".$product[0]['ean13']."/".$product[0]['ean13'].".jpg";
+                    }
+                    file_put_contents($imgName, file_get_contents($image['url']));
+                    $i++;
+                }
+                array_push($product_list,$product[0]['ean13']);
+            }
+        }
+        $filename='Export_EAN_produits_avec_image_'.date('Ymd').'_'.date('Hi').'.csv';
+        header('Content-Encoding: UTF-8');
+        header('Content-Type: text/csv');
+        header('Content-Disposition: attachment; filename='. $filename . '.csv');
+        header('Pragma: no-cache');
+        header("Expires: 0");
+
+        echo "Produits avec image"."\n";
+        foreach($product_list as $data)
+        {
+            echo $data."\n";
+        }
+
+        exit();
+    }
+    
+    protected function _getAllProducts ($id_brand)
+    {
+        $sql = '
+            SELECT SQL_CALC_FOUND_ROWS p.`id_product`  AS `id_product`
+            FROM  `ps_product` p 
+            LEFT JOIN `ps_product_lang` pl ON (pl.`id_product` = p.`id_product` AND pl.`id_lang` = 1 AND pl.`id_shop` = 1) 
+            LEFT JOIN `ps_stock_available` sav ON (sav.`id_product` = p.`id_product` AND sav.`id_product_attribute` = 0 AND sav.id_shop = 1  AND sav.id_shop_group = 0 ) 
+            JOIN `ps_product_shop` sa ON (p.`id_product` = sa.`id_product` AND sa.id_shop = 1) 
+            LEFT JOIN `ps_category_lang` cl ON (sa.`id_category_default` = cl.`id_category` AND cl.`id_lang` = 1 AND cl.id_shop = 1) 
+            LEFT JOIN `ps_category` c ON (c.`id_category` = cl.`id_category`) 
+            LEFT JOIN `ps_shop` shop ON (shop.id_shop = 1) 
+            LEFT JOIN `ps_image_shop` image_shop ON (image_shop.`id_product` = p.`id_product` AND image_shop.`cover` = 1 AND image_shop.id_shop = 1) 
+            LEFT JOIN `ps_image` i ON (i.`id_image` = image_shop.`id_image`) 
+            LEFT JOIN `ps_product_download` pd ON (pd.`id_product` = p.`id_product`) 
+            WHERE (1 AND state = 1)
+            
+            ORDER BY  `id_product` desc
+        ';
+        $modeles = Db::getInstance()->executeS($sql);
+        return $modeles;
+    }
+    
+    protected function _getModelsOfABrand ($id_brand)
+    {
+        $selectedBrandObj = new FeatureValue($id_brand, $this->context->language->id);
+        $sql = '
+            SELECT fv.*, fvl.`value`
+            FROM `'._DB_PREFIX_.'feature_value` fv
+            LEFT JOIN `'._DB_PREFIX_.'feature_value_lang` fvl 
+                ON (fv.`id_feature_value` = fvl.`id_feature_value` AND fvl.`id_lang` = '. (int)$this->context->language->id .')
+            WHERE fv.`id_feature` = '. (int)$this->module->_id_mod .'
+                AND fvl.`value` LIKE \'['. pSQL($selectedBrandObj->value) .']%\'
+            ORDER BY fvl.`value` ASC
+        ';
+        $modeles = Db::getInstance()->executeS($sql);
+        foreach ($modeles as &$modele) {
+            $value = explode(']', $modele['value']);
+            $modele['value'] = trim($value[1]);
+        }
+        unset($modele);
+        return $modeles;
+    }
+
+    protected function _checkIfModelMatchBrand ($id_brand, $id_model)
+    {
+        $selectedBrandObj = new FeatureValue($id_brand, $this->context->language->id);
+        $sql = '
+            SELECT fv.`id_feature_value`
+            FROM `'._DB_PREFIX_.'feature_value` fv
+            LEFT JOIN `'._DB_PREFIX_.'feature_value_lang` fvl 
+                ON (fv.`id_feature_value` = fvl.`id_feature_value` AND fvl.`id_lang` = '. (int)$this->context->language->id .')
+            WHERE fv.`id_feature` = '. (int)$this->module->_id_mod .'
+                AND fvl.`value` LIKE \'['. pSQL($selectedBrandObj->value) .']%\'
+                AND fv.`id_feature_value` = '. (int)$id_model .'
+            ORDER BY fvl.`value` ASC
+        ';
+        if (Db::getInstance()->getValue($sql)) {
+            return true;
+        }
+        return false;
+    }
+
+    protected function _checkIfFamilyMatchBrand ($id_brand, $id_fam)
+    {
+        $sql1 = 'SELECT * FROM `'._DB_PREFIX_.'customproducts_fam_brand` WHERE `id_brand` = ' . $id_brand .' AND `id_fam` = ' . $id_fam;
+        $sql2 = '
+            SELECT fv.`id_feature_value`
+            FROM `'._DB_PREFIX_.'feature_value` fv
+            LEFT JOIN `'._DB_PREFIX_.'feature_value_lang` fvl 
+                ON (fv.`id_feature_value` = fvl.`id_feature_value` AND fvl.`id_lang` = '. (int)$this->context->language->id .')
+            WHERE fv.`id_feature` = '. (int)$this->module->_id_family .'
+                AND fv.`id_feature_value` = '. (int)$id_fam .'
+            ORDER BY fvl.`value` ASC
+        ';
+        if (Db::getInstance()->getValue($sql1) && Db::getInstance()->getValue($sql2)) {
+            return true;
+        }
+        return false;
+    }
+    
+    /**
+     * Check if any product with a specific model (feature value $id_mod of the feature model) 
+     * has the type basique (feature value basique of the feature type)
+     */
+    public function hasBasique ($id_mod)
+    {
+        // Get a product with the current model
+        $id_product = (int)Db::getInstance()->getValue('
+            SELECT `id_product` 
+            FROM `'._DB_PREFIX_.'feature_product` 
+            WHERE `id_feature` = '. (int)$this->module->_id_mod .' AND id_feature_value = ' . (int)$id_mod
+        );
+        if ($id_product) {
+            $id_product = (int)Db::getInstance()->getValue('
+                SELECT `id_product` 
+                FROM `'._DB_PREFIX_.'feature_product` 
+                WHERE `id_feature` = '. (int)$this->module->_id_type .' 
+                    AND id_feature_value = '. (int)$this->module->_id_value_basique .'
+                    AND id_product = ' . $id_product
+            );
+            if ($id_product) {
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    /**
+     * Get the details on a feature value gamme.
+     */
+    public function getDetailsGammes($id_feature_value)
+    {
+        $result = Db::getInstance()->getRow('
+            SELECT g.*, f.value 
+            FROM `'._DB_PREFIX_.'customproducts_gammes` g 
+            INNER JOIN `'._DB_PREFIX_.'feature_value_lang` f ON (g.`id_gamme` = f.`id_feature_value`) 
+            WHERE f.id_lang = '.(int)$this->context->language->id.'  
+                AND g.`id_gamme` = '.(int)$id_feature_value
+        );
+        $result['plus_produit'] = array_map(function ($row) {
+            return str_replace(
+                '[more]'
+                , ' <a href="'. $this->context->link->getBaseLink() .'img/popup-fixations.jpg' .'" class="poppup_image")">En savoir plus</a>'
+                , $row);
+        }, explode('|', $result['plus_produit']));
+        
+        // Price
+        $result['price'] = $result['prix'];
+        if (!empty($this->context->cookie->espace_pro)) {
+            $result['price'] = round($result['prix'] / 1.2, 2); // Get price HT
+            $default_group_id = Customer::getDefaultGroupId($this->context->customer->id);
+            $reduction = Db::getInstance()->getValue('
+				SELECT `reduction`
+				FROM `'._DB_PREFIX_.'group_reduction`
+				WHERE 1 
+                    '. ($default_group_id ? 'AND `id_group` = ' . $default_group_id . '' : '') .'
+    				AND `id_category` = '. $this->module->_id_category .'
+    				AND `reduction` > 0
+            ');
+            if ($reduction) {
+                $result['price'] = round($result['price'] * (1 - $reduction), 2);
+            }
+        }
+        
+        $result['colors'] = Db::getInstance()->executeS('
+			SELECT *
+			FROM `'._DB_PREFIX_.'customproducts_gammes_couleurs` gc
+			INNER JOIN  `'._DB_PREFIX_.'feature_value_lang` f 
+                ON (gc.`id_couleur` = f.`id_feature_value` AND f.`id_lang` = '. (int)$this->context->language->id .')
+			WHERE `id_gam` = '. (int)$id_feature_value
+        );
+        return $result;
+	}
+    
+    /**
+     * Get the product by model
+     */
+	public function getProductByMod ($id_mod)
+	{
+		$id_product = Db::getInstance()->getValue('
+            SELECT `id_product` 
+            FROM `'._DB_PREFIX_.'feature_product` 
+            WHERE `id_feature` = '. (int)$this->module->_id_type .' 
+                AND id_feature_value = '. (int)$this->module->_id_value_basique .' 
+                AND id_product = (
+                    SELECT `id_product` 
+                    FROM `'._DB_PREFIX_.'feature_product` 
+                    WHERE `id_feature` = '. (int)$this->module->_id_mod .' 
+                        AND id_feature_value = '. (int)$id_mod .'
+                    LIMIT 1
+                )
+        ');
+		return $id_product;
+	}
+    
+    /**
+     * Get the product by configuration, carrosserie and gamme
+     */
+	public function getProductByConfCarroGamme ($id_conf, $id_carro, $id_gam)
+    {
+        $id_product = 0;
+        // Get all products with the carrosserie $id_carro
+        $ids_product = array_map(function ($row) {
+            return (int)$row['id_product'];
+        }, Db::getInstance()->executeS('
+            SELECT `id_product` 
+            FROM `'._DB_PREFIX_.'feature_product` 
+            WHERE `id_feature` = '. (int)$this->module->_id_carro .' 
+                AND id_feature_value = '. (int)$id_carro
+        ));
+        if (!empty($ids_product)) {
+            // Between products with the carrosserie $id_carro, choose those of the configuration $id_conf
+            $ids_product = array_map(function ($row) {
+                return (int)$row['id_product'];
+            }, Db::getInstance()->executeS('
+                SELECT `id_product` 
+                FROM `'._DB_PREFIX_.'feature_product` 
+                WHERE `id_feature` = '. (int)$this->module->_id_conf .' 
+                    AND id_product IN ('. implode(',', $ids_product) .') 
+                    AND id_feature_value = '. (int)$id_conf
+            ));
+            
+            if (!empty($ids_product)) {
+                // Get Products with the carrosserie $id_carro, the configuration $id_conf and the gamme $id_gam
+                $ids_product = array_map(function ($row) {
+                    return (int)$row['id_product'];
+                }, Db::getInstance()->executeS('
+                    SELECT `id_product` 
+                    FROM `'._DB_PREFIX_.'feature_product` 
+                    WHERE `id_feature` = '. (int)$this->module->_id_gam .' 
+                        AND id_product IN ('. implode(',', $ids_product) .') 
+                        AND id_feature_value = '. (int)$id_gam
+                ));
+                
+                if (!empty($ids_product)) {
+                    return current($ids_product);
+                }
+            }
+        }
+        return false;
+	}
+    
+    /**
+     * Get colors by gamme
+     */
+    public function getColorsByGamme($id_gam)
+    {
+        $results = Db::getInstance()->executeS('
+            SELECT * 
+            FROM `'._DB_PREFIX_.'customproducts_gammes_couleurs` gc
+            INNER JOIN  `'._DB_PREFIX_.'feature_value_lang` f 
+                ON (gc.`id_couleur` = f.`id_feature_value` AND f.`id_lang` = '. (int)$this->context->language->id .')
+            INNER JOIN  `'._DB_PREFIX_.'customproducts_couleurs` cc 
+                ON (cc.`id_color` = f.`id_feature_value`)
+            WHERE id_gam = '. (int)$id_gam
+        );
+        $colors = array();
+        foreach ($results as $row) {
+            $row['images'] = explode('|', $row['images']);
+            $colors[$row['id_color']] = $row;
+        }
+        return $colors;
+    }
+    
+    /**
+     * Get images by gamme
+     */
+    public function getImagesByGamme($id_gam)
+    {
+        return Db::getInstance()->executeS('
+            SELECT * 
+            FROM `'._DB_PREFIX_.'customproducts_gammes_images`
+            WHERE `id_gamme` = '. (int)$id_gam .'
+            ORDER BY `sort` ASC'
+        );
+    }
+
+    protected function _getFamiliesOfABrand ($id_brand)
+    {
+        $sql = 'SELECT `id_fam` FROM `'._DB_PREFIX_.'customproducts_fam_brand` WHERE `id_brand` = ' . $id_brand;
+        $families = Db::getInstance()->executeS($sql);
+        foreach ($families as $fam){
+            $fams[] = (int)$fam['id_fam'];
+        }
+        $sql = '
+            SELECT fv.*, fvl.`value`
+            FROM `'._DB_PREFIX_.'feature_value` fv
+            LEFT JOIN `'._DB_PREFIX_.'feature_value_lang` fvl 
+            ON (fv.`id_feature_value` = fvl.`id_feature_value` AND fvl.`id_lang` = '. (int)$this->context->language->id .')
+            WHERE fv.`id_feature_value` IN ('.implode(",", $fams).')
+            ORDER BY fvl.`value` ASC
+        ';
+        $fams = Db::getInstance()->executeS($sql);
+        return $fams;
+    }
+
+    protected function _getModelsOfAFamily ($id_fam, $family, $id_brand)
+    {
+	$sql = "SELECT id_mod FROM "._DB_PREFIX_."customproducts_fam_mod AS cfm
+        LEFT JOIN "._DB_PREFIX_."customproducts_fam_brand AS cfb ON cfm.id_fam = cfb.id_fam
+        WHERE cfm.id_fam = $id_fam AND cfb.id_brand = $id_brand
+        "; // Récupère tout les modèles en fonction d'une famille précise
+        $modeles = Db::getInstance()->executeS($sql);
+        foreach ($modeles as $mod){
+            $mods[] = (int)$mod['id_mod'];
+        }
+        $family = strtolower($family);
+        $sql = '
+            SELECT fv.*, fvl.`value`
+            FROM `'._DB_PREFIX_.'feature_value` fv
+            LEFT JOIN `'._DB_PREFIX_.'feature_value_lang` fvl
+            ON (fv.`id_feature_value` = fvl.`id_feature_value` AND fvl.`id_lang` = '. (int)$this->context->language->id .')
+            WHERE fvl.`id_feature_value` IN ( '. implode(',', $mods) .' )
+            ORDER BY fvl.`value` DESC
+        ';
+        $mods = Db::getInstance()->executeS($sql);
+        return $mods;
+    }
+
+    protected function _getAliasOfAFeature ($id_feature_value)
+    {
+        $sql = '
+            SELECT alias
+            FROM `'._DB_PREFIX_.'customproducts_feature_alias`
+            WHERE id_feature_value = '. $id_feature_value
+        ;
+        return Db::getInstance()->executeS($sql)[0];
+    }
+
+    protected function _getFeatureOfAnAlias ($type, $alias, $id_brand = null)
+    {
+        if($type) {
+            $sql = '
+                SELECT id_feature_value
+                FROM '._DB_PREFIX_.'customproducts_feature_alias
+                WHERE alias = "'. $alias . '"'
+            ;
+        }
+        else{
+            $sql = "
+            SELECT cfa.id_feature_value
+            FROM "._DB_PREFIX_."customproducts_feature_alias AS cfa
+            LEFT JOIN "._DB_PREFIX_."customproducts_fam_brand AS cfb ON cfa.id_feature_value = cfb.id_fam
+            WHERE cfa.alias like '$alias' AND cfb.id_brand = $id_brand";
+        }
+        return Db::getInstance()->executeS($sql)[0];
+    }
+
+    public function assignFamMod()
+    {
+       var_dump('Etape 7');
+       exit();
+    }
+}

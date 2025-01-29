@@ -1,0 +1,23 @@
+prestashop > 1.7
+    9.0.2, 15/11/2024
+        Fix: fix error when brand widgets are integrated with php 7.1
+    9.0.1, 12/11/2024
+        Fix: fix url to check if product has reviews to be displayed
+    9.0.0, 01/10/2024
+        Feat: change technical way of working to get connector configuration, send orders & display reviews
+        Feat: give access to automatic integration of new widgets for all clients
+        Fix: PHP 7 compatibility
+        Fix: multiple Id Website handling
+        Fix: URL connector
+        Fix: multiple hook calls to check config
+        Fix: PHP 7 remove ending commas
+    8.1.2, 25/07/2024
+        Fix: fix errors on installation & php warning for some versions
+    8.1.0, 15/01/2024
+        Feat: new route sur netreviewsApi - getProductReviewsStats
+        Fix: decimal correction stars page category
+        Fix: reviews list display when no hook displayProductExtraContent
+        Fix: get product infos on retroactive order retrieval
+    8.0.1, 27/09/2023
+        Fix: fix multilang display on Genesis clients
+        Fix: fix double display category stars on Prestashop 1.7

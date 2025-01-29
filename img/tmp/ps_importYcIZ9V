@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="fr-FR">
+
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+  
+    
+  <meta charset="utf-8">
+
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+  <title>GTI Sodifac : La référence de l&#039;équipement auto depuis 1961</title>
+  
+    
+  
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+      
+      
+  
+  
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name" : "GTI Sodifac",
+    "url" : "https://gti-sodifac.com/"
+         ,"logo": {
+        "@type": "ImageObject",
+        "url":"https://gti-sodifac.com/img/logo-1691658531.jpg"
+      }
+      }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "isPartOf": {
+      "@type": "WebSite",
+      "url":  "https://gti-sodifac.com/",
+      "name": "GTI Sodifac"
+    },
+    "name": "GTI Sodifac : La référence de l&#039;équipement auto depuis 1961",
+    "url":  "https://gti-sodifac.com/connexion?back=index"
+  }
+</script>
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+                  {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://gti-sodifac.com/"
+          },                  {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Connectez-vous à votre compte",
+            "item": "https://gti-sodifac.com/connexion"
+          }              ]
+    }
+  </script>
+  
+  
+  
+  
+  
+    
+  
+
+  
+    <meta property="og:title" content="GTI Sodifac : La référence de l&#039;équipement auto depuis 1961" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://gti-sodifac.com/connexion?back=index" />
+    <meta property="og:site_name" content="GTI Sodifac" />
+    <meta property="og:type" content="website" />    
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <link rel="icon" type="image/vnd.microsoft.icon" href="https://gti-sodifac.com/img/favicon.ico?1693390571">
+  <link rel="shortcut icon" type="image/x-icon" href="https://gti-sodifac.com/img/favicon.ico?1693390571">
+
+
+
+    <link rel="stylesheet" href="https://gti-sodifac.com/themes/classic/assets/cache/theme-f7afaf363.css" type="text/css" media="all">
+
+
+
+
+  
+
+  <script type="text/javascript">
+        var blockwishlistController = "https:\/\/gti-sodifac.com\/module\/blockwishlist\/action";
+        var prestashop = {"cart":{"products":[],"totals":{"total":{"type":"total","label":"Total","amount":0,"value":"0,00\u00a0\u20ac"},"total_including_tax":{"type":"total","label":"Total TTC","amount":0,"value":"0,00\u00a0\u20ac"},"total_excluding_tax":{"type":"total","label":"Total HT :","amount":0,"value":"0,00\u00a0\u20ac"}},"subtotals":{"products":{"type":"products","label":"Sous-total","amount":0,"value":"0,00\u00a0\u20ac"},"discounts":null,"shipping":{"type":"shipping","label":"Frais de livraison","amount":0,"value":""},"tax":{"type":"tax","label":"Taxes","amount":0,"value":"0,00\u00a0\u20ac"}},"products_count":0,"summary_string":"0 articles","vouchers":{"allowed":1,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"id":1,"name":"Euro","iso_code":"EUR","iso_code_num":"978","sign":"\u20ac"},"customer":{"lastname":null,"firstname":null,"email":null,"birthday":null,"newsletter":null,"newsletter_date_add":null,"optin":null,"website":null,"company":null,"siret":null,"ape":null,"is_logged":false,"gender":{"type":null,"name":null},"addresses":[]},"country":{"id_zone":1,"id_currency":0,"call_prefix":33,"iso_code":"FR","active":1,"contains_states":0,"need_identification_number":0,"need_zip_code":1,"zip_code_format":"NNNNN","display_tax_label":1,"name":"France","id":8},"language":{"name":"Fran\u00e7ais (French)","iso_code":"fr","locale":"fr-FR","language_code":"fr","active":1,"is_rtl":0,"date_format_lite":"d\/m\/Y","date_format_full":"d\/m\/Y H:i:s","id":1},"page":{"title":"","canonical":null,"meta":{"title":"GTI Sodifac : La r\u00e9f\u00e9rence de l'\u00e9quipement auto depuis 1961","description":"","keywords":"","robots":"index"},"page_name":"authentication","body_classes":{"lang-fr":true,"lang-rtl":false,"country-FR":true,"currency-EUR":true,"layout-full-width":true,"page-authentication":true,"tax-display-enabled":true,"page-customer-account":true},"admin_notifications":[],"password-policy":{"feedbacks":{"0":"Tr\u00e8s faible","1":"Faible","2":"Moyenne","3":"Fort","4":"Tr\u00e8s fort","Straight rows of keys are easy to guess":"Les suites de touches sur le clavier sont faciles \u00e0 deviner","Short keyboard patterns are easy to guess":"Les mod\u00e8les courts sur le clavier sont faciles \u00e0 deviner.","Use a longer keyboard pattern with more turns":"Utilisez une combinaison de touches plus longue et plus complexe.","Repeats like \"aaa\" are easy to guess":"Les r\u00e9p\u00e9titions (ex. : \"aaa\") sont faciles \u00e0 deviner.","Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\"":"Les r\u00e9p\u00e9titions (ex. : \"abcabcabc\") sont seulement un peu plus difficiles \u00e0 deviner que \"abc\".","Sequences like abc or 6543 are easy to guess":"Les s\u00e9quences (ex. : abc ou 6543) sont faciles \u00e0 deviner.","Recent years are easy to guess":"Les ann\u00e9es r\u00e9centes sont faciles \u00e0 deviner.","Dates are often easy to guess":"Les dates sont souvent faciles \u00e0 deviner.","This is a top-10 common password":"Ce mot de passe figure parmi les 10 mots de passe les plus courants.","This is a top-100 common password":"Ce mot de passe figure parmi les 100 mots de passe les plus courants.","This is a very common password":"Ceci est un mot de passe tr\u00e8s courant.","This is similar to a commonly used password":"Ce mot de passe est similaire \u00e0 un mot de passe couramment utilis\u00e9.","A word by itself is easy to guess":"Un mot seul est facile \u00e0 deviner.","Names and surnames by themselves are easy to guess":"Les noms et les surnoms seuls sont faciles \u00e0 deviner.","Common names and surnames are easy to guess":"Les noms et les pr\u00e9noms courants sont faciles \u00e0 deviner.","Use a few words, avoid common phrases":"Utilisez quelques mots, \u00e9vitez les phrases courantes.","No need for symbols, digits, or uppercase letters":"Pas besoin de symboles, de chiffres ou de majuscules.","Avoid repeated words and characters":"\u00c9viter de r\u00e9p\u00e9ter les mots et les caract\u00e8res.","Avoid sequences":"\u00c9viter les s\u00e9quences.","Avoid recent years":"\u00c9vitez les ann\u00e9es r\u00e9centes.","Avoid years that are associated with you":"\u00c9vitez les ann\u00e9es qui vous sont associ\u00e9es.","Avoid dates and years that are associated with you":"\u00c9vitez les dates et les ann\u00e9es qui vous sont associ\u00e9es.","Capitalization doesn't help very much":"Les majuscules ne sont pas tr\u00e8s utiles.","All-uppercase is almost as easy to guess as all-lowercase":"Un mot de passe tout en majuscules est presque aussi facile \u00e0 deviner qu'un mot de passe tout en minuscules.","Reversed words aren't much harder to guess":"Les mots invers\u00e9s ne sont pas beaucoup plus difficiles \u00e0 deviner.","Predictable substitutions like '@' instead of 'a' don't help very much":"Les substitutions pr\u00e9visibles comme '\"@\" au lieu de \"a\" n'aident pas beaucoup.","Add another word or two. Uncommon words are better.":"Ajoutez un autre mot ou deux. Pr\u00e9f\u00e9rez les mots peu courants."}}},"shop":{"name":"GTI Sodifac","logo":"https:\/\/gti-sodifac.com\/img\/logo-1691658531.jpg","stores_icon":"https:\/\/gti-sodifac.com\/img\/logo_stores.png","favicon":"https:\/\/gti-sodifac.com\/img\/favicon.ico"},"core_js_public_path":"\/themes\/","urls":{"base_url":"https:\/\/gti-sodifac.com\/","current_url":"https:\/\/gti-sodifac.com\/connexion?back=index","shop_domain_url":"https:\/\/gti-sodifac.com","img_ps_url":"https:\/\/gti-sodifac.com\/img\/","img_cat_url":"https:\/\/gti-sodifac.com\/img\/c\/","img_lang_url":"https:\/\/gti-sodifac.com\/img\/l\/","img_prod_url":"https:\/\/gti-sodifac.com\/img\/p\/","img_manu_url":"https:\/\/gti-sodifac.com\/img\/m\/","img_sup_url":"https:\/\/gti-sodifac.com\/img\/su\/","img_ship_url":"https:\/\/gti-sodifac.com\/img\/s\/","img_store_url":"https:\/\/gti-sodifac.com\/img\/st\/","img_col_url":"https:\/\/gti-sodifac.com\/img\/co\/","img_url":"https:\/\/gti-sodifac.com\/themes\/classic\/assets\/img\/","css_url":"https:\/\/gti-sodifac.com\/themes\/classic\/assets\/css\/","js_url":"https:\/\/gti-sodifac.com\/themes\/classic\/assets\/js\/","pic_url":"https:\/\/gti-sodifac.com\/upload\/","theme_assets":"https:\/\/gti-sodifac.com\/themes\/classic\/assets\/","theme_dir":"https:\/\/gti-sodifac.com\/var\/www\/html\/gtisodifac\/themes\/classic\/","pages":{"address":"https:\/\/gti-sodifac.com\/adresse","addresses":"https:\/\/gti-sodifac.com\/adresses","authentication":"https:\/\/gti-sodifac.com\/connexion","manufacturer":"https:\/\/gti-sodifac.com\/marques","cart":"https:\/\/gti-sodifac.com\/panier","category":"https:\/\/gti-sodifac.com\/index.php?controller=category","cms":"https:\/\/gti-sodifac.com\/index.php?controller=cms","contact":"https:\/\/gti-sodifac.com\/nous-contacter","discount":"https:\/\/gti-sodifac.com\/reduction","guest_tracking":"https:\/\/gti-sodifac.com\/suivi-commande-invite","history":"https:\/\/gti-sodifac.com\/historique-commandes","identity":"https:\/\/gti-sodifac.com\/identite","index":"https:\/\/gti-sodifac.com\/","my_account":"https:\/\/gti-sodifac.com\/mon-compte","order_confirmation":"https:\/\/gti-sodifac.com\/confirmation-commande","order_detail":"https:\/\/gti-sodifac.com\/index.php?controller=order-detail","order_follow":"https:\/\/gti-sodifac.com\/suivi-commande","order":"https:\/\/gti-sodifac.com\/commande","order_return":"https:\/\/gti-sodifac.com\/index.php?controller=order-return","order_slip":"https:\/\/gti-sodifac.com\/avoirs","pagenotfound":"https:\/\/gti-sodifac.com\/page-introuvable","password":"https:\/\/gti-sodifac.com\/recuperation-mot-de-passe","pdf_invoice":"https:\/\/gti-sodifac.com\/index.php?controller=pdf-invoice","pdf_order_return":"https:\/\/gti-sodifac.com\/index.php?controller=pdf-order-return","pdf_order_slip":"https:\/\/gti-sodifac.com\/index.php?controller=pdf-order-slip","prices_drop":"https:\/\/gti-sodifac.com\/promotions","product":"https:\/\/gti-sodifac.com\/index.php?controller=product","registration":"https:\/\/gti-sodifac.com\/index.php?controller=registration","search":"https:\/\/gti-sodifac.com\/recherche","sitemap":"https:\/\/gti-sodifac.com\/Plan du site","stores":"https:\/\/gti-sodifac.com\/magasins","supplier":"https:\/\/gti-sodifac.com\/fournisseur","new_products":"https:\/\/gti-sodifac.com\/nouveaux-produits","brands":"https:\/\/gti-sodifac.com\/marques","register":"https:\/\/gti-sodifac.com\/index.php?controller=registration","order_login":"https:\/\/gti-sodifac.com\/commande?login=1"},"alternative_langs":[],"actions":{"logout":"https:\/\/gti-sodifac.com\/?mylogout="},"no_picture_image":{"bySize":{"small_default":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-small_default.jpg","width":98,"height":98},"cart_default":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-cart_default.jpg","width":125,"height":125},"home_default":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-home_default.jpg","width":250,"height":250},"medium_default":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-medium_default.jpg","width":452,"height":452},"large_default":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-large_default.jpg","width":800,"height":800}},"small":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-small_default.jpg","width":98,"height":98},"medium":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-home_default.jpg","width":250,"height":250},"large":{"url":"https:\/\/gti-sodifac.com\/img\/p\/fr-default-large_default.jpg","width":800,"height":800},"legend":""}},"configuration":{"display_taxes_label":true,"display_prices_tax_incl":false,"is_catalog":false,"show_prices":true,"opt_in":{"partner":true},"quantity_discount":{"type":"discount","label":"Remise sur prix unitaire"},"voucher_enabled":1,"return_enabled":0},"field_required":[],"breadcrumb":{"links":[{"title":"Accueil","url":"https:\/\/gti-sodifac.com\/"},{"title":"Connectez-vous \u00e0 votre compte","url":"https:\/\/gti-sodifac.com\/connexion"}],"count":2},"link":{"protocol_link":"https:\/\/","protocol_content":"https:\/\/"},"time":1738130933,"static_token":"58c707ad75f52cd5ec987e2b8de18ce2","token":"a796a81660f105365ad66195e373d4ad","debug":false};
+        var productsAlreadyTagged = [];
+        var psr_icon_color = "#F19D76";
+        var removeFromWishlistUrl = "https:\/\/gti-sodifac.com\/module\/blockwishlist\/action?action=deleteProductFromWishlist";
+        var wishlistAddProductToCartUrl = "https:\/\/gti-sodifac.com\/module\/blockwishlist\/action?action=addProductToCart";
+        var wishlistUrl = "https:\/\/gti-sodifac.com\/module\/blockwishlist\/view";
+      </script>
+
+
+
+  
+
+
+  
+</head>
+
+<body id="authentication" class="lang-fr country-fr currency-eur layout-full-width page-authentication tax-display-enabled page-customer-account">
+
+  
+    
+  
+
+  <main>
+    
+          
+
+    <header id="header">
+          </header>
+
+    <section id="wrapper">
+              <div class="banner-authentication"></div>
+            
+        
+<aside id="notifications">
+  <div class="notifications-container container">
+    
+    
+    
+      </div>
+</aside>
+      
+
+      
+      <div class="container">
+        
+          <nav data-depth="2" class="breadcrumb">
+  <ol>
+    
+              
+          <li>
+                          <a href="https://gti-sodifac.com/"><span>Accueil</span></a>
+                      </li>
+        
+              
+          <li>
+                          <span>Connectez-vous à votre compte</span>
+                      </li>
+        
+          
+  </ol>
+</nav>
+        
+
+        <div class="row">
+          
+
+          
+  <div id="content-wrapper" class="js-content-wrapper col-xs-12">
+    
+    
+
+  <section id="main">
+          <div class="anchor-container">
+                <p><a href="#a-propos">À propos</a></p>
+        <p><a href="#historic">Le groupe</a></p>
+        <p><a href="#map">Carte des commerciaux</a></p>
+        <p><a href="#fds">Fiches de sécurité</a></p>
+      </div>
+              
+      
+        <header class="page-header">
+          <h1>
+  Connectez-vous à votre compte
+</h1>
+        </header>
+      
+    
+
+    
+      <div id="content" class="page-content card card-block">
+        
+        
+  <div class="create-login-container">
+    
+      <section class="login-form">
+        
+
+  
+      
+
+  <form id="login-form" action="https://gti-sodifac.com/connexion?back=index" method="post">
+
+    <div>
+      
+                  
+            
+  
+    <input type="hidden" name="back" value="index">
+  
+
+
+          
+                  
+            
+  <div class="form-group row ">
+    <label class="col-md-3 form-control-label required" for="field-email">
+              E-mail
+          </label>
+    <div class="col-md-6 js-input-column">
+
+      
+        
+          <input
+            id="field-email"
+            class="form-control"
+            name="email"
+            type="email"
+            value=""
+            autocomplete="email"                                    required          >
+                  
+
+      
+      
+              
+
+    </div>
+
+    <div class="col-md-3 form-control-comment">
+      
+              
+    </div>
+  </div>
+
+
+          
+                  
+            
+  <div class="form-group row ">
+    <label class="col-md-3 form-control-label required" for="field-password">
+              Mot de passe
+          </label>
+    <div class="col-md-6 js-input-column">
+
+      
+        
+          <div class="input-group js-parent-focus">
+            <input
+              id="field-password"
+              class="form-control js-child-focus js-visible-password"
+              name="password"
+              aria-label="Saisie du mot de passe"
+              type="password"
+              data-minlength="8"              data-maxlength="72"              data-minscore="3"              autocomplete="current-password"              value=""
+              pattern=".{5,}"
+              required            >
+            <span class="input-group-btn">
+              <button
+                class="btn"
+                type="button"
+                data-action="show-password"
+                data-text-show="Afficher"
+                data-text-hide="Masquer"
+              >
+                Afficher
+              </button>
+            </span>
+          </div>
+        
+
+      
+      
+              
+
+    </div>
+
+    <div class="col-md-3 form-control-comment">
+      
+              
+    </div>
+  </div>
+
+
+          
+              
+      <div class="forgot-password">
+        <a href="https://gti-sodifac.com/recuperation-mot-de-passe" rel="nofollow">
+          Mot de passe oublié ?
+        </a>
+      </div>
+    </div>
+
+    
+      <footer class="form-footer text-sm-center clearfix">
+        <input type="hidden" name="submitLogin" value="1">
+        
+          <button id="submit-login" class="btn btn-primary" data-link-action="sign-in" type="submit" class="form-control-submit">
+            Connexion
+          </button>
+        
+      </footer>
+    
+
+  </form>
+
+
+      </section>
+            
+        
+      
+                      
+    
+      <section class="create-form">
+        
+
+  <div>
+    <h2>Pour créer votre compte client et accéder au catalogue, veuillez cliquer sur le lien de téléchargement afin de
+      remplir le formulaire. <br><br>
+      Une fois dûment complété, vous pouvez l'envoyer à l'adresse email suivante : <span
+        style="font-weight: 700;">commercial@gti-sodifac.com</span></h2>
+    <a href="https://gti-sodifac.com/ouverture-compte-GTI-SODIFAC.doc" download>Télécharger le formulaire</a>
+  </div>
+  <div>
+    <p style="font-size:1.3em;line-height:1.5;">
+      <br>
+      <br>
+      <span style="text-decoration: underline;line-height:2;">Coordonnées :</span><br>
+      GTI SODIFAC<br>
+      47 Avenue de l'Europe<br>
+      BP 80054<br>
+      59435 Roncq Cedex (France)<br>
+      Standard : +33 (0)3 20 45 37 00<br>
+      E-mail : commercial@gti-sodifac.com
+    </p>
+  </div>
+
+      </section>
+    
+  </div><br>
+  <div class="a-propos">
+    <h1 id="a-propos">À propos</h1><br>
+    <p>La société GTI SODIFAC, fondée en 1961, est à l’origine spécialisée dans la production et la distribution de
+      housses de sièges et de
+      tapis pour automobiles. Leader sur ces marchés, elle propose aujourd’hui une gamme d’équipements toujours plus vaste
+      pour le
+      confort, la protection, l’entretien, et la téléphonie en voiture au profit de ses clients en France et à
+      l’international. Ses équipes se
+      mobilisent pour concevoir des produits innovants, en organiser la production, le stockage et la distribution, tout
+      en plaçant la
+      satisfaction client au coeur de son développement.<br><br>
+      La société CUSTO POL, créée en 1998 et basée en Pologne, domine le marché européen de la production de tapis
+      automobiles
+      en moquette et en PVC grâce à ses chaînes de fabrication modernes et à unelogistique optimisée.<br><br>
+      Deuxième site de production du groupe automobile, la société ARMADA spécialisée en tapis moquette a été créée en
+      2006.
+      Située également en Pologne, elle complète idéalement l’outil de production pour permettre à GTI Sodifac de
+      satisfaire
+      ses clients partout en Europe.</p>
+  </div>
+  <div class="historic">
+    <h1 id="historic">Le groupe</h1>
+    <div class="historic-container">
+      <img class="picto-maps" src="../../img/picto-carte-france.png" alt="carte de la France">
+      <img class="company-logo" src="../../img/logo.png" alt="logo GTI SODIFAC">
+      <ul>
+        <li>1961 : Création de GTI Sodifac.</li>
+        <li>2019 : JMB+ Distribution intégre le groupe.</li>
+        <li>2023 : Fusion entre JMB+ Distribution et GTI Sodifac.</li>
+        <li>Bureaux, entrepôts dans le Nord de la France (12 000m²).</li>
+        <li>Conception, importation, stockage et distribution d’accessoires.</li>
+        <li>Distribution en France et en Europe.</li>
+      </ul>
+    </div>
+    <div class="historic-container">
+      <img class="picto-maps" src="../../img/picto-carte-pologne.png" alt="carte de la Pologne">
+      <img class="company-logo" src="../../img/logo_custopol.png" alt="logo Custopol">
+      <ul>
+        <li>Création en 1998.</li>
+        <li>Bureaux, entrepôts et site de production en Pologne (10 000m²).</li>
+        <li>Production de 210 000 jeux de tapis/mois.</li>
+        <li>Distribution en Europe et aux constructeurs automobiles.</li>
+      </ul>
+    </div>
+    <div class="historic-container">
+      <img class="picto-maps" src="../../img/picto-carte-pologne.png" alt="carte de la Pologne">
+      <img class="company-logo" src="../../img/logo_armada.png" alt="logo Armada">
+      <ul>
+        <li>Création en 2006.</li>
+        <li>Site de production en Pologne (1 000 m²).</li>
+        <li>Production de 70 000 jeux de tapis/mois.</li>
+        <li>Distribution en Europe et aux constructeurs automobiles.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="map-container">
+    <h1 id="map">Carte des commerciaux GTI-SODIFAC</h1>
+    <img src="https://gti-sodifac.com/img/carte.png" alt="carte">
+  </div>
+  <hr />
+  <div class="fds">
+    <h1 id="fds">Fiches de données de sécurité (FDS)</h1>
+    <h2><strong>WD40</strong></h2>
+    <p><strong></strong></p>
+    <h3>3-EN-1 ORIGINAL</h3>
+    <ul>
+      <li>18001 -- 33255-10 FDS WD-40 3-EN-1 HUILE TOUS USAGES BURETTE 100ML <a
+          href="https://gti-sodifac.com/img/cms/18001%20--%2033255-10%20FDS%20WD-40%203-EN-1%20HUILE%20TOUS%20USAGES%20BURETTE%20100ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>18002 -- 33235-10 FDS WD-40 3-EN-1 HUILE TOUS USAGES AEROSOL 200ML <a
+          href="https://gti-sodifac.com/img/cms/18002%20--%2033235-10%20FDS%20WD-40%203-EN-1%20HUILE%20TOUS%20USAGES%20AEROSOL%20200ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+    </ul>
+    <p></p>
+    <h3>3-EN-1 TECHNIQUE</h3>
+    <ul>
+      <li>18005 -- 33251-10 FDS WD-40 3-EN-1 TECH. SUPER DEGRIPPANT AEROSOL 250ML <a
+          href="https://gti-sodifac.com/img/cms/18005%20--%2033251-10%20FDS%20WD-40%203-EN-1%20TECH-%20SUPER%20DEGRIPPANT%20AEROSOL%20250ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>18006 -- 33252-10 FDS WD-40 3-EN-1 TECH. LUBRIFIANT SILICONE AEROSOL 250ML <a
+          href="https://gti-sodifac.com/img/cms/18006%20--%2033252-10%20FDS%20WD-40%203-EN-1%20TECH-%20LUBRIFIANT%20SILICONE%20AEROSOL%20250ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>18007 -- 33191-10 FDS WD-40 3-EN-1 TECH. NETTOYANT CONTACTS AEROSOL 250ML <a
+          href="https://gti-sodifac.com/img/cms/18007%20--%2033191-10%20FDS%20WD-40%203-EN-1%20TECH-%20NETTOYANT%20CONTACTS%20AEROSOL%20250ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>18008 -- 33253-10 FDS WD-40 3-EN-1 TECH. GRAISSE BLANCHE LITHIUM AEROSOL 250ML <a
+          href="https://gti-sodifac.com/img/cms/18008%20--%2033253-10%20FDS%20WD-40%203-EN-1%20TECH-%20GRAISSE%20BLANCHE%20LITHIUM%20AEROSOL%20250ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>18009 -- 33618-10 FDS WD-40 3-EN-1 TECH. GRAISSE UNIV LITHIUM TUBE 150G <a
+          href="https://gti-sodifac.com/img/cms/18009%20--%2033618-10%20FDS%20WD-40%203-EN-1%20TECH-%20GRAISSE%20UNIV%20LITHIUM%20TUBE%20150G.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+    </ul>
+    <p></p>
+    <h3>BIKE</h3>
+    <ul>
+      <li>19230 - 33687 WD-40 BIKE LUBRIFIANT CHAINE CONDITIONS HUMIDES 100ML <a
+          href="https://gti-sodifac.com/img/cms/19230%20-%2033687%20WD-40%20BIKE%20LUBRIFIANT%20CHAINE%20CONDITIONS%20HUMIDES%20100ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19231 - 33695 WD-40 BIKE LUBRIFIANT CHAINE CONDITIONS SECHES 100ML <a
+          href="https://gti-sodifac.com/img/cms/19231%20-%2033695%20WD-40%20BIKE%20LUBRIFIANT%20CHAINE%20CONDITIONS%20SECHES%20100ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19234 - 33238 WD-40 BIKE NETTOYANT 500ML <a
+          href="https://gti-sodifac.com/img/cms/19234%20-%2033238%20WD-40%20BIKE%20NETTOYANT%20500ML.pdf" target="_blank"
+          rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>33789 FDS BIKE LUB CHAINE CONDITIONS SECHES 100ml x12&nbsp; <a
+          href="https://gti-sodifac.com/img/cms/33789%20FDS%20BIKE%20LUB%20CHAINE%20CONDITIONS%20SECHES%20100ml%20x12%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>33803-46 FDS BIKE LUB CHAINE TTES CONDITIONS 250ml x12 <a
+          href="https://gti-sodifac.com/img/cms/33803-46%20FDS%20BIKE%20LUB%20CHAINE%20TTES%20CONDITIONS%20250ml%20x12%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>33803-46 FDS BIKE LUB CHAINE TTES CONDITIONS 250ml x12 <a
+          href="https://gti-sodifac.com/img/cms/33804%20FDS%20BIKE%20DEGRAISSANT%20500ml%20x12%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+    </ul>
+    <p></p>
+    <h3>MULTIFONCTION</h3>
+    <ul>
+      <li>33140 FDS WD-40 440ml x120 <a
+          href="https://gti-sodifac.com/img/cms/33140%20FDS%20WD-40%20440ml%20x120%20re%C3%A7ue%20060319.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>33204 FDS WD-40 400ml X24 <a
+          href="https://gti-sodifac.com/img/cms/33204%20FDS%20WD-40%20400ml%20X24%20re%C3%A7ue%20180619.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>33302 FDS WD-40 200ml x36 <a
+          href="https://gti-sodifac.com/img/cms/33302%20FDS%20WD-40%20200ml%20x36%20re%C3%A7ue%20180619.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>33490 FDS WD-40 250ml x30SP <a
+          href="https://gti-sodifac.com/img/cms/33490%20FDS%20WD-40%20250ml%20x30SP%20re%C3%A7ue%20180619.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>FDS WD 400 200ML <a href="https://gti-sodifac.com/img/cms/FDS%20WD%20400%20200ML%20-%20260922.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+    </ul>
+    <p></p>
+    <h3>SPECIALIST</h3>
+    <ul>
+      <li>19210 - 33362 WD-40 SPECIALIST SUPER DEGRIPPANT SYST PRO 400ML <a
+          href="https://gti-sodifac.com/img/cms/19210%20-%2033362%20WD-40%20SPECIALIST%20SUPER%20DEGRIPPANT%20SYST%20PRO%20400ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19211 - 33389 WD-40 SPE. LUBRIFIANT AU SILICONE SYST PROF 400ML <a
+          href="https://gti-sodifac.com/img/cms/19211%20-%2033389%20WD-40%20SPE-%20LUBRIFIANT%20AU%20SILICONE%20SYST%20PROF%20400ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19220 - 33709 WD-40 SPECIALIST SUPER DEGRIPPANT 250ML <a
+          href="https://gti-sodifac.com/img/cms/19220%20-%2033709%20WD-40%20SPECIALIST%20SUPER%20DEGRIPPANT%20250ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19221 - 33721 WD-40 SPECIALIST LUBRIFIANT AU SILICONE 250ML <a
+          href="https://gti-sodifac.com/img/cms/19221%20-%2033721%20WD-40%20SPECIALIST%20LUBRIFIANT%20AU%20SILICONE%20250ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19222 - 33726 WD-40 SPCIALIST GRAISSE BLANCHE AU LITHIUM 250ML <a
+          href="https://gti-sodifac.com/img/cms/19222%20-%2033726%20WD-40%20SPCIALIST%20GRAISSE%20BLANCHE%20AU%20LITHIUM%20250ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19223 - 33895 WD-40 SPECIALIST GRAISSE SPRAY LONGUE DUREE 250ML <a
+          href="https://gti-sodifac.com/img/cms/19223%20-%2033895%20WD-40%20SPECIALIST%20GRAISSE%20SPRAY%20LONGUE%20DUREE%20250ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19224 - 33893 WD-40 SPECIALIST HUILE DE COUPE 250ML <a
+          href="https://gti-sodifac.com/img/cms/19224%20-%2033893%20WD-40%20SPECIALIST%20HUILE%20DE%20COUPE%20250ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19225 - 33716 WD-40 SPECIALIST NETTOYANT CONTACT 250ML <a
+          href="https://gti-sodifac.com/img/cms/19225%20-%2033716%20WD-40%20SPECIALIST%20NETTOYANT%20CONTACT%20250ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+    </ul>
+    <p></p>
+    <h3>SPECIALIST MOTO</h3>
+    <ul>
+      <li>19201 -- 33074-46 FDS WD-40 SPECIALIST MOTO LUBRIFIANT CHAINES SECHES AEROSOL 400ML <a
+          href="https://gti-sodifac.com/img/cms/19201%20--%2033074-46%20FDS%20WD-40%20SPECIALIST%20MOTO%20LUBRIFIANT%20CHAINES%20SECHES%20AEROSOL%20400ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19202 -- 33143-46 FDS WD-40 SPECIALIST MOTO GRAISSE CHAINES HUMIDES AEROSOL 400ML <a
+          href="https://gti-sodifac.com/img/cms/19202%20--%2033143-46%20FDS%20WD-40%20SPECIALIST%20MOTO%20GRAISSE%20CHAINES%20HUMIDES%20AEROSOL%20400ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19203 -- 33133-46 FDS WD-40 SPECIALIST MOTO CIRE - POLISH AEROSOL 400ML <a
+          href="https://gti-sodifac.com/img/cms/19203%20--%2033133-46%20FDS%20WD-40%20SPECIALIST%20MOTO%20CIRE%20-%20POLISH%20AEROSOL%20400ML.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19204 -- 33149-46 FDS WD-40 SPECIALIST MOTO LUSTREUR SILICONE AEROSOL 400ML <a
+          href="https://gti-sodifac.com/img/cms/19204%20--%2033149-46%20FDS%20WD-40%20SPECIALIST%20MOTO%20LUSTREUR%20SILICONE%20AEROSOL%20400ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19205 -- 33138-46 FDS WD-40 SPECIALIST MOTO NETTOYANT CHAINES AEROSOL 400ML <a
+          href="https://gti-sodifac.com/img/cms/19205%20--%2033138-46%20FDS%20WD-40%20SPECIALIST%20MOTO%20NETTOYANT%20CHAINES%20AEROSOL%20400ML%2011-2018.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+      <li>19207 -- 33105-46 FDS WD-40 SPE. MOTO NETTOYANT FREINS 500ML <a
+          href="https://gti-sodifac.com/img/cms/19207%20--%2033105-46%20FDS%20WD-40%20SPE-%20MOTO%20NETTOYANT%20FREINS%20500ML%2002-2019.pdf"
+          target="_blank" rel="nofollow noreferrer noopener" class="btn btn-default">Télécharger la FDS</a></li>
+    </ul>
+  </div>
+
+      </div>
+    
+
+    
+      <footer class="page-footer">
+        
+          <!-- Footer content -->
+        
+      </footer>
+    
+
+  </section>
+
+
+    
+  </div>
+
+
+          
+        </div>
+      </div>
+      
+    </section>
+
+    
+  </main>
+
+  
+    
+<template id="password-feedback">
+  <div
+    class="password-strength-feedback mt-1"
+    style="display: none;"
+  >
+    <div class="progress-container">
+      <div class="progress mb-1">
+        <div class="progress-bar" role="progressbar" value="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <script type="text/javascript" class="js-hint-password">
+              {"0":"Tr\u00e8s faible","1":"Faible","2":"Moyenne","3":"Fort","4":"Tr\u00e8s fort","Straight rows of keys are easy to guess":"Les suites de touches sur le clavier sont faciles \u00e0 deviner","Short keyboard patterns are easy to guess":"Les mod\u00e8les courts sur le clavier sont faciles \u00e0 deviner.","Use a longer keyboard pattern with more turns":"Utilisez une combinaison de touches plus longue et plus complexe.","Repeats like \"aaa\" are easy to guess":"Les r\u00e9p\u00e9titions (ex. : \"aaa\") sont faciles \u00e0 deviner.","Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\"":"Les r\u00e9p\u00e9titions (ex. : \"abcabcabc\") sont seulement un peu plus difficiles \u00e0 deviner que \"abc\".","Sequences like abc or 6543 are easy to guess":"Les s\u00e9quences (ex. : abc ou 6543) sont faciles \u00e0 deviner.","Recent years are easy to guess":"Les ann\u00e9es r\u00e9centes sont faciles \u00e0 deviner.","Dates are often easy to guess":"Les dates sont souvent faciles \u00e0 deviner.","This is a top-10 common password":"Ce mot de passe figure parmi les 10 mots de passe les plus courants.","This is a top-100 common password":"Ce mot de passe figure parmi les 100 mots de passe les plus courants.","This is a very common password":"Ceci est un mot de passe tr\u00e8s courant.","This is similar to a commonly used password":"Ce mot de passe est similaire \u00e0 un mot de passe couramment utilis\u00e9.","A word by itself is easy to guess":"Un mot seul est facile \u00e0 deviner.","Names and surnames by themselves are easy to guess":"Les noms et les surnoms seuls sont faciles \u00e0 deviner.","Common names and surnames are easy to guess":"Les noms et les pr\u00e9noms courants sont faciles \u00e0 deviner.","Use a few words, avoid common phrases":"Utilisez quelques mots, \u00e9vitez les phrases courantes.","No need for symbols, digits, or uppercase letters":"Pas besoin de symboles, de chiffres ou de majuscules.","Avoid repeated words and characters":"\u00c9viter de r\u00e9p\u00e9ter les mots et les caract\u00e8res.","Avoid sequences":"\u00c9viter les s\u00e9quences.","Avoid recent years":"\u00c9vitez les ann\u00e9es r\u00e9centes.","Avoid years that are associated with you":"\u00c9vitez les ann\u00e9es qui vous sont associ\u00e9es.","Avoid dates and years that are associated with you":"\u00c9vitez les dates et les ann\u00e9es qui vous sont associ\u00e9es.","Capitalization doesn't help very much":"Les majuscules ne sont pas tr\u00e8s utiles.","All-uppercase is almost as easy to guess as all-lowercase":"Un mot de passe tout en majuscules est presque aussi facile \u00e0 deviner qu'un mot de passe tout en minuscules.","Reversed words aren't much harder to guess":"Les mots invers\u00e9s ne sont pas beaucoup plus difficiles \u00e0 deviner.","Predictable substitutions like '@' instead of 'a' don't help very much":"Les substitutions pr\u00e9visibles comme '\"@\" au lieu de \"a\" n'aident pas beaucoup.","Add another word or two. Uncommon words are better.":"Ajoutez un autre mot ou deux. Pr\u00e9f\u00e9rez les mots peu courants."}
+          </script>
+
+    <div class="password-strength-text"></div>
+    <div class="password-requirements">
+      <p class="password-requirements-length" data-translation="Entrez un mot de passe entre %s et %s caractères.">
+        <i class="material-icons">check_circle</i>
+        <span></span>
+      </p>
+      <p class="password-requirements-score" data-translation="Le score minimum doit être: %s.">
+        <i class="material-icons">check_circle</i>
+        <span></span>
+      </p>
+    </div>
+  </div>
+</template>
+      <script type="text/javascript" src="https://gti-sodifac.com/themes/classic/assets/cache/bottom-f71b1d356.js" ></script>
+
+
+  
+
+  
+    
+  
+</body>
+
+</html>

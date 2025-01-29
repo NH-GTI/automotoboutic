@@ -1,0 +1,29 @@
+services:
+    # BusinessCentralConfiguration Config
+    InstanWeb\Module\NHBusinessCentral\Adapter\Config\BusinessCentralConfiguration:
+        public: true
+        class: InstanWeb\Module\NHBusinessCentral\Adapter\Config\BusinessCentralConfiguration
+        arguments: ['@prestashop.adapter.legacy.configuration']
+
+    InstanWeb\Module\NHBusinessCentral\Form\Type\BusinessCentralConfiguration:
+        public: true
+        class: 'InstanWeb\Module\NHBusinessCentral\Form\Type\BusinessCentralConfiguration'
+        parent: 'form.type.translatable.aware'
+        tags:
+          - { name: form.type }
+
+    instanweb.module.nhbusinesscentral.businesscentralconfiguration.config.data:
+        public: true
+        class: 'InstanWeb\Module\NHBusinessCentral\Provider\ConfigurationData'
+        arguments:
+          - '@InstanWeb\Module\NHBusinessCentral\Adapter\Config\BusinessCentralConfiguration'
+
+    instanweb.module.nhbusinesscentral.businesscentralconfiguration.config.data.handler:
+        public: true
+        class: 'PrestaShop\PrestaShop\Core\Form\Handler'
+        arguments:
+          - '@form.factory'
+          - '@prestashop.core.hook.dispatcher'
+          - '@instanweb.module.nhbusinesscentral.businesscentralconfiguration.config.data'
+          - 'InstanWeb\Module\NHBusinessCentral\Form\Type\BusinessCentralConfiguration'
+          - 'BusinessCentralConfiguration'
