@@ -103,14 +103,15 @@
                                         : 'border-gray-200 hover:border-blue-300 hover:shadow-sm',
                                 ]"
                             >
-                                <div
-                                    class="aspect-video bg-gray-100 rounded-md mb-3"
-                                >
+                                <div class="aspect-video rounded-md mb-3">
                                     <!-- Emplacement pour l'image future -->
                                     <div
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
-                                        <span>Image {{ gamme.name }} </span>
+                                        <img
+                                            :src="`/modules/carmatselector/assets/img/gamme/tapis-auto-gamme-${gamme.id}.jpg`"
+                                            alt="Tapis auto gamme {{ gamme.name }}"
+                                        />
                                     </div>
                                 </div>
                                 <h3 class="font-medium text-center">
@@ -124,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label for="configuration" class="form-label mb-4"
                             >Configuration</label
                         >
@@ -156,10 +157,10 @@
                                     <div
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
-                                        <span
-                                            >Image
-                                            {{ configuration.name }}</span
-                                        >
+                                        <img
+                                            :src="`/modules/carmatselector/assets/img/configuration/configuration-${store.selectedGamme}-${configuration.id}.png`"
+                                            :alt="`Tapis auto configuration ${configuration.name}`"
+                                        />
                                     </div>
                                 </div>
                                 <h3 class="font-medium text-center">
@@ -200,11 +201,14 @@
                                     <div
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
-                                        <span>Image {{ color.name }}</span>
+                                        <img
+                                            :src="`/modules/carmatselector/assets/img/color/color-${color.id}.jpg`"
+                                            :alt="`Tapis auto configuration ${color.name}`"
+                                        />
                                     </div>
                                 </div>
                                 <h3 class="font-medium text-center">
-                                    {{ color.name }}
+                                    {{ convertToPascalCase(color.name) }}
                                 </h3>
                             </div>
                         </div>
@@ -230,7 +234,10 @@
                             En cliquant sur le bouton ci-dessous, le produit
                             suivant sera ajouté à votre panier : <br />
                             <span class="font-bold text-lg">{{
-                                store.productToAdd.name
+                                store.productToAdd.name +
+                                "au prix de " +
+                                store.productToAdd.price +
+                                "€"
                             }}</span>
                         </p>
                         <div class="flex justify-center">
@@ -469,15 +476,6 @@ const handleSubmit = async () => {
     } finally {
         isLoading.value = false;
     }
-    console.log({
-        brand: store.selectedBrand,
-        model: store.selectedModel,
-        version: store.selectedVersion,
-        carbody: store.selectedCarbody,
-        attachment: store.selectedAttachment,
-        gamme: store.selectedGamme,
-        color: store.selectedColor,
-    });
 };
 
 const hasAnySelection = computed(() => {
@@ -492,6 +490,12 @@ const hasAnySelection = computed(() => {
         store.selectedColor
     );
 });
+
+const convertToPascalCase = (str) => {
+    return str.replace(/(?:^\w|\b\w)/g, (letter) => {
+        return letter.toUpperCase();
+    });
+};
 </script>
 
 <style scoped>
@@ -504,9 +508,5 @@ const hasAnySelection = computed(() => {
 
 .form-select:disabled {
     background-color: #f3f4f6;
-}
-
-.form-select[disabled] {
-    @apply bg-gray-100 cursor-not-allowed;
 }
 </style>
