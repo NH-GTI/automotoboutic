@@ -234,11 +234,17 @@
                             En cliquant sur le bouton ci-dessous, le produit
                             suivant sera ajouté à votre panier : <br />
                             <span class="font-bold text-lg">{{
-                                store.productToAdd.name +
-                                "au prix de " +
-                                store.productToAdd.price +
-                                "€"
+                                store.productToAdd.name
                             }}</span>
+                            au prix de
+                            <span class="font-bold text-lg">
+                                {{
+                                    calculatePrice(
+                                        store.productToAdd.price,
+                                        store.productToAdd.rate
+                                    ) + "€"
+                                }}</span
+                            >
                         </p>
                         <div class="flex justify-center">
                             <a
@@ -496,6 +502,16 @@ const convertToPascalCase = (str) => {
         return letter.toUpperCase();
     });
 };
+
+const calculatePrice = (productPrice, productRate) => {
+    console.log("productPrice:", productPrice);
+    console.log("productRate:", productRate);
+    console.log("productPrice * productRate:", productPrice * productRate);
+    const calculatedPrice =
+        Number(productPrice) +
+        Number(productPrice) * (Number(productRate) / 100);
+    return calculatedPrice.toFixed(2);
+};
 </script>
 
 <style scoped>
@@ -508,5 +524,9 @@ const convertToPascalCase = (str) => {
 
 .form-select:disabled {
     background-color: #f3f4f6;
+}
+
+.form-select[disabled] {
+    @apply bg-gray-100 cursor-not-allowed;
 }
 </style>
