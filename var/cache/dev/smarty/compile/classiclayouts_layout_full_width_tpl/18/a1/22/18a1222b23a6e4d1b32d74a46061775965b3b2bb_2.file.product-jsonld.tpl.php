@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from '/var/www/html/automotoboutic/themes/classic/templates/_partials/microdata/product-jsonld.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e30125c9_65196852',
+  'unifunc' => 'content_679a3097aa9298_76268920',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '18a1222b23a6e4d1b32d74a46061775965b3b2bb' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/_partials/microdata/product-jsonld.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a03e30125c9_65196852 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3097aa9298_76268920 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),1=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),2=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_assignInScope('hasAggregateRating', false);
 if (!empty($_smarty_tpl->tpl_vars['product']->value['productComments']['averageRating']) && !empty($_smarty_tpl->tpl_vars['product']->value['productComments']['nbComments'])) {?>

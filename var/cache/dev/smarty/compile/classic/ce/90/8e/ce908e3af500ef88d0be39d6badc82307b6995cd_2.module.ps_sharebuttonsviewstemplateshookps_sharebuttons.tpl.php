@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from 'module:ps_sharebuttonsviewstemplateshookps_sharebuttons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e30c4a76_15663031',
+  'unifunc' => 'content_679a3097b5b673_38488337',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ce908e3af500ef88d0be39d6badc82307b6995cd' => 
     array (
       0 => 'module:ps_sharebuttonsviewstemplateshookps_sharebuttons.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'module',
     ),
   ),
@@ -20,23 +20,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a03e30c4a76_15663031 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3097b5b673_38488337 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_sharebuttons/views/templates/hook/ps_sharebuttons.tpl -->
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_643540925679a03e30c1bc1_26019181', 'social_sharing');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1000602844679a3097b584d8_22640090', 'social_sharing');
 ?>
 
 <!-- end /var/www/html/automotoboutic/themes/classic/modules/ps_sharebuttons/views/templates/hook/ps_sharebuttons.tpl --><?php }
 /* {block 'social_sharing'} */
-class Block_643540925679a03e30c1bc1_26019181 extends Smarty_Internal_Block
+class Block_1000602844679a3097b584d8_22640090 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'social_sharing' => 
   array (
-    0 => 'Block_643540925679a03e30c1bc1_26019181',
+    0 => 'Block_1000602844679a3097b584d8_22640090',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

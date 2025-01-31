@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from 'module:productcommentsviewstemplateshookaveragegradestars.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e3112224_07646959',
+  'unifunc' => 'content_679a3097ba4f65_16834463',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '03235412c82fe3af55539163b9c3686a7a1ffea4' => 
     array (
       0 => 'module:productcommentsviewstemplateshookaveragegradestars.tpl',
-      1 => 1713967824,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a03e3112224_07646959 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3097ba4f65_16834463 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/productcomments/views/templates/hook/average-grade-stars.tpl -->
 <?php if ($_smarty_tpl->tpl_vars['nb_comments']->value != 0) {?>
   <div class="comments-note">

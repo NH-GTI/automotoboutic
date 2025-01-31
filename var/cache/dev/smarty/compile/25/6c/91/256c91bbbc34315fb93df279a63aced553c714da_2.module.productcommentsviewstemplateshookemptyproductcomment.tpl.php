@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from 'module:productcommentsviewstemplateshookemptyproductcomment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e3118789_56842337',
+  'unifunc' => 'content_679a3097bac2a6_45678611',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '256c91bbbc34315fb93df279a63aced553c714da' => 
     array (
       0 => 'module:productcommentsviewstemplateshookemptyproductcomment.tpl',
-      1 => 1713967824,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a03e3118789_56842337 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3097bac2a6_45678611 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/productcomments/views/templates/hook/empty-product-comment.tpl -->
 <div id="empty-product-comment" class="product-comment-list-item">
   <?php if ($_smarty_tpl->tpl_vars['post_allowed']->value) {?>

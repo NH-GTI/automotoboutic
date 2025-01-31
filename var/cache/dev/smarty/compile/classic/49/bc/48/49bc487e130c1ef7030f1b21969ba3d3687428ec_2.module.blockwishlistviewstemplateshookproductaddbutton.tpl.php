@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from 'module:blockwishlistviewstemplateshookproductaddbutton.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e30b5ec6_03391797',
+  'unifunc' => 'content_679a3097b4ad08_60286041',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '49bc487e130c1ef7030f1b21969ba3d3687428ec' => 
     array (
       0 => 'module:blockwishlistviewstemplateshookproductaddbutton.tpl',
-      1 => 1691748513,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a03e30b5ec6_03391797 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3097b4ad08_60286041 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/blockwishlist/views/templates/hook/product/add-button.tpl --><div
   class="wishlist-button"
   data-url="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['url']->value, ENT_QUOTES, 'UTF-8');?>

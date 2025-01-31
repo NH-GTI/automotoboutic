@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:34
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:47
   from 'module:blockwishlistviewstemplatescomponentsmodalsdelete.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a034ab42848_09933948',
+  'unifunc' => 'content_679a301b9cdec3_18342764',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f9937302c902c18a7e92f61a7bb91ac32c58d2fe' => 
     array (
       0 => 'module:blockwishlistviewstemplatescomponentsmodalsdelete.tpl',
-      1 => 1691748513,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a034ab42848_09933948 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a301b9cdec3_18342764 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/blockwishlist/views/templates/components/modals/delete.tpl -->
 <div
   class="wishlist-delete"

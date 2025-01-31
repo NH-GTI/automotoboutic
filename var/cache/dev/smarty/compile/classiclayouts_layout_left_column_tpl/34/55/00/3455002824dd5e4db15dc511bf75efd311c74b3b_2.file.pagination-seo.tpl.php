@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:54
+/* Smarty version 4.3.4, created on 2025-01-29 14:42:08
   from '/var/www/html/automotoboutic/themes/classic/templates/_partials/pagination-seo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a035ed5d8e6_91061714',
+  'unifunc' => 'content_679a30307fc933_28885472',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3455002824dd5e4db15dc511bf75efd311c74b3b' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/classic/templates/_partials/pagination-seo.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a035ed5d8e6_91061714 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a30307fc933_28885472 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:34
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:47
   from 'module:blockwishlistviewstemplateshookaccountmyaccountblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a034ab1ae00_00612508',
+  'unifunc' => 'content_679a301b996120_27774956',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd3bea152bc88d6ad4c16c87750962bcaf4f57aa3' => 
     array (
       0 => 'module:blockwishlistviewstemplateshookaccountmyaccountblock.tpl',
-      1 => 1691748513,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a034ab1ae00_00612508 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a301b996120_27774956 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/blockwishlist/views/templates/hook/account/myaccount-block.tpl -->
 <?php if ($_smarty_tpl->tpl_vars['customer']->value['is_logged']) {?>
   <li>

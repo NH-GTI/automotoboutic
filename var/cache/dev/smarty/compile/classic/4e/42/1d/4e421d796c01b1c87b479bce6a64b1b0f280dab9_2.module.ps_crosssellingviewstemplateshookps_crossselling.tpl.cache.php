@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e31b1884_08039446',
+  'unifunc' => 'content_679a3097c50f01_02753949',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4e421d796c01b1c87b479bce6a64b1b0f280dab9' => 
     array (
       0 => 'module:ps_crosssellingviewstemplateshookps_crossselling.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'module',
     ),
   ),
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_679a03e31b1884_08039446 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '272236714679a03e31b0009_28074877';
+function content_679a3097c50f01_02753949 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1415072852679a3097c4f3f7_52885201';
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_crossselling/views/templates/hook/ps_crossselling.tpl -->
 <section class="featured-products clearfix mt-3">

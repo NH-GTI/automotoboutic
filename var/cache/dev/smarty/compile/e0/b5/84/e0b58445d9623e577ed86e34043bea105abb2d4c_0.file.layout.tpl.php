@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:31
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:40
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03475e88d5_83047239',
+  'unifunc' => 'content_679a3014efa801_11188258',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e0b58445d9623e577ed86e34043bea105abb2d4c' => 
     array (
       0 => '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/layout.tpl',
-      1 => 1718360660,
+      1 => 1738157873,
       2 => 'file',
     ),
   ),
@@ -34,7 +34,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:error.tpl' => 1,
   ),
 ),false)) {
-function content_679a03475e88d5_83047239 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3014efa801_11188258 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="<?php echo $_smarty_tpl->tpl_vars['iso']->value;?>
 ">

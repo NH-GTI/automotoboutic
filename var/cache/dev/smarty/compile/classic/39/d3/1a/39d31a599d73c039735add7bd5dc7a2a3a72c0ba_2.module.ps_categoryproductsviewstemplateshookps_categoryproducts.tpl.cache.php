@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:52
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e341de26_80115650',
+  'unifunc' => 'content_679a309803c812_69847835',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '39d31a599d73c039735add7bd5dc7a2a3a72c0ba' => 
     array (
       0 => 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'module',
     ),
   ),
@@ -21,9 +21,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_679a03e341de26_80115650 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a309803c812_69847835 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
-$_smarty_tpl->compiled->nocache_hash = '1625538551679a03e3418e93_71510985';
+$_smarty_tpl->compiled->nocache_hash = '535831106679a3098036458_90595547';
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl --><section class="featured-products clearfix mt-3">
   <h2>

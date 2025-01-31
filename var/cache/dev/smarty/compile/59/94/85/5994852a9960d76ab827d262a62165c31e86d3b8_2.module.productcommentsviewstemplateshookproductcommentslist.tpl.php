@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from 'module:productcommentsviewstemplateshookproductcommentslist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e310dc95_33111670',
+  'unifunc' => 'content_679a3097b9ff50_52336182',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5994852a9960d76ab827d262a62165c31e86d3b8' => 
     array (
       0 => 'module:productcommentsviewstemplateshookproductcommentslist.tpl',
-      1 => 1713967824,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:productcomments/views/templates/hook/confirm-modal.tpl' => 1,
   ),
 ),false)) {
-function content_679a03e310dc95_33111670 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3097b9ff50_52336182 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/productcomments/views/templates/hook/product-comments-list.tpl --><?php echo '<script'; ?>
  type="text/javascript">
   var productCommentUpdatePostErrorMessage = '<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Sorry, your review appreciation cannot be sent.','d'=>'Modules.Productcomments.Shop'),$_smarty_tpl ) ),'javascript' ));?>

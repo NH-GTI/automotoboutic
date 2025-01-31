@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:55
+/* Smarty version 4.3.4, created on 2025-01-29 14:42:08
   from 'module:productcommentsviewstemplateshookproductlistreviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a035f0aa369_89393092',
+  'unifunc' => 'content_679a30308c2532_91806129',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e9e4d0b935584380ea8beb3f467908e1cd2486f5' => 
     array (
       0 => 'module:productcommentsviewstemplateshookproductlistreviews.tpl',
-      1 => 1713967824,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a035f0aa369_89393092 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a30308c2532_91806129 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/productcomments/views/templates/hook/product-list-reviews.tpl -->
 
 <div class="product-list-reviews" data-id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product']->value['id'], ENT_QUOTES, 'UTF-8');?>

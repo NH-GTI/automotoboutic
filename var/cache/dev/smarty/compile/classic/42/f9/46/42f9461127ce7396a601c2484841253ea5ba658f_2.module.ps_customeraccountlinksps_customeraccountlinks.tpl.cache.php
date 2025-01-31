@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:34
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:47
   from 'module:ps_customeraccountlinksps_customeraccountlinks.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a034ab15419_96281072',
+  'unifunc' => 'content_679a301b98d993_67749106',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42f9461127ce7396a601c2484841253ea5ba658f' => 
     array (
       0 => 'module:ps_customeraccountlinksps_customeraccountlinks.tpl',
-      1 => 1708963242,
+      1 => 1738157878,
       2 => 'module',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a034ab15419_96281072 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a301b98d993_67749106 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
-$_smarty_tpl->compiled->nocache_hash = '729648247679a034ab04a31_42497385';
+$_smarty_tpl->compiled->nocache_hash = '1781453351679a301b973847_05920866';
 ?>
 <!-- begin /var/www/html/automotoboutic/themes/classic/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl -->
 <div id="block_myaccount_infos" class="col-md-3 links wrapper">

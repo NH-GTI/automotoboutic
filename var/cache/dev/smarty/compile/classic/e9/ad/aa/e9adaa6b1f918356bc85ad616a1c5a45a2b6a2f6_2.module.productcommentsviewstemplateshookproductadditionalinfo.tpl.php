@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:33:07
+/* Smarty version 4.3.4, created on 2025-01-29 14:43:51
   from 'module:productcommentsviewstemplateshookproductadditionalinfo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03e30d5441_90786970',
+  'unifunc' => 'content_679a3097b69236_06668096',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e9adaa6b1f918356bc85ad616a1c5a45a2b6a2f6' => 
     array (
       0 => 'module:productcommentsviewstemplateshookproductadditionalinfo.tpl',
-      1 => 1713967824,
+      1 => 1738157877,
       2 => 'module',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:productcomments/views/templates/hook/average-grade-stars.tpl' => 1,
   ),
 ),false)) {
-function content_679a03e30d5441_90786970 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3097b69236_06668096 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /var/www/html/automotoboutic/modules/productcomments/views/templates/hook/product-additional-info.tpl -->
 <?php if ($_smarty_tpl->tpl_vars['nb_comments']->value != 0 || $_smarty_tpl->tpl_vars['post_allowed']->value) {?>
 <div class="product-comments-additional-info">

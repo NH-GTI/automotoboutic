@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:31
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:40
   from '/var/www/html/automotoboutic/themes/javascript.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03475d08e9_58975263',
+  'unifunc' => 'content_679a3014edc6b4_96064442',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '33a3bc8db49a9f38974ea7719ff2a9bb2312de8f' => 
     array (
       0 => '/var/www/html/automotoboutic/themes/javascript.tpl',
-      1 => 1718360660,
+      1 => 1738157878,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a03475d08e9_58975263 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3014edc6b4_96064442 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/automotoboutic/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 if ((isset($_smarty_tpl->tpl_vars['js_def']->value)) && is_array($_smarty_tpl->tpl_vars['js_def']->value) && smarty_modifier_count($_smarty_tpl->tpl_vars['js_def']->value)) {
 echo '<script'; ?>

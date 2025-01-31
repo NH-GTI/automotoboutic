@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2025-01-29 11:30:31
+/* Smarty version 4.3.4, created on 2025-01-29 14:41:40
   from '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/components/layout/quick_access.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_679a03475f2812_04874788',
+  'unifunc' => 'content_679a3014f05042_92942632',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8f3eeca8399fb32883122e5e432de98b7f6cb2d6' => 
     array (
       0 => '/var/www/html/automotoboutic/admin919wlkwpjawfriiadmx/themes/new-theme/template/components/layout/quick_access.tpl',
-      1 => 1718360660,
+      1 => 1738157873,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_679a03475f2812_04874788 (Smarty_Internal_Template $_smarty_tpl) {
+function content_679a3014f05042_92942632 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="dropdown quick-accesses">
   <button class="btn btn-link btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="quick_select">
