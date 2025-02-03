@@ -103,14 +103,15 @@
                                         : 'border-gray-200 hover:border-blue-300 hover:shadow-sm',
                                 ]"
                             >
-                                <div
-                                    class="aspect-video bg-gray-100 rounded-md mb-3"
-                                >
+                                <div class="aspect-video rounded-md mb-3">
                                     <!-- Emplacement pour l'image future -->
                                     <div
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
-                                        <span>Image {{ gamme.name }} </span>
+                                        <img
+                                            :src="`/modules/carmatselector/assets/img/gamme/tapis-auto-gamme-${gamme.id}.jpg`"
+                                            alt="Tapis auto gamme {{ gamme.name }}"
+                                        />
                                     </div>
                                 </div>
                                 <h3 class="font-medium text-center">
@@ -124,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label for="configuration" class="form-label mb-4"
                             >Configuration</label
                         >
@@ -156,10 +157,10 @@
                                     <div
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
-                                        <span
-                                            >Image
-                                            {{ configuration.name }}</span
-                                        >
+                                        <img
+                                            :src="`/modules/carmatselector/assets/img/configuration/configuration-${store.selectedGamme}-${configuration.id}.png`"
+                                            :alt="`Tapis auto configuration ${configuration.name}`"
+                                        />
                                     </div>
                                 </div>
                                 <h3 class="font-medium text-center">
@@ -200,11 +201,14 @@
                                     <div
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
-                                        <span>Image {{ color.name }}</span>
+                                        <img
+                                            :src="`/modules/carmatselector/assets/img/color/color-${color.id}.jpg`"
+                                            :alt="`Tapis auto configuration ${color.name}`"
+                                        />
                                     </div>
                                 </div>
                                 <h3 class="font-medium text-center">
-                                    {{ color.name }}
+                                    {{ convertToPascalCase(color.name) }}
                                 </h3>
                             </div>
                         </div>
@@ -232,6 +236,15 @@
                             <span class="font-bold text-lg">{{
                                 store.productToAdd.name
                             }}</span>
+                            au prix de
+                            <span class="font-bold text-lg">
+                                {{
+                                    calculatePrice(
+                                        store.productToAdd.price,
+                                        store.productToAdd.rate
+                                    ) + "€"
+                                }}</span
+                            >
                         </p>
                         <div class="flex justify-center">
                             <a
@@ -457,6 +470,7 @@ const handleConfigurationChange = (configurationID) => {
 const handleColorChange = (colorID) => {
     store.selectedColor = colorID;
     store.productToAdd = [];
+    handleSubmit();
 };
 
 const handleSubmit = async () => {
@@ -469,15 +483,6 @@ const handleSubmit = async () => {
     } finally {
         isLoading.value = false;
     }
-    console.log({
-        brand: store.selectedBrand,
-        model: store.selectedModel,
-        version: store.selectedVersion,
-        carbody: store.selectedCarbody,
-        attachment: store.selectedAttachment,
-        gamme: store.selectedGamme,
-        color: store.selectedColor,
-    });
 };
 
 const hasAnySelection = computed(() => {
@@ -492,6 +497,22 @@ const hasAnySelection = computed(() => {
         store.selectedColor
     );
 });
+
+const convertToPascalCase = (str) => {
+    return str.replace(/(?:^\w|\b\w)/g, (letter) => {
+        return letter.toUpperCase();
+    });
+};
+
+const calculatePrice = (productPrice, productRate) => {
+    console.log("productPrice:", productPrice);
+    console.log("productRate:", productRate);
+    console.log("productPrice * productRate:", productPrice * productRate);
+    const calculatedPrice =
+        Number(productPrice) +
+        Number(productPrice) * (Number(productRate) / 100);
+    return calculatedPrice.toFixed(2);
+};
 </script>
 
 <style scoped>

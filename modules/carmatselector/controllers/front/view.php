@@ -45,7 +45,8 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
         }
         else{
             $productArray = Tools::getValue('productArray');
-            $product = $this->getProduct($productArray);
+            $customerGroup =  $this->context->customer ? $this->context->customer->id_default_group : 3;
+            $product = $this->getProduct($productArray, $customerGroup);
         }
         
         header('Content-Type: application/json');
@@ -124,22 +125,27 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
         ');
     }
 
-    private function getProduct($productArray)
+    private function getProduct($productArray, $customerGroup)
     {
 
         if (!$productArray) return [];
 
-	$explodeProduct = explode(',', $productArray);
+	    $explodeProduct = explode(',', $productArray);
 	
-	return Db::getInstance()->executeS('
-	    SELECT p.id_product, cp.id_product_to_add, pl.name 
-	    FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
-	    LEFT JOIN `'. _DB_PREFIX_ . 'product` AS p ON p.reference = cp.id_product_to_add
-	    LEFT JOIN `'. _DB_PREFIX_ . 'product_lang` AS pl ON pl.id_product = p.id_product
-            WHERE cp.id_carmatselector_gamme = ' . (int)$explodeProduct[3] . '
-            AND cp.id_carmatselector_carbody = ' . (int)$explodeProduct[4] . '
-            AND cp.id_carmatselector_configuration = ' . (int)$explodeProduct[5] . '
-            AND cp.id_carmatselector_color = ' . (int)$explodeProduct[6]);
+        return Db::getInstance()->executeS('
+            SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate
+                FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
+                LEFT JOIN `' . _DB_PREFIX_ . 'product` AS p ON p.reference = cp.id_product_to_add
+                LEFT JOIN `' . _DB_PREFIX_ . 'product_lang` AS pl ON pl.id_product = p.id_product
+                LEFT JOIN `' . _DB_PREFIX_ . 'specific_price` AS sp ON sp.id_product = p.id_product
+                LEFT JOIN `' . _DB_PREFIX_ . 'tax_rule` AS tr ON tr.id_tax_rules_group = p.id_tax_rules_group
+                LEFT JOIN `' . _DB_PREFIX_ . 'tax` AS t ON t.id_tax = tr.id_tax
+                WHERE cp.id_carmatselector_gamme = ' . (int)$explodeProduct[0] . '
+                AND cp.id_carmatselector_carbody = ' . (int)$explodeProduct[1] . '
+                AND cp.id_carmatselector_configuration = ' . (int)$explodeProduct[2] . '
+                AND cp.id_carmatselector_color = ' . (int)$explodeProduct[3] . '
+                AND sp.id_group = ' . (int)$customerGroup . '
+                AND tr.id_country = 8');
     }
 
     /**
