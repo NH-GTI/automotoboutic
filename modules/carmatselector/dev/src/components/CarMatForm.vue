@@ -252,11 +252,12 @@
                                 }}</span
                             >
                         </p>
-                        <div class="flex justify-center">
+                        <div class="flex justify-center mt-4">
                             <input
                                 :disabled="isLoading"
                                 type="submit"
                                 class="btn btn-primary"
+                                @click="showCartModal"
                                 :value="
                                     isLoading
                                         ? 'Ajout en cours...'
@@ -272,6 +273,64 @@
                         </p>
                     </div>
                 </form>
+                <div v-if="!cartModal" class="fixed inset-0 z-10">
+                    <div
+                        class="fixed inset-0 bg-neutral-950 bg-opacity-50 flex justify-center items-center p-4"
+                    >
+                        <div
+                            class="w-full max-w-2xl bg-white rounded-lg shadow-xl p-6 py-8"
+                        >
+                            <h3
+                                class="text-xl font-bold text-orange-500 text-center"
+                            >
+                                Vos tapis sur mesure ont été ajoutés au panier
+                            </h3>
+                            <div class="flex flex-col gap-4 mt-8">
+                                <p>
+                                    Pour votre
+                                    <span class="font-bold text-justify"
+                                        >Audi [Audi] A1 8X - De 05/2010 à 2018
+                                        (tapis arrière en 2 parties)</span
+                                    >
+                                    {{ store.selectedVersion.name }}
+                                </p>
+                                <p>
+                                    <span class="text-orange-500"
+                                        >Configuration : </span
+                                    >2 tapis avant sur mesure 1 tapis arrière
+                                    sur mesure
+                                    {{ store.selectedConfiguration.name }}
+                                </p>
+                                <p>
+                                    <span class="text-orange-500"
+                                        >Finition : </span
+                                    >Gamme Carat
+                                    {{ store.selectedGamme.name }}
+                                </p>
+                                <p>
+                                    <span class="text-orange-500"
+                                        >Couleur : </span
+                                    >Gris anthracite surpiqûre grise
+                                    {{ store.selectedGamme.name }}
+                                </p>
+                            </div>
+                            <div class="flex justify-around mt-8">
+                                <a
+                                    href="/"
+                                    class="bg-orange-500 rounded-md transition duration-300 text-white p-4 hover:bg-orange-300"
+                                >
+                                    Continuer vos achats
+                                </a>
+                                <a
+                                    href="/panier?action=show"
+                                    class="bg-orange-500 rounded-md transition duration-300 text-white p-4 hover:bg-orange-300"
+                                >
+                                    Aller au panier
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div
@@ -378,6 +437,7 @@ import { computed, ref } from "vue";
 
 const store = useCarMatStore();
 const isLoading = ref(false);
+const cartModal = ref(false);
 
 const toggleCartSummary = () => {
     store.cartSummaryVisible = !store.cartSummaryVisible;
@@ -576,6 +636,10 @@ const calculatePrice = (productPrice, productRate) => {
         Number(productPrice) +
         Number(productPrice) * (Number(productRate) / 100);
     return calculatedPrice.toFixed(2) + "€";
+};
+
+const showCartModal = () => {
+    cartModal.value = true;
 };
 </script>
 
