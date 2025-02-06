@@ -158,7 +158,7 @@
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
                                         <img
-                                            :src="`/modules/carmatselector/assets/img/configuration/configuration-${store.selectedGamme}-${configuration.id}.png`"
+                                            :src="`/modules/carmatselector/assets/img/configuration/configuration-${store.selectedGamme.id}-${configuration.id}.png`"
                                             :alt="`Tapis auto configuration ${configuration.name}`"
                                         />
                                     </div>
@@ -257,7 +257,6 @@
                                 :disabled="isLoading"
                                 type="submit"
                                 class="btn btn-primary"
-                                @click="showCartModal"
                                 :value="
                                     isLoading
                                         ? 'Ajout en cours...'
@@ -266,52 +265,55 @@
                             />
                         </div>
                     </div>
-                    <div v-else class="pt-4 flex flex-col justify-center">
-                        <p class="mb-4 text-neutral-950 text-center">
+                    <div
+                        v-else-if="
+                            store.productToAdd['id'] == null &&
+                            store.selectedColor.id != null
+                        "
+                        class="pt-4 flex flex-col justify-center"
+                    >
+                        <p class="mb-4 text-red-600 text-center text-lg">
                             La configuration demandée n'est pas disponible pour
                             votre véhicule.
                         </p>
                     </div>
                 </form>
-                <div v-if="!cartModal" class="fixed inset-0 z-10">
+                <div v-if="cartModal" class="fixed inset-0 z-10">
                     <div
                         class="fixed inset-0 bg-neutral-950 bg-opacity-50 flex justify-center items-center p-4"
                     >
                         <div
                             class="w-full max-w-2xl bg-white rounded-lg shadow-xl p-6 py-8"
                         >
+                            <div class="flex justify-end text-lg font-bold">
+                                <button @click="cartModal = false">X</button>
+                            </div>
                             <h3
                                 class="text-xl font-bold text-orange-500 text-center"
                             >
-                                Vos tapis sur mesure ont été ajoutés au panier
+                                Vos tapis sur mesure ont été ajoutés au panier !
                             </h3>
-                            <div class="flex flex-col gap-4 mt-8">
+                            <div class="flex flex-col gap-4 mt-8 ml-8">
                                 <p>
                                     Pour votre
-                                    <span class="font-bold text-justify"
-                                        >Audi [Audi] A1 8X - De 05/2010 à 2018
-                                        (tapis arrière en 2 parties)</span
-                                    >
-                                    {{ store.selectedVersion.name }}
+                                    <span class="font-bold text-justify">{{
+                                        store.selectedVersion.name
+                                    }}</span>
                                 </p>
                                 <p>
                                     <span class="text-orange-500"
                                         >Configuration : </span
-                                    >2 tapis avant sur mesure 1 tapis arrière
-                                    sur mesure
-                                    {{ store.selectedConfiguration.name }}
+                                    >{{ store.selectedConfiguration.name }}
                                 </p>
                                 <p>
                                     <span class="text-orange-500"
                                         >Finition : </span
-                                    >Gamme Carat
-                                    {{ store.selectedGamme.name }}
+                                    >Gamme {{ store.selectedGamme.name }}
                                 </p>
                                 <p>
                                     <span class="text-orange-500"
                                         >Couleur : </span
-                                    >Gris anthracite surpiqûre grise
-                                    {{ store.selectedGamme.name }}
+                                    >{{ store.selectedColor.name }}
                                 </p>
                             </div>
                             <div class="flex justify-around mt-8">
@@ -352,7 +354,7 @@
             </button>
 
             <!-- Marque -->
-            <div v-if="store.selectedBrand" class="space-y-1">
+            <div v-if="store.selectedBrand.id" class="space-y-1">
                 <p class="text-sm text-gray-500">Marque</p>
                 <p class="font-medium">
                     {{
@@ -364,7 +366,7 @@
             </div>
 
             <!-- Modèle -->
-            <div v-if="store.selectedModel" class="space-y-1">
+            <div v-if="store.selectedModel.id" class="space-y-1">
                 <p class="text-sm text-gray-500">Modèle</p>
                 <p class="font-medium">
                     {{
@@ -376,7 +378,7 @@
             </div>
 
             <!-- Version -->
-            <div v-if="store.selectedVersion" class="space-y-1">
+            <div v-if="store.selectedVersion.id" class="space-y-1">
                 <p class="text-sm text-gray-500">Version</p>
                 <p class="font-medium">
                     {{
@@ -388,7 +390,7 @@
             </div>
 
             <!-- Gamme -->
-            <div v-if="store.selectedGamme" class="space-y-1">
+            <div v-if="store.selectedGamme.id" class="space-y-1">
                 <p class="text-sm text-gray-500">Gamme</p>
                 <p class="font-medium">
                     {{
@@ -400,7 +402,7 @@
             </div>
 
             <!-- Configuration -->
-            <div v-if="store.selectedConfiguration" class="space-y-1">
+            <div v-if="store.selectedConfiguration.id" class="space-y-1">
                 <p class="text-sm text-gray-500">Configuration</p>
                 <p class="font-medium">
                     {{
@@ -412,7 +414,7 @@
             </div>
 
             <!-- Couleur -->
-            <div v-if="store.selectedColor" class="space-y-1">
+            <div v-if="store.selectedColor.id" class="space-y-1">
                 <p class="text-sm text-gray-500">Couleur</p>
                 <p class="font-medium">
                     {{
@@ -601,7 +603,9 @@ const handleColorChange = async (color) => {
 };
 
 const handleSubmit = async () => {
+    isLoading.value = true;
     try {
+        await new Promise((resolve) => setTimeout(resolve, 1500));
         const product = await store.addToCart();
         console.log("Fetched product:", product);
         console.log("Stored product:", store.productToAdd);
@@ -609,6 +613,7 @@ const handleSubmit = async () => {
         console.error("Error in handleGammeChange:", error);
     } finally {
         isLoading.value = false;
+        cartModal.value = true;
     }
 };
 
@@ -637,10 +642,6 @@ const calculatePrice = (productPrice, productRate) => {
         Number(productPrice) * (Number(productRate) / 100);
     return calculatedPrice.toFixed(2) + "€";
 };
-
-const showCartModal = () => {
-    cartModal.value = true;
-};
 </script>
 
 <style scoped>
@@ -653,9 +654,5 @@ const showCartModal = () => {
 
 .form-select:disabled {
     background-color: #f3f4f6;
-}
-
-.form-select[disabled] {
-    @apply bg-gray-100 cursor-not-allowed;
 }
 </style>
