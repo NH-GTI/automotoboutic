@@ -49,10 +49,15 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
             $gamme = (int)Tools::getValue('gammeForColor');
             $colors = $this->getColorsByGamme($gamme);
         }
-        else{
+        elseif(Tools::getValue('getProduct')){
             $productArray = Tools::getValue('productArray');
             $customerGroup =  $this->context->customer ? $this->context->customer->id_default_group : 3;
             $product = $this->getProduct($productArray, $customerGroup);
+        }
+        elseif(Tools::getValue('addToCart')){
+            $productArray = Tools::getValue('productArray');
+            $customerGroup =  $this->context->customer ? $this->context->customer->id_default_group : 3;
+            $this->addToCart($productArray, $customerGroup);
         }
         
         header('Content-Type: application/json');
@@ -146,14 +151,6 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
         }
         
         return $sqlConfigs;
-        // return Db::getInstance()->executeS('
-        //     SELECT c.id_carmatselector_configuration as id, c.name
-        //     FROM `' . _DB_PREFIX_ . 'carmatselector_carbody_configuration_assoc` AS cca
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'carmatselector_configuration` AS c
-        //         ON cca.id_carmatselector_configuration = c.id_carmatselector_configuration
-        //     WHERE cca.id_carmatselector_carbody = ' . (int)$carbody . ' 
-        //         AND c.active = 1
-        // ');
     }
 
     private function getColorsByGamme($gamme)
@@ -170,13 +167,28 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
         ');
     }
 
-    private function getProduct($productArray, $customerGroup)
-    {
+    private function getProduct($productArray, $customerGroup){
+        $explodeProduct = explode(',', $productArray);
 
+        return Db::getInstance()->executeS('
+            SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate
+            FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
+            LEFT JOIN `' . _DB_PREFIX_ . 'product` AS p ON p.reference = cp.id_product_to_add
+            LEFT JOIN `' . _DB_PREFIX_ . 'product_lang` AS pl ON pl.id_product = p.id_product
+            LEFT JOIN `' . _DB_PREFIX_ . 'specific_price` AS sp ON sp.id_product = p.id_product
+            LEFT JOIN `' . _DB_PREFIX_ . 'tax_rule` AS tr ON tr.id_tax_rules_group = p.id_tax_rules_group
+            LEFT JOIN `' . _DB_PREFIX_ . 'tax` AS t ON t.id_tax = tr.id_tax
+            WHERE cp.id_carmatselector_gamme = ' . (int)$explodeProduct[5] . '
+            AND cp.id_carmatselector_carbody = ' . (int)$explodeProduct[7] . '
+            AND cp.id_carmatselector_configuration = ' . (int)$explodeProduct[9] . '
+            AND cp.id_carmatselector_color = ' . (int)$explodeProduct[11] . '
+            AND sp.id_group = ' . (int)$customerGroup . '
+            AND tr.id_country = 8');
+    }
+
+    private function addToCart($productArray, $customerGroup)
+    {
         if (!$productArray) return [];
-        ini_set('xdebug.var_display_max_depth', -1);
-        ini_set('xdebug.var_display_max_children', -1);
-        ini_set('xdebug.var_display_max_data', -1);
 
         $explodeProduct = explode(',', $productArray);
 
@@ -194,24 +206,7 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
             AND cp.id_carmatselector_color = ' . (int)$explodeProduct[11] . '
             AND sp.id_group = ' . (int)$customerGroup . '
             AND tr.id_country = 8');
-        // var_dump('
-        //     SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate
-        //     FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'product` AS p ON p.reference = cp.id_product_to_add
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'product_lang` AS pl ON pl.id_product = p.id_product
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'specific_price` AS sp ON sp.id_product = p.id_product
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'tax_rule` AS tr ON tr.id_tax_rules_group = p.id_tax_rules_group
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'tax` AS t ON t.id_tax = tr.id_tax
-        //     WHERE cp.id_carmatselector_gamme = ' . (int)$explodeProduct[5] . '
-        //     AND cp.id_carmatselector_carbody = ' . (int)$explodeProduct[7] . '
-        //     AND cp.id_carmatselector_configuration = ' . (int)$explodeProduct[9] . '
-        //     AND cp.id_carmatselector_color = ' . (int)$explodeProduct[11] . '
-        //     AND sp.id_group = ' . (int)$customerGroup . '
-        //     AND tr.id_country = 8');
-
-        // var_dump($explodeProduct);    
-        // var_dump($product);
-        // exit();    
+ 
         if($product != null){
 
             $customization_value = $explodeProduct[1]; // marque
@@ -263,21 +258,11 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
 
             // Add to cart
             $this->context->cart->updateQty(1, (int)$product[0]['id_product'], 0, (int)$id_customization);
+            return $product;
         }
-        // return Db::getInstance()->executeS('
-        //     SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate
-        //     FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'product` AS p ON p.reference = cp.id_product_to_add
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'product_lang` AS pl ON pl.id_product = p.id_product
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'specific_price` AS sp ON sp.id_product = p.id_product
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'tax_rule` AS tr ON tr.id_tax_rules_group = p.id_tax_rules_group
-        //     LEFT JOIN `' . _DB_PREFIX_ . 'tax` AS t ON t.id_tax = tr.id_tax
-        //     WHERE cp.id_carmatselector_gamme = ' . (int)$explodeProduct[0] . '
-        //     AND cp.id_carmatselector_carbody = ' . (int)$explodeProduct[2] . '
-        //     AND cp.id_carmatselector_configuration = ' . (int)$explodeProduct[4] . '
-        //     AND cp.id_carmatselector_color = ' . (int)$explodeProduct[6] . '
-        //     AND sp.id_group = ' . (int)$customerGroup . '
-        //     AND tr.id_country = 8');
+        else{
+            return false;
+        }
     }
 
     /**
