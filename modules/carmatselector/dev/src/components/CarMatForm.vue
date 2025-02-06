@@ -517,16 +517,24 @@ const handleConfigurationChange = async (configurationId) => {
     }
 };
 
-const handleColorChange = (color) => {
+const handleColorChange = async (color) => {
     store.selectedColor.id = color.id;
     store.selectedColor.name = color.name;
     store.productToAdd = [];
-    handleSubmit();
+    try {
+        const product = await store.fetchProduct();
+        console.log("Fetched product:", product);
+        console.log("Stored product:", store.productToAdd);
+    } catch (error) {
+        console.error("Error in handleGammeChange:", error);
+    } finally {
+        isLoading.value = false;
+    }
 };
 
 const handleSubmit = async () => {
     try {
-        const product = await store.fetchProduct();
+        const product = await store.addToCart();
         console.log("Fetched product:", product);
         console.log("Stored product:", store.productToAdd);
     } catch (error) {
