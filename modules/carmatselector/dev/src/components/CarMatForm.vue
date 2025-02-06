@@ -224,6 +224,20 @@
 
                     <!--  -->
                     <div
+                        v-if="isLoading"
+                        class="pt-4 flex flex-col justify-center items-center"
+                    >
+                        <div class="loader mx-auto"></div>
+                    </div>
+                    <div
+                        v-if="isLoading"
+                        class="pt-4 flex flex-col justify-center"
+                    >
+                        <p class="mb-4 text-neutral-950 text-center">
+                            Chargement des informations...
+                        </p>
+                    </div>
+                    <div
                         v-if="store.productToAdd['id']"
                         class="pt-4 flex flex-col justify-center"
                     >
@@ -518,6 +532,8 @@ const handleConfigurationChange = async (configurationId) => {
 };
 
 const handleColorChange = async (color) => {
+    isLoading.value = true;
+    // wait 5 seconds before fetching the product
     store.selectedColor.id = color.id;
     store.selectedColor.name = color.name;
     store.productToAdd = [];

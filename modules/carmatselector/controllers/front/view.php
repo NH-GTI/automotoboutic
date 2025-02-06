@@ -124,11 +124,11 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
             LEFT JOIN `' . _DB_PREFIX_ . 'carmatselector_configuration` AS c ON cca.id_carmatselector_configuration = c.id_carmatselector_configuration
             LEFT JOIN ps_carmatselector_product AS cp ON cp.id_carmatselector_configuration = c.id_carmatselector_configuration
             WHERE cca.id_carmatselector_carbody = ' . (int)$carbody . ' 
-            AND cp.id_carmatselector_gamme = 1
+            AND cp.id_carmatselector_gamme = ' . (int)$explodeProduct[0] . '
             AND c.active = 1
             GROUP BY c.id_carmatselector_configuration, c.name
         ');
-
+        
         foreach ($sqlConfigs as &$config) {
             $products = explode(',', $config['products']);    
             // var_dump($products);
