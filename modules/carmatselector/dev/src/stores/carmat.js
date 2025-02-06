@@ -288,7 +288,55 @@ export const useCarMatStore = defineStore("car", {
             try {
                 const formData = new FormData();
                 formData.append("ajax", "1");
-                formData.append("product", 1);
+                formData.append("getProduct", 1);
+
+                const productArray = [
+                    [this.selectedBrand.id, this.selectedBrand.name],
+                    [
+                        this.selectedVersion.id,
+                        this.selectedVersion.name,
+                        this.selectedVersion.gabarit,
+                    ],
+                    [this.selectedGamme.id, this.selectedGamme.name],
+                    [this.selectedCarbody.id, this.selectedCarbody.name],
+                    [
+                        this.selectedConfiguration.id,
+                        this.selectedConfiguration.name,
+                    ],
+                    [this.selectedColor.id, this.selectedColor.name],
+                ];
+
+                formData.append("productArray", productArray);
+
+                const response = await fetch(window.CARMAT_AJAX_URL, {
+                    method: "POST",
+                    body: formData,
+                });
+
+                const result = await response.json();
+                console.log("Product result:", result);
+
+                if (result.success && result) {
+                    this.productToAdd["id"] = result?.product[0]?.id_product;
+                    this.productToAdd["name"] = result?.product[0]?.name;
+                    this.productToAdd["price"] = result?.product[0]?.price;
+                    this.productToAdd["rate"] = result?.product[0]?.rate;
+
+                    return result;
+                } else {
+                    console.error("Error fetching product:", result);
+                    return [];
+                }
+            } catch (error) {
+                console.error("Error fetching product:", error);
+                return [];
+            }
+        },
+        async addToCart() {
+            try {
+                const formData = new FormData();
+                formData.append("ajax", "1");
+                formData.append("addToCart", 1);
 
                 const productArray = [
                     [this.selectedBrand.id, this.selectedBrand.name],
