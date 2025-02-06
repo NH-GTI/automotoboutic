@@ -110,7 +110,7 @@
                                     >
                                         <img
                                             :src="`/modules/carmatselector/assets/img/gamme/tapis-auto-gamme-${gamme.id}.jpg`"
-                                            alt="Tapis auto gamme {{ gamme.name }}"
+                                            :alt="`Tapis auto gamme ${gamme.name}`"
                                         />
                                     </div>
                                 </div>
