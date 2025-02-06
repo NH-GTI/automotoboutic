@@ -112,10 +112,6 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
     {
         if (!$carbody) return [];
 
-        ini_set('xdebug.var_display_max_depth', -1);
-        ini_set('xdebug.var_display_max_children', -1);
-        ini_set('xdebug.var_display_max_data', -1);
-
         $explodeProduct = explode(',', $productArray);
 
         $sqlConfigs = Db::getInstance()->executeS('
@@ -128,7 +124,7 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
             AND c.active = 1
             GROUP BY c.id_carmatselector_configuration, c.name
         ');
-        
+
         foreach ($sqlConfigs as &$config) {
             $products = explode(',', $config['products']);    
             // var_dump($products);
@@ -206,7 +202,7 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
             AND cp.id_carmatselector_color = ' . (int)$explodeProduct[11] . '
             AND sp.id_group = ' . (int)$customerGroup . '
             AND tr.id_country = 8');
- 
+
         if($product != null){
 
             $customization_value = $explodeProduct[1]; // marque
