@@ -365,11 +365,6 @@ export const useCarMatStore = defineStore("car", {
                 console.log("Product result:", result);
 
                 if (result.success && result) {
-                    this.productToAdd["id"] = result?.product[0]?.id_product;
-                    this.productToAdd["name"] = result?.product[0]?.name;
-                    this.productToAdd["price"] = result?.product[0]?.price;
-                    this.productToAdd["rate"] = result?.product[0]?.rate;
-
                     return result;
                 } else {
                     console.error("Error fetching product:", result);
