@@ -182,7 +182,7 @@
                             >Couleur</label
                         >
                         <div
-                            v-if="!store.selectedConfiguration"
+                            v-if="!store.selectedConfiguration.id"
                             class="text-gray-500 italic"
                         >
                             Sélectionnez d'abord une configuration pour voir les
@@ -253,14 +253,16 @@
                             >
                         </p>
                         <div class="flex justify-center">
-                            <a
-                                title="Add to cart"
-                                :href="cartUrl"
-                                rel="ajax_id_product_1"
-                                class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 m-0 m-auto text-center w-1/3 text-lg"
-                            >
-                                Ajouter au panier
-                            </a>
+                            <input
+                                :disabled="isLoading"
+                                type="submit"
+                                class="btn btn-primary"
+                                :value="
+                                    isLoading
+                                        ? 'Ajout en cours...'
+                                        : 'Ajouter au panier'
+                                "
+                            />
                         </div>
                     </div>
                     <div v-else class="pt-4 flex flex-col justify-center">
@@ -376,20 +378,10 @@ import { computed, ref } from "vue";
 
 const store = useCarMatStore();
 const isLoading = ref(false);
-// const brandOptions = computed(() => {
-//     return store.brands.map((brand) => ({
-//         value: brand.id,
-//         label: brand.name,
-//     }));
-// });
 
 const toggleCartSummary = () => {
     store.cartSummaryVisible = !store.cartSummaryVisible;
 };
-
-const cartUrl = computed(() => {
-    return `index.php?controller=cart&add=1&id_product=${store.productToAdd.id}&token=${store.token}`;
-});
 
 const handleBrandChange = async () => {
     // Reset subsequent selections
