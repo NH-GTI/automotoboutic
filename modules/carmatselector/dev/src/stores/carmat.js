@@ -112,14 +112,14 @@ export const useCarMatStore = defineStore("car", {
             ],
         },
         token: token,
-        selectedBrand: null,
-        selectedModel: null,
-        selectedVersion: null,
-        selectedCarbody: null,
+        selectedBrand: { id: null, name: null },
+        selectedModel: { id: null, name: null },
+        selectedVersion: { id: null, name: null, gabarit: null },
+        selectedCarbody: { id: null, name: null },
         selectedAttachment: null,
-        selectedGamme: null,
-        selectedConfiguration: null,
-        selectedColor: null,
+        selectedGamme: { id: null, name: null },
+        selectedConfiguration: { id: null, name: null },
+        selectedColor: { id: null, name: null },
         availableGammes: [],
         availableConfigurations: [],
         availableColors: [],
@@ -222,12 +222,18 @@ export const useCarMatStore = defineStore("car", {
                 return [];
             }
         },
-        async fetchConfigurationsByCarbody(carbody) {
+        async fetchConfigurationsByGamme(gamme) {
             try {
                 const formData = new FormData();
                 formData.append("ajax", "1");
-                formData.append("carbody", carbody);
+                formData.append("gammeForConfig", gamme);
+                formData.append("carbodyForConfig", this.selectedCarbody.id);
 
+                const productArray = [
+                    this.selectedGamme.id,
+                    this.selectedCarbody.id,
+                ];
+                formData.append("productArray", productArray);
                 const response = await fetch(window.CARMAT_AJAX_URL, {
                     method: "POST",
                     body: formData,
@@ -254,7 +260,7 @@ export const useCarMatStore = defineStore("car", {
             try {
                 const formData = new FormData();
                 formData.append("ajax", "1");
-                formData.append("gamme", gamme);
+                formData.append("gammeForColor", gamme);
 
                 const response = await fetch(window.CARMAT_AJAX_URL, {
                     method: "POST",
@@ -285,10 +291,19 @@ export const useCarMatStore = defineStore("car", {
                 formData.append("product", 1);
 
                 const productArray = [
-                    this.selectedGamme,
-                    this.selectedCarbody,
-                    this.selectedConfiguration,
-                    this.selectedColor,
+                    [this.selectedBrand.id, this.selectedBrand.name],
+                    [
+                        this.selectedVersion.id,
+                        this.selectedVersion.name,
+                        this.selectedVersion.gabarit,
+                    ],
+                    [this.selectedGamme.id, this.selectedGamme.name],
+                    [this.selectedCarbody.id, this.selectedCarbody.name],
+                    [
+                        this.selectedConfiguration.id,
+                        this.selectedConfiguration.name,
+                    ],
+                    [this.selectedColor.id, this.selectedColor.name],
                 ];
 
                 formData.append("productArray", productArray);
@@ -306,6 +321,7 @@ export const useCarMatStore = defineStore("car", {
                     this.productToAdd["name"] = result?.product[0]?.name;
                     this.productToAdd["price"] = result?.product[0]?.price;
                     this.productToAdd["rate"] = result?.product[0]?.rate;
+
                     return result;
                 } else {
                     console.error("Error fetching product:", result);
@@ -316,12 +332,12 @@ export const useCarMatStore = defineStore("car", {
                 return [];
             }
         },
-        updateSelectedCarbody(carbody) {
+        updateSelectedCarbody(carbody, carbody_name) {
             this.$patch({
-                selectedCarbody: carbody,
-                selectedGamme: null,
-                selectedConfiguration: null,
-                selectedColor: null,
+                selectedCarbody: { id: carbody, name: carbody_name }, // Fixed
+                selectedGamme: { id: null, name: null },
+                selectedConfiguration: { id: null, name: null },
+                selectedColor: { id: null, name: null },
                 availableGammes: [],
                 availableConfigurations: [],
                 availableColors: [],
@@ -330,13 +346,13 @@ export const useCarMatStore = defineStore("car", {
     },
     getters: {
         availableModels: (state) => {
-            return state.selectedBrand
-                ? state.models[state.selectedBrand] || []
+            return state.selectedBrand.id
+                ? state.models[state.selectedBrand.id] || []
                 : [];
         },
         availableVersions: (state) => {
-            return state.selectedModel
-                ? state.versions[state.selectedModel] || []
+            return state.selectedModel.id
+                ? state.versions[state.selectedModel.id] || []
                 : [];
         },
     },
