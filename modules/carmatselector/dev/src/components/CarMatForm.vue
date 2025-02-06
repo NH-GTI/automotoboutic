@@ -19,7 +19,7 @@
                     <div class="form-group">
                         <label class="form-label">Marque du véhicule</label>
                         <select
-                            v-model="store.selectedBrand"
+                            v-model="store.selectedBrand.id"
                             class="form-select"
                             required
                             @change="handleBrandChange"
@@ -39,9 +39,9 @@
                     <div class="form-group">
                         <label class="form-label">Modèle</label>
                         <select
-                            v-model="store.selectedModel"
+                            v-model="store.selectedModel.id"
                             class="form-select"
-                            :disabled="!store.selectedBrand || isLoading"
+                            :disabled="!store.selectedBrand.id || isLoading"
                             required
                             @change="handleModelChange"
                         >
@@ -64,9 +64,9 @@
                     <div class="form-group">
                         <label class="form-label">Version</label>
                         <select
-                            v-model="store.selectedVersion"
+                            v-model="store.selectedVersion.id"
                             class="form-select"
-                            :disabled="!store.selectedModel"
+                            :disabled="!store.selectedModel.id"
                             required
                             @change="handleVersionChange"
                         >
@@ -85,7 +85,7 @@
                     <div class="form-group">
                         <label class="form-label mb-4">Gamme</label>
                         <div
-                            v-if="!store.selectedCarbody"
+                            v-if="!store.selectedCarbody.id"
                             class="text-gray-500 italic"
                         >
                             Sélectionnez d'abord une version pour voir les
@@ -98,7 +98,7 @@
                                 @click="handleGammeChange(gamme.id)"
                                 :class="[
                                     'cursor-pointer p-4 border rounded-lg transition-all duration-200',
-                                    store.selectedGamme === gamme.id
+                                    store.selectedGamme.id === gamme.id
                                         ? 'border-blue-500 bg-blue-50 shadow-md'
                                         : 'border-gray-200 hover:border-blue-300 hover:shadow-sm',
                                 ]"
@@ -130,7 +130,7 @@
                             >Configuration</label
                         >
                         <div
-                            v-if="!store.selectedGamme"
+                            v-if="!store.selectedGamme.id"
                             class="text-gray-500 italic"
                         >
                             Sélectionnez d'abord une gamme pour voir les
@@ -145,7 +145,7 @@
                                 "
                                 :class="[
                                     'cursor-pointer p-4 border rounded-lg transition-all duration-200',
-                                    store.selectedConfiguration ===
+                                    store.selectedConfiguration.id ===
                                     configuration.id
                                         ? 'border-blue-500 bg-blue-50 shadow-md'
                                         : 'border-gray-200 hover:border-blue-300 hover:shadow-sm',
@@ -164,7 +164,15 @@
                                     </div>
                                 </div>
                                 <h3 class="font-medium text-center">
-                                    {{ configuration.name }}
+                                    <span>{{ configuration.name }}</span> <br />
+                                    <span class="font-bold text-lg mt-2">
+                                        {{
+                                            calculatePrice(
+                                                configuration.price,
+                                                configuration.rate
+                                            )
+                                        }}</span
+                                    >
                                 </h3>
                             </div>
                         </div>
@@ -184,10 +192,10 @@
                             <div
                                 v-for="color in store.availableColors"
                                 :key="color.id"
-                                @click="handleColorChange(color.id)"
+                                @click="handleColorChange(color)"
                                 :class="[
                                     'cursor-pointer p-4 border rounded-lg transition-all duration-200',
-                                    store.selectedColor === color.id
+                                    store.selectedColor.id === color.id
                                         ? 'border-blue-500 bg-blue-50 shadow-md'
                                         : 'border-gray-200 hover:border-blue-300 hover:shadow-sm',
                                 ]"
@@ -214,35 +222,19 @@
                         </div>
                     </div>
 
-                    <!-- Submit Button -->
-                    <div class="pt-4 flex justify-center">
-                        <button
-                            type="submit"
-                            class="w-2/3 bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-lg transition duration-200 ease-in-out transform hover:scale-[1.02] text-lg"
-                        >
-                            Rechercher les tapis disponibles
-                        </button>
-                    </div>
                     <!--  -->
                     <div
                         v-if="store.productToAdd['id']"
                         class="pt-4 flex flex-col justify-center"
                     >
                         <p class="mb-4 text-neutral-950 text-center">
-                            Nous avons trouvé pour vous les tapis qui
-                            correspondent parfaitement à votre véhicule ! <br />
-                            En cliquant sur le bouton ci-dessous, le produit
-                            suivant sera ajouté à votre panier : <br />
-                            <span class="font-bold text-lg">{{
-                                store.productToAdd.name
-                            }}</span>
-                            au prix de
+                            Prix de votre configuration :
                             <span class="font-bold text-lg">
                                 {{
                                     calculatePrice(
                                         store.productToAdd.price,
                                         store.productToAdd.rate
-                                    ) + "€"
+                                    )
                                 }}</span
                             >
                         </p>
@@ -256,6 +248,12 @@
                                 Ajouter au panier
                             </a>
                         </div>
+                    </div>
+                    <div v-else class="pt-4 flex flex-col justify-center">
+                        <p class="mb-4 text-neutral-950 text-center">
+                            La configuration demandée n'est pas disponible pour
+                            votre véhicule.
+                        </p>
                     </div>
                 </form>
             </div>
@@ -283,8 +281,9 @@
                 <p class="text-sm text-gray-500">Marque</p>
                 <p class="font-medium">
                     {{
-                        store.brands.find((b) => b.id === store.selectedBrand)
-                            ?.name
+                        store.brands.find(
+                            (b) => b.id === store.selectedBrand.id
+                        )?.name
                     }}
                 </p>
             </div>
@@ -295,7 +294,7 @@
                 <p class="font-medium">
                     {{
                         store.availableModels.find(
-                            (m) => m.id === store.selectedModel
+                            (m) => m.id === store.selectedModel.id
                         )?.name
                     }}
                 </p>
@@ -307,7 +306,7 @@
                 <p class="font-medium">
                     {{
                         store.availableVersions.find(
-                            (v) => v.id === store.selectedVersion
+                            (v) => v.id === store.selectedVersion.id
                         )?.name
                     }}
                 </p>
@@ -319,7 +318,7 @@
                 <p class="font-medium">
                     {{
                         store.availableGammes.find(
-                            (g) => g.id === store.selectedGamme
+                            (g) => g.id === store.selectedGamme.id
                         )?.name
                     }}
                 </p>
@@ -331,7 +330,7 @@
                 <p class="font-medium">
                     {{
                         store.availableConfigurations.find(
-                            (c) => c.id === store.selectedConfiguration
+                            (c) => c.id === store.selectedConfiguration.id
                         )?.name
                     }}
                 </p>
@@ -343,7 +342,7 @@
                 <p class="font-medium">
                     {{
                         store.availableColors.find(
-                            (c) => c.id === store.selectedColor
+                            (c) => c.id === store.selectedColor.id
                         )?.name
                     }}
                 </p>
@@ -363,12 +362,12 @@ import { computed, ref } from "vue";
 
 const store = useCarMatStore();
 const isLoading = ref(false);
-const brandOptions = computed(() => {
-    return store.brands.map((brand) => ({
-        value: brand.id,
-        label: brand.name,
-    }));
-});
+// const brandOptions = computed(() => {
+//     return store.brands.map((brand) => ({
+//         value: brand.id,
+//         label: brand.name,
+//     }));
+// });
 
 const toggleCartSummary = () => {
     store.cartSummaryVisible = !store.cartSummaryVisible;
@@ -379,16 +378,21 @@ const cartUrl = computed(() => {
 });
 
 const handleBrandChange = async () => {
-    store.selectedModel = null;
-    store.selectedVersion = null;
+    // Reset subsequent selections
+    store.selectedModel = { id: null, name: null };
+    store.selectedVersion = { id: null, name: null };
     store.productToAdd = [];
-    console.log(brandOptions.value);
 
-    if (store.selectedBrand) {
+    if (store.selectedBrand.id) {
+        const selectedBrandData = store.brands.find(
+            (b) => b.id === store.selectedBrand.id
+        );
+        store.selectedBrand.name = selectedBrandData?.name;
+
         console.log("Fetching models for brand:", store.selectedBrand);
         isLoading.value = true;
         try {
-            const models = await store.fetchModels(store.selectedBrand);
+            const models = await store.fetchModels(store.selectedBrand.id);
             console.log("Fetched models:", models);
         } catch (error) {
             console.error("Error in handleBrandChange:", error);
@@ -399,17 +403,22 @@ const handleBrandChange = async () => {
 };
 
 const handleModelChange = async () => {
-    store.selectedVersion = null;
+    store.selectedVersion = { id: null, name: null };
     store.productToAdd = [];
 
-    if (store.selectedModel) {
+    if (store.selectedModel.id) {
+        const selectedModelData = store.availableModels.find(
+            (m) => m.id === store.selectedModel.id
+        );
+        store.selectedModel.name = selectedModelData?.name;
+
         console.log("Fetching versions for model:", store.selectedModel);
         isLoading.value = true;
         try {
-            const versions = await store.fetchVersions(store.selectedModel);
+            const versions = await store.fetchVersions(store.selectedModel.id);
             console.log("Fetched versions:", versions);
         } catch (error) {
-            console.error("Error in handleBrandChange:", error);
+            console.error("Error in handleModelChange:", error);
         } finally {
             isLoading.value = false;
         }
@@ -417,21 +426,25 @@ const handleModelChange = async () => {
 };
 
 const handleVersionChange = async () => {
-    const selectedVersion = store.availableVersions.find(
-        (v) => v.id === store.selectedVersion
+    const selectedVersionData = store.availableVersions.find(
+        (v) => v.id === store.selectedVersion.id
     );
 
+    store.selectedVersion.name = selectedVersionData?.name;
+    store.selectedVersion.gabarit = selectedVersionData?.gabarit;
     store.productToAdd = [];
+    console.log("selectedVersionData:", selectedVersionData);
 
-    if (selectedVersion?.carbody) {
+    if (selectedVersionData?.carbody) {
         isLoading.value = true;
         try {
-            store.updateSelectedCarbody(selectedVersion.carbody);
-
-            // Fetch data in parallel
+            store.updateSelectedCarbody(
+                selectedVersionData.carbody,
+                selectedVersionData.carbody_name
+            );
             await Promise.all([
-                store.fetchGammesByCarbody(selectedVersion.carbody),
-                store.fetchConfigurationsByCarbody(selectedVersion.carbody),
+                store.fetchGammesByCarbody(selectedVersionData.carbody),
+                // store.fetchConfigurationsByGamme(selectedVersionData.carbody),
             ]);
         } catch (error) {
             console.error("Error in handleVersionChange:", error);
@@ -443,16 +456,58 @@ const handleVersionChange = async () => {
     }
 };
 
-const handleGammeChange = async (gamme) => {
-    store.selectedColor = null;
-    store.selectedGamme = gamme;
+const handleGammeChange = async (gammeId) => {
+    console.log("Gamme ID:", gammeId);
+
+    store.selectedConfiguration = { id: null, name: null };
+    store.selectedColor = { id: null, name: null };
+
+    const selectedGammeData = store.availableGammes.find(
+        (g) => g.id === gammeId
+    );
+    store.selectedGamme = {
+        id: gammeId,
+        name: selectedGammeData?.name,
+    };
+    console.log("store.selectedGamme:", store.selectedGamme);
     store.productToAdd = [];
 
-    if (store.selectedGamme) {
+    if (store.selectedGamme.id) {
+        console.log("Fetching configurations for gamme:", store.selectedGamme);
+        isLoading.value = true;
+        try {
+            const configurations = await store.fetchConfigurationsByGamme(
+                store.selectedGamme.id
+            );
+            console.log("Fetched configurations:", configurations);
+        } catch (error) {
+            console.error("Error in handleGammeChange:", error);
+        } finally {
+            isLoading.value = false;
+        }
+    }
+};
+
+const handleConfigurationChange = async (configurationId) => {
+    store.selectedColor = { id: null, name: null };
+    const selectedConfigData = store.availableConfigurations.find(
+        (c) => c.id === configurationId
+    );
+    store.selectedConfiguration = {
+        id: configurationId,
+        name: selectedConfigData?.name,
+    };
+    console.log("store.selectedConfiguration:", store.selectedConfiguration);
+
+    store.productToAdd = [];
+
+    if (store.selectedConfiguration.id) {
         console.log("Fetching colors for gamme:", store.selectedGamme);
         isLoading.value = true;
         try {
-            const colors = await store.fetchColorsByGamme(store.selectedGamme);
+            const colors = await store.fetchColorsByGamme(
+                store.selectedGamme.id
+            );
             console.log("Fetched colors:", colors);
         } catch (error) {
             console.error("Error in handleGammeChange:", error);
@@ -462,13 +517,9 @@ const handleGammeChange = async (gamme) => {
     }
 };
 
-const handleConfigurationChange = (configurationID) => {
-    store.selectedConfiguration = configurationID;
-    store.productToAdd = [];
-};
-
-const handleColorChange = (colorID) => {
-    store.selectedColor = colorID;
+const handleColorChange = (color) => {
+    store.selectedColor.id = color.id;
+    store.selectedColor.name = color.name;
     store.productToAdd = [];
     handleSubmit();
 };
@@ -505,13 +556,10 @@ const convertToPascalCase = (str) => {
 };
 
 const calculatePrice = (productPrice, productRate) => {
-    console.log("productPrice:", productPrice);
-    console.log("productRate:", productRate);
-    console.log("productPrice * productRate:", productPrice * productRate);
     const calculatedPrice =
         Number(productPrice) +
         Number(productPrice) * (Number(productRate) / 100);
-    return calculatedPrice.toFixed(2);
+    return calculatedPrice.toFixed(2) + "€";
 };
 </script>
 
