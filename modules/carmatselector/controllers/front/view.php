@@ -185,7 +185,7 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
     {
         if (!$productArray) return [];
 
-        $explodeProduct = explode(',', $productArray);
+        $explodeProduct = explode('||', $productArray);
 
         $product = Db::getInstance()->executeS('
             SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate
