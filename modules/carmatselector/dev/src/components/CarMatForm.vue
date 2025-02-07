@@ -318,7 +318,7 @@
                             </div>
                             <div class="flex justify-around mt-8">
                                 <a
-                                    href="/"
+                                    href=""
                                     class="bg-orange-500 rounded-md transition duration-300 text-white p-4 hover:bg-orange-300"
                                 >
                                     Continuer vos achats
