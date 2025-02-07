@@ -127,7 +127,6 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
 
         foreach ($sqlConfigs as &$config) {
             $products = explode(',', $config['products']);    
-            // var_dump($products);
             $sql = '
                 SELECT sp.price , t.rate
                 FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
@@ -164,9 +163,8 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
     }
 
     private function getProduct($productArray, $customerGroup){
-        $explodeProduct = explode(',', $productArray);
-	var_dump($explodeProduct);
-	exit();
+        $explodeProduct = explode('||', $productArray);
+
         return Db::getInstance()->executeS('
             SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate
             FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
