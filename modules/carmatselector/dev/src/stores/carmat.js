@@ -339,20 +339,20 @@ export const useCarMatStore = defineStore("car", {
                 formData.append("addToCart", 1);
 
                 const productArray = [
-                    [this.selectedBrand.id, this.selectedBrand.name],
-                    [
-                        this.selectedVersion.id,
-                        this.selectedVersion.name,
-                        this.selectedVersion.gabarit,
-                    ],
-                    [this.selectedGamme.id, this.selectedGamme.name],
-                    [this.selectedCarbody.id, this.selectedCarbody.name],
-                    [
-                        this.selectedConfiguration.id,
-                        this.selectedConfiguration.name,
-                    ],
-                    [this.selectedColor.id, this.selectedColor.name],
-                ];
+                    this.selectedBrand.id,
+                    this.selectedBrand.name,
+                    this.selectedVersion.id,
+                    this.selectedVersion.name,
+                    this.selectedVersion.gabarit,
+                    this.selectedGamme.id,
+                    this.selectedGamme.name,
+                    this.selectedCarbody.id,
+                    this.selectedCarbody.name,
+                    this.selectedConfiguration.id,
+                    this.selectedConfiguration.name,
+                    this.selectedColor.id,
+                    this.selectedColor.name,
+                ].join("||");
 
                 formData.append("productArray", productArray);
 
