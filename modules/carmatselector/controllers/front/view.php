@@ -127,7 +127,6 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
 
         foreach ($sqlConfigs as &$config) {
             $products = explode(',', $config['products']);    
-            // var_dump($products);
             $sql = '
                 SELECT sp.price , t.rate
                 FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
