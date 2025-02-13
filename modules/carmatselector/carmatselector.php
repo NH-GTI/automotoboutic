@@ -4,8 +4,11 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
+
 class Carmatselector extends Module
 {
+    protected $templateFile;
+
     public function __construct()
     {
         $this->name = 'carmatselector';
@@ -26,6 +29,8 @@ class Carmatselector extends Module
 
         $this->confirmUninstall = $this->trans('Are you sure you want to uninstall?', [], 'Modules.Mymodule.Admin');
 
+        // $this->templateFile = 'module:carmatselector/views/templates/admin/configure.tpl';
+
         if (!Configuration::get('CARMATSELECTOR_NAME')) {
             $this->warning = $this->trans('No name provided', [], 'Modules.Mymodule.Admin');
         }
@@ -33,12 +38,18 @@ class Carmatselector extends Module
 
     public function getContent()
     {
+        $type = (int)Tools::getValue('type', 1);
+        $data = $this->getAllDatas($type);
+
         $this->context->smarty->assign([
-            'pathApp' => $this->getPathUri() . 'views/js/app.js',
-            'chunkVendor' => $this->getPathUri() . 'views/js/chunk-vendors.js',
+            'data' => json_encode($data['data']),
+            'pagination' => $data['pagination'],
+            'module_dir' => $this->_path,
+            'adminAjaxUrl' => $this->context->link->getAdminLink('AdminCarmatSelectorAjax'),
+            'token' => Tools::getAdminTokenLite(false),
         ]);
 
-        return $this->context->smarty->fetch('module:carmatselector/views/templates/admin/app.tpl');
+        return $this->context->smarty->fetch('module:carmatselector/views/templates/admin/configure.tpl');
     }
 
     public function install()
@@ -48,8 +59,10 @@ class Carmatselector extends Module
         }
 
         return (
-            parent::install() 
+            parent::install()
+            && $this->addTab("AdminCarMatSelector", "CarMatConfiguration", "AdminCatalog")
             && $this->installDb()
+            && $this->registerHook('moduleRoutes')
             && Configuration::updateValue('CARMATSELECTOR_NAME', 'CARMATSELECTOR')
         ); 
     }
@@ -154,7 +167,7 @@ class Carmatselector extends Module
             CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'carmatselector_version` (
             `id_carmatselector_version` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
             `name` VARCHAR(150) NOT NULL,
-            `id_carmatselector_model` UNSIGNED INT NOT NULL,
+            `id_carmatselector_model` INT UNSIGNED NOT NULL,
             `gabarit` VARCHAR(10) NOT NULL,
             `attachment` INT UNSIGNED NOT NULL,
             `carbody` INT UNSIGNED NOT NULL,
@@ -163,6 +176,93 @@ class Carmatselector extends Module
         ) ENGINE = ' . _MYSQL_ENGINE_ . ' DEFAULT CHARSET=utf8mb4;');
     }
 
+    /**
+     * add tab
+     */
+    public function addTab($className, $name, $parentClassName) 
+    {
+        $tab = new Tab();
+        $tab->active = 1;
+        $tab->class_name = $className;
+        $tab->name = array();
+        $tab->name[(int)(Configuration::get('PS_LANG_DEFAULT'))] = $this->l($name);
+        $tab->module = $this->name;
+        $tab->id_parent = (int)Tab::getIdFromClassName($parentClassName);
+        return $tab->add();
+    }
+
+    public function getAllDatas($type){
+
+        switch ($type) {
+            case 1:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_brand as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_brand`');
+                break;
+            case 2:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_model as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_model`');
+                $data['brand'] = Db::getInstance()->executeS('SELECT id_carmatselector_brand as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_brand`');
+                break;
+            case 3:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_version as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_version`');
+                $data['brand'] = Db::getInstance()->executeS('SELECT id_carmatselector_brand as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_brand`');
+                $data['model'] = Db::getInstance()->executeS('SELECT id_carmatselector_model as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_model`');
+                break;    
+            case 4:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_color as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_color`');
+                $data['gamme'] = Db::getInstance()->executeS('SELECT id_carmatselector_gamme as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_gamme`');
+                break;    
+            case 5:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_gamme as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_gamme`');
+                $data['carbody'] = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_carbody`');
+                break;    
+            case 6:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_configuration as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_configuration`');
+                $data['carbody'] = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_carbody`');
+                break;    
+            case 7:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_carbody`');
+                break;
+            case 8:
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_attachment as id, name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_attachment`');
+                break;
+            default:
+                $data = null;
+            }
+
+        return [
+            'success' => true,
+            'data' => $data
+        ];
+    }
+
+    public function hookModuleRoutes()
+    {
+        return [
+            'module-carmatselector-view' => [
+              'rule' => 'tapis-sur-mesure/selecteur',
+              'keywords' => [],
+              'controller' => 'view',
+              'params' => [
+                  'fc' => 'module',
+                  'module' => $this->name
+              ]
+            ],
+          ];
+  
+    }
     public function uninstall()
     {
         return (
