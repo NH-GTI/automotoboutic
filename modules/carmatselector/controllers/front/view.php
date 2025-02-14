@@ -14,7 +14,7 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
 
         $this->context->smarty->assign([
             'carmatData' => json_encode($data),
-            'ajaxUrl' => $this->context->link->getModuleLink('carmatselector', 'view', ['action' => 'getModels']),
+            'ajaxUrl' => $this->context->link->getModuleLink('carmatselector', 'view'),
             'token' => Tools::getToken(false),
         ]);
         
@@ -127,6 +127,7 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
 
         foreach ($sqlConfigs as &$config) {
             $products = explode(',', $config['products']);    
+            // var_dump($products);
             $sql = '
                 SELECT sp.price , t.rate
                 FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
@@ -185,7 +186,7 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
     {
         if (!$productArray) return [];
 
-        $explodeProduct = explode('||', $productArray);
+        $explodeProduct = explode(',', $productArray);
 
         $product = Db::getInstance()->executeS('
             SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate

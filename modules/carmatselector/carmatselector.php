@@ -45,8 +45,10 @@ class Carmatselector extends Module
             'data' => json_encode($data['data']),
             'pagination' => $data['pagination'],
             'module_dir' => $this->_path,
-            'adminAjaxUrl' => $this->context->link->getAdminLink('AdminCarmatSelectorAjax'),
+            'adminAjaxUrl' => $this->context->link->getAdminLink('AdminCarmatSelector'),
+            'adminLinkUrl' => $this->context->link->getAdminLink('AdminModules'),
             'token' => Tools::getAdminTokenLite(false),
+            'success' => (Tools::getValue('success')),
         ]);
 
         return $this->context->smarty->fetch('module:carmatselector/views/templates/admin/configure.tpl');
@@ -201,34 +203,22 @@ class Carmatselector extends Module
             case 2:
                 $data = Db::getInstance()->executeS('SELECT id_carmatselector_model as id, name
                         FROM `' . _DB_PREFIX_ . 'carmatselector_model`');
-                $data['brand'] = Db::getInstance()->executeS('SELECT id_carmatselector_brand as id, name
-                        FROM `' . _DB_PREFIX_ . 'carmatselector_brand`');
                 break;
             case 3:
                 $data = Db::getInstance()->executeS('SELECT id_carmatselector_version as id, name
                         FROM `' . _DB_PREFIX_ . 'carmatselector_version`');
-                $data['brand'] = Db::getInstance()->executeS('SELECT id_carmatselector_brand as id, name
-                        FROM `' . _DB_PREFIX_ . 'carmatselector_brand`');
-                $data['model'] = Db::getInstance()->executeS('SELECT id_carmatselector_model as id, name
-                        FROM `' . _DB_PREFIX_ . 'carmatselector_model`');
                 break;    
             case 4:
                 $data = Db::getInstance()->executeS('SELECT id_carmatselector_color as id, name
                         FROM `' . _DB_PREFIX_ . 'carmatselector_color`');
-                $data['gamme'] = Db::getInstance()->executeS('SELECT id_carmatselector_gamme as id, name
-                        FROM `' . _DB_PREFIX_ . 'carmatselector_gamme`');
                 break;    
             case 5:
                 $data = Db::getInstance()->executeS('SELECT id_carmatselector_gamme as id, name
                         FROM `' . _DB_PREFIX_ . 'carmatselector_gamme`');
-                $data['carbody'] = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name
-                        FROM `' . _DB_PREFIX_ . 'carmatselector_carbody`');
                 break;    
             case 6:
                 $data = Db::getInstance()->executeS('SELECT id_carmatselector_configuration as id, name
                         FROM `' . _DB_PREFIX_ . 'carmatselector_configuration`');
-                $data['carbody'] = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name
-                        FROM `' . _DB_PREFIX_ . 'carmatselector_carbody`');
                 break;    
             case 7:
                 $data = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name
