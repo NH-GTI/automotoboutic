@@ -51,6 +51,14 @@
                 Ajouter un nouveau véhicule
             </a>
         </div>
+        <div class="flex items-end">
+            <a
+                :href="carMatModelFormLink"
+                class="px-4 py-2 bg-white text-white rounded-md pointer-events-auto text-base"
+            >
+                Ajouter un nouveau modèle
+            </a>
+        </div>
     </div>
 
     <table class="w-full table-auto border-collapse text-sm">
@@ -202,6 +210,11 @@ const carMatAttachmentLink = ref(
 const carMatVersionFormLink = ref(
     window.CARMAT_ADMIN_AJAX_URL + "&action=versionForm"
 );
+
+const carMatModelFormLink = ref(
+    window.CARMAT_ADMIN_AJAX_URL + "&action=modelForm"
+);
+
 const itemsPerPage = 10;
 const currentPage = ref(1);
 const searchId = ref("");

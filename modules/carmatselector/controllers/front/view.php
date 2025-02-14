@@ -79,7 +79,8 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
         return Db::getInstance()->executeS('
             SELECT id_carmatselector_model as id, name
             FROM `' . _DB_PREFIX_ . 'carmatselector_model`
-            WHERE id_carmatselector_brand = ' . (int)$brandId
+            WHERE id_carmatselector_brand = ' . (int)$brandId . ' AND active = 1
+            ORDER BY name ASC'
         );
     }
 
@@ -91,7 +92,8 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
             SELECT cv.id_carmatselector_version as id, cv.name, cv.carbody, cc.description as carbody_name, cv.gabarit
             FROM `' . _DB_PREFIX_ . 'carmatselector_version` AS cv
             LEFT JOIN `' . _DB_PREFIX_ . 'carmatselector_carbody` AS cc ON cc.id_carmatselector_carbody = cv.carbody
-            WHERE id_carmatselector_model = ' . (int)$modelId
+            WHERE id_carmatselector_model = ' . (int)$modelId . ' AND cv.active = 1
+            ORDER BY cv.name ASC'
         );
     }
 
@@ -274,7 +276,8 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
     {
         return Db::getInstance((bool) _PS_USE_SQL_SLAVE_)->executeS('
             SELECT id_carmatselector_brand as id, name as name
-            FROM `' . _DB_PREFIX_ . 'carmatselector_brand`'
+            FROM `' . _DB_PREFIX_ . 'carmatselector_brand`
+            Order by name asc'
         );
     }
 }

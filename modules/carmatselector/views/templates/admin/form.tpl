@@ -10,7 +10,8 @@
 
 <body>
     {* form add new version *}
-    <form class="flex flex-col w-1/2 mx-auto justify-around" action="{$adminAjaxUrl}&action=saveVersionForm" method="post">
+    <form class="flex flex-col w-1/2 mx-auto justify-around" action="{$adminAjaxUrl}&action=saveVersionForm"
+        method="post">
         <input class="text-slate-500 placeholder:text-slate-100 placeholder:italic" type="text"
             placeholder="Nom du véhicule (exemple: Peugeot 208 de 05/2019 à 09/2021)" name="input-name" id="input-name">
         <select class="m-2 valid:bg-green-200 invalid:bg-red-200" name="select-brand" id="select-brand" required>
@@ -54,7 +55,7 @@
 
 
     window.CARMAT_ADMIN_FORM_AJAX_URL = '{$adminAjaxUrl}';
-const onBrandChange = function(e) {
+    const onBrandChange = function(e) {
         const brandId = e.target.value;
         if (brandId === 'null') {
             return;
