@@ -15,5 +15,5 @@
     <div id="carmat-app"></div>
 
     <!-- Load Vue app -->
-    <script src="{$urls.base_url}modules/carmatselector/views/js/app.js"></script>
+    <script src="{$urls.base_url}modules/carmatselector/views/js/front.js"></script>
 {/block}
