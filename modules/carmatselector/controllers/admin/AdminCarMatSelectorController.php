@@ -43,8 +43,7 @@ class AdminCarmatSelectorController extends ModuleAdminController
             'carbodies' => $carbodies,
             'attachments' => $attachments,
             'token' => Tools::getAdminTokenLite('AdminCarmatSelector')
-	]);
-
+        ]);
 
         if(Tools::isSubmit('action')) {
             switch(Tools::getValue('action')) {
@@ -99,10 +98,11 @@ class AdminCarmatSelectorController extends ModuleAdminController
 
     public function saveModelForm(){
         $modelName = Tools::getValue('input-name');
+        $brandId = Tools::getValue('select-brand');
         $active = Tools::getValue('active');
 
-        Db::getInstance()->execute('INSERT INTO `' . _DB_PREFIX_ . 'carmatselector_model` (name, id_carmatselector_model, gabarit, attachment, carbody, active) 
-        values ("'.$modelName.'", '.(int)$active.')');
+        Db::getInstance()->execute('INSERT INTO `' . _DB_PREFIX_ . 'carmatselector_model` (name, id_carmatselector_brand, active) 
+        values ("'.$modelName.'", '.(int)$brandId.', '.(int)$active.')');
         
         $editProductLink = $this->context->link->getAdminLink('AdminModules'.'&configure=carmatselector&success=true&token='.Tools::getAdminTokenLite('AdminModules'), false);
 
@@ -116,10 +116,11 @@ class AdminCarmatSelectorController extends ModuleAdminController
         $attachmentId = Tools::getValue('select-attachment');
         $gabarit = Tools::getValue('gabarit');
         $active = Tools::getValue('active');
+
         Db::getInstance()->execute('INSERT INTO `' . _DB_PREFIX_ . 'carmatselector_version` (name, id_carmatselector_model, gabarit, attachment, carbody, active) 
         values ("'.$carName.'", '.(int)$modelId.', "'.$gabarit.'", '.(int)$attachmentId.', '.(int)$carbodyId.', '.(int)$active.')');
         
-        $editProductLink = $this->context->link->getAdminLink('AdminModules'.'&configure=carmatselector&success=1&token='.Tools::getAdminTokenLite('AdminModules'), false);
+        $editProductLink = $this->context->link->getAdminLink('AdminModules'.'&configure=carmatselector&success=true&token='.Tools::getAdminTokenLite('AdminModules'), false);
 
         Tools::redirectAdmin($editProductLink);
     }
