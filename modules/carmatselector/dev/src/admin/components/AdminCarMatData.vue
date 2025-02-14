@@ -200,7 +200,7 @@ const carMatAttachmentLink = ref(
 );
 
 const carMatVersionFormLink = ref(
-    window.CARMAT_ADMIN_AJAX_URL + "&action=displayAjax"
+    window.CARMAT_ADMIN_AJAX_URL + "&action=versionForm"
 );
 const itemsPerPage = 10;
 const currentPage = ref(1);

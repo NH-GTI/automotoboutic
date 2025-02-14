@@ -27,7 +27,6 @@ class AdminCarmatSelectorController extends ModuleAdminController
                     $this->saveVersionForm();
                     break;
                 default:
-                    $this->displayAjax();
                     break;
             }
         }
@@ -44,7 +43,8 @@ class AdminCarmatSelectorController extends ModuleAdminController
             'carbodies' => $carbodies,
             'attachments' => $attachments,
             'token' => Tools::getAdminTokenLite('AdminCarmatSelector')
-        ]);
+	]);
+
 
         if(Tools::isSubmit('action')) {
             switch(Tools::getValue('action')) {
@@ -55,7 +55,7 @@ class AdminCarmatSelectorController extends ModuleAdminController
                     $this->setTemplate('modelForm.tpl');
                     break;
                 case 'versionForm':
-                    $this->setTemplate('versionForm.tpl');
+                    $this->setTemplate('form.tpl');
                     break;
                 default:
                     $this->displayAjax();
@@ -116,11 +116,10 @@ class AdminCarmatSelectorController extends ModuleAdminController
         $attachmentId = Tools::getValue('select-attachment');
         $gabarit = Tools::getValue('gabarit');
         $active = Tools::getValue('active');
-
         Db::getInstance()->execute('INSERT INTO `' . _DB_PREFIX_ . 'carmatselector_version` (name, id_carmatselector_model, gabarit, attachment, carbody, active) 
         values ("'.$carName.'", '.(int)$modelId.', "'.$gabarit.'", '.(int)$attachmentId.', '.(int)$carbodyId.', '.(int)$active.')');
         
-        $editProductLink = $this->context->link->getAdminLink('AdminModules'.'&configure=carmatselector&success=true&token='.Tools::getAdminTokenLite('AdminModules'), false);
+        $editProductLink = $this->context->link->getAdminLink('AdminModules'.'&configure=carmatselector&success=1&token='.Tools::getAdminTokenLite('AdminModules'), false);
 
         Tools::redirectAdmin($editProductLink);
     }
