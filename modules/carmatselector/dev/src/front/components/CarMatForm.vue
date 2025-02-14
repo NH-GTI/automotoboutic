@@ -457,11 +457,9 @@ const handleBrandChange = async () => {
         );
         store.selectedBrand.name = selectedBrandData?.name;
 
-        console.log("Fetching models for brand:", store.selectedBrand);
         isLoading.value = true;
         try {
-            const models = await store.fetchModels(store.selectedBrand.id);
-            console.log("Fetched models:", models);
+            await store.fetchModels(store.selectedBrand.id);
         } catch (error) {
             console.error("Error in handleBrandChange:", error);
         } finally {
@@ -480,11 +478,9 @@ const handleModelChange = async () => {
         );
         store.selectedModel.name = selectedModelData?.name;
 
-        console.log("Fetching versions for model:", store.selectedModel);
         isLoading.value = true;
         try {
-            const versions = await store.fetchVersions(store.selectedModel.id);
-            console.log("Fetched versions:", versions);
+            await store.fetchVersions(store.selectedModel.id);
         } catch (error) {
             console.error("Error in handleModelChange:", error);
         } finally {
@@ -501,7 +497,6 @@ const handleVersionChange = async () => {
     store.selectedVersion.name = selectedVersionData?.name;
     store.selectedVersion.gabarit = selectedVersionData?.gabarit;
     store.productToAdd = [];
-    console.log("selectedVersionData:", selectedVersionData);
 
     if (selectedVersionData?.carbody) {
         isLoading.value = true;
@@ -525,8 +520,6 @@ const handleVersionChange = async () => {
 };
 
 const handleGammeChange = async (gammeId) => {
-    console.log("Gamme ID:", gammeId);
-
     store.selectedConfiguration = { id: null, name: null };
     store.selectedColor = { id: null, name: null };
 
@@ -537,17 +530,13 @@ const handleGammeChange = async (gammeId) => {
         id: gammeId,
         name: selectedGammeData?.name,
     };
-    console.log("store.selectedGamme:", store.selectedGamme);
+
     store.productToAdd = [];
 
     if (store.selectedGamme.id) {
-        console.log("Fetching configurations for gamme:", store.selectedGamme);
         isLoading.value = true;
         try {
-            const configurations = await store.fetchConfigurationsByGamme(
-                store.selectedGamme.id
-            );
-            console.log("Fetched configurations:", configurations);
+            await store.fetchConfigurationsByGamme(store.selectedGamme.id);
         } catch (error) {
             console.error("Error in handleGammeChange:", error);
         } finally {
@@ -565,12 +554,10 @@ const handleConfigurationChange = async (configurationId) => {
         id: configurationId,
         name: selectedConfigData?.name,
     };
-    console.log("store.selectedConfiguration:", store.selectedConfiguration);
 
     store.productToAdd = [];
 
     if (store.selectedConfiguration.id) {
-        console.log("Fetching colors for gamme:", store.selectedGamme);
         isLoading.value = true;
         try {
             const colors = await store.fetchColorsByGamme(
@@ -592,9 +579,7 @@ const handleColorChange = async (color) => {
     store.selectedColor.name = color.name;
     store.productToAdd = [];
     try {
-        const product = await store.fetchProduct();
-        console.log("Fetched product:", product);
-        console.log("Stored product:", store.productToAdd);
+        await store.fetchProduct();
     } catch (error) {
         console.error("Error in handleGammeChange:", error);
     } finally {
@@ -606,9 +591,7 @@ const handleSubmit = async () => {
     isLoading.value = true;
     try {
         await new Promise((resolve) => setTimeout(resolve, 1500));
-        const product = await store.addToCart();
-        console.log("Fetched product:", product);
-        console.log("Stored product:", store.productToAdd);
+        await store.addToCart();
     } catch (error) {
         console.error("Error in handleGammeChange:", error);
     } finally {
