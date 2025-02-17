@@ -979,6 +979,7 @@ class FrontControllerCore extends Controller
         }
         $this->registerJavascript('theme-main', '/assets/js/theme.js', ['position' => 'bottom', 'priority' => 50]);
         $this->registerJavascript('theme-custom', '/assets/js/custom.js', ['position' => 'bottom', 'priority' => 1000]);
+        $this->registerJavascript('theme-custom', '/assets/js/cookieconsent-config.js', ['position' => 'bottom', 'priority' => 1000]);
 
         $assets = $this->context->shop->theme->getPageSpecificAssets($this->php_self);
         if (!empty($assets)) {
