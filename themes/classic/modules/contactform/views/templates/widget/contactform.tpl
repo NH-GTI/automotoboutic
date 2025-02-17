@@ -23,7 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 <section class="contact-form">
-  <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data"{/if}>
+  <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data" {/if}>
     {if $notifications}
       <div class="col-xs-12 alert {if $notifications.nw_error}alert-danger{else}alert-success{/if}">
         <ul>
@@ -57,14 +57,8 @@
         <div class="form-group row">
           <label class="col-md-3 form-control-label" for="email">{l s='Email address' d='Shop.Forms.Labels'}</label>
           <div class="col-md-6">
-            <input
-              id="email"
-              class="form-control"
-              name="from"
-              type="email"
-              value="{$contact.email}"
-              placeholder="{l s='your@email.com' d='Shop.Forms.Help'}"
-            >
+            <input id="email" class="form-control" name="from" type="email" value="{$contact.email}"
+              placeholder="{l s='your@email.com' d='Shop.Forms.Help'}">
           </div>
         </div>
 
@@ -89,7 +83,8 @@
           <div class="form-group row">
             <label class="col-md-3 form-control-label" for="file-upload">{l s='Attachment' d='Shop.Forms.Labels'}</label>
             <div class="col-md-6">
-              <input id="file-upload" type="file" name="fileUpload" class="filestyle" data-buttonText="{l s='Choose file' d='Shop.Theme.Actions'}">
+              <input id="file-upload" type="file" name="fileUpload" class="filestyle"
+                data-buttonText="{l s='Choose file' d='Shop.Theme.Actions'}">
             </div>
             <span class="col-md-3 form-control-comment">
               {l s='optional' d='Shop.Forms.Help'}
@@ -98,15 +93,12 @@
         {/if}
 
         <div class="form-group row">
-          <label class="col-md-3 form-control-label" for="contactform-message">{l s='Message' d='Shop.Forms.Labels'}</label>
+          <label class="col-md-3 form-control-label"
+            for="contactform-message">{l s='Message' d='Shop.Forms.Labels'}</label>
           <div class="col-md-9">
-            <textarea
-              id="contactform-message"
-              class="form-control"
-              name="message"
+            <textarea id="contactform-message" class="form-control" name="message"
               placeholder="{l s='How can we help?' d='Shop.Forms.Help'}"
-              rows="3"
-            >{if $contact.message}{$contact.message}{/if}</textarea>
+              rows="3">{if $contact.message}{$contact.message}{/if}</textarea>
           </div>
         </div>
 
@@ -118,6 +110,9 @@
           </div>
         {/if}
 
+        <div style="display: flex; justify-content: center;" class="g-recaptcha"
+          data-sitekey="6Lc2wNkqAAAAAOcpQcVhN8bh8fvKHvF1nGtRMDT3"></div>
+
       </section>
 
       <footer class="form-footer text-sm-right">
@@ -126,7 +121,7 @@
             display: none !important;
           }
         </style>
-        <input type="text" name="url" value=""/>
+        <input type="text" name="url" value="" />
         <input type="hidden" name="token" value="{$token}" />
         <input class="btn btn-primary" type="submit" name="submitMessage" value="{l s='Send' d='Shop.Theme.Actions'}">
       </footer>
