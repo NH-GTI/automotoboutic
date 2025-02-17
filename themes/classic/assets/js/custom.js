@@ -1,4 +1,4 @@
-function onRecaptchaSuccess(token) {
+function onRecaptchaSuccess() {
     // This function is called when user successfully completes the captcha
     console.log("Sucessfully completed captcha");
 
