@@ -113,7 +113,7 @@
   {block name='hook_before_body_closing_tag'}
     {hook h='displayBeforeBodyClosingTag'}
   {/block}
-  <script type="module" src="cookieconsent-config.js"></script>
+  <script type="module" src="/themes/classic/assets/js/cookieconsent-config.js"></script>
 </body>
 
 </html>
