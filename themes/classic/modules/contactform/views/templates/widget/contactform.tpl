@@ -123,8 +123,8 @@
         </style>
         <input type="text" name="url" value="" />
         <input type="hidden" name="token" value="{$token}" />
-        <input class="btn btn-primary" type="submit" name="submitMessage" value="{l s='Send' d='Shop.Theme.Actions'}"
-          disabled>
+        <input class="btn btn-primary" type="submit" name="submitMessage" id="submitMessage"
+          value="{l s='Send' d='Shop.Theme.Actions'}" disabled>
       </footer>
     {/if}
 
