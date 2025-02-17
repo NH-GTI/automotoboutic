@@ -34,6 +34,7 @@
   {block name='hook_after_title_tag'}
     {hook h='displayAfterTitleTag'}
   {/block}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css">
   <meta name="description" content="{block name='head_seo_description'}{$page.meta.description}{/block}">
   <meta name="keywords" content="{block name='head_seo_keywords'}{$page.meta.keywords}{/block}">
   {if $page.meta.robots !== 'index'}
@@ -47,13 +48,13 @@
       <link rel="alternate" href="{$pageUrl}" hreflang="{$code}">
     {/foreach}
   {/block}
-  
+
   {block name='head_microdata'}
     {include file="_partials/microdata/head-jsonld.tpl"}
   {/block}
-  
+
   {block name='head_microdata_special'}{/block}
-  
+
   {block name='head_pagination_seo'}
     {include file="_partials/pagination-seo.tpl"}
   {/block}
@@ -63,8 +64,9 @@
     <meta property="og:description" content="{$page.meta.description}" />
     <meta property="og:url" content="{$urls.current_url}" />
     <meta property="og:site_name" content="{$shop.name}" />
-    {if !isset($product) && $page.page_name != 'product'}<meta property="og:type" content="website" />{/if}
-  {/block}  
+    {if !isset($product) && $page.page_name != 'product'}
+    <meta property="og:type" content="website" />{/if}
+  {/block}
 {/block}
 
 {block name='head_viewport'}
@@ -89,4 +91,6 @@
 {/block}
 
 {block name='hook_extra'}{/block}
-<script defer charset="utf-8" src="https://widgets.rr.skeepers.io/generated/90e983f7-d843-9514-89df-3656d7596ba2/61f2039a-d803-485e-878d-31a5a7ec0293.js"></script>
+<script defer charset="utf-8"
+  src="https://widgets.rr.skeepers.io/generated/90e983f7-d843-9514-89df-3656d7596ba2/61f2039a-d803-485e-878d-31a5a7ec0293.js">
+</script>
