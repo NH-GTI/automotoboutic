@@ -111,7 +111,7 @@
         {/if}
 
         <div style="display: flex; justify-content: center;" class="g-recaptcha"
-          data-sitekey="6LfOxNkqAAAAABfP5Uh8lUJ83JvuXKoz9AB7hdWI"></div>
+          data-sitekey="6LfyxtkqAAAAAPqli4Ew1qgUGmxPc0j2qrCvLXpW" data-callback="onRecaptchaSuccess"></div>
 
       </section>
 
