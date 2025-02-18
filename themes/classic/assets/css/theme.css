@@ -10284,7 +10284,7 @@ body#checkout #hook-display-after-carrier>[class^=col].links .row>[class^=col] {
 
 #wrapper {
     padding-top: 1.563rem;
-    background: #f6f6f6
+    /* background: #f6f6f6 */
 }
 
 #wrapper .banner {
