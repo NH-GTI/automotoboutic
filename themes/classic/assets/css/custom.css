@@ -1,7 +1,17 @@
-#category #subcategories{
+#category #subcategories {
 	display: none;
 }
 
-.adminorders #ecoas_resetbutton{
+.adminorders #ecoas_resetbutton {
 	display: none;
+}
+
+#block_home_surmesure .block_listing_product {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#block_home_surmesure .block_listing_product img {
+	max-width: 25em;
 }
