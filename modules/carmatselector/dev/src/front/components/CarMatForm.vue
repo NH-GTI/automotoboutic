@@ -148,10 +148,10 @@
                                     </h3>
                                     <img
                                         v-for="i in gamme.rating"
-                                        src="{{ asset('../../../../../../assets/img/icons/star.png')}}"
+                                        src="../../../../assets/img/icons/star.png"
                                         alt="⭐"
                                         :key="i"
-                                        class="w-6 h-6"
+                                        class="w-5 h-5"
                                     />
                                 </div>
                                 <div class="flex flex-col text-left mt-1">
