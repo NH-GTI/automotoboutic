@@ -39,13 +39,15 @@
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Q6NQ9EJKR"></script>
+  {literal}
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){dataLayer.push(arguments);};
     gtag('js', new Date());
 
     gtag('config', 'G-7Q6NQ9EJKR');
   </script>
+  {/literal}
 
   <meta name="description" content="{block name='head_seo_description'}{$page.meta.description}{/block}">
   <meta name="keywords" content="{block name='head_seo_keywords'}{$page.meta.keywords}{/block}">
