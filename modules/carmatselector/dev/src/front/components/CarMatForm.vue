@@ -15,7 +15,7 @@
                 <form @submit.prevent="handleSubmit" class="p-6">
                     <!-- Brand Select -->
                     <div class="form-group">
-                        <label class="form-label">Marque du véhicule</label>
+                        <label class="form-label">Marque</label>
                         <select
                             v-model="store.selectedBrand.id"
                             class="form-select min-w-xl"
@@ -292,7 +292,9 @@
                         v-if="isLoading"
                         class="pt-4 flex flex-col justify-center"
                     >
-                        <p class="mb-4 text-neutral-950 text-center">
+                        <p
+                            class="mb-4 text-neutral-950 text-center text-xl font-bold"
+                        >
                             Chargement des informations...
                         </p>
                     </div>
@@ -301,9 +303,11 @@
                         id="product-price"
                         class="pt-4 flex flex-col justify-center"
                     >
-                        <p class="mb-4 text-neutral-950 text-center">
-                            Prix de votre configuration :
-                            <span class="font-bold text-lg">
+                        <p class="mb-4 text-center text-xl text-slate-900">
+                            Prix de votre configuration : <br /><br />
+                            <span
+                                class="font-bold text-2xl text-black text-center mt-1"
+                            >
                                 {{
                                     calculatePrice(
                                         store.productToAdd.price,
@@ -316,7 +320,7 @@
                             <input
                                 :disabled="isLoading"
                                 type="submit"
-                                class="btn btn-primary"
+                                class="btn btn-primary p-4"
                                 :value="
                                     isLoading
                                         ? 'Ajout en cours...'
@@ -350,7 +354,7 @@
                                 <button @click="cartModal = false">X</button>
                             </div>
                             <h3
-                                class="text-xl font-bold text-orange-500 text-center"
+                                class="text-xl font-bold text-cyan-500 text-center"
                             >
                                 Vos tapis sur mesure ont été ajoutés au panier !
                             </h3>
@@ -362,31 +366,34 @@
                                     }}</span>
                                 </p>
                                 <p>
-                                    <span class="text-orange-500"
+                                    <span class="text-cyan-500"
                                         >Configuration : </span
                                     >{{ store.selectedConfiguration.name }}
                                 </p>
                                 <p>
-                                    <span class="text-orange-500"
+                                    <span class="text-cyan-500"
                                         >Finition : </span
                                     >Gamme {{ store.selectedGamme.name }}
                                 </p>
                                 <p>
-                                    <span class="text-orange-500"
-                                        >Couleur : </span
-                                    >{{ store.selectedColor.name }}
+                                    <span class="text-cyan-500">Couleur : </span
+                                    >{{
+                                        convertToPascalCase(
+                                            store.selectedColor.name
+                                        )
+                                    }}
                                 </p>
                             </div>
                             <div class="flex justify-around mt-8">
                                 <a
                                     href=""
-                                    class="bg-orange-500 rounded-md transition duration-300 text-white p-4 hover:bg-orange-300"
+                                    class="bg-cyan-500 rounded-md transition duration-300 text-white font-bold p-4 hover:bg-cyan-300"
                                 >
                                     Continuer vos achats
                                 </a>
                                 <a
                                     href="/panier?action=show"
-                                    class="bg-orange-500 rounded-md transition duration-300 text-white p-4 hover:bg-orange-300"
+                                    class="bg-cyan-500 rounded-md transition duration-300 text-white font-bold p-4 hover:bg-cyan-300"
                                 >
                                     Aller au panier
                                 </a>
