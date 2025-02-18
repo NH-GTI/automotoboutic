@@ -144,7 +144,6 @@
                                     >
                                         <!-- Rating is gamme.rating * ⭐-->
                                         {{ gamme.name }}
-                                        <!-- {{ "⭐".repeat(gamme.rating) }} -->
                                     </h3>
                                     <img
                                         v-for="i in gamme.rating"
