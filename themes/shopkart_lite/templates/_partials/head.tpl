@@ -22,6 +22,7 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
+ 
 {block name='head_charset'}
   <meta charset="utf-8">
 {/block}
@@ -31,24 +32,6 @@
 
 {block name='head_seo'}
   <title>{block name='head_seo_title'}{$page.meta.title}{/block}</title>
-  {block name='hook_after_title_tag'}
-    {hook h='displayAfterTitleTag'}
-  {/block}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css">
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Q6NQ9EJKR"></script>
-  {literal}
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);};
-    gtag('js', new Date());
-
-    gtag('config', 'G-7Q6NQ9EJKR');
-  </script>
-  {/literal}
-
   <meta name="description" content="{block name='head_seo_description'}{$page.meta.description}{/block}">
   <meta name="keywords" content="{block name='head_seo_keywords'}{$page.meta.keywords}{/block}">
   {if $page.meta.robots !== 'index'}
@@ -57,30 +40,6 @@
   {if $page.canonical}
     <link rel="canonical" href="{$page.canonical}">
   {/if}
-  {block name='head_hreflang'}
-    {foreach from=$urls.alternative_langs item=pageUrl key=code}
-      <link rel="alternate" href="{$pageUrl}" hreflang="{$code}">
-    {/foreach}
-  {/block}
-
-  {block name='head_microdata'}
-    {include file="_partials/microdata/head-jsonld.tpl"}
-  {/block}
-
-  {block name='head_microdata_special'}{/block}
-
-  {block name='head_pagination_seo'}
-    {include file="_partials/pagination-seo.tpl"}
-  {/block}
-
-  {block name='head_open_graph'}
-    <meta property="og:title" content="{$page.meta.title}" />
-    <meta property="og:description" content="{$page.meta.description}" />
-    <meta property="og:url" content="{$urls.current_url}" />
-    <meta property="og:site_name" content="{$shop.name}" />
-    {if !isset($product) && $page.page_name != 'product'}
-    <meta property="og:type" content="website" />{/if}
-  {/block}
 {/block}
 
 {block name='head_viewport'}
@@ -90,6 +49,7 @@
 {block name='head_icons'}
   <link rel="icon" type="image/vnd.microsoft.icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
   <link rel="shortcut icon" type="image/x-icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet"> 
 {/block}
 
 {block name='stylesheets'}
@@ -105,6 +65,3 @@
 {/block}
 
 {block name='hook_extra'}{/block}
-<script defer charset="utf-8"
-  src="https://widgets.rr.skeepers.io/generated/90e983f7-d843-9514-89df-3656d7596ba2/61f2039a-d803-485e-878d-31a5a7ec0293.js">
-</script>
