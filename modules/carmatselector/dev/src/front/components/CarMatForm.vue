@@ -1,7 +1,7 @@
 <!-- src/components/CarMatForm.vue -->
 <template>
-    <div class="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
+    <div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
             <div class="bg-white rounded-lg shadow-xl overflow-hidden">
                 <div class="bg-gradient-to-r bg-slate-900 px-6 py-4">
                     <h2 class="text-2xl font-bold text-white">
@@ -18,11 +18,12 @@
                         <label class="form-label">Marque du véhicule</label>
                         <select
                             v-model="store.selectedBrand.id"
-                            class="form-select"
+                            class="form-select min-w-xl"
                             required
                             @change="handleBrandChange"
                         >
-                            <option value="">Sélectionnez une marque</option>
+                            <!-- Selected default brand -->
+                            <option value="0">Sélectionner une marque</option>
                             <option
                                 v-for="brand in store.brands"
                                 :key="brand.id"
@@ -38,14 +39,16 @@
                         <label class="form-label">Modèle</label>
                         <select
                             v-model="store.selectedModel.id"
-                            class="form-select"
+                            class="form-select min-w-xl"
                             :disabled="!store.selectedBrand.id || isLoading"
                             required
                             @change="handleModelChange"
                         >
-                            <option value="">
+                            <option value="0">
                                 {{
-                                    isLoading ? "Chargement..." : "Sélectionner"
+                                    isLoading
+                                        ? "Chargement..."
+                                        : "Sélectionner un modèle"
                                 }}
                             </option>
                             <option
@@ -63,12 +66,12 @@
                         <label class="form-label">Version</label>
                         <select
                             v-model="store.selectedVersion.id"
-                            class="form-select"
+                            class="form-select min-w-xl"
                             :disabled="!store.selectedModel.id"
                             required
                             @change="handleVersionChange"
                         >
-                            <option value="">Sélectionnez une version</option>
+                            <option value="0">Sélectionnez une version</option>
                             <option
                                 v-for="version in store.availableVersions"
                                 :key="version.id"
@@ -505,8 +508,8 @@ const toggleCartSummary = () => {
 
 const handleBrandChange = async () => {
     // Reset subsequent selections
-    store.selectedModel = { id: null, name: null };
-    store.selectedVersion = { id: null, name: null };
+    store.selectedModel = { id: 0, name: null };
+    store.selectedVersion = { id: 0, name: null };
     store.productToAdd = [];
 
     if (store.selectedBrand.id) {
@@ -529,7 +532,7 @@ const handleBrandChange = async () => {
 };
 
 const handleModelChange = async () => {
-    store.selectedVersion = { id: null, name: null };
+    store.selectedVersion = { id: 0, name: null };
     store.productToAdd = [];
 
     if (store.selectedModel.id) {
@@ -715,7 +718,7 @@ const scrollToNextStep = (id) => {
 }
 
 .form-label {
-    font-size: large;
+    font-size: 1.1em;
 }
 
 .form-select:disabled {
