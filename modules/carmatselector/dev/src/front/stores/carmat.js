@@ -121,6 +121,7 @@ export const useCarMatStore = defineStore("car", {
         selectedConfiguration: { id: null, name: null },
         selectedColor: { id: null, name: null },
         availableGammes: [],
+        availableGammeColors: [],
         availableConfigurations: [],
         availableColors: [],
         productToAdd: [],
@@ -133,6 +134,7 @@ export const useCarMatStore = defineStore("car", {
                 selectedConfiguration: null,
                 selectedColor: null,
                 availableGammes: [],
+                availableGammeColors: [],
                 availableConfigurations: [],
                 availableColors: [],
             });
@@ -210,8 +212,14 @@ export const useCarMatStore = defineStore("car", {
 
                 if (result.success && result.gammes) {
                     this.$patch({
-                        availableGammes: result.gammes,
+                        availableGammes: result.gammes.gammes,
+                        availableGammeColors: result.gammes.gammeColors,
                     });
+                    console.log(
+                        "Available gamme colors:",
+                        this.availableGammeColors
+                    );
+
                     return result.gammes;
                 } else {
                     console.error("Error fetching gammes:", result);
@@ -362,7 +370,6 @@ export const useCarMatStore = defineStore("car", {
                 });
 
                 const result = await response.json();
-                console.log("Product result:", result);
 
                 if (result.success && result) {
                     return result;
@@ -382,6 +389,7 @@ export const useCarMatStore = defineStore("car", {
                 selectedConfiguration: { id: null, name: null },
                 selectedColor: { id: null, name: null },
                 availableGammes: [],
+                availableGammeColors: [],
                 availableConfigurations: [],
                 availableColors: [],
             });
