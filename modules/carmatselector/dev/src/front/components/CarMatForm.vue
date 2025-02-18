@@ -719,6 +719,7 @@ const scrollToNextStep = (id) => {
 
 .form-label {
     font-size: 1.1em;
+    margin-right: 1em;
 }
 
 .form-select:disabled {
