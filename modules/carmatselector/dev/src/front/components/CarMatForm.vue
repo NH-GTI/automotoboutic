@@ -3,9 +3,7 @@
     <div class="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto">
             <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <div
-                    class="bg-gradient-to-r from-orange-600 to-orange-800 px-6 py-4"
-                >
+                <div class="bg-gradient-to-r bg-slate-900 px-6 py-4">
                     <h2 class="text-2xl font-bold text-white">
                         Configurateur de tapis sur mesure
                     </h2>
@@ -83,7 +81,9 @@
 
                     <!-- Gamme Select -->
                     <div class="form-group">
-                        <label class="form-label mb-4">Gamme</label>
+                        <label class="form-label mb-4" id="gamme-title"
+                            >Gamme</label
+                        >
                         <div
                             v-if="!store.selectedCarbody.id"
                             class="text-gray-500 italic"
@@ -103,30 +103,83 @@
                                         : 'border-gray-200 hover:border-blue-300 hover:shadow-sm',
                                 ]"
                             >
-                                <div class="aspect-video rounded-md mb-3">
+                                <div class="aspect-video rounded-md">
                                     <!-- Emplacement pour l'image future -->
                                     <div
                                         class="w-full h-full flex items-center justify-center text-gray-400"
                                     >
                                         <img
+                                            :id="`img-gamme-${gamme.id}`"
                                             :src="`/modules/carmatselector/assets/img/gamme/tapis-auto-gamme-${gamme.id}.jpg`"
                                             :alt="`Tapis auto gamme ${gamme.name}`"
                                         />
                                     </div>
                                 </div>
-                                <h3 class="font-medium text-center">
-                                    <!-- Rating is gamme.rating * ⭐-->
-                                    {{ gamme.name }}
-                                    {{ "⭐".repeat(gamme.rating) }}
-                                </h3>
-                                <p class="text-neutral-950 text-center mt-2">
+                                <div class="flex gap-2 justify-center mb-2">
+                                    <div
+                                        v-for="color in store.availableGammeColors.filter(
+                                            (color) =>
+                                                color.id_gamme == gamme.id
+                                        )"
+                                        :key="color.id"
+                                        :style="{
+                                            backgroundColor: color.hex_color,
+                                        }"
+                                        :title="color.name"
+                                        @click.stop="
+                                            changeGammeColorImage(
+                                                gamme.id,
+                                                color.id
+                                            )
+                                        "
+                                        class="w-6 h-6 rounded-full inline-block hover:border-black border-2 border-solid"
+                                    ></div>
+                                </div>
+                                <div class="flex flex-row justify-center">
+                                    <h3
+                                        class="font-medium text-center text-lg pr-1"
+                                    >
+                                        <!-- Rating is gamme.rating * ⭐-->
+                                        {{ gamme.name }}
+                                        <!-- {{ "⭐".repeat(gamme.rating) }} -->
+                                    </h3>
+                                    <img
+                                        v-for="i in gamme.rating"
+                                        src="{{ asset('../../../../../../assets/img/icons/star.png')}}"
+                                        alt="⭐"
+                                        :key="i"
+                                        class="w-6 h-6"
+                                    />
+                                </div>
+                                <div class="flex flex-col text-left mt-1">
+                                    <ul class="list-disc ml-4">
+                                        <li class="text-slate-700 mb-1">
+                                            {{ gamme.carpeting }}
+                                        </li>
+                                        <li class="text-slate-700 mb-1">
+                                            {{ gamme.outline }}
+                                        </li>
+                                        <li class="text-slate-700 mb-1">
+                                            {{ gamme.material }}
+                                        </li>
+                                        <li class="text-slate-700 mb-1">
+                                            {{ gamme.undercoat }}
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p
+                                    class="text-neutral-950 text-center mt-2 text-base font-bold"
+                                >
                                     {{ gamme.description }}
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="configuration" class="form-label mb-4"
+                        <label
+                            for="configuration"
+                            class="form-label mb-4"
+                            id="configuration-title"
                             >Configuration</label
                         >
                         <div
@@ -178,7 +231,10 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="color" class="form-label mb-4"
+                        <label
+                            for="color"
+                            class="form-label mb-4"
+                            id="color-title"
                             >Couleur</label
                         >
                         <div
@@ -239,6 +295,7 @@
                     </div>
                     <div
                         v-if="store.productToAdd['id']"
+                        id="product-price"
                         class="pt-4 flex flex-col justify-center"
                     >
                         <p class="mb-4 text-neutral-950 text-center">
@@ -270,6 +327,7 @@
                             store.productToAdd['id'] == null &&
                             store.selectedColor.id != null
                         "
+                        id="product-price"
                         class="pt-4 flex flex-col justify-center"
                     >
                         <p class="mb-4 text-red-600 text-center text-lg">
@@ -457,9 +515,11 @@ const handleBrandChange = async () => {
         );
         store.selectedBrand.name = selectedBrandData?.name;
 
+        console.log("Fetching models for brand:", store.selectedBrand);
         isLoading.value = true;
         try {
-            await store.fetchModels(store.selectedBrand.id);
+            const models = await store.fetchModels(store.selectedBrand.id);
+            console.log("Fetched models:", models);
         } catch (error) {
             console.error("Error in handleBrandChange:", error);
         } finally {
@@ -478,9 +538,11 @@ const handleModelChange = async () => {
         );
         store.selectedModel.name = selectedModelData?.name;
 
+        console.log("Fetching versions for model:", store.selectedModel);
         isLoading.value = true;
         try {
-            await store.fetchVersions(store.selectedModel.id);
+            const versions = await store.fetchVersions(store.selectedModel.id);
+            console.log("Fetched versions:", versions);
         } catch (error) {
             console.error("Error in handleModelChange:", error);
         } finally {
@@ -513,6 +575,7 @@ const handleVersionChange = async () => {
             console.error("Error in handleVersionChange:", error);
         } finally {
             isLoading.value = false;
+            scrollToNextStep("gamme-title");
         }
     } else {
         store.resetSelections();
@@ -520,6 +583,8 @@ const handleVersionChange = async () => {
 };
 
 const handleGammeChange = async (gammeId) => {
+    console.log("Gamme ID:", gammeId);
+
     store.selectedConfiguration = { id: null, name: null };
     store.selectedColor = { id: null, name: null };
 
@@ -530,10 +595,10 @@ const handleGammeChange = async (gammeId) => {
         id: gammeId,
         name: selectedGammeData?.name,
     };
-
     store.productToAdd = [];
 
     if (store.selectedGamme.id) {
+        console.log("Fetching configurations for gamme:", store.selectedGamme);
         isLoading.value = true;
         try {
             await store.fetchConfigurationsByGamme(store.selectedGamme.id);
@@ -541,6 +606,7 @@ const handleGammeChange = async (gammeId) => {
             console.error("Error in handleGammeChange:", error);
         } finally {
             isLoading.value = false;
+            scrollToNextStep("configuration-title");
         }
     }
 };
@@ -558,16 +624,15 @@ const handleConfigurationChange = async (configurationId) => {
     store.productToAdd = [];
 
     if (store.selectedConfiguration.id) {
+        console.log("Fetching colors for gamme:", store.selectedGamme);
         isLoading.value = true;
         try {
-            const colors = await store.fetchColorsByGamme(
-                store.selectedGamme.id
-            );
-            console.log("Fetched colors:", colors);
+            await store.fetchColorsByGamme(store.selectedGamme.id);
         } catch (error) {
             console.error("Error in handleGammeChange:", error);
         } finally {
             isLoading.value = false;
+            scrollToNextStep("color-title");
         }
     }
 };
@@ -584,6 +649,7 @@ const handleColorChange = async (color) => {
         console.error("Error in handleGammeChange:", error);
     } finally {
         isLoading.value = false;
+        scrollToNextStep("product-price");
     }
 };
 
@@ -613,6 +679,12 @@ const hasAnySelection = computed(() => {
     );
 });
 
+const changeGammeColorImage = (gammeId, colorId) => {
+    document.getElementById(
+        `img-gamme-${gammeId}`
+    ).src = `/modules/carmatselector/assets/img/color/color-${colorId}.jpg`;
+};
+
 const convertToPascalCase = (str) => {
     return str.replace(/(?:^\w|\b\w)/g, (letter) => {
         return letter.toUpperCase();
@@ -625,6 +697,13 @@ const calculatePrice = (productPrice, productRate) => {
         Number(productPrice) * (Number(productRate) / 100);
     return calculatedPrice.toFixed(2) + "€";
 };
+
+const scrollToNextStep = (id) => {
+    window.scrollTo({
+        top: document.getElementById(id).offsetTop,
+        behavior: "smooth",
+    });
+};
 </script>
 
 <style scoped>
@@ -633,6 +712,10 @@ const calculatePrice = (productPrice, productRate) => {
     border: 1px solid #ccc;
     padding: 0.5em;
     background-color: #fff;
+}
+
+.form-label {
+    font-size: large;
 }
 
 .form-select:disabled {
