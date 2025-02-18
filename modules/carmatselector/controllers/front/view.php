@@ -100,14 +100,26 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
     private function getGammeByCarbody($carbody)
     {
         if (!$carbody) return [];
-        
-        return Db::getInstance()->executeS('
-            SELECT g.id_carmatselector_gamme as id, g.name, g.rating, g.description
+
+        $gammes = Db::getInstance()->executeS('
+            SELECT g.id_carmatselector_gamme as id, g.name, g.rating, g.description, g.carpeting, g.outline, g.material, g.undercoat
             FROM `' . _DB_PREFIX_ . 'carmatselector_carbody_gamme_assoc` AS cga
             LEFT JOIN `' . _DB_PREFIX_ . 'carmatselector_gamme` AS g ON cga.id_carmatselector_gamme = g.id_carmatselector_gamme
             WHERE cga.id_carmatselector_carbody = ' . (int)$carbody . ' 
                 AND g.active = 1
         ');
+
+        $gammeColors = Db::getInstance()->executeS('
+            SELECT cc.id_carmatselector_color as id, cc.name, cc.hex_color, cga.id_carmatselector_gamme as id_gamme
+            FROM `' . _DB_PREFIX_ . 'carmatselector_color` AS cc
+            LEFT JOIN `' . _DB_PREFIX_ . 'carmatselector_color_gamme_assoc` AS cga ON cc.id_carmatselector_color = cga.id_carmatselector_color
+            WHERE cc.active = 1
+        ');
+
+        return [
+            'gammes' => $gammes,
+            'gammeColors' => $gammeColors,
+        ];
     }
 
     private function getConfigurationByCarbody($productArray, $carbody, $customerGroup)
