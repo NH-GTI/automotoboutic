@@ -1,4 +1,5 @@
-#header, #header .header-top {
+#header,
+#header .header-top {
   background-color: white;
 }
 
@@ -6,17 +7,21 @@
   margin-bottom: .625rem;
   overflow: auto;
 }
+
 #search_widget form {
   position: relative;
 }
+
 #search_widget form i {
   position: absolute;
   padding: .5rem;
 }
+
 #search_widget form i.clear {
   right: 15px;
   display: none;
 }
+
 #search_widget form input {
   width: 100%;
   padding: 10px 20px 10px 40px;
@@ -32,7 +37,8 @@
   border: none;
 }
 
-.ui-autocomplete.searchbar-autocomplete li a, .ui-autocomplete.searchbar-autocomplete li a.ui-state-focus {
+.ui-autocomplete.searchbar-autocomplete li a,
+.ui-autocomplete.searchbar-autocomplete li a.ui-state-focus {
   padding: 8px 15px;
   overflow: auto;
   border: none;
@@ -68,6 +74,6 @@
 
 @media only screen and (min-width: 992px) {
   #search_widget {
-    min-width: 16.5rem;
+    width: 16rem;
   }
 }
