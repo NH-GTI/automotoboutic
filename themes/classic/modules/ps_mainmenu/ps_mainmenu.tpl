@@ -12,12 +12,12 @@
             {if $node.open_in_new_window} target="_blank" {/if}>
             {if $node.children|count}
               {* Cannot use page identifier as we can have the same page several times *}
-              <span class="float-xs-right hidden-md-up">
+              {* <span class="float-xs-right hidden-md-up">
                 <span data-target="#top_sub_menu_{$_expand_id}" data-toggle="collapse" class="navbar-toggler collapse-icons">
                   <i class="material-icons add">&#xE313;</i>
                   <i class="material-icons remove">&#xE316;</i>
                 </span>
-              </span>
+              </span> *}
             {/if}
             {$node.label}
             {if $node.children|count && $depth == 0}
