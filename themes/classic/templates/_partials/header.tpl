@@ -37,7 +37,7 @@
             {hook h='displayNav1'}
           </div>
           <div class="col-md-7 right-nav">
-              {hook h='displayNav2'}
+            {hook h='displayNav2'}
           </div>
         </div>
         <div class="hidden-md-up text-sm-center mobile">
@@ -56,9 +56,9 @@
 
 {block name='header_top'}
   <div class="header-top">
-    <div class="container">
-       <div class="row">
-        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+    <div class="header-top-container">
+      <div class="row">
+        <div class="hidden-sm-down" id="_desktop_logo">
           {if $shop.logo_details}
             {if $page.page_name == 'index'}
               <h1>
@@ -69,7 +69,7 @@
             {/if}
           {/if}
         </div>
-        <div class="header-top-right col-md-10 col-sm-12 position-static">
+        <div class="header-top-right col-sm-12 position-static">
           {hook h='displayTop'}
         </div>
       </div>
