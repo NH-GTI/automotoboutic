@@ -31,7 +31,7 @@ $(document).ready(function () {
                 "#_desktop_top_menu>.top-menu>.category>.sub-menu"
             )
             .forEach((panel) => {
-                panel.classList.remove("collapse");
+                panel.classList.add("collapse");
                 panel.classList.remove("sub-menu-active");
             });
     }
@@ -48,7 +48,7 @@ $(document).ready(function () {
         document
             .querySelectorAll("#_mobile_top_menu>.top-menu>.category>.sub-menu")
             .forEach((panel) => {
-                panel.classList.remove("collapse");
+                panel.classList.add("collapse");
                 panel.classList.remove("sub-menu-active");
             });
     }
