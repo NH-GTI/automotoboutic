@@ -3,7 +3,7 @@
     <div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-5xl mx-auto">
             <div class="bg-white rounded-lg shadow-xl overflow-hidden">
-                <div class="bg-gradient-to-r bg-slate-900 px-6 py-4">
+                <div class="tsm-header px-6 py-4">
                     <h2 class="text-2xl font-bold text-white">
                         Configurateur de tapis sur mesure
                     </h2>
@@ -353,7 +353,7 @@
                                 <button @click="cartModal = false">X</button>
                             </div>
                             <h3
-                                class="text-xl font-bold text-cyan-500 text-center"
+                                class="text-xl font-bold text-orange-400 text-center"
                             >
                                 Vos tapis sur mesure ont été ajoutés au panier !
                             </h3>
@@ -365,17 +365,18 @@
                                     }}</span>
                                 </p>
                                 <p>
-                                    <span class="text-cyan-500"
+                                    <span class="text-orange-400"
                                         >Configuration : </span
                                     >{{ store.selectedConfiguration.name }}
                                 </p>
                                 <p>
-                                    <span class="text-cyan-500"
+                                    <span class="text-orange-400"
                                         >Finition : </span
                                     >Gamme {{ store.selectedGamme.name }}
                                 </p>
                                 <p>
-                                    <span class="text-cyan-500">Couleur : </span
+                                    <span class="text-orange-400"
+                                        >Couleur : </span
                                     >{{
                                         convertToPascalCase(
                                             store.selectedColor.name
@@ -386,13 +387,13 @@
                             <div class="flex justify-around mt-8">
                                 <a
                                     href=""
-                                    class="bg-cyan-500 rounded-md transition duration-300 text-white font-bold p-4 hover:bg-cyan-300"
+                                    class="bg-orange-400 rounded-md transition duration-300 text-white font-bold p-4 hover:bg-orange-300"
                                 >
                                     Continuer vos achats
                                 </a>
                                 <a
                                     href="/panier?action=show"
-                                    class="bg-cyan-500 rounded-md transition duration-300 text-white font-bold p-4 hover:bg-cyan-300"
+                                    class="bg-orange-400 rounded-md transition duration-300 text-white font-bold p-4 hover:bg-orange-300"
                                 >
                                     Aller au panier
                                 </a>
