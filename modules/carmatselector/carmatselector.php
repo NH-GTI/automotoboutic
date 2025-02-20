@@ -114,7 +114,7 @@ class Carmatselector extends Module
             `name` VARCHAR(50) NOT NULL,
             `hex_color` VARCHAR(10) NOT NULL,
             `image` VARCHAR(250) NOT NULL,
-            `alias` INT NOT NULL,
+            `alias` VARCHAR(50) NOT NULL,
             `active` TINYINT( 1 ) NOT NULL,
             INDEX (`id_carmatselector_color`)
         ) ENGINE = ' . _MYSQL_ENGINE_ . ' DEFAULT CHARSET=utf8mb4;') &&
@@ -142,6 +142,10 @@ class Carmatselector extends Module
             `image` VARCHAR(150) NOT NULL,
             `alias` VARCHAR(150) NOT NULL,
             `active` TINYINT( 1 ) NOT NULL,
+            `carpeting` VARCHAR(50) NOT NULL,
+            `outline` VARCHAR(50) NOT NULL,
+            `material` VARCHAR(50) NOT NULL,
+            `undercoat` VARCHAR(50) NOT NULL,
             INDEX (`id_carmatselector_gamme`)
         ) ENGINE = ' . _MYSQL_ENGINE_ . ' DEFAULT CHARSET=utf8mb4;') &&
             Db::getInstance()->execute('
@@ -155,9 +159,6 @@ class Carmatselector extends Module
             Db::getInstance()->execute('
             CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'carmatselector_product` (
             `id_carmatselector_product` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-            `id_carmatselector_brand` INT NOT NULL,
-            `id_carmatselector_model` INT NOT NULL,
-            `id_carmatselector_version` INT NOT NULL,
             `id_carmatselector_gamme` INT NOT NULL,
             `id_carmatselector_carbody` INT NOT NULL,
             `id_carmatselector_configuration` INT NOT NULL,

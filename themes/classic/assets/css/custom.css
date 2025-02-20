@@ -24,23 +24,11 @@
 	box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, .11)
 }
 
-.header-top-container {
-	margin: 0 6em;
-}
-
-.header-top-container>.row {
-	display: flex;
-}
+/* Menu */
 
 .header-top-container>.js-top-menu {
 	display: flex;
 	justify-content: space-around;
-}
-
-.header-top-container>.row>.header-top-right {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 4em 0 2em;
 }
 
 .header-top-container>.row>#_desktop_logo {
@@ -83,4 +71,109 @@
 .rotate-180 {
 	transform: rotate(180deg);
 	transition: all 0.3s ease-in-out;
+}
+
+/* Catalog */
+#category .block-categories {
+	display: none;
+}
+
+#category .products>.product {
+	width: 20%;
+	margin: 0 1em 5em 1em;
+}
+
+.block-category h1 {
+	text-decoration: underline;
+	text-decoration-color: #fd7836;
+}
+
+.product-miniature {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+	border-radius: 1em;
+}
+
+.product-miniature:hover {
+	box-shadow: rgba(253, 120, 54, 0.4) 0px 2px 8px 0px;
+}
+
+/* Product page */
+
+.current-price,
+.tax-shipping-delivery-label {
+	font-size: 1.2em;
+}
+
+#product .products {
+	margin: 2em 0 0 0;
+}
+
+#product .products>.product {
+	margin: 0 1em 5em 1em;
+}
+
+/* Tapis sur mesure */
+.tsm-header {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 38%, rgba(253, 120, 54, 1) 91%);
+}
+
+@media (max-width:767px) {
+	#_mobile_top_menu>.top-menu {
+		text-align: center;
+	}
+
+	.header-top-container div:has(a) {
+		text-align: center;
+	}
+
+	.header-top-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	div:has(.search-widgets) {
+		display: flex;
+		justify-content: center;
+	}
+
+	#_mobile_top_menu svg {
+		margin: 0.5em 0 0 0.2em;
+	}
+
+	#header .header-nav .blockcart .header {
+		margin: 0;
+	}
+
+	#header .header-nav .user-info {
+		margin-top: 0.7rem;
+	}
+
+	#menu-icon .material-icons {
+		font-size: 2.5em;
+		margin-top: 0.2em;
+		margin-left: 0.2em;
+	}
+}
+
+@media (min-width:767px) {
+	.header-top-container {
+		margin: 0 6em;
+	}
+
+	.header-top-container>.row {
+		display: flex;
+	}
+
+	.header-top-container>.row>.header-top-right {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 4em 0 2em;
+	}
+}
+
+/* Homepage */
+
+#block_home_surmesure .block_listing_product li:first-child {
+	margin-bottom: 2em;
 }

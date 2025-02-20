@@ -54,7 +54,8 @@
                 {block name='product_cover'}
                   <div class="product-cover">
                     {if $product.cover}
-                      <img class="js-qv-product-cover" src="{$product.cover.bySize.medium_default.url}" alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;" itemprop="image">
+                      <img class="js-qv-product-cover" src="{$product.cover.bySize.medium_default.url}"
+                        alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;" itemprop="image">
                     {else}
                       <img src="{$urls.no_picture_image.bySize.large_default.url nofilter}" style="width:100%;">
                     {/if}
@@ -62,7 +63,7 @@
                 {/block}
               {/if}
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-10">
               <p class="h3">{$product.name}</p>
               {block name='product_description_short'}
                 <div itemprop="description">{$product.description_short nofilter}</div>
@@ -75,9 +76,7 @@
                     <li>
                       <div class="criterion-rating">
                         <label>{$criterion.name|escape:'html':'UTF-8'}:</label>
-                        <div
-                          class="grade-stars"
-                          data-grade="3"
+                        <div class="grade-stars" data-grade="3"
                           data-input="criterion[{$criterion.id_product_comment_criterion}]">
                         </div>
                       </div>
@@ -91,20 +90,24 @@
           {if !$logged}
             <div class="row">
               <div class="col-sm-8">
-                <label class="form-label" for="comment_title">{l s='Title' d='Modules.Productcomments.Shop'}<sup class="required">*</sup></label>
-                <input id="comment_title" name="comment_title" type="text" value=""/>
+                <label class="form-label" for="comment_title">{l s='Title' d='Modules.Productcomments.Shop'}<sup
+                    class="required">*</sup></label>
+                <input id="comment_title" name="comment_title" type="text" value="" />
               </div>
               <div class="col-sm-4">
-                <label class="form-label" for="customer_name">{l s='Your name' d='Modules.Productcomments.Shop'}<sup class="required">*</sup></label>
-                <input id="customer_name" name="customer_name" type="text" value=""/>
+                <label class="form-label" for="customer_name">{l s='Your name' d='Modules.Productcomments.Shop'}<sup
+                    class="required">*</sup></label>
+                <input id="customer_name" name="customer_name" type="text" value="" />
               </div>
             </div>
           {else}
-            <label class="form-label" for="comment_title">{l s='Title' d='Modules.Productcomments.Shop'}<sup class="required">*</sup></label>
-            <input id="comment_title" name="comment_title" type="text" value=""/>
+            <label class="form-label" for="comment_title">{l s='Title' d='Modules.Productcomments.Shop'}<sup
+                class="required">*</sup></label>
+            <input id="comment_title" name="comment_title" type="text" value="" />
           {/if}
 
-          <label class="form-label" for="comment_content">{l s='Review' d='Modules.Productcomments.Shop'}<sup class="required">*</sup></label>
+          <label class="form-label" for="comment_content">{l s='Review' d='Modules.Productcomments.Shop'}<sup
+              class="required">*</sup></label>
           <textarea id="comment_content" name="comment_content"></textarea>
 
           {hook h='displayGDPRConsent' mod='psgdpr' id_module=$id_module}
@@ -137,12 +140,12 @@
 {include file='module:productcomments/views/templates/hook/alert-modal.tpl'
   modal_id='product-comment-posted-modal'
   modal_title={l s='Review sent' d='Modules.Productcomments.Shop'}
-  modal_message=$comment_posted_message
+modal_message=$comment_posted_message
 }
 
 {* Comment post error modal *}
 {include file='module:productcomments/views/templates/hook/alert-modal.tpl'
   modal_id='product-comment-post-error'
   modal_title={l s='Your review cannot be sent' d='Modules.Productcomments.Shop'}
-  icon='error'
+icon='error'
 }
