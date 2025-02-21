@@ -11,7 +11,12 @@
                         Sélectionnez les caractéristiques de votre véhicule
                     </p>
                 </div>
-
+                <div class="mt-4 ml-2">
+                    <p class="text-sm text-orange-600 text-lg">
+                        <i class="fa fa-info-circle"></i>
+                        Un délai de fabrication de 8 à 10 jours est à prévoir.
+                    </p>
+                </div>
                 <form @submit.prevent="handleSubmit" class="p-6">
                     <!-- Brand Select -->
                     <div class="form-group">
@@ -94,7 +99,7 @@
                             Sélectionnez d'abord une version pour voir les
                             gammes disponibles
                         </div>
-                        <div v-else class="grid grid-cols-2 gap-4">
+                        <div v-else class="flex flex-wrap gap-4">
                             <div
                                 v-for="gamme in store.availableGammes"
                                 :key="gamme.id"
@@ -405,19 +410,21 @@
         </div>
         <div
             v-if="!store.cartSummaryVisible"
-            class="fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
+            class="recap-container fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
         >
-            <button @click="toggleCartSummary">Montrer le récapitulatif</button>
+            <button @click="toggleCartSummary" class="hover:text-orange-600">
+                Montrer le récapitulatif
+            </button>
         </div>
         <div
             v-else
-            class="fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
+            class="recap-container fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
         >
             <div></div>
             <div>
                 <h3 class="font-bold text-lg border-b pb-2">Récapitulatif</h3>
             </div>
-            <button @click="toggleCartSummary" class="text-blue-500">
+            <button @click="toggleCartSummary" class="text-orange-600">
                 Cacher le récapitulatif
             </button>
 
