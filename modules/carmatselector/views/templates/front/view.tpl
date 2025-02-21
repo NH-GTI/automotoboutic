@@ -3,6 +3,7 @@
 {block name='page_content'}
     <!-- Add Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{$urls.base_url}modules/carmatselector/assets/css/style.css"></script>
 
     <!-- Pass PHP data to JavaScript -->
     <script>

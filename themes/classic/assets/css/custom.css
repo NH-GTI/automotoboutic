@@ -112,6 +112,24 @@
 	margin: 0 1em 5em 1em;
 }
 
+/* Panier */
+
+.cart-items {
+	font-family: "Poppins-Regular", sans-serif;
+}
+
+.cart-detailed-totals span.value {
+	font-family: "Poppins-SemiBold", sans-serif;
+}
+
+.cart-total span.label {
+	font-family: "Poppins-SemiBold", sans-serif;
+}
+
+.cart-total span.value {
+	font-family: "Poppins-Bold", sans-serif;
+}
+
 /* Tapis sur mesure */
 .tsm-header {
 	background: rgb(2, 0, 36);

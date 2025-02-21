@@ -198,12 +198,13 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
 
     private function addToCart($productArray, $customerGroup)
     {
+        $this->debug('Start', ['productArray' => $productArray]);
+        
         if (!$productArray) return [];
-
         $explodeProduct = explode('||', $productArray);
-
-        $product = Db::getInstance()->executeS('
-            SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price , t.rate
+        
+        // Get product info
+        $sql = 'SELECT p.id_product, cp.id_product_to_add, pl.name, sp.price, t.rate
             FROM `' . _DB_PREFIX_ . 'carmatselector_product` AS cp
             LEFT JOIN `' . _DB_PREFIX_ . 'product` AS p ON p.reference = cp.id_product_to_add
             LEFT JOIN `' . _DB_PREFIX_ . 'product_lang` AS pl ON pl.id_product = p.id_product
@@ -215,64 +216,136 @@ class CarmatselectorViewModuleFrontController extends ModuleFrontController
             AND cp.id_carmatselector_configuration = ' . (int)$explodeProduct[9] . '
             AND cp.id_carmatselector_color = ' . (int)$explodeProduct[11] . '
             AND sp.id_group = ' . (int)$customerGroup . '
-            AND tr.id_country = 8');
-
-        if($product != null){
-
-            $customization_value = $explodeProduct[1]; // marque
-            $customization_value .= ' / ' . $explodeProduct[3]; // version
-            $customization_value .= ' / Gamme ' . $explodeProduct[6]; // gamme
-            $customization_value .= ' / ' . $explodeProduct[10]; // configuration
-            $customization_value .= ' / ' . $explodeProduct[12]; // color
-            // $customization_value .= ' / ' . $date_fr;
-            $customization_value .= ' / ~~' . $explodeProduct[4] . '~~'; // gabarit
-
-            if (empty($this->context->cart->id)) {
-                $this->context->cart = new Cart((int)($this->context->cookie->id_cart));
-                $this->context->cart->id_lang = (int)($this->context->language->id);
-                $this->context->cart->id_currency = (int)($this->context->cookie->id_currency);
-                $this->context->cart->add();
-                $this->context->cookie->__set('id_cart', $this->context->cart->id);
-            }
-
-            Db::getInstance()->execute('
-                INSERT INTO  `'._DB_PREFIX_.'customization` (`id_product_attribute`, `id_cart`, `id_product`, `quantity`, `quantity_refunded`, `quantity_returned`, `in_cart`)
-                VALUES ("0","' . (int)$this->context->cart->id . '","' . (int)$product[0]['id_product'] . '", "0", "0", "0", "1")
-            ');
-            $id_customization = Db::getInstance()->Insert_ID();
-
-            $customization_field = (int)Db::getInstance()->getValue('
-                SELECT `id_customization_field`
-                FROM `'._DB_PREFIX_.'customization_field`
-                WHERE `id_product` = ' . (int)$product[0]['id_product'] . ' AND `type` = 1
-            ');
-            // The customization field do not exists
-            if (empty($customization_field)) {
-                Db::getInstance()->execute('
-                    INSERT INTO  `'._DB_PREFIX_.'customization_field` (`id_product`, `type`, `required`, `is_module`)
-                    VALUES ("' . (int)$product[0]['id_product'] . '","1","0","0")
-                ');
-                $customization_field = (int)Db::getInstance()->Insert_ID();
-                foreach (Language::getLanguages(false) AS $language) {
-                    Db::getInstance()->execute('
-                        INSERT INTO  `'._DB_PREFIX_.'customization_field_lang` (`id_customization_field`, `id_lang`, `id_shop`, `name`)
-                        VALUES ("' . $customization_field . '","' . (int)$language['id_lang'] . '","' . (int)$this->context->shop->id . '","Détails")
-                    ');
-                }
-            }
-
-            Db::getInstance()->execute('
-                INSERT INTO  `'._DB_PREFIX_.'customized_data` (`id_customization`, `type`, `index`, `value`, `id_module`)
-                VALUES ("' . $id_customization . '","1","' . $customization_field . '", "' . $customization_value . '","0")
-            ');
-
-            // Add to cart
-            $this->context->cart->updateQty(1, (int)$product[0]['id_product'], 0, (int)$id_customization);
-            return $product;
-        }
-        else{
+            AND tr.id_country = 8';
+        
+        $this->debug('Product SQL', ['sql' => $sql]);
+        $product = Db::getInstance()->getRow($sql);
+        $this->debug('Product Result', ['product' => $product]);
+        
+        if(!$product){
+            $this->debug('Product Not Found', []);
             return false;
         }
+    
+        // Ensure cart exists
+        if (empty($this->context->cart->id)) {
+            $this->debug('Creating New Cart', []);
+            $this->context->cart = new Cart();
+            $this->context->cart->id_lang = (int)$this->context->language->id;
+            $this->context->cart->id_currency = (int)$this->context->cookie->id_currency;
+            $this->context->cart->id_customer = (int)$this->context->customer->id;
+            $cartAddResult = $this->context->cart->add();
+            $this->debug('Cart Creation Result', ['result' => $cartAddResult, 'cart_id' => $this->context->cart->id]);
+            $this->context->cookie->__set('id_cart', $this->context->cart->id);
+        } else {
+            $this->debug('Using Existing Cart', ['cart_id' => $this->context->cart->id]);
+        }
+        
+        // Create customization data
+        $customization_value = $explodeProduct[1]; // marque
+        $customization_value .= ' / ' . $explodeProduct[3]; // version
+        $customization_value .= ' / Gamme ' . $explodeProduct[6]; // gamme
+        $customization_value .= ' / ' . $explodeProduct[10]; // configuration
+        $customization_value .= ' / ' . $explodeProduct[12]; // color
+        $customization_value .= ' / ~~' . $explodeProduct[4] . '~~'; // gabarit
+        
+        // Insert customization
+        $customizationSql = 'INSERT INTO `'._DB_PREFIX_.'customization` 
+            (`id_product_attribute`, `id_cart`, `id_product`, `quantity`, `in_cart`) 
+            VALUES (0, '.(int)$this->context->cart->id.', '.(int)$product['id_product'].', 1, 1)';
+        
+        $this->debug('Customization SQL', ['sql' => $customizationSql]);
+        $customizationResult = Db::getInstance()->execute($customizationSql);
+        $this->debug('Customization Insert', ['result' => $customizationResult]);
+        
+        if (!$customizationResult) {
+            $this->debug('Customization Insert Failed', []);
+            return false;
+        }
+        
+        $id_customization = Db::getInstance()->Insert_ID();
+        $this->debug('Customization ID', ['id' => $id_customization]);
+        
+        // Get/create customization field
+        $customization_field = (int)Db::getInstance()->getValue('
+            SELECT `id_customization_field`
+            FROM `'._DB_PREFIX_.'customization_field`
+            WHERE `id_product` = ' . (int)$product['id_product'] . ' AND `type` = 1
+        ');
+        
+        $this->debug('Existing Customization Field', ['id' => $customization_field]);
+        
+        if (empty($customization_field)) {
+            $cfSql = 'INSERT INTO `'._DB_PREFIX_.'customization_field` 
+                (`id_product`, `type`, `required`, `is_module`) 
+                VALUES ('.(int)$product['id_product'].', 1, 0, 1)';
+            
+            $this->debug('Create Customization Field SQL', ['sql' => $cfSql]);
+            $cfResult = Db::getInstance()->execute($cfSql);
+            $this->debug('Create Customization Field Result', ['result' => $cfResult]);
+            
+            $customization_field = (int)Db::getInstance()->Insert_ID();
+            $this->debug('New Customization Field ID', ['id' => $customization_field]);
+            
+            // Add field name for each language
+            foreach (Language::getLanguages(false) as $language) {
+                $langSql = 'INSERT INTO `'._DB_PREFIX_.'customization_field_lang` 
+                    (`id_customization_field`, `id_lang`, `id_shop`, `name`) 
+                    VALUES ('.$customization_field.', '.(int)$language['id_lang'].', '
+                    .(int)$this->context->shop->id.', "Détails")';
+                
+                $langResult = Db::getInstance()->execute($langSql);
+                $this->debug('Field Lang Insert', [
+                    'lang' => $language['id_lang'], 
+                    'result' => $langResult
+                ]);
+            }
+        }
+        
+        // Add customization data
+        $customDataSql = 'INSERT INTO `'._DB_PREFIX_.'customized_data` 
+            (`id_customization`, `type`, `index`, `value`) 
+            VALUES ('.$id_customization.', 1, '.$customization_field.', "'
+            .pSQL($customization_value).'")';
+        
+        $this->debug('Custom Data SQL', ['sql' => $customDataSql]);
+        $customDataResult = Db::getInstance()->execute($customDataSql);
+        $this->debug('Custom Data Insert', ['result' => $customDataResult]);
+        
+        if (!$customDataResult) {
+            $this->debug('Custom Data Insert Failed', []);
+            return false;
+        }
+        
+        // Add to cart
+        $this->debug('Adding To Cart', [
+            'id_product' => (int)$product['id_product'],
+            'id_customization' => $id_customization
+        ]);
+        
+        $updateResult = $this->context->cart->updateQty(
+            1, 
+            (int)$product['id_product'], 
+            0, 
+            (int)$id_customization,
+            'up'
+        );
+        
+        $this->debug('UpdateQty Result', ['result' => $updateResult]);
+        
+        // Force cart update
+        $cartUpdateResult = $this->context->cart->update();
+        $this->debug('Cart Update Result', ['result' => $cartUpdateResult]);
+        
+        return $product;
+    }
+    
+    private function debug($step, $data) {
+        file_put_contents(
+            _PS_ROOT_DIR_.'/debug_cart.log', 
+            date('Y-m-d H:i:s') . " | $step | " . json_encode($data) . "\n", 
+            FILE_APPEND
+        );
     }
 
     /**
