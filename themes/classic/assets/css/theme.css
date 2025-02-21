@@ -60,6 +60,12 @@
 }
 
 @font-face {
+    font-family: "Poppins-Bold";
+    src: url(../css/fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Manrope";
     src: url(../css/895e092292d88717adaa.woff2) format("woff2"), url(../css/83131b9daba3e9a7b2c7.woff) format("woff"), url(../css/057cc3c927dc0b2e8dbb.otf) format("truetype");
     font-style: normal;
@@ -8404,10 +8410,16 @@ body#checkout #hook-display-after-carrier>[class^=col].links .row>[class^=col] {
     margin: 0 auto
 }
 
-.product-price {
+.product-line-grid-body .product-price {
     display: inline-block;
     max-width: 100%;
-    color: #fd7836
+    color: #fd7836;
+    margin: 1em 0 0 0;
+}
+
+.product-line-grid-right .product-price {
+    font-size: 1.3em;
+
 }
 
 #blockcart-modal,
@@ -9305,12 +9317,12 @@ body#checkout #hook-display-after-carrier>[class^=col].links .row>[class^=col] {
 #product #block-reassurance span,
 .card-block.cart-summary-totals .cart-summary-line.cart-total .label,
 .card-block.cart-summary-totals .cart-summary-line.cart-total .value {
-    font-weight: 700
+    /* font-weight: 700 */
 }
 
 .card-block.cart-summary-totals .cart-summary-line.cart-total .label,
 .card-block.cart-summary-totals .cart-summary-line.cart-total .value {
-    font-size: 1rem
+    font-size: 1.2rem
 }
 
 .card-block.cart-summary-totals .cart-summary-line span.sub {
@@ -9343,7 +9355,6 @@ body#checkout #hook-display-after-carrier>[class^=col].links .row>[class^=col] {
 
 .cart-summary-line .value {
     float: right;
-    font-weight: 600;
     color: #232323
 }
 
@@ -9506,7 +9517,6 @@ body#checkout #hook-display-after-carrier>[class^=col].links .row>[class^=col] {
 
 .product-line-grid-body>.product-line-info>.label {
     padding: 0;
-    font-weight: 600;
     line-height: inherit;
     text-align: left;
     white-space: inherit
@@ -9886,7 +9896,7 @@ body#checkout #hook-display-after-carrier>[class^=col].links .row>[class^=col] {
 }
 
 .links .collapse {
-    display: inherit
+    display: inherit !important
 }
 
 .contact-rich {
@@ -12047,7 +12057,7 @@ body#checkout #hook-display-after-carrier>[class^=col].links .row>[class^=col] {
     }
 
     .cart-items {
-        padding: 1rem 0
+        padding: 1rem 0;
     }
 
     .cart-item {
