@@ -1,0 +1,4 @@
+{message}
+Vous avez reçu un nouveau message automatique
+
+{import_message}

@@ -99,7 +99,7 @@
                             Sélectionnez d'abord une version pour voir les
                             gammes disponibles
                         </div>
-                        <div v-else class="flex flex-wrap gap-4">
+                        <div v-else class="grid grid-cols-2 gap-4">
                             <div
                                 v-for="gamme in store.availableGammes"
                                 :key="gamme.id"
@@ -410,7 +410,7 @@
         </div>
         <div
             v-if="!store.cartSummaryVisible"
-            class="recap-container fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
+            class="fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
         >
             <button @click="toggleCartSummary" class="hover:text-orange-600">
                 Montrer le récapitulatif
@@ -418,7 +418,7 @@
         </div>
         <div
             v-else
-            class="recap-container fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
+            class="fixed top-40 right-8 w-72 bg-white rounded-lg shadow-xl p-6 space-y-4"
         >
             <div></div>
             <div>
