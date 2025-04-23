@@ -47,6 +47,7 @@ class Carmatselector extends Module
             'module_dir' => $this->_path,
             'adminAjaxUrl' => $this->context->link->getAdminLink('AdminCarmatSelector'),
             'adminLinkUrl' => $this->context->link->getAdminLink('AdminModules'),
+            'type' => $type,
             'token' => Tools::getAdminTokenLite(false),
             'success' => (Tools::getValue('success')),
         ]);
@@ -202,8 +203,9 @@ class Carmatselector extends Module
                         FROM `' . _DB_PREFIX_ . 'carmatselector_brand`');
                 break;
             case 2:
-                $data = Db::getInstance()->executeS('SELECT id_carmatselector_model as id, name
-                        FROM `' . _DB_PREFIX_ . 'carmatselector_model`');
+                $data = Db::getInstance()->executeS('SELECT cm.id_carmatselector_model as id, cm.name, cb.name as brand_name
+                        FROM `' . _DB_PREFIX_ . 'carmatselector_model` AS cm
+                        LEFT JOIN `' . _DB_PREFIX_ . 'carmatselector_brand` AS cb ON cb.id_carmatselector_brand = cm.id_carmatselector_brand');
                 break;
             case 3:
                 $data = Db::getInstance()->executeS('SELECT id_carmatselector_version as id, name

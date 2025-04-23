@@ -70,6 +70,7 @@
         die(json_encode([
             'success' => true,
             'data' => $data,
+            'type' => $dataType,
             'pagination' => [
                 'current_page' => $page,
                 'per_page' => $limit,

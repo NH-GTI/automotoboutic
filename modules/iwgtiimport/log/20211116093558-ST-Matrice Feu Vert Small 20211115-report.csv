@@ -1,0 +1,645 @@
+2;A721  0000;72319;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AVC,C;PR;cfgtapis_PR;2AV,2AVC,C;EL;cfgtapis_EL;2AV,2AVC,C;CA;cfgtapis_CA;2AV,2AVC,C
+2;A741  0000;72321;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AVC,C;PR;cfgtapis_PR;2AV,2AVC,C;EL;cfgtapis_EL;2AV,2AVC,C;CA;cfgtapis_CA;2AV,2AVC,C
+2;A751  0000;72323;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AVC,C;PR;cfgtapis_PR;2AV,2AVC,C;EL;cfgtapis_EL;2AV,2AVC,C;CA;cfgtapis_CA;2AV,2AVC,C
+2;City  2012;72325;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;City  0000;72327;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;Crossline  0000;72329;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AVC,C;PR;cfgtapis_PR;2AV,2AVC,C;EL;cfgtapis_EL;2AV,2AVC,C;CA;cfgtapis_CA;2AV,2AVC,C
+2;Roadline  0000;72331;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AVC,C;PR;cfgtapis_PR;2AV,2AVC,C;EL;cfgtapis_EL;2AV,2AVC,C;CA;cfgtapis_CA;2AV,2AVC,C
+2;Scouty  0000;72333;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AVC,C;PR;cfgtapis_PR;2AV,2AVC,C;EL;cfgtapis_EL;2AV,2AVC,C;CA;cfgtapis_CA;2AV,2AVC,C
+2;145 3 portes (berline) 1994;72335;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV1P;CA;cfgtapis_CA;2AV,2AV1P
+2;146 5 portes (berline) 1995;72337;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;147 3 ou 5 portes (berline) 2000;72339;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;155 5 portes (berline) 1992;72341;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;156 (berline) 1997;72343;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;156 Sportwagon (break) 1997;72345;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;159 (berline) 2005;72347;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;159 sportwagon (break) 2005;72349;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;164 (berline) 1987;72351;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV1P;CA;cfgtapis_CA;2AV,2AV1P
+2;166 (berline) 1998;72353;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;33 (berline) 1983;72355;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;4C (coupé) 2013;72357;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;75 (berline) 1985;72359;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV1P;CA;cfgtapis_CA;2AV,2AV1P
+2;Alfa Brera (coupé) entraxes fixation 25 cm 2006;72361;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Alfa Stelvio (SUV) 2017;72363;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Alfetta-2000 (C seul) 0000;72365;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Brera entraxes fixations 40cm (tapis arrière en 2 parties) 2006;72367;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Competizione (coupé) 2006;72369;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;Giulia (berline) 2016;72371;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Giulietta (berline) 2010;72373;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;GT (coupé) 2003;72375;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Mito (berline) 2008;72377;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Spider (coupé/cabriolet) 1980;72379;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;Spider (coupé/cabriolet) 2006;72381;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;GTV (coupé) 1995;72383;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;DB7 (coupé) (tapis arrière en 2 parties) 1993;72385;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;DB9 (coupé) (tapis arrière en 2 parties) 2004;72387;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Rapi (coupé) 2010;72389;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;Vantage (coupé) 2005;72391;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;VIRAGE  0000;72393;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;100 C3 (berline) (tapis arrière en 2 parties) 1982;72395;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;100 C4 (berline) (tapis arrière en 2 parties) 1990;72397;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;200 44Q (berline) (tapis arrière en 2 parties) 1982;72399;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;200 quattro V8 (berline) 1983;72401;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;80 B2 (berline) 1986;72403;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;80 8G (cabriolet) (tapis arrière en 2 parties) 1991;72405;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;80 B3 (berline) 1986;72407;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;80 B3 (break) 1986;72409;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;80 B2 (berline) 1981;72411;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;90 B3 (berline) 1986;72413;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;90 B3 (break) 1986;72415;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A1 8X (berline) (tapis arrière en 2 parties) 2010;72417;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A1 Sportback (berline) (tapis arrière en 2 parties) 2019;72419;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A2 8Z (berline) 2000;72421;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A3 8L (berline) (tapis arrière en 2 parties) 1996;72423;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A3 8P (berline) 2003;72425;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2008;72427;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A3 8V (berline) 3 portes 2013;72429;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A3 8V (berline) 5 portes 2013;72431;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2013;72433;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A3 8P Sportback (berline) 5 portes 2003;72435;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 8H (cabriolet) 2002;72437;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A4 B5 (berline) 1995;72439;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B5 (break) 1995;72441;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B5 (berline) 1999;72443;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B5 (break/allroad) 1999;72445;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B6B7 (berline) 2001;72447;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B6B7 (break/allroad) 2001;72449;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B8 (berline) 2008;72451;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B8 (break/allroad) 2008;72453;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B9 (berline) 2015;72455;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A4 B9 (break/allroad) 2015;72457;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV1P;CA;cfgtapis_CA;2AV,2AV1P
+2;A4 (berline) 2015;72459;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A5 (cabriolet) (tapis arrière en 2 parties) 2009;72461;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A5 (coupé) (tapis arrière en 2 parties) 2007;72463;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A5 II (cabriolet) 2016;72465;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A5 II Sportback (berline) 5 portes (tapis arrière en 2 parties) 2016;72467;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A5 8T Sportback (berline) 5 portes (tapis arrière en 2 parties) 2010;72469;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A6 avant (break) 2018;72471;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A6 C4 (berline) 1994;72473;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV1P;CA;cfgtapis_CA;2AV,2AV1P
+2;A6 C4 (break) 1994;72475;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A6 C5 (berline) (tapis arrière en 2 parties) 1997;72477;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A6 C5 (break/allroad) (tapis arrière en 2 parties) 1997;72479;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A6 C6 (berline) 2004;72481;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A6 C6 (break/allroad) 2004;72483;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A6 (berline) 2011;72485;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A6 (break) 2011;72487;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A6 (berline) 2018;72489;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A7 (berline) (tapis arrière en 2 parties) 2010;72491;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A7 D2 sportback (berline) 2017;72493;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A8  1994;72495;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A8 D3 (berline) 2002;72497;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A8 (berline) 2011;72499;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A8 D4 (berline) 2017;72501;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A3 8V 3ème génération 5 portes (berline) 2013;72503;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;A3 8Y 4ème génération (berline) 2020;72505;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A3 8Y Sportback 4ème génération (berline) 2020;72507;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;E-tron Quattro (4X4) 2019;72509;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;E-tron Sportback (4X4) 2019;72511;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;(coupé B4) 1988;72513;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;(coupé) 1996 (tapis arrière en 2 parties) 0000;72515;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Q2 (4X4) 2016;72517;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q3 (4X4) 2011;72519;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q3 2ème génération (4X4) 2018;72521;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Q5 (4X4) 7 places 2009;72523;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q5 (4X4) 5 places 2009;72525;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q5 (4X4) 5 places 2016;72527;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Q7 (4X4) 5 places 2006;72529;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q7 (4X4) 7 places 2006;72531;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV1RA,2AV1RA2RA,2AV1RA2RAC,C;PR;cfgtapis_PR;2AV,2AV1RA,2AV1RA2RA,2AV1RA2RAC,C;EL;cfgtapis_EL;2AV,2AV1RA,2AV1RA2RA,2AV1RA2RAC,C;CA;cfgtapis_CA;2AV,2AV1RA,2AV1RA2RA,2AV1RA2RAC,C
+2;Q7 II Phase2 (4X4) 7 places (rail de C en option) 2019;72533;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q7 II Phase2 (4X4) 7 places (sans rail de C) 2019;72535;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q7 II (4X4) 5 places (tapis arrière en 2 parties) 2015;72537;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Q7 II (4X4) 7 places (tapis arrière en 2 parties) 2015;72539;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV1RA;PR;cfgtapis_PR;2AV,2AV1RA;EL;cfgtapis_EL;2AV,2AV1RA;CA;cfgtapis_CA;2AV,2AV1RA
+2;Q8 (4X4) 7 places 2018;72541;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Q8 (4X4) 5 places 2018;72543;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;Quattro (coupé) 1988;72545;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;R8 (coupé) 2009;72547;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AVC,C;PR;cfgtapis_PR;2AV,2AVC,C;EL;cfgtapis_EL;2AV,2AVC,C;CA;cfgtapis_CA;2AV,2AVC,C
+2;S2 (coupé) 0000;72549;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;SQ2 (4X4) 2019;72551;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;SQ5 (4X4) 5 places 2015;72553;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;TT 1 8N (coupé) 1998;72555;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV1P,2AV1PC,C;CA;cfgtapis_CA;2AV,2AV1P,2AV1PC,C
+2;TT 2 8J (coupé) 2006;72557;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;TT 2 8J (roadster) 2006;72559;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;TT 3 (coupé) 2014;72561;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Allegro (berline) (tapis arrière en 2 parties) 1973;72563;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;Healey Bn4 (coupé) (Seulement les tapis avants) 1959;72565;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV;PR;cfgtapis_PR;2AV;EL;cfgtapis_EL;2AV;CA;cfgtapis_CA;2AV
+2;Maestro (berline) (tapis arrière en 2 parties) 1983;72567;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR;PR;cfgtapis_PR;2AV,2AV2AR;EL;cfgtapis_EL;2AV,2AV2ARX;CA;cfgtapis_CA;2AV,2AV2ARX
+2;Mini (berline) (2avants + 2arrières) (tapis arrière en 2 parties) 1967;72569;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Mini (berline) (1 avants + 2 arrières) (tapis arrière en 2 parties) 1967;72571;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Moke (4X4 léger) (tapis arrière en 2 parties) 1964;72573;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;Montego (berline) (tapis arrière en 2 parties) 1984;72575;code_qualite_moquette;1;4;4;GT;cfgtapis_GT;2AV,2AV2AR,2AV2ARC,C;PR;cfgtapis_PR;2AV,2AV2AR,2AV2ARC,C;EL;cfgtapis_EL;2AV,2AV2ARX,2AV2ARXC,C;CA;cfgtapis_CA;2AV,2AV2ARX,2AV2ARXC,C
+2;A721  0000;72319;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A741  0000;72321;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A751  0000;72323;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;City  2012;72325;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;City  0000;72327;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Crossline  0000;72329;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Roadline  0000;72331;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Scouty  0000;72333;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;145 3 portes (berline) 1994;72335;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;146 5 portes (berline) 1995;72337;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;147 3 ou 5 portes (berline) 2000;72339;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;155 5 portes (berline) 1992;72341;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;156 (berline) 1997;72343;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;156 Sportwagon (break) 1997;72345;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;159 (berline) 2005;72347;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;159 sportwagon (break) 2005;72349;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;164 (berline) 1987;72351;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;166 (berline) 1998;72353;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;33 (berline) 1983;72355;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;4C (coupé) 2013;72357;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;75 (berline) 1985;72359;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Alfa Brera (coupé) entraxes fixation 25 cm 2006;72361;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Alfa Stelvio (SUV) 2017;72363;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Alfetta-2000 (C seul) 0000;72365;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Brera entraxes fixations 40cm (tapis arrière en 2 parties) 2006;72367;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Competizione (coupé) 2006;72369;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Giulia (berline) 2016;72371;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Giulietta (berline) 2010;72373;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;GT (coupé) 2003;72375;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Mito (berline) 2008;72377;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Spider (coupé/cabriolet) 1980;72379;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Spider (coupé/cabriolet) 2006;72381;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;GTV (coupé) 1995;72383;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;DB7 (coupé) (tapis arrière en 2 parties) 1993;72385;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;DB9 (coupé) (tapis arrière en 2 parties) 2004;72387;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Rapi (coupé) 2010;72389;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Vantage (coupé) 2005;72391;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;VIRAGE  0000;72393;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;100 C3 (berline) (tapis arrière en 2 parties) 1982;72395;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;100 C4 (berline) (tapis arrière en 2 parties) 1990;72397;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;200 44Q (berline) (tapis arrière en 2 parties) 1982;72399;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;200 quattro V8 (berline) 1983;72401;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;80 B2 (berline) 1986;72403;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;80 8G (cabriolet) (tapis arrière en 2 parties) 1991;72405;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;80 B3 (berline) 1986;72407;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;80 B3 (break) 1986;72409;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;80 B2 (berline) 1981;72411;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;90 B3 (berline) 1986;72413;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;90 B3 (break) 1986;72415;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A1 8X (berline) (tapis arrière en 2 parties) 2010;72417;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A1 Sportback (berline) (tapis arrière en 2 parties) 2019;72419;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A2 8Z (berline) 2000;72421;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8L (berline) (tapis arrière en 2 parties) 1996;72423;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8P (berline) 2003;72425;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2008;72427;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8V (berline) 3 portes 2013;72429;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8V (berline) 5 portes 2013;72431;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2013;72433;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8P Sportback (berline) 5 portes 2003;72435;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 8H (cabriolet) 2002;72437;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B5 (berline) 1995;72439;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B5 (break) 1995;72441;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B5 (berline) 1999;72443;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B5 (break/allroad) 1999;72445;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B6B7 (berline) 2001;72447;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B6B7 (break/allroad) 2001;72449;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B8 (berline) 2008;72451;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B8 (break/allroad) 2008;72453;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B9 (berline) 2015;72455;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 B9 (break/allroad) 2015;72457;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A4 (berline) 2015;72459;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A5 (cabriolet) (tapis arrière en 2 parties) 2009;72461;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A5 (coupé) (tapis arrière en 2 parties) 2007;72463;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A5 II (cabriolet) 2016;72465;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A5 II Sportback (berline) 5 portes (tapis arrière en 2 parties) 2016;72467;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A5 8T Sportback (berline) 5 portes (tapis arrière en 2 parties) 2010;72469;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 avant (break) 2018;72471;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 C4 (berline) 1994;72473;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 C4 (break) 1994;72475;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 C5 (berline) (tapis arrière en 2 parties) 1997;72477;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 C5 (break/allroad) (tapis arrière en 2 parties) 1997;72479;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 C6 (berline) 2004;72481;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 C6 (break/allroad) 2004;72483;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 (berline) 2011;72485;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 (break) 2011;72487;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A6 (berline) 2018;72489;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A7 (berline) (tapis arrière en 2 parties) 2010;72491;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A7 D2 sportback (berline) 2017;72493;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A8  1994;72495;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A8 D3 (berline) 2002;72497;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A8 (berline) 2011;72499;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A8 D4 (berline) 2017;72501;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8V 3ème génération 5 portes (berline) 2013;72503;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8Y 4ème génération (berline) 2020;72505;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A3 8Y Sportback 4ème génération (berline) 2020;72507;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;E-tron Quattro (4X4) 2019;72509;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;E-tron Sportback (4X4) 2019;72511;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;(coupé B4) 1988;72513;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;(coupé) 1996 (tapis arrière en 2 parties) 0000;72515;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q2 (4X4) 2016;72517;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q3 (4X4) 2011;72519;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q3 2ème génération (4X4) 2018;72521;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q5 (4X4) 7 places 2009;72523;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q5 (4X4) 5 places 2009;72525;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q5 (4X4) 5 places 2016;72527;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q7 (4X4) 5 places 2006;72529;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q7 (4X4) 7 places 2006;72531;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q7 II Phase2 (4X4) 7 places (rail de C en option) 2019;72533;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q7 II Phase2 (4X4) 7 places (sans rail de C) 2019;72535;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q7 II (4X4) 5 places (tapis arrière en 2 parties) 2015;72537;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q7 II (4X4) 7 places (tapis arrière en 2 parties) 2015;72539;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q8 (4X4) 7 places 2018;72541;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Q8 (4X4) 5 places 2018;72543;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Quattro (coupé) 1988;72545;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;R8 (coupé) 2009;72547;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;S2 (coupé) 0000;72549;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;SQ2 (4X4) 2019;72551;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;SQ5 (4X4) 5 places 2015;72553;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;TT 1 8N (coupé) 1998;72555;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;TT 2 8J (coupé) 2006;72557;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;TT 2 8J (roadster) 2006;72559;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;TT 3 (coupé) 2014;72561;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Allegro (berline) (tapis arrière en 2 parties) 1973;72563;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Healey Bn4 (coupé) (Seulement les tapis avants) 1959;72565;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Maestro (berline) (tapis arrière en 2 parties) 1983;72567;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Mini (berline) (2avants + 2arrières) (tapis arrière en 2 parties) 1967;72569;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Mini (berline) (1 avants + 2 arrières) (tapis arrière en 2 parties) 1967;72571;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Moke (4X4 léger) (tapis arrière en 2 parties) 1964;72573;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;Montego (berline) (tapis arrière en 2 parties) 1984;72575;GC.gc_code;1;5;5;GT GTN 2AV;reference_GT GTN 2AV;GT GTG 2AV;reference_GT GTG 2AV;GT GTBM 2AV;reference_GT GTBM 2AV;GT GTBG 2AV;reference_GT GTBG 2AV;  ;reference_  
+2;A721  0000;72319;;1;1;1;;gabarit;AIX10
+2;A741  0000;72321;;1;1;1;;gabarit;AIX15
+2;A751  0000;72323;;1;1;1;;gabarit;AIX20
+2;City  2012;72325;;1;1;1;;gabarit;AIX30
+2;City  0000;72327;;1;1;1;;gabarit;AIX25
+2;Crossline  0000;72329;;1;1;1;;gabarit;AIX35
+2;Roadline  0000;72331;;1;1;1;;gabarit;AIX40
+2;Scouty  0000;72333;;1;1;1;;gabarit;AIX45
+2;145 3 portes (berline) 1994;72335;;1;1;1;;gabarit;ALF20
+2;146 5 portes (berline) 1995;72337;;1;1;1;;gabarit;ALF25
+2;147 3 ou 5 portes (berline) 2000;72339;;1;1;1;;gabarit;ALF30
+2;155 5 portes (berline) 1992;72341;;1;1;1;;gabarit;ALF35
+2;156 (berline) 1997;72343;;1;1;1;;gabarit;ALF40
+2;156 Sportwagon (break) 1997;72345;;1;1;1;;gabarit;ALF45
+2;159 (berline) 2005;72347;;1;1;1;;gabarit;ALF50
+2;159 sportwagon (break) 2005;72349;;1;1;1;;gabarit;ALF55
+2;164 (berline) 1987;72351;;1;1;1;;gabarit;ALF60
+2;166 (berline) 1998;72353;;1;1;1;;gabarit;ALF65
+2;33 (berline) 1983;72355;;1;1;1;;gabarit;ALF10
+2;4C (coupé) 2013;72357;;1;1;1;;gabarit;ALF72
+2;75 (berline) 1985;72359;;1;1;1;;gabarit;ALF15
+2;Alfa Brera (coupé) entraxes fixation 25 cm 2006;72361;;1;1;1;;gabarit;ALF71
+2;Alfa Stelvio (SUV) 2017;72363;;1;1;1;;gabarit;ALF105
+2;Alfetta-2000 (C seul) 0000;72365;;1;1;1;;gabarit;ALF73
+2;Brera entraxes fixations 40cm (tapis arrière en 2 parties) 2006;72367;;1;1;1;;gabarit;ALF70
+2;Competizione (coupé) 2006;72369;;1;1;1;;gabarit;ALF75
+2;Giulia (berline) 2016;72371;;1;1;1;;gabarit;ALF81
+2;Giulietta (berline) 2010;72373;;1;1;1;;gabarit;ALF80
+2;GT (coupé) 2003;72375;;1;1;1;;gabarit;ALF85
+2;Mito (berline) 2008;72377;;1;1;1;;gabarit;ALF95
+2;Spider (coupé/cabriolet) 1980;72379;;1;1;1;;gabarit;ALF87
+2;Spider (coupé/cabriolet) 2006;72381;;1;1;1;;gabarit;ALF100
+2;GTV (coupé) 1995;72383;;1;1;1;;gabarit;ALF90
+2;DB7 (coupé) (tapis arrière en 2 parties) 1993;72385;;1;1;1;;gabarit;AST10
+2;DB9 (coupé) (tapis arrière en 2 parties) 2004;72387;;1;1;1;;gabarit;AST15
+2;Rapi (coupé) 2010;72389;;1;1;1;;gabarit;AST25
+2;Vantage (coupé) 2005;72391;;1;1;1;;gabarit;AST20
+2;VIRAGE  0000;72393;;1;1;1;;gabarit;AST22
+2;100 C3 (berline) (tapis arrière en 2 parties) 1982;72395;;1;1;1;;gabarit;AUD45
+2;100 C4 (berline) (tapis arrière en 2 parties) 1990;72397;;1;1;1;;gabarit;AUD40
+2;200 44Q (berline) (tapis arrière en 2 parties) 1982;72399;;1;1;1;;gabarit;AUD46
+2;200 quattro V8 (berline) 1983;72401;;1;1;1;;gabarit;AUD55
+2;80 B2 (berline) 1986;72403;;1;1;1;;gabarit;AUD11
+2;80 8G (cabriolet) (tapis arrière en 2 parties) 1991;72405;;1;1;1;;gabarit;AUD35
+2;80 B3 (berline) 1986;72407;;1;1;1;;gabarit;AUD15
+2;80 B3 (break) 1986;72409;;1;1;1;;gabarit;AUD20
+2;80 B2 (berline) 1981;72411;;1;1;1;;gabarit;AUD10
+2;90 B3 (berline) 1986;72413;;1;1;1;;gabarit;AUD25
+2;90 B3 (break) 1986;72415;;1;1;1;;gabarit;AUD30
+2;A1 8X (berline) (tapis arrière en 2 parties) 2010;72417;;1;1;1;;gabarit;AUD60
+2;A1 Sportback (berline) (tapis arrière en 2 parties) 2019;72419;;1;1;1;;gabarit;AUD61
+2;A2 8Z (berline) 2000;72421;;1;1;1;;gabarit;AUD65
+2;A3 8L (berline) (tapis arrière en 2 parties) 1996;72423;;1;1;1;;gabarit;AUD70
+2;A3 8P (berline) 2003;72425;;1;1;1;;gabarit;AUD75
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2008;72427;;1;1;1;;gabarit;AUD90
+2;A3 8V (berline) 3 portes 2013;72429;;1;1;1;;gabarit;AUD85
+2;A3 8V (berline) 5 portes 2013;72431;;1;1;1;;gabarit;AUD85
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2013;72433;;1;1;1;;gabarit;AUD92
+2;A3 8P Sportback (berline) 5 portes 2003;72435;;1;1;1;;gabarit;AUD80
+2;A4 8H (cabriolet) 2002;72437;;1;1;1;;gabarit;AUD135
+2;A4 B5 (berline) 1995;72439;;1;1;1;;gabarit;AUD95
+2;A4 B5 (break) 1995;72441;;1;1;1;;gabarit;AUD100
+2;A4 B5 (berline) 1999;72443;;1;1;1;;gabarit;AUD105
+2;A4 B5 (break/allroad) 1999;72445;;1;1;1;;gabarit;AUD110
+2;A4 B6B7 (berline) 2001;72447;;1;1;1;;gabarit;AUD115
+2;A4 B6B7 (break/allroad) 2001;72449;;1;1;1;;gabarit;AUD120
+2;A4 B8 (berline) 2008;72451;;1;1;1;;gabarit;AUD125
+2;A4 B8 (break/allroad) 2008;72453;;1;1;1;;gabarit;AUD130
+2;A4 B9 (berline) 2015;72455;;1;1;1;;gabarit;AUD136
+2;A4 B9 (break/allroad) 2015;72457;;1;1;1;;gabarit;AUD137
+2;A4 (berline) 2015;72459;;1;1;1;;gabarit;AUD138
+2;A5 (cabriolet) (tapis arrière en 2 parties) 2009;72461;;1;1;1;;gabarit;AUD145
+2;A5 (coupé) (tapis arrière en 2 parties) 2007;72463;;1;1;1;;gabarit;AUD140
+2;A5 II (cabriolet) 2016;72465;;1;1;1;;gabarit;AUD146
+2;A5 II Sportback (berline) 5 portes (tapis arrière en 2 parties) 2016;72467;;1;1;1;;gabarit;AUD151
+2;A5 8T Sportback (berline) 5 portes (tapis arrière en 2 parties) 2010;72469;;1;1;1;;gabarit;AUD150
+2;A6 avant (break) 2018;72471;;1;1;1;;gabarit;AUD192
+2;A6 C4 (berline) 1994;72473;;1;1;1;;gabarit;AUD155
+2;A6 C4 (break) 1994;72475;;1;1;1;;gabarit;AUD160
+2;A6 C5 (berline) (tapis arrière en 2 parties) 1997;72477;;1;1;1;;gabarit;AUD165
+2;A6 C5 (break/allroad) (tapis arrière en 2 parties) 1997;72479;;1;1;1;;gabarit;AUD170
+2;A6 C6 (berline) 2004;72481;;1;1;1;;gabarit;AUD175
+2;A6 C6 (break/allroad) 2004;72483;;1;1;1;;gabarit;AUD180
+2;A6 (berline) 2011;72485;;1;1;1;;gabarit;AUD185
+2;A6 (break) 2011;72487;;1;1;1;;gabarit;AUD190
+2;A6 (berline) 2018;72489;;1;1;1;;gabarit;AUD191
+2;A7 (berline) (tapis arrière en 2 parties) 2010;72491;;1;1;1;;gabarit;AUD195
+2;A7 D2 sportback (berline) 2017;72493;;1;1;1;;gabarit;AUD196
+2;A8  1994;72495;;1;1;1;;gabarit;AUD200
+2;A8 D3 (berline) 2002;72497;;1;1;1;;gabarit;AUD205
+2;A8 (berline) 2011;72499;;1;1;1;;gabarit;AUD210
+2;A8 D4 (berline) 2017;72501;;1;1;1;;gabarit;AUD211
+2;A3 8V 3ème génération 5 portes (berline) 2013;72503;;1;1;1;;gabarit;AUD86
+2;A3 8Y 4ème génération (berline) 2020;72505;;1;1;1;;gabarit;AUD94
+2;A3 8Y Sportback 4ème génération (berline) 2020;72507;;1;1;1;;gabarit;AUD93
+2;E-tron Quattro (4X4) 2019;72509;;1;1;1;;gabarit;AUD270
+2;E-tron Sportback (4X4) 2019;72511;;1;1;1;;gabarit;AUD265
+2;(coupé B4) 1988;72513;;1;1;1;;gabarit;AUD215
+2;(coupé) 1996 (tapis arrière en 2 parties) 0000;72515;;1;1;1;;gabarit;AUD220
+2;Q2 (4X4) 2016;72517;;1;1;1;;gabarit;AUD224
+2;Q3 (4X4) 2011;72519;;1;1;1;;gabarit;AUD225
+2;Q3 2ème génération (4X4) 2018;72521;;1;1;1;;gabarit;AUD226
+2;Q5 (4X4) 7 places 2009;72523;;1;1;1;;gabarit;AUD230
+2;Q5 (4X4) 5 places 2009;72525;;1;1;1;;gabarit;AUD231
+2;Q5 (4X4) 5 places 2016;72527;;1;1;1;;gabarit;AUD232
+2;Q7 (4X4) 5 places 2006;72529;;1;1;1;;gabarit;AUD235
+2;Q7 (4X4) 7 places 2006;72531;;1;1;1;;gabarit;AUD240
+2;Q7 II Phase2 (4X4) 7 places (rail de C en option) 2019;72533;;1;1;1;;gabarit;AUD243
+2;Q7 II Phase2 (4X4) 7 places (sans rail de C) 2019;72535;;1;1;1;;gabarit;AUD242
+2;Q7 II (4X4) 5 places (tapis arrière en 2 parties) 2015;72537;;1;1;1;;gabarit;AUD236
+2;Q7 II (4X4) 7 places (tapis arrière en 2 parties) 2015;72539;;1;1;1;;gabarit;AUD241
+2;Q8 (4X4) 7 places 2018;72541;;1;1;1;;gabarit;AUD261
+2;Q8 (4X4) 5 places 2018;72543;;1;1;1;;gabarit;AUD260
+2;Quattro (coupé) 1988;72545;;1;1;1;;gabarit;AUD50
+2;R8 (coupé) 2009;72547;;1;1;1;;gabarit;AUD245
+2;S2 (coupé) 0000;72549;;1;1;1;;gabarit;AUD57
+2;SQ2 (4X4) 2019;72551;;1;1;1;;gabarit;AUD223
+2;SQ5 (4X4) 5 places 2015;72553;;1;1;1;;gabarit;AUD233
+2;TT 1 8N (coupé) 1998;72555;;1;1;1;;gabarit;AUD250
+2;TT 2 8J (coupé) 2006;72557;;1;1;1;;gabarit;AUD255
+2;TT 2 8J (roadster) 2006;72559;;1;1;1;;gabarit;AUD255
+2;TT 3 (coupé) 2014;72561;;1;1;1;;gabarit;AUD256
+2;Allegro (berline) (tapis arrière en 2 parties) 1973;72563;;1;1;1;;gabarit;AUS05
+2;Healey Bn4 (coupé) (Seulement les tapis avants) 1959;72565;;1;1;1;;gabarit;AUS07
+2;Maestro (berline) (tapis arrière en 2 parties) 1983;72567;;1;1;1;;gabarit;AUS10
+2;Mini (berline) (2avants + 2arrières) (tapis arrière en 2 parties) 1967;72569;;1;1;1;;gabarit;AUS16
+2;Mini (berline) (1 avants + 2 arrières) (tapis arrière en 2 parties) 1967;72571;;1;1;1;;gabarit;AUS15
+2;Moke (4X4 léger) (tapis arrière en 2 parties) 1964;72573;;1;1;1;;gabarit;AUS01
+2;Montego (berline) (tapis arrière en 2 parties) 1984;72575;;1;1;1;;gabarit;AUS20
+2;A721  0000;72319;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A741  0000;72321;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A751  0000;72323;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;City  2012;72325;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;City  0000;72327;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Crossline  0000;72329;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Roadline  0000;72331;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Scouty  0000;72333;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;145 3 portes (berline) 1994;72335;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;146 5 portes (berline) 1995;72337;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;147 3 ou 5 portes (berline) 2000;72339;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;155 5 portes (berline) 1992;72341;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;156 (berline) 1997;72343;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;156 Sportwagon (break) 1997;72345;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;159 (berline) 2005;72347;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;159 sportwagon (break) 2005;72349;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;164 (berline) 1987;72351;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;166 (berline) 1998;72353;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;33 (berline) 1983;72355;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;4C (coupé) 2013;72357;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;75 (berline) 1985;72359;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Alfa Brera (coupé) entraxes fixation 25 cm 2006;72361;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Alfa Stelvio (SUV) 2017;72363;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Alfetta-2000 (C seul) 0000;72365;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Brera entraxes fixations 40cm (tapis arrière en 2 parties) 2006;72367;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Competizione (coupé) 2006;72369;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Giulia (berline) 2016;72371;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Giulietta (berline) 2010;72373;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;GT (coupé) 2003;72375;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Mito (berline) 2008;72377;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Spider (coupé/cabriolet) 1980;72379;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Spider (coupé/cabriolet) 2006;72381;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;GTV (coupé) 1995;72383;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;DB7 (coupé) (tapis arrière en 2 parties) 1993;72385;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;DB9 (coupé) (tapis arrière en 2 parties) 2004;72387;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Rapi (coupé) 2010;72389;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Vantage (coupé) 2005;72391;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;VIRAGE  0000;72393;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;100 C3 (berline) (tapis arrière en 2 parties) 1982;72395;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;100 C4 (berline) (tapis arrière en 2 parties) 1990;72397;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;200 44Q (berline) (tapis arrière en 2 parties) 1982;72399;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;200 quattro V8 (berline) 1983;72401;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;80 B2 (berline) 1986;72403;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;80 8G (cabriolet) (tapis arrière en 2 parties) 1991;72405;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;80 B3 (berline) 1986;72407;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;80 B3 (break) 1986;72409;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;80 B2 (berline) 1981;72411;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;90 B3 (berline) 1986;72413;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;90 B3 (break) 1986;72415;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A1 8X (berline) (tapis arrière en 2 parties) 2010;72417;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A1 Sportback (berline) (tapis arrière en 2 parties) 2019;72419;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A2 8Z (berline) 2000;72421;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8L (berline) (tapis arrière en 2 parties) 1996;72423;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8P (berline) 2003;72425;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2008;72427;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8V (berline) 3 portes 2013;72429;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8V (berline) 5 portes 2013;72431;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2013;72433;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8P Sportback (berline) 5 portes 2003;72435;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 8H (cabriolet) 2002;72437;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B5 (berline) 1995;72439;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B5 (break) 1995;72441;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B5 (berline) 1999;72443;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B5 (break/allroad) 1999;72445;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B6B7 (berline) 2001;72447;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B6B7 (break/allroad) 2001;72449;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B8 (berline) 2008;72451;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B8 (break/allroad) 2008;72453;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B9 (berline) 2015;72455;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 B9 (break/allroad) 2015;72457;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A4 (berline) 2015;72459;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A5 (cabriolet) (tapis arrière en 2 parties) 2009;72461;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A5 (coupé) (tapis arrière en 2 parties) 2007;72463;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A5 II (cabriolet) 2016;72465;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A5 II Sportback (berline) 5 portes (tapis arrière en 2 parties) 2016;72467;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A5 8T Sportback (berline) 5 portes (tapis arrière en 2 parties) 2010;72469;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 avant (break) 2018;72471;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 C4 (berline) 1994;72473;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 C4 (break) 1994;72475;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 C5 (berline) (tapis arrière en 2 parties) 1997;72477;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 C5 (break/allroad) (tapis arrière en 2 parties) 1997;72479;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 C6 (berline) 2004;72481;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 C6 (break/allroad) 2004;72483;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 (berline) 2011;72485;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 (break) 2011;72487;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A6 (berline) 2018;72489;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A7 (berline) (tapis arrière en 2 parties) 2010;72491;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A7 D2 sportback (berline) 2017;72493;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A8  1994;72495;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A8 D3 (berline) 2002;72497;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A8 (berline) 2011;72499;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A8 D4 (berline) 2017;72501;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8V 3ème génération 5 portes (berline) 2013;72503;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8Y 4ème génération (berline) 2020;72505;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A3 8Y Sportback 4ème génération (berline) 2020;72507;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;E-tron Quattro (4X4) 2019;72509;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;E-tron Sportback (4X4) 2019;72511;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;(coupé B4) 1988;72513;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;(coupé) 1996 (tapis arrière en 2 parties) 0000;72515;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q2 (4X4) 2016;72517;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q3 (4X4) 2011;72519;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q3 2ème génération (4X4) 2018;72521;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q5 (4X4) 7 places 2009;72523;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q5 (4X4) 5 places 2009;72525;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q5 (4X4) 5 places 2016;72527;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q7 (4X4) 5 places 2006;72529;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q7 (4X4) 7 places 2006;72531;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q7 II Phase2 (4X4) 7 places (rail de C en option) 2019;72533;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q7 II Phase2 (4X4) 7 places (sans rail de C) 2019;72535;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q7 II (4X4) 5 places (tapis arrière en 2 parties) 2015;72537;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q7 II (4X4) 7 places (tapis arrière en 2 parties) 2015;72539;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q8 (4X4) 7 places 2018;72541;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Q8 (4X4) 5 places 2018;72543;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Quattro (coupé) 1988;72545;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;R8 (coupé) 2009;72547;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;S2 (coupé) 0000;72549;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;SQ2 (4X4) 2019;72551;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;SQ5 (4X4) 5 places 2015;72553;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;TT 1 8N (coupé) 1998;72555;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;TT 2 8J (coupé) 2006;72557;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;TT 2 8J (roadster) 2006;72559;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;TT 3 (coupé) 2014;72561;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Allegro (berline) (tapis arrière en 2 parties) 1973;72563;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Healey Bn4 (coupé) (Seulement les tapis avants) 1959;72565;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Maestro (berline) (tapis arrière en 2 parties) 1983;72567;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Mini (berline) (2avants + 2arrières) (tapis arrière en 2 parties) 1967;72569;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Mini (berline) (1 avants + 2 arrières) (tapis arrière en 2 parties) 1967;72571;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Moke (4X4 léger) (tapis arrière en 2 parties) 1964;72573;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;Montego (berline) (tapis arrière en 2 parties) 1984;72575;GC.gc_code;1;5;5;GT GTN 2AV;gencod_GT GTN 2AV;GT GTG 2AV;gencod_GT GTG 2AV;GT GTBM 2AV;gencod_GT GTBM 2AV;GT GTBG 2AV;gencod_GT GTBG 2AV;  ;gencod_  
+2;A721  0000;72319;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A741  0000;72321;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A751  0000;72323;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;City  2012;72325;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;City  0000;72327;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Crossline  0000;72329;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Roadline  0000;72331;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Scouty  0000;72333;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;145 3 portes (berline) 1994;72335;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;146 5 portes (berline) 1995;72337;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;147 3 ou 5 portes (berline) 2000;72339;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;155 5 portes (berline) 1992;72341;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;156 (berline) 1997;72343;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;156 Sportwagon (break) 1997;72345;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;159 (berline) 2005;72347;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;159 sportwagon (break) 2005;72349;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;164 (berline) 1987;72351;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;166 (berline) 1998;72353;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;33 (berline) 1983;72355;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;4C (coupé) 2013;72357;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;75 (berline) 1985;72359;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Alfa Brera (coupé) entraxes fixation 25 cm 2006;72361;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Alfa Stelvio (SUV) 2017;72363;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Alfetta-2000 (C seul) 0000;72365;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Brera entraxes fixations 40cm (tapis arrière en 2 parties) 2006;72367;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Competizione (coupé) 2006;72369;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Giulia (berline) 2016;72371;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Giulietta (berline) 2010;72373;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;GT (coupé) 2003;72375;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Mito (berline) 2008;72377;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Spider (coupé/cabriolet) 1980;72379;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Spider (coupé/cabriolet) 2006;72381;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;GTV (coupé) 1995;72383;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;DB7 (coupé) (tapis arrière en 2 parties) 1993;72385;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;DB9 (coupé) (tapis arrière en 2 parties) 2004;72387;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Rapi (coupé) 2010;72389;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Vantage (coupé) 2005;72391;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;VIRAGE  0000;72393;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;100 C3 (berline) (tapis arrière en 2 parties) 1982;72395;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;100 C4 (berline) (tapis arrière en 2 parties) 1990;72397;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;200 44Q (berline) (tapis arrière en 2 parties) 1982;72399;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;200 quattro V8 (berline) 1983;72401;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;80 B2 (berline) 1986;72403;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;80 8G (cabriolet) (tapis arrière en 2 parties) 1991;72405;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;80 B3 (berline) 1986;72407;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;80 B3 (break) 1986;72409;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;80 B2 (berline) 1981;72411;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;90 B3 (berline) 1986;72413;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;90 B3 (break) 1986;72415;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A1 8X (berline) (tapis arrière en 2 parties) 2010;72417;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A1 Sportback (berline) (tapis arrière en 2 parties) 2019;72419;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A2 8Z (berline) 2000;72421;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8L (berline) (tapis arrière en 2 parties) 1996;72423;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8P (berline) 2003;72425;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2008;72427;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8V (berline) 3 portes 2013;72429;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8V (berline) 5 portes 2013;72431;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8P (cabriolet) (tapis arrière en 2 parties) 2013;72433;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8P Sportback (berline) 5 portes 2003;72435;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 8H (cabriolet) 2002;72437;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B5 (berline) 1995;72439;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B5 (break) 1995;72441;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B5 (berline) 1999;72443;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B5 (break/allroad) 1999;72445;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B6B7 (berline) 2001;72447;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B6B7 (break/allroad) 2001;72449;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B8 (berline) 2008;72451;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B8 (break/allroad) 2008;72453;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B9 (berline) 2015;72455;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 B9 (break/allroad) 2015;72457;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A4 (berline) 2015;72459;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A5 (cabriolet) (tapis arrière en 2 parties) 2009;72461;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A5 (coupé) (tapis arrière en 2 parties) 2007;72463;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A5 II (cabriolet) 2016;72465;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A5 II Sportback (berline) 5 portes (tapis arrière en 2 parties) 2016;72467;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A5 8T Sportback (berline) 5 portes (tapis arrière en 2 parties) 2010;72469;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 avant (break) 2018;72471;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 C4 (berline) 1994;72473;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 C4 (break) 1994;72475;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 C5 (berline) (tapis arrière en 2 parties) 1997;72477;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 C5 (break/allroad) (tapis arrière en 2 parties) 1997;72479;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 C6 (berline) 2004;72481;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 C6 (break/allroad) 2004;72483;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 (berline) 2011;72485;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 (break) 2011;72487;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A6 (berline) 2018;72489;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A7 (berline) (tapis arrière en 2 parties) 2010;72491;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A7 D2 sportback (berline) 2017;72493;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A8  1994;72495;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A8 D3 (berline) 2002;72497;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A8 (berline) 2011;72499;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A8 D4 (berline) 2017;72501;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8V 3ème génération 5 portes (berline) 2013;72503;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8Y 4ème génération (berline) 2020;72505;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;A3 8Y Sportback 4ème génération (berline) 2020;72507;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;E-tron Quattro (4X4) 2019;72509;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;E-tron Sportback (4X4) 2019;72511;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;(coupé B4) 1988;72513;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;(coupé) 1996 (tapis arrière en 2 parties) 0000;72515;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q2 (4X4) 2016;72517;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q3 (4X4) 2011;72519;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q3 2ème génération (4X4) 2018;72521;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q5 (4X4) 7 places 2009;72523;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q5 (4X4) 5 places 2009;72525;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q5 (4X4) 5 places 2016;72527;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q7 (4X4) 5 places 2006;72529;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q7 (4X4) 7 places 2006;72531;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q7 II Phase2 (4X4) 7 places (rail de C en option) 2019;72533;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q7 II Phase2 (4X4) 7 places (sans rail de C) 2019;72535;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q7 II (4X4) 5 places (tapis arrière en 2 parties) 2015;72537;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q7 II (4X4) 7 places (tapis arrière en 2 parties) 2015;72539;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q8 (4X4) 7 places 2018;72541;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Q8 (4X4) 5 places 2018;72543;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Quattro (coupé) 1988;72545;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;R8 (coupé) 2009;72547;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;S2 (coupé) 0000;72549;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;SQ2 (4X4) 2019;72551;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;SQ5 (4X4) 5 places 2015;72553;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;TT 1 8N (coupé) 1998;72555;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;TT 2 8J (coupé) 2006;72557;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;TT 2 8J (roadster) 2006;72559;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;TT 3 (coupé) 2014;72561;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Allegro (berline) (tapis arrière en 2 parties) 1973;72563;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Healey Bn4 (coupé) (Seulement les tapis avants) 1959;72565;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Maestro (berline) (tapis arrière en 2 parties) 1983;72567;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Mini (berline) (2avants + 2arrières) (tapis arrière en 2 parties) 1967;72569;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Mini (berline) (1 avants + 2 arrières) (tapis arrière en 2 parties) 1967;72571;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Moke (4X4 léger) (tapis arrière en 2 parties) 1964;72573;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
+2;Montego (berline) (tapis arrière en 2 parties) 1984;72575;GC.gc_code;1;5;5;GT GTN 2AV;prix_GT GTN 2AV;GT GTG 2AV;prix_GT GTG 2AV;GT GTBM 2AV;prix_GT GTBM 2AV;GT GTBG 2AV;prix_GT GTBG 2AV;  ;prix_  
