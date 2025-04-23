@@ -6,6 +6,7 @@
     <script>
         window.CARMAT_ADMIN_DATA = {$data nofilter};
         window.CARMAT_ADMIN_AJAX_URL = '{$adminAjaxUrl}';
+        window.CARMAT_ADMIN_TYPE = '{$type}';
         window.CARMAT_ADMIN_LINK_URL = '{$adminLinkUrl}';
         window.CARMAT_ADMIN_FORM_SUCCESS = '{$success}';
         window.SECURITY_TOKEN = '{$token|escape:'html':'UTF-8'}';
