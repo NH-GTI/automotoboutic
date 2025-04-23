@@ -68,6 +68,14 @@ AddType font/woff2 .woff2
         Require all denied
     </IfModule>
 </Files>
+
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "https://automotoboutic.com"
+  Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+  Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+  Header set Access-Control-Allow-Credentials "true"
+</IfModule>
+
 #If rewrite mod isn't enabled
 ErrorDocument 404 /index.php?controller=404
 
