@@ -11,9 +11,9 @@ class AdminCarmatSelectorController extends ModuleAdminController
     {
         parent::initContent();
 
-        $brands = Db::getInstance()->executeS('SELECT id_carmatselector_brand as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_brand`');
-        $carbodies = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_carbody` WHERE active = 1');
-        $attachments = Db::getInstance()->executeS('SELECT id_carmatselector_attachment as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_attachment`');
+        $brands = Db::getInstance()->executeS('SELECT id_carmatselector_brand as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_brand` WHERE active = 1 ORDER BY name ASC');
+        $carbodies = Db::getInstance()->executeS('SELECT id_carmatselector_carbody as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_carbody` WHERE active = 1 ORDER BY name ASC');
+        $attachments = Db::getInstance()->executeS('SELECT id_carmatselector_attachment as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_attachment` ORDER BY name ASC');
         
         if(Tools::isSubmit('action')) {
             switch(Tools::getValue('action')) {
@@ -89,8 +89,7 @@ class AdminCarmatSelectorController extends ModuleAdminController
         // Handle AJAX requests from admin
         switch($action) {
             case 'getModels':
-                $data = Db::getInstance()->executeS('SELECT id_carmatselector_model as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_model`
-                WHERE id_carmatselector_brand = '.(int)$brandId);
+                $data = Db::getInstance()->executeS('SELECT id_carmatselector_model as id, name FROM `' . _DB_PREFIX_ . 'carmatselector_model` WHERE id_carmatselector_brand = '.(int)$brandId.' AND active = 1 ORDER BY name ASC');
                 break;
             default:
                 $data = null;
